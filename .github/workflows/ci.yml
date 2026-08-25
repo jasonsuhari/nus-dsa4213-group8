@@ -17,3 +17,5 @@ jobs:
       - run: uv run ruff check .
       - run: uv run ruff format --check .
       - run: uv run pytest -q
+      # backstop for anyone who skipped `pre-commit install`
+      - run: git ls-files '*.ipynb' | xargs -r uv run nbstripout --verify
