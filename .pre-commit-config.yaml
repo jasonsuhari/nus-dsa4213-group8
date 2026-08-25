@@ -5,7 +5,7 @@ repos:
       - id: ruff-check
         args: [--fix]
       - id: ruff-format
-  # notebooks diff horribly across 5 people; strip outputs before they hit git
+  # strip notebook outputs so diffs stay readable
   - repo: https://github.com/kynan/nbstripout
     rev: 0.8.1
     hooks:

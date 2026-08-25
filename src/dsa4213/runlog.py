@@ -1,11 +1,4 @@
-"""Append-only JSONL log of experiment runs.
-
-One line per run. Feeds three separate rubric lines in the final report:
-evaluation evidence, cost/latency analysis, and reproducibility. Logging the
-git commit is what lets the report say "Table 3 reproduces from commit abc123".
-"""
-
-from __future__ import annotations
+"""Append-only JSONL log of experiment runs."""
 
 import json
 import subprocess
@@ -17,7 +10,6 @@ RUNS = Path(__file__).resolve().parents[2] / "runs" / "runs.jsonl"
 
 
 def git_commit() -> str:
-    """Current commit, suffixed '-dirty' if the tree has uncommitted changes."""
     try:
         sha = subprocess.run(
             ["git", "rev-parse", "--short", "HEAD"],
@@ -31,17 +23,14 @@ def git_commit() -> str:
             text=True,
             check=True,
         ).stdout.strip()
+        # -dirty means the run came from uncommitted code, so it won't reproduce
         return f"{sha}-dirty" if dirty else sha
     except (subprocess.CalledProcessError, FileNotFoundError):
         return "unknown"
 
 
 def log_run(path: Path | None = None, **fields) -> dict:
-    """Append one run record and return it.
-
-    Pass whatever the experiment produced: model, temperature, seed, n_tokens,
-    cost_usd, latency_s, task, score, notes. run_id/timestamp/commit are added.
-    """
+    """Append one run. Pass model, seed, cost_usd, score, whatever the run produced."""
     record = {
         "run_id": uuid.uuid4().hex[:8],
         "timestamp": datetime.now(UTC).isoformat(),
@@ -56,7 +45,6 @@ def log_run(path: Path | None = None, **fields) -> dict:
 
 
 def load_runs(path: Path | None = None) -> list[dict]:
-    """Read every run back, oldest first. Empty list if nothing logged yet."""
     src = path or RUNS
     if not src.exists():
         return []
