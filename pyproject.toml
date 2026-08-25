@@ -14,6 +14,8 @@ build-backend = "hatchling.build"
 
 [tool.ruff]
 line-length = 100
+# ruff formats python inside markdown; we do not want it rewriting the docs
+extend-exclude = ["*.md"]
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "UP", "B"]
