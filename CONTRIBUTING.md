@@ -43,7 +43,7 @@ gh pr create
 | `experiments/` | runnable scripts, one per experiment |
 | `runs/runs.jsonl` | append-only log of every run (committed) |
 | `data/` | gitignored; `data/README.md` says how to rebuild it |
-| `docs/` | meeting notes, proposal/report drafts |
+| `docs/` | proposal and report drafts |
 
 **Keep logic out of notebooks.** They diff badly and five people editing one
 notebook is a merge conflict factory. Notebooks call `src/`, nothing more.
@@ -75,8 +75,3 @@ Agent runs are not bit-reproducible — LLM sampling and rolling model snapshots
 see to that. Log the model *and* its snapshot date, fix seeds where you can,
 report variance across repeats, and say so plainly in the report's
 Reproducibility section. Stating the limit reads as rigour.
-
-## Meeting notes
-
-One file per meeting in `docs/meetings/YYYY-MM-DD.md`. Same reason as the
-commit rule: meeting records are named in the syllabus as grading evidence.
