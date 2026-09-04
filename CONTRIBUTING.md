@@ -25,7 +25,7 @@ cp .env.example .env
 
 ## Workflow
 
-Branch, PR, one review, squash merge. No direct pushes to `main`.
+Branch, PR, squash merge. No direct pushes to `main`.
 
 ```bash
 git switch -c wei-lun/eval-harness   # <name>/<what>
