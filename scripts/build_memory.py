@@ -11,6 +11,7 @@ one. Each store gets a manifest.json recording what built it.
 import argparse
 import hashlib
 import json
+import shutil
 import time
 from datetime import UTC, datetime
 from pathlib import Path
@@ -36,6 +37,8 @@ APPROACHES = {
 
 def build(name: str, sessions: list, out: Path, provenance: str) -> dict:
     store = out / name
+    # write() appends, so a stale directory silently doubles the store
+    shutil.rmtree(store, ignore_errors=True)
     started = time.monotonic()
     memory = APPROACHES[name](store)
     try:
