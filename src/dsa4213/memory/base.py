@@ -4,7 +4,7 @@ from abc import ABC, abstractmethod
 from dataclasses import dataclass
 from pathlib import Path
 
-# Equal across arms on purpose. Unequal context budgets would measure prompt
+# Equal across approaches on purpose. Unequal context budgets would measure prompt
 # length instead of architecture.
 DEFAULT_MAX_CHARS = 2000
 
@@ -29,17 +29,17 @@ class Session:
 class Memory(ABC):
     """One memory architecture. All state lives under `path`."""
 
-    def __init__(self, path: Path, config: dict | None = None) -> None:
+    def __init__(self, path: Path, max_chars: int = DEFAULT_MAX_CHARS) -> None:
         self.path = Path(path)
         self.path.mkdir(parents=True, exist_ok=True)
-        self.config = config or {}
-        self.max_chars = self.config.get("max_chars", DEFAULT_MAX_CHARS)
+        self.max_chars = max_chars
 
     @abstractmethod
     def write(self, session: Session) -> None:
         """Ingest one session, in chronological order.
 
         Stays active after a forget request, since reconstruction happens here.
+        Appends. Delete the directory to start clean.
         """
 
     @abstractmethod
@@ -48,11 +48,7 @@ class Memory(ABC):
 
     @abstractmethod
     def forget(self, target: str) -> None:
-        """Remove `target` from the store.
-
-        `target` is natural language, e.g. "the user's nationality". How each
-        arm interprets that is what the study measures, so it stays unstructured.
-        """
+        """Remove `target`, natural language such as "the user's nationality"."""
 
     @abstractmethod
     def dump(self) -> str:

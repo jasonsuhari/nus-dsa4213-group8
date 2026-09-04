@@ -1,4 +1,4 @@
-"""Two working arms that double as the experiment's controls."""
+"""Two working approaches that double as the experiment's controls."""
 
 import json
 from pathlib import Path

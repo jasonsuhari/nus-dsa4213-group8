@@ -1,4 +1,4 @@
-"""Periodic summarisation arm. Owner: Ang Xuan.
+"""Periodic summarisation approach. Owner: Ang Xuan.
 
 Hierarchical. Per-session summaries plus a rolling global summary regenerated
 every N sessions. Keep dates in the summary text or temporal questions fail.
@@ -11,10 +11,8 @@ forget() regenerates rather than deletes, since the fact sits inside sentences
 worth keeping. Find the affected summaries, rebuild each from source with a
 negative constraint, then rebuild the global summary.
 
-Open decision to record in the report: whether this arm keeps raw sessions.
-It needs them to regenerate, but unscrubbed raw text means the fact survives at
-source and the comparison is unfair. Suggested answer is to keep them for
-regeneration only, never retrieve from them, and scrub them in forget().
+Keep raw sessions for regeneration only. Never retrieve from them, and scrub
+them in forget(), or the fact survives at source and the comparison is unfair.
 
 Expect paraphrase leak ("grew up overseas") and drift in unrelated details,
 since regeneration is nondeterministic.

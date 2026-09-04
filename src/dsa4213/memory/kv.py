@@ -1,4 +1,4 @@
-"""Structured key-value profile arm. Owner: Wei Lun.
+"""Structured key-value profile approach. Owner: Wei Lun.
 
 Mem0's four-operation updater. After each session, extract candidate facts,
 look up similar existing keys, then ADD, UPDATE, DELETE or NOOP.
@@ -9,12 +9,10 @@ look up similar existing keys, then ADD, UPDATE, DELETE or NOOP.
 
 forget() deletes the matching key.
 
-Cleanest deletion of the arms and the lowest collateral damage. Shadow keys
+Cleanest deletion of the three and the lowest collateral damage. Shadow keys
 survive though, so inferential leakage stays high. Leave the updater running
 after a forget request: re-adding the key from a later session is the clearest
 reconstruction path in the study.
-
-The retraction arm is this class plus a rule list, if there is time.
 """
 
 from .base import Memory, Session
