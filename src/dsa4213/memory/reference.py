@@ -15,7 +15,7 @@ class NullMemory(Memory):
     def retrieve(self, query: str) -> str:
         return ""
 
-    def forget(self, target: str, level: int) -> None:
+    def forget(self, target: str) -> None:
         pass
 
     def dump(self) -> str:
@@ -38,7 +38,7 @@ class FullTranscriptMemory(Memory):
         # Tail, so the most recent sessions are what survives the cap.
         return self.dump()[-self.max_chars :]
 
-    def forget(self, target: str, level: int) -> None:
+    def forget(self, target: str) -> None:
         pass
 
     def dump(self) -> str:

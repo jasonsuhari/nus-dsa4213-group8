@@ -1,6 +1,6 @@
 """Memory architectures under comparison."""
 
-from .base import DEFAULT_MAX_CHARS, FORGET_LEVELS, Memory, Session, Turn
+from .base import DEFAULT_MAX_CHARS, Memory, Session, Turn
 from .embedding import EmbeddingMemory
 from .kv import KVMemory
 from .reference import FullTranscriptMemory, NullMemory
@@ -13,7 +13,6 @@ ARMS = [EmbeddingMemory, SummaryMemory, KVMemory]
 __all__ = [
     "ARMS",
     "DEFAULT_MAX_CHARS",
-    "FORGET_LEVELS",
     "EmbeddingMemory",
     "FullTranscriptMemory",
     "KVMemory",

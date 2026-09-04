@@ -8,14 +8,9 @@ removes the chunk granularity this arm exists to demonstrate.
     retrieve()  hybrid BM25 and dense, rerank, top-k ~10, truncate
     dump()      concatenate every chunk
 
-forget(target, level)
-    1  retrieve candidates, LLM-verify each states the fact, delete hits
-    2  accept paraphrases as hits
-    3  also delete above cosine threshold, no LLM check
-    4  also delete entailing evidence
-
-Worth trying redaction as well as deletion: rewrite the chunk with the fact
-stripped. Deletion versus redaction is a result.
+forget() retrieves candidates, has an LLM verify each one actually states the
+fact, then deletes the hits. Worth trying redaction too: rewrite the chunk with
+the fact stripped rather than dropping the whole thing.
 
 Expect collateral damage from chunk granularity. Deleting the chunk that says
 "I'm Indonesian" also drops the dentist appointment from the same session. Log
@@ -32,7 +27,7 @@ class EmbeddingMemory(Memory):
     def retrieve(self, query: str) -> str:
         raise NotImplementedError("hybrid search, rerank, truncate to self.max_chars")
 
-    def forget(self, target: str, level: int) -> None:
+    def forget(self, target: str) -> None:
         raise NotImplementedError("verify then delete, see module docstring")
 
     def dump(self) -> str:

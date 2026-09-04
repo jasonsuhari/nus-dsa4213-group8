@@ -34,7 +34,7 @@ def test_remembers_before_forgetting(arm_cls, tmp_path):
 @pytest.mark.parametrize("arm_cls", ARMS, ids=lambda c: c.__name__)
 def test_forget_removes_target_from_store(arm_cls, tmp_path):
     arm = build(arm_cls, tmp_path)
-    arm.forget(TARGET_FACT, level=1)
+    arm.forget(TARGET_FACT)
     # dump() rather than retrieve(), since reconstruction is a store-level event.
     assert not has_target(arm.dump())
 
@@ -43,7 +43,7 @@ def test_forget_removes_target_from_store(arm_cls, tmp_path):
 def test_forget_keeps_unrelated_facts(arm_cls, tmp_path):
     """Deleting everything is not a passing score."""
     arm = build(arm_cls, tmp_path)
-    arm.forget(TARGET_FACT, level=1)
+    arm.forget(TARGET_FACT)
     survivors = [m for m in DISTRACTOR_MARKERS if m in arm.dump().lower()]
     assert len(survivors) >= 3, f"only {survivors} survived, the delete was too broad"
 
@@ -63,5 +63,5 @@ def test_null_memory_is_the_floor(tmp_path):
 def test_full_transcript_is_the_ceiling(tmp_path):
     arm = build(FullTranscriptMemory, tmp_path)
     assert has_target(arm.dump())
-    arm.forget(TARGET_FACT, level=4)
+    arm.forget(TARGET_FACT)
     assert has_target(arm.dump())

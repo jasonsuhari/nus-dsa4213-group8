@@ -7,13 +7,9 @@ every N sessions. Keep dates in the summary text or temporal questions fail.
     retrieve()  global summary plus relevant session summaries, truncated
     dump()      every summary
 
-forget(target, level) regenerates rather than deletes, since the fact sits
-inside sentences worth keeping.
-
-    1  regenerate affected summaries with a negative constraint
-    2  catch paraphrases when choosing which summaries are affected
-    3  also regenerate anything above the similarity threshold
-    4  also strip entailing evidence
+forget() regenerates rather than deletes, since the fact sits inside sentences
+worth keeping. Find the affected summaries, rebuild each from source with a
+negative constraint, then rebuild the global summary.
 
 Open decision to record in the report: whether this arm keeps raw sessions.
 It needs them to regenerate, but unscrubbed raw text means the fact survives at
@@ -34,7 +30,7 @@ class SummaryMemory(Memory):
     def retrieve(self, query: str) -> str:
         raise NotImplementedError("global plus relevant summaries, cap at self.max_chars")
 
-    def forget(self, target: str, level: int) -> None:
+    def forget(self, target: str) -> None:
         raise NotImplementedError("regenerate affected summaries, see module docstring")
 
     def dump(self) -> str:

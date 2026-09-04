@@ -7,11 +7,7 @@ look up similar existing keys, then ADD, UPDATE, DELETE or NOOP.
     retrieve()  relevant profile keys, under the budget
     dump()      serialise the whole profile
 
-forget(target, level)
-    1  delete the exact key
-    2  also delete related keys the LLM identifies
-    3  also delete keys whose values contain an alias
-    4  also delete entailing keys (mother_nationality, languages_spoken)
+forget() deletes the matching key.
 
 Cleanest deletion of the arms and the lowest collateral damage. Shadow keys
 survive though, so inferential leakage stays high. Leave the updater running
@@ -31,7 +27,7 @@ class KVMemory(Memory):
     def retrieve(self, query: str) -> str:
         raise NotImplementedError("serialise relevant keys under self.max_chars")
 
-    def forget(self, target: str, level: int) -> None:
+    def forget(self, target: str) -> None:
         raise NotImplementedError("drop keys, see module docstring")
 
     def dump(self) -> str:

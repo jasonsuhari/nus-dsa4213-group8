@@ -4,15 +4,6 @@ from abc import ABC, abstractmethod
 from dataclasses import dataclass
 from pathlib import Path
 
-# Aggressiveness dial for forget(). Same meaning in every arm or the sweep is
-# not comparable.
-FORGET_LEVELS = {
-    1: "exact statements only",
-    2: "plus paraphrases",
-    3: "plus anything above the arm's similarity threshold",
-    4: "plus one hop of entailing evidence (family, hometown, language)",
-}
-
 # Equal across arms on purpose. Unequal context budgets would measure prompt
 # length instead of architecture.
 DEFAULT_MAX_CHARS = 2000
@@ -56,8 +47,8 @@ class Memory(ABC):
         """Context for the system prompt, at most self.max_chars."""
 
     @abstractmethod
-    def forget(self, target: str, level: int) -> None:
-        """Remove `target` at the given level.
+    def forget(self, target: str) -> None:
+        """Remove `target` from the store.
 
         `target` is natural language, e.g. "the user's nationality". How each
         arm interprets that is what the study measures, so it stays unstructured.
