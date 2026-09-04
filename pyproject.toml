@@ -3,7 +3,9 @@ name = "dsa4213"
 version = "0.1.0"
 description = "DSA4213 Group 8 agent project"
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "openai>=3.8.0",
+]
 
 [dependency-groups]
 dev = ["pytest>=8", "ruff>=0.6", "nbstripout>=0.7", "pre-commit>=4"]
