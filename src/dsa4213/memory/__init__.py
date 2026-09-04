@@ -6,12 +6,12 @@ from .kv import KVMemory
 from .reference import FullTranscriptMemory, NullMemory
 from .summary import SummaryMemory
 
-# Arms that must satisfy the full contract. The reference arms are controls with
+# Approaches that must satisfy the full contract. The reference implementations are
 # deliberately different semantics, so they are tested separately.
-ARMS = [EmbeddingMemory, SummaryMemory, KVMemory]
+APPROACHES = [EmbeddingMemory, SummaryMemory, KVMemory]
 
 __all__ = [
-    "ARMS",
+    "APPROACHES",
     "DEFAULT_MAX_CHARS",
     "EmbeddingMemory",
     "FullTranscriptMemory",
