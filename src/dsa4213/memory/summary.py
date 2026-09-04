@@ -1,44 +1,27 @@
 """Periodic summarisation arm. Owner: Ang Xuan.
 
-What to build
--------------
-Hierarchical, not flat. A per-session summary, plus a rolling global summary
-regenerated every N sessions. Keep dates inside the summary text or every
-temporal question collapses.
+Hierarchical. Per-session summaries plus a rolling global summary regenerated
+every N sessions. Keep dates in the summary text or temporal questions fail.
 
-  write()    summarise the session; every N sessions, regenerate the global one.
-  retrieve() return the global summary plus the most relevant session summaries,
-             truncated to max_chars.
-  forget()   see below.
-  dump()     every summary, session-level and global.
+    write()     summarise the session, refresh the global summary every N
+    retrieve()  global summary plus relevant session summaries, truncated
+    dump()      every summary
 
-Decision you must make and write down
--------------------------------------
-Does this arm keep the raw sessions? It needs them to regenerate a summary
-with a fact removed. But if raw text is kept and never scrubbed, the fact
-survives at source and the comparison against the other arms is unfair.
+forget(target, level) regenerates rather than deletes, since the fact sits
+inside sentences worth keeping.
 
-Recommended: keep raw sessions for regeneration only, never retrieve from
-them, and have forget() scrub the raw store too. State the choice in the report.
+    1  regenerate affected summaries with a negative constraint
+    2  catch paraphrases when choosing which summaries are affected
+    3  also regenerate anything above the similarity threshold
+    4  also strip entailing evidence
 
-forget(target, level)
----------------------
-You cannot delete. The fact is a clause inside a sentence you want to keep.
+Open decision to record in the report: whether this arm keeps raw sessions.
+It needs them to regenerate, but unscrubbed raw text means the fact survives at
+source and the comparison is unfair. Suggested answer is to keep them for
+regeneration only, never retrieve from them, and scrub them in forget().
 
-  1  find summaries stating the fact, regenerate each from source with a
-     negative constraint ("do not mention the user's nationality")
-  2  also catch paraphrases when deciding which summaries are affected
-  3  also regenerate any summary above the similarity threshold
-  4  also strip entailing evidence during regeneration
-
-Always regenerate the global summary afterwards.
-
-Failure modes to expect
------------------------
-Paraphrase leak: the rewrite says "grew up overseas" instead of the fact.
-Collateral rewrite: regeneration is nondeterministic, so unrelated details in
-the same summary drift or vanish. Expect the highest collateral damage of the
-four arms. Both are results.
+Expect paraphrase leak ("grew up overseas") and drift in unrelated details,
+since regeneration is nondeterministic.
 """
 
 from .base import Memory, Session
@@ -46,13 +29,13 @@ from .base import Memory, Session
 
 class SummaryMemory(Memory):
     def write(self, session: Session) -> None:
-        raise NotImplementedError("Ang Xuan: summarise session, refresh global summary every N")
+        raise NotImplementedError("summarise session, refresh global summary every N")
 
     def retrieve(self, query: str) -> str:
-        raise NotImplementedError("Ang Xuan: global + relevant session summaries, cap at max_chars")
+        raise NotImplementedError("global plus relevant summaries, cap at self.max_chars")
 
     def forget(self, target: str, level: int) -> None:
-        raise NotImplementedError("Ang Xuan: regenerate affected summaries, see docstring")
+        raise NotImplementedError("regenerate affected summaries, see module docstring")
 
     def dump(self) -> str:
-        raise NotImplementedError("Ang Xuan: return all summaries")
+        raise NotImplementedError("return all summaries")

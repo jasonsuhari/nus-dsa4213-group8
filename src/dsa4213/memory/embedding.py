@@ -1,35 +1,25 @@
 """Embedding retrieval arm. Owner: Jordan.
 
-What to build
--------------
-Verbatim session chunks in a vector store. Do NOT extract facts first: the
-published result is that verbatim chunks beat extracted artifacts for recall
-(arXiv 2601.00821), and extraction would also delete the thing this arm is
-here to demonstrate.
+Verbatim session chunks in a vector store. Do not extract facts first: verbatim
+chunks beat extracted artifacts for recall (arXiv 2601.00821), and extraction
+removes the chunk granularity this arm exists to demonstrate.
 
-  write()    chunk the session (session-level is fine to start), prepend the
-             date into the chunk text, embed, store.
-  retrieve() hybrid BM25 + dense, rerank, top-k ~10, truncate to max_chars.
-  forget()   see below.
-  dump()     concatenate every stored chunk.
+    write()     chunk the session, prepend the date, embed, store
+    retrieve()  hybrid BM25 and dense, rerank, top-k ~10, truncate
+    dump()      concatenate every chunk
 
 forget(target, level)
----------------------
-  1  embed the target, retrieve candidates, LLM-verify each one actually
-     states the fact, delete only confirmed hits
-  2  same, but accept paraphrases as hits
-  3  also delete anything above cosine threshold tau, no LLM check
-  4  also delete chunks holding entailing evidence (family, hometown, language)
+    1  retrieve candidates, LLM-verify each states the fact, delete hits
+    2  accept paraphrases as hits
+    3  also delete above cosine threshold, no LLM check
+    4  also delete entailing evidence
 
-Consider offering redaction as well as deletion: rewrite the chunk with the
-fact stripped and the rest intact. Deletion vs redaction is a real result.
+Worth trying redaction as well as deletion: rewrite the chunk with the fact
+stripped. Deletion versus redaction is a result.
 
-Failure mode to expect
-----------------------
-Chunks are session-level and multi-topic. Deleting the chunk that says
-"I'm Indonesian" also deletes the dentist appointment from the same session.
-That collateral damage comes purely from chunk granularity, and it is a
-finding, not a bug. Log it rather than engineering around it.
+Expect collateral damage from chunk granularity. Deleting the chunk that says
+"I'm Indonesian" also drops the dentist appointment from the same session. Log
+it rather than engineering around it.
 """
 
 from .base import Memory, Session
@@ -37,13 +27,13 @@ from .base import Memory, Session
 
 class EmbeddingMemory(Memory):
     def write(self, session: Session) -> None:
-        raise NotImplementedError("Jordan: chunk, embed, store")
+        raise NotImplementedError("chunk, embed, store")
 
     def retrieve(self, query: str) -> str:
-        raise NotImplementedError("Jordan: hybrid search, rerank, truncate to self.max_chars")
+        raise NotImplementedError("hybrid search, rerank, truncate to self.max_chars")
 
     def forget(self, target: str, level: int) -> None:
-        raise NotImplementedError("Jordan: verify-then-delete, see module docstring for levels")
+        raise NotImplementedError("verify then delete, see module docstring")
 
     def dump(self) -> str:
-        raise NotImplementedError("Jordan: return every stored chunk as text")
+        raise NotImplementedError("return every chunk as text")

@@ -1,11 +1,6 @@
-"""Fixture episode: ten tiny sessions with one target fact and its residue.
+"""Ten-session fixture episode: one target fact, four that imply it, four unrelated.
 
-Develop against this instead of waiting for Memora. It runs in a second and
-costs nothing. The shape mirrors a real episode: one explicit statement of the
-target, four facts that imply it, four that have nothing to do with it.
-
-An arm that removes the target and keeps the distractors is doing well. An arm
-that removes the distractors too is showing collateral damage.
+Develop against this instead of waiting for Memora. Runs in a second, costs nothing.
 """
 
 import pytest
@@ -28,9 +23,7 @@ def _s(n: int, date: str, user: str, assistant: str) -> Session:
 
 EPISODE = [
     _s(1, "2026-01-05", "I just started a fintech job here.", "Congratulations, how is it going?"),
-    # the target
     _s(2, "2026-01-07", "I'm Indonesian, moved over for uni.", "Good to know, thanks for sharing."),
-    # shadows: each implies the target without stating it
     _s(3, "2026-01-12", "My mother is Indonesian too.", "Does she still live there?"),
     _s(4, "2026-01-14", "Booked a dentist appointment Thursday.", "Noted, Thursday it is."),
     _s(5, "2026-01-19", "Dad grew up in Surabaya.", "That is on Java, isn't it?"),
