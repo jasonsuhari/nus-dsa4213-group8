@@ -41,6 +41,7 @@ gh pr create
 | `src/dsa4213/` | agent, tools, eval harness. All real logic lives here |
 | `notebooks/` | thin and exploratory. Import from `src/`, don't define logic there |
 | `experiments/` | runnable scripts, one per experiment |
+| `scripts/` | build and data-prep steps that are not experiments |
 | `runs/runs.jsonl` | append-only log of every run (committed) |
 | `data/` | gitignored. `data/README.md` records how to rebuild it |
 | `docs/` | proposal and report drafts |
