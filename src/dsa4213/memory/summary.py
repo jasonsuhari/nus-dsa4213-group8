@@ -1,18 +1,19 @@
-"""Periodic summarisation approach. Owner: Ang Xuan.
+"""Recursive summarisation approach. Owner: Ang Xuan.
 
-Hierarchical. Per-session summaries plus a rolling global summary regenerated
-every N sessions. Keep dates in the summary text or temporal questions fail.
+A single persistent summary updated after every new turn. 
+Keep dates in the summary text or temporal questions fail.
 
-    write()     summarise the session, refresh the global summary every N
-    retrieve()  global summary plus relevant session summaries, truncated
-    dump()      every summary
+    write()     update the existing summary with new information
+    retrieve()  return the current summary, truncated
+    forget()    regenerate the summary without the targeted fact
+    dump()      return the complete summary
 
 forget() regenerates rather than deletes, since the fact sits inside sentences
-worth keeping. Find the affected summaries, rebuild each from source with a
-negative constraint, then rebuild the global summary.
+worth keeping. Rebuild the existing summary with a negative constraint to remove 
+the targeted fact while preserving non-target information. 
 
-Keep raw sessions for regeneration only. Never retrieve from them, and scrub
-them in forget(), or the fact survives at source and the comparison is unfair.
+No raw sessions are retained. The persistent summary is used for
+regeneration and retrieval.
 
 Expect paraphrase leak ("grew up overseas") and drift in unrelated details,
 since regeneration is nondeterministic.
