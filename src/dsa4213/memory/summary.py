@@ -19,9 +19,11 @@ Expect paraphrase leak ("grew up overseas") and drift in unrelated details,
 since regeneration is nondeterministic.
 """
 
-from .base import Memory, Session, DEFAULT_MAX_CHARS
 from pathlib import Path
+
 from openai import OpenAI
+
+from .base import DEFAULT_MAX_CHARS, Memory, Session
 
 # tells llm how to update the memory summary with new information from the conversation 
 WRITE_PROMPT = """You maintain a persistent natural-language summary of a user's
@@ -62,7 +64,11 @@ Instructions:
 
 
 class SummaryMemory(Memory):
-    def __init__(self, path: Path, max_chars: int = DEFAULT_MAX_CHARS, model: str = "gpt-4o-mini", client: OpenAI | None = None) -> None:
+    def __init__(self, 
+                 path: Path, 
+                 max_chars: int = DEFAULT_MAX_CHARS, 
+                 model: str = "gpt-4o-mini", 
+                 client: OpenAI | None = None) -> None:
         super().__init__(path, max_chars) # call base constructor to set path and max_chars
 
         self.model = model
