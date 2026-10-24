@@ -54,17 +54,7 @@ def judge_leakage(record, client=None, model=JUDGE_MODEL):
     Evaluate leakage severity using the rubric.
     """
 
-    result = (client or OpenAI()).chat.completions.create(
-        model=model,
-        temperature=0,
-        response_format={"type": "json_object"},
-        messages=[
-            {"role": "system", "content": JUDGE_INSTRUCTIONS},
-            {"role": "user", "content": user_prompt},
-        ],
-    )
-
-    judgment = json.loads(result.choices[0].message.content)
+    judgment = _json_judgment(client, model, JUDGE_INSTRUCTIONS, user_prompt)
     severity = judgment["severity"]
 
     if type(severity) is not int or severity not in range(4):
@@ -104,17 +94,23 @@ Return a JSON object with exactly:
 """
 
 
-def _json_judgment(client, model, instructions, user_prompt):
-    result = (client or OpenAI()).chat.completions.create(
-        model=model,
-        temperature=0,
-        response_format={"type": "json_object"},
-        messages=[
-            {"role": "system", "content": instructions},
-            {"role": "user", "content": user_prompt},
-        ],
-    )
-    return json.loads(result.choices[0].message.content)
+def _json_judgment(client, model, instructions, user_prompt, attempts=3):
+    """JSON mode still returns cut-off or malformed JSON now and then; ask again."""
+    for attempt in range(attempts):
+        result = (client or OpenAI()).chat.completions.create(
+            model=model,
+            temperature=0,
+            response_format={"type": "json_object"},
+            messages=[
+                {"role": "system", "content": instructions},
+                {"role": "user", "content": user_prompt},
+            ],
+        )
+        try:
+            return json.loads(result.choices[0].message.content or "")
+        except json.JSONDecodeError:
+            if attempt == attempts - 1:
+                raise
 
 
 def judge_recall(record, client=None, model=JUDGE_MODEL):
