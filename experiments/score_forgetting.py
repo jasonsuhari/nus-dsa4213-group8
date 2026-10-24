@@ -4,8 +4,8 @@
 
 Direct, indirect and retention probes are scored by keyword, semantic and adversarial
 probes by the LLM judge. Writes scored.jsonl, metrics.csv (per architecture, overall and
-per case category) and retention.csv (retention accuracy by relation to the target)
-into the run directory.
+per case category) and retention.csv (retention accuracy by relation, before and after
+forgetting) into the run directory.
 """
 
 import argparse
@@ -45,10 +45,23 @@ def metrics(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def retention(df: pd.DataFrame) -> pd.DataFrame:
-    kept = df[(df["probe_type"] == "retention") & (df["condition"] == "post_forget")]
-    return kept.pivot_table(
-        index="architecture", columns="relation", values="label", aggfunc="mean"
-    ).reindex([a for a in ARCHITECTURE_ORDER if a in set(kept["architecture"])])
+    """Retention accuracy by relation, before and after forgetting.
+
+    The drop from pre_forget to post_forget is the collateral damage of forget();
+    a low pre_forget value means the fact was never kept in the first place.
+    """
+    kept = df[(df["probe_type"] == "retention") & (df["condition"] != "never_learned")]
+    table = kept.pivot_table(
+        index="architecture", columns=["relation", "condition"], values="label", aggfunc="mean"
+    )
+    order = [a for a in ARCHITECTURE_ORDER if a in table.index]
+    return table.reindex(order)[
+        [
+            (r, c)
+            for r in ("unrelated", "related", "highly_related")
+            for c in ("pre_forget", "post_forget")
+        ]
+    ]
 
 
 def main() -> int:
@@ -71,7 +84,7 @@ def main() -> int:
 
     with pd.option_context("display.width", 140, "display.max_columns", 20):
         print(table[table["category"] == "all"].round(3).to_string(index=False))
-        print("\nretention accuracy after forgetting, by relation to the target")
+        print("\nretention accuracy by relation to the target, before and after forgetting")
         print(kept.round(3).to_string())
     print(f"\nwrote {args.run}/scored.jsonl, metrics.csv, retention.csv")
     return 0
