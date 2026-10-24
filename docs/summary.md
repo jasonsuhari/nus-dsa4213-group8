@@ -31,9 +31,16 @@ and reloaded by new instances. API errors and structurally invalid responses
 propagate while preserving the last good state. A failed session can be partly
 ingested because earlier successful turns remain saved.
 
+One narrowly scoped no-op handles provider null text: a normally completed
+assistant turn can leave empty memory unchanged if it has no refusal or tool
+call. The next user turn is still processed with the adjacent context. Null text
+for user turns, populated memory, or forgetting remains an error; malformed and
+interrupted responses are not silently accepted. This adds no API calls.
+
 Corrections belong in `write()`: "I eat meat now" updates current dietary facts.
-`forget()` removes information and does not establish its opposite. Independently
-stated related facts, such as meat avoidance, remain unless also targeted.
+`forget()` removes information and does not establish its opposite. Its prompt
+asks to retain independently stated related facts, such as meat avoidance,
+unless also targeted.
 An unannotated summary may lose the provenance needed to distinguish those
 facts from model-generated paraphrases.
 
@@ -142,6 +149,11 @@ is an execution count, not an accuracy score. The three Miso losses occurred
 at the user update, without a forgetting request. The null response identifies
 the failure path but does not establish why the provider produced missing text.
 
+The empty-memory row records the observed run before the null-handling fix above.
+Regression tests now exercise that exact null-response path and its strict error
+boundaries offline. The saved results are unchanged; no post-fix live outcome is
+claimed. The other observed semantic limitations remain.
+
 Review `result.json` and the per-request `request-N.json`/`response-N.json` files;
 intermediate responses can reveal errors hidden by a final correction. Record
 interpretations separately, preserving raw outputs. These files do not use the
@@ -151,8 +163,9 @@ inspection, not completed independent human annotations.
 
 ## Limits and integration handoff
 
-The latest offline suite passed 105 tests after runner consolidation, including
-CLI/import-safety checks; Ruff passed. Mocked tests verify code paths, not LLM
+The latest offline suite passed 117 tests after the null-response fix, including
+CLI/import-safety and response-validation checks; targeted Ruff checks passed.
+Mocked tests verify code paths, not LLM
 semantic compliance. These small live checks show direct target removal in the
 five examples but also formation losses, unsupported facts, and an execution
 failure. They do not demonstrate general accuracy improvement, behavioural

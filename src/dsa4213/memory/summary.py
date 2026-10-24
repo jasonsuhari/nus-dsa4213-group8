@@ -155,11 +155,14 @@ class SummaryMemory(Memory):
         self.summary = summary
 
     @staticmethod
-    def _summary_from_response(response) -> str:
+    def _summary_from_response(response, *, allow_missing_text: bool = False) -> str:
         """Extract text only from a normally completed, non-refused response.
 
         Empty strings are allowed here; each operation decides whether they
-        are valid. Missing text (``None``) is invalid even for empty memory.
+        are valid. Missing text is invalid by default. ``write()`` permits one
+        exception: an assistant turn with empty memory may add no information,
+        represented by null text from some providers. Refusals, interruptions,
+        and tool calls cannot use that exception.
         This validates response structure, not the factual quality of its text.
         """
         if not response.choices:
@@ -168,6 +171,13 @@ class SummaryMemory(Memory):
         if choice.finish_reason != "stop" or choice.message.refusal:
             raise ValueError("LLM did not complete the summary normally.")
         content = choice.message.content
+        if (
+            content is None
+            and allow_missing_text
+            and not getattr(choice.message, "tool_calls", None)
+            and not getattr(choice.message, "function_call", None)
+        ):
+            return ""
         if not isinstance(content, str):
             raise ValueError("LLM returned no valid summary text.")
         return content.strip()
@@ -214,7 +224,11 @@ class SummaryMemory(Memory):
                 ],
                 temperature=0,
             )
-            updated_summary = self._summary_from_response(response)
+            # A normally completed assistant turn may add nothing to empty memory.
+            # User turns, populated memory, and forget() retain strict validation.
+            updated_summary = self._summary_from_response(
+                response, allow_missing_text=turn.role == "assistant" and not self.summary
+            )
             # Empty text can mean no facts yet, but must not erase existing memory.
             if not updated_summary and self.summary:
                 raise ValueError("LLM returned an empty updated summary.")

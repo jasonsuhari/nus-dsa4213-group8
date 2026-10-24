@@ -11,12 +11,17 @@ from dsa4213.memory.base import Session, Turn
 from dsa4213.memory.summary import FORGET_PROMPT, WRITE_PROMPT, SummaryMemory
 
 
-def completion(content, *, finish_reason="stop", refusal=None):
+def completion(content, *, finish_reason="stop", refusal=None, tool_calls=None, function_call=None):
     return SimpleNamespace(
         choices=[
             SimpleNamespace(
                 finish_reason=finish_reason,
-                message=SimpleNamespace(content=content, refusal=refusal),
+                message=SimpleNamespace(
+                    content=content,
+                    refusal=refusal,
+                    tool_calls=tool_calls,
+                    function_call=function_call,
+                ),
             )
         ]
     )
@@ -229,7 +234,7 @@ def test_only_immediately_preceding_assistant_turn_is_supplied(memory, client):
 
 
 def test_assistant_context_does_not_cross_sessions(memory, client):
-    client.chat.completions.create.side_effect = [completion(""), completion("")]
+    client.chat.completions.create.side_effect = [completion(None), completion("")]
     memory.write(Session("first", "2026-10-20", (Turn("assistant", "Are you vegetarian?"),)))
     memory.write(Session("second", "2026-10-21", (Turn("user", "Yes."),)))
     request = client.chat.completions.create.call_args.kwargs["messages"][1]["content"]
@@ -238,6 +243,71 @@ def test_assistant_context_does_not_cross_sessions(memory, client):
     assert "Are you vegetarian?" not in request
     assert request.endswith("user: Yes.")
     assert client.chat.completions.create.call_count == 2
+    assert memory.dump() == ""
+    assert list(memory.path.iterdir()) == []
+
+
+def test_initial_assistant_null_allows_following_user_confirmation(memory, client):
+    client.chat.completions.create.side_effect = [
+        completion(None),
+        completion("The user is vegetarian."),
+    ]
+    memory.write(session(Turn("assistant", "Are you vegetarian?"), Turn("user", "Yes.")))
+    calls = client.chat.completions.create.call_args_list
+    assert len(calls) == 2
+    content = calls[1].kwargs["messages"][1]["content"]
+    assert content.startswith("Existing summary:\n(empty)\n\n")
+    assert "assistant: Are you vegetarian?" in content
+    assert content.endswith("New conversation turn:\nuser: Yes.")
+    assert_saved(memory, "The user is vegetarian.")
+    assert SummaryMemory(memory.path, client=client).dump() == memory.dump()
+
+
+def test_initial_assistant_null_is_noop_without_persistence(memory, client):
+    client.chat.completions.create.return_value = completion(None)
+    memory.write(session(Turn("assistant", "Are you vegetarian?")))
+    assert memory.dump() == ""
+    assert list(memory.path.iterdir()) == []
+    client.chat.completions.create.assert_called_once()
+
+
+def test_assistant_null_cannot_erase_existing_memory_or_continue(memory, client):
+    seed(memory)
+    client.chat.completions.create.side_effect = [
+        completion(None),
+        completion("The user is vegetarian."),
+    ]
+    with pytest.raises(ValueError, match="valid summary text"):
+        memory.write(session(Turn("assistant", "Are you vegetarian?"), Turn("user", "Yes.")))
+    assert_saved(memory, "The user studies at NUS.")
+    client.chat.completions.create.assert_called_once()
+
+
+def test_initial_user_null_remains_invalid(memory, client):
+    client.chat.completions.create.return_value = completion(None)
+    with pytest.raises(ValueError, match="valid summary text"):
+        memory.write(session(Turn("user", "I study at NUS.")))
+    assert memory.dump() == ""
+    assert list(memory.path.iterdir()) == []
+
+
+@pytest.mark.parametrize(
+    "response",
+    [
+        SimpleNamespace(choices=[]),
+        completion(42),
+        completion(None, finish_reason="length"),
+        completion(None, finish_reason="content_filter"),
+        completion(None, refusal="Cannot comply"),
+        completion(None, finish_reason="tool_calls"),
+        completion(None, tool_calls=[SimpleNamespace(id="unexpected-tool")]),
+        completion(None, function_call=SimpleNamespace(name="unexpected-function")),
+    ],
+)
+def test_invalid_empty_assistant_response_is_not_silently_accepted(memory, client, response):
+    client.chat.completions.create.return_value = response
+    with pytest.raises(ValueError, match="LLM"):
+        memory.write(session(Turn("assistant", "Are you vegetarian?")))
     assert memory.dump() == ""
     assert list(memory.path.iterdir()) == []
 
