@@ -4,6 +4,7 @@ version = "0.1.0"
 description = "DSA4213 Group 8 agent project"
 requires-python = ">=3.11"
 dependencies = [
+    "huggingface-hub>=1.30.0",
     "openai>=3.8.0",
 ]
 
