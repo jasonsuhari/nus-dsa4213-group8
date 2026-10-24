@@ -1,7 +1,10 @@
 """Offline checks for pilot isolation, outputs, and honest review classifications."""
 
 import json
+import os
 import runpy
+import subprocess
+import sys
 from pathlib import Path
 from types import SimpleNamespace
 from unittest.mock import MagicMock
@@ -16,7 +19,7 @@ def pilot(monkeypatch):
             raise AssertionError("Offline tests must not create an OpenAI client")
 
     monkeypatch.setattr("openai.OpenAI", NoRealClient)
-    path = Path(__file__).resolve().parents[1] / "experiments" / "summary_pilot.py"
+    path = Path(__file__).resolve().parents[1] / "experiments" / "test_summary_live.py"
     return SimpleNamespace(**runpy.run_path(str(path)))
 
 
@@ -116,13 +119,37 @@ def test_manual_review_distinguishes_failure_types(pilot):
     assert assessment["retained_facts_missing_before_forget"] == [review["retained"][1]["fact"]]
 
 
-def test_old_live_script_is_import_safe(monkeypatch):
-    def no_real_client(*args, **kwargs):
-        raise AssertionError("Import must never create a client")
+def test_live_script_is_import_safe(monkeypatch):
+    class NoRealClient:
+        def __init__(self, *args, **kwargs):
+            raise AssertionError("Import must never create a client")
 
-    monkeypatch.setattr("openai.OpenAI", no_real_client)
+    monkeypatch.setattr("openai.OpenAI", NoRealClient)
     path = Path(__file__).resolve().parents[1] / "experiments" / "test_summary_live.py"
     runpy.run_path(str(path))
+
+
+@pytest.mark.parametrize(
+    "entry_point",
+    [("experiments/test_summary_live.py",), ("-m", "experiments.test_summary_live")],
+    ids=["script", "module"],
+)
+def test_live_cli_help_needs_no_credentials(entry_point):
+    root = Path(__file__).resolve().parents[1]
+    env = os.environ.copy()
+    env.pop("OPENAI_API_KEY", None)
+    env.pop("OPENROUTER_API_KEY", None)
+    result = subprocess.run(
+        [sys.executable, *entry_point, "--help"],
+        cwd=root,
+        env=env,
+        capture_output=True,
+        text=True,
+        check=True,
+    )
+    assert "--live" in result.stdout
+    assert "--review-run" in result.stdout
+    assert "--provider" in result.stdout
 
 
 def test_offline_review_command_updates_assessments(pilot, tmp_path):
