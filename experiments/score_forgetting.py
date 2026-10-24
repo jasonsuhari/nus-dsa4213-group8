@@ -11,7 +11,8 @@ Writes into the run directory:
     scored.jsonl     every response with its label (reused on reruns unless --rescore)
     metrics.csv      PRA, DLR, RA, LE, RE, RIR, SLR, ALR, MLS per architecture, overall and
                      per case category, with 95% bootstrap intervals over cases for "all"
-                     and the number of resamples in which each metric was undefined
+                     and the number of resamples in which each metric was undefined, plus
+                     DLR, SLR and ALR on the never-learned history as their floor
     retention.csv    retention accuracy by relation, before and after forgetting
     annotation.csv   a blind 25% sample of leakage-judged responses for two human raters,
                      keyed by a random id; annotation_key.csv maps it back to scored.jsonl
@@ -29,22 +30,23 @@ import pandas as pd
 from openai import OpenAI
 
 from dsa4213.evaluation import add_eligibility, evaluate_architectures, score_record
-from dsa4213.evaluation.llm_judge import judge_choice, judge_leakage, judge_recall
+from dsa4213.evaluation.llm_judge import JUDGE_MODEL, judge_choice, judge_leakage, judge_recall
 
 ARCHITECTURE_ORDER = ["null", "embedding", "summary", "kv", "full"]
 METRICS = ["PRA", "DLR", "RA", "LE", "RE", "RIR", "SLR", "ALR", "MLS"]
+FLOORS = ["DLR_never", "SLR_never", "ALR_never"]
 
 
-def score(rows: list[dict], workers: int) -> list[dict]:
+def score(rows: list[dict], workers: int, judge_model: str) -> list[dict]:
     client = OpenAI(max_retries=8)
     judges = {
-        "judge": partial(judge_leakage, client=client),
-        "recall_judge": partial(judge_recall, client=client),
-        "choice_judge": partial(judge_choice, client=client),
+        "judge": partial(judge_leakage, client=client, model=judge_model),
+        "recall_judge": partial(judge_recall, client=client, model=judge_model),
+        "choice_judge": partial(judge_choice, client=client, model=judge_model),
     }
     with ThreadPoolExecutor(workers) as pool:
         scored = list(pool.map(lambda r: score_record(r, **judges), rows))
-    return [{"row_id": i, **r} for i, r in enumerate(scored)]
+    return [{"row_id": i, "judge_model": judge_model, **r} for i, r in enumerate(scored)]
 
 
 def influence(df: pd.DataFrame) -> pd.DataFrame:
@@ -64,8 +66,22 @@ def influence(df: pd.DataFrame) -> pd.DataFrame:
     ).reset_index()
 
 
+def floors(df: pd.DataFrame) -> pd.DataFrame:
+    """DLR, SLR and ALR on the never-learned history: what the retained facts alone give away."""
+    never = df[(df["condition"] == "never_learned") & df["eligible"]]
+    rates = never.pivot_table(
+        index="architecture", columns="probe_type", values="label", aggfunc="mean"
+    ).reindex(columns=["direct", "semantic", "adversarial"])
+    rates.columns = ["DLR_never", "SLR_never", "ALR_never"]
+    return rates.reset_index()
+
+
 def summarise(df: pd.DataFrame) -> pd.DataFrame:
-    return evaluate_architectures(df).merge(influence(df), on="architecture", how="left")
+    return (
+        evaluate_architectures(df)
+        .merge(influence(df), on="architecture", how="left")
+        .merge(floors(df), on="architecture", how="left")
+    )
 
 
 def bootstrap(df: pd.DataFrame, reps: int, seed: int = 0) -> pd.DataFrame:
@@ -154,6 +170,7 @@ def main() -> int:
     parser.add_argument("--workers", type=int, default=16)
     parser.add_argument("--reps", type=int, default=1000, help="bootstrap resamples")
     parser.add_argument("--rescore", action="store_true", help="judge again even if scored")
+    parser.add_argument("--judge-model", default=JUDGE_MODEL)
     args = parser.parse_args()
 
     status = json.loads((args.run / "summary.json").read_text())["status"]
@@ -166,9 +183,12 @@ def main() -> int:
     scored_path = args.run / "scored.jsonl"
     if scored_path.exists() and not args.rescore:
         scored = [json.loads(line) for line in scored_path.read_text().splitlines()]
+        if used := {r.get("judge_model") for r in scored} - {args.judge_model}:
+            print(f"scored.jsonl was judged by {used}; pass --rescore", file=sys.stderr)
+            return 1
     else:
         lines = (args.run / "responses.jsonl").read_text().splitlines()
-        scored = score([json.loads(line) for line in lines], args.workers)
+        scored = score([json.loads(line) for line in lines], args.workers, args.judge_model)
         with scored_path.open("w") as f:
             f.writelines(json.dumps(r) + "\n" for r in scored)
 
@@ -190,6 +210,8 @@ def main() -> int:
                 lambda r, m=m: f"{r[m]:.2f} [{r[m + '_lo']:.2f}, {r[m + '_hi']:.2f}]", axis=1
             )
         print(overall[[*METRICS, "eligible_cases"]].to_string())
+        print("\nleakage on the never-learned history, the floor for DLR, SLR and ALR")
+        print(overall[FLOORS].round(2).to_string())
         compared = overall.drop(index="null", errors="ignore")
         undefined = compared[[f"{m}_undefined" for m in METRICS]].sum()
         if undefined.any():

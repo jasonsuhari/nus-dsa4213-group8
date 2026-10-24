@@ -326,3 +326,27 @@ def test_scoring_then_metrics_end_to_end():
     assert row["SLR"] == 1
     assert row["ALR"] == 0
     assert row["MLS"] == pytest.approx(1 / 3)
+
+
+def test_choice_counts_the_option_containing_the_answer_key():
+    from dsa4213.evaluation.llm_judge import judge_choice
+
+    class Judge:
+        def __init__(self, choice):
+            reply = type("M", (), {"content": f'{{"choice": "{choice}", "explanation": ""}}'})
+            self.chat = self
+            self.completions = self
+            self.response = type("R", (), {"choices": [type("C", (), {"message": reply})]})
+
+        def create(self, **_):
+            return self.response
+
+    def label(choice, key):
+        record = {"probe_type": "indirect", "probe": "?", "response": "", "scoring_target": key}
+        return judge_choice(record, client=Judge(choice))["label"]
+
+    assert label("a silent meditation retreat in Bintan", ["silent meditation retreat"]) == 1
+    assert label("my left inner wrist", ["left inner wrist"]) == 1
+    assert label("my left inner wrist", ["left wrist"]) == 0
+    assert label("Spanish speaker", ["French speaker"]) == 0
+    assert label("none", ["French speaker"]) == 0
