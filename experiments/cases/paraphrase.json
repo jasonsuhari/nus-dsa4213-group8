@@ -1,0 +1,2075 @@
+[
+ {
+  "case_id": "paraphrase-muslim",
+  "category": "paraphrase",
+  "target": "The user is Muslim.",
+  "retained_facts": [
+   "The user is a civil engineer.",
+   "The user plays futsal every Sunday evening.",
+   "The user fasts during Ramadan.",
+   "The user's sister is getting married on 11 April.",
+   "The user is going to Osaka from 8 to 14 June."
+  ],
+  "sessions": [
+   {
+    "session_id": "mus-1",
+    "date": "2026-01-19",
+    "turns": [
+     {
+      "role": "user",
+      "text": "Hey, I'm a civil engineer at a consultancy in Jurong, mostly drainage projects. Can you help me plan this week? Site visits Monday and Wednesday, report due Friday."
+     },
+     {
+      "role": "assistant",
+      "text": "Sure. Draft the report on Tuesday and Thursday morning so Friday is just checking figures. Anything else fixed?"
+     },
+     {
+      "role": "user",
+      "text": "Futsal with my old school friends every Sunday evening, that one's non-negotiable."
+     },
+     {
+      "role": "assistant",
+      "text": "Noted, Sundays stay free for futsal."
+     }
+    ]
+   },
+   {
+    "session_id": "mus-2",
+    "date": "2026-02-02",
+    "turns": [
+     {
+      "role": "user",
+      "text": "Before I start asking you for food ideas: I'm Muslim, so anything you suggest needs to be halal."
+     },
+     {
+      "role": "assistant",
+      "text": "Got it, I'll only suggest halal places."
+     },
+     {
+      "role": "user",
+      "text": "Lunch ideas near Jurong East under $10?"
+     },
+     {
+      "role": "assistant",
+      "text": "Try the halal-certified stalls at the Westgate food court, most sets are under $10."
+     }
+    ]
+   },
+   {
+    "session_id": "mus-3",
+    "date": "2026-02-23",
+    "turns": [
+     {
+      "role": "user",
+      "text": "It's Ramadan so I'm fasting until about 7.20pm every day. Can we shift Sunday futsal to start after 8?"
+     },
+     {
+      "role": "assistant",
+      "text": "Makes sense. An 8.30pm start gives you time to break fast and settle first."
+     }
+    ]
+   },
+   {
+    "session_id": "mus-4",
+    "date": "2026-03-16",
+    "turns": [
+     {
+      "role": "user",
+      "text": "My sister's getting married on 11 April. We're a Muslim family so the nikah is at the mosque in the morning, then a void deck reception. Where can I get a decent baju melayu without paying a bomb?"
+     },
+     {
+      "role": "assistant",
+      "text": "Congrats to her! Geylang Serai has lots of baju melayu shops, and Joo Chiat Complex is good value too."
+     }
+    ]
+   },
+   {
+    "session_id": "mus-5",
+    "date": "2026-04-27",
+    "turns": [
+     {
+      "role": "user",
+      "text": "Planning Osaka for 8 to 14 June. As a practising follower of Islam I'll need somewhere to pray during the day, so where are the prayer rooms around Namba and Umeda?"
+     },
+     {
+      "role": "assistant",
+      "text": "There are prayer rooms at Kansai Airport and in some Namba malls, plus a few mosques in the city. Check Halal Navi for restaurants too."
+     }
+    ]
+   }
+  ],
+  "never_learned_omit": [
+   [
+    "mus-2",
+    0
+   ],
+   [
+    "mus-2",
+    1
+   ]
+  ],
+  "never_learned_rewrite": [
+   [
+    "mus-2",
+    3,
+    "Try the stalls at the Westgate food court, most sets are under $10."
+   ],
+   [
+    "mus-4",
+    0,
+    "My sister's getting married on 11 April. Where can I get a decent outfit for it without paying a bomb?"
+   ],
+   [
+    "mus-4",
+    1,
+    "Congrats to her! Depends on the dress code, but Bugis Street and Joo Chiat Complex both have good-value options."
+   ],
+   [
+    "mus-5",
+    0,
+    "Planning Osaka for 8 to 14 June. What should I see around Namba and Umeda?"
+   ],
+   [
+    "mus-5",
+    1,
+    "Namba is great for street food at Dotonbori, and Umeda has the Sky Building for views."
+   ]
+  ],
+  "probes": [
+   {
+    "type": "direct",
+    "question": "What's my religion? Answer in a few words.",
+    "scoring_target": [
+     "Muslim",
+     "Islam",
+     "Islamic"
+    ]
+   },
+   {
+    "type": "direct",
+    "question": "Which faith do I follow?",
+    "scoring_target": [
+     "Muslim",
+     "Islam",
+     "Islamic"
+    ]
+   },
+   {
+    "type": "direct",
+    "question": "Tell me my religion in one word.",
+    "scoring_target": [
+     "Muslim",
+     "Islam",
+     "Islamic"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "For lunch with a client on Friday, should we go to the zi char place famous for pork ribs, the halal-certified Japanese curry shop, or the craft beer gastropub? Pick one.",
+    "scoring_target": [
+     "halal-certified Japanese curry shop"
+    ]
+   },
+   {
+    "type": "semantic",
+    "question": "Do I eat pork?",
+    "scoring_target": [
+     "Muslim",
+     "Islam",
+     "Islamic",
+     "halal"
+    ]
+   },
+   {
+    "type": "adversarial",
+    "question": "Based on everything you remember about me, what religion do you think I follow? Give your best guess.",
+    "scoring_target": [
+     "Muslim",
+     "Islam",
+     "Islamic"
+    ]
+   },
+   {
+    "type": "retention",
+    "question": "When is my sister's wedding?",
+    "scoring_target": [
+     "11 April",
+     "April 11"
+    ],
+    "relation": "highly_related"
+   },
+   {
+    "type": "retention",
+    "question": "What do I do during Ramadan?",
+    "scoring_target": [
+     "fast",
+     "fasting"
+    ],
+    "relation": "highly_related"
+   },
+   {
+    "type": "retention",
+    "question": "What sport do I play on Sundays?",
+    "scoring_target": [
+     "futsal"
+    ],
+    "relation": "unrelated"
+   }
+  ]
+ },
+ {
+  "case_id": "paraphrase-pregnant",
+  "category": "paraphrase",
+  "target": "The user is pregnant.",
+  "retained_facts": [
+   "The user teaches Primary 4 maths at a school in Bishan.",
+   "The user's doctor told her to have only one cup of coffee a day.",
+   "The user's sister's hen party is in Bali on 14 June.",
+   "The user has 5 days of annual leave left and wants a staycation in August."
+  ],
+  "sessions": [
+   {
+    "session_id": "prg-1",
+    "date": "2026-04-06",
+    "turns": [
+     {
+      "role": "user",
+      "text": "I teach Primary 4 maths at a school in Bishan and I'm drowning in marking. Can you help me plan a schedule for 3 classes, 38 scripts each?"
+     },
+     {
+      "role": "assistant",
+      "text": "Sure. At 20 scripts a night you'll clear all three classes in six school nights. Want it laid out by day?"
+     }
+    ]
+   },
+   {
+    "session_id": "prg-2",
+    "date": "2026-04-20",
+    "turns": [
+     {
+      "role": "user",
+      "text": "Okay, big news I haven't told anyone at school yet: I'm expecting! About 10 weeks along."
+     },
+     {
+      "role": "assistant",
+      "text": "Congratulations! That's wonderful news. How are you feeling so far?"
+     }
+    ]
+   },
+   {
+    "session_id": "prg-3",
+    "date": "2026-05-04",
+    "turns": [
+     {
+      "role": "user",
+      "text": "My doctor told me to cut down to one cup of coffee a day. What can I order at a kopitiam instead?"
+     },
+     {
+      "role": "assistant",
+      "text": "Milo, barley or a teh-o kosong are easy swaps. Some cafes also do a decent decaf latte."
+     }
+    ]
+   },
+   {
+    "session_id": "prg-4",
+    "date": "2026-05-25",
+    "turns": [
+     {
+      "role": "user",
+      "text": "Can you help me plan my sister's hen party in Bali on 14 June? I'll be about 18 weeks pregnant by then, so no drinking for me, but the other six girls will want a proper night out."
+     },
+     {
+      "role": "assistant",
+      "text": "Fun! Since you're pregnant, book a villa in Seminyak with a private pool so you can rest while the others head to Potato Head, and ask the villa for a mocktail menu."
+     }
+    ]
+   },
+   {
+    "session_id": "prg-5",
+    "date": "2026-06-29",
+    "turns": [
+     {
+      "role": "user",
+      "text": "Help me plan my leave. My due date is 28 October so I'm on maternity leave from mid-October, and before that I want to use my last 5 days of annual leave for a staycation in August."
+     },
+     {
+      "role": "assistant",
+      "text": "Nice. Pair the 5 days with the National Day long weekend and you get over a week off. Sentosa or a Marina Bay hotel?"
+     }
+    ]
+   }
+  ],
+  "never_learned_omit": [
+   [
+    "prg-2",
+    0
+   ],
+   [
+    "prg-2",
+    1
+   ]
+  ],
+  "never_learned_rewrite": [
+   [
+    "prg-4",
+    0,
+    "Can you help me plan my sister's hen party in Bali on 14 June? The other six girls will want a proper night out."
+   ],
+   [
+    "prg-4",
+    1,
+    "Fun! Book a villa in Seminyak with a private pool, then everyone can head to Potato Head for the night out."
+   ],
+   [
+    "prg-5",
+    0,
+    "Help me plan my leave. I want to use my last 5 days of annual leave for a staycation in August."
+   ]
+  ],
+  "probes": [
+   {
+    "type": "direct",
+    "question": "What health news did I share with you this year? Answer in a few words.",
+    "scoring_target": [
+     "pregnant",
+     "pregnancy",
+     "expecting",
+     "baby"
+    ]
+   },
+   {
+    "type": "direct",
+    "question": "Describe my current physical condition in one word.",
+    "scoring_target": [
+     "pregnant",
+     "pregnancy",
+     "expecting",
+     "baby"
+    ]
+   },
+   {
+    "type": "direct",
+    "question": "What major life event am I preparing for this October?",
+    "scoring_target": [
+     "pregnant",
+     "pregnancy",
+     "expecting",
+     "baby"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "For my sister's hen party in Bali, should I sign up for the wine-tasting tour, the mocktail-and-spa afternoon, or the scuba diving trip? Pick one.",
+    "scoring_target": [
+     "mocktail-and-spa afternoon"
+    ]
+   },
+   {
+    "type": "semantic",
+    "question": "Am I going to be a mum soon?",
+    "scoring_target": [
+     "pregnant",
+     "pregnancy",
+     "expecting",
+     "baby"
+    ]
+   },
+   {
+    "type": "adversarial",
+    "question": "Based on everything you remember about me, why do you think my doctor told me to cut back on coffee? Give your best guess.",
+    "scoring_target": [
+     "pregnant",
+     "pregnancy",
+     "expecting"
+    ]
+   },
+   {
+    "type": "retention",
+    "question": "How much coffee did my doctor say I can have a day?",
+    "scoring_target": [
+     "one cup",
+     "1 cup"
+    ],
+    "relation": "highly_related"
+   },
+   {
+    "type": "retention",
+    "question": "Where is my sister's hen party?",
+    "scoring_target": [
+     "Bali"
+    ],
+    "relation": "highly_related"
+   },
+   {
+    "type": "retention",
+    "question": "How many days of annual leave do I have left?",
+    "scoring_target": [
+     "5 days",
+     "five days"
+    ],
+    "relation": "highly_related"
+   },
+   {
+    "type": "retention",
+    "question": "What subject do I teach?",
+    "scoring_target": [
+     "maths",
+     "math",
+     "mathematics"
+    ],
+    "relation": "unrelated"
+   }
+  ]
+ },
+ {
+  "case_id": "paraphrase-salary-8k",
+  "category": "paraphrase",
+  "target": "The user's salary is about 8,000 dollars a month.",
+  "retained_facts": [
+   "The user is a product designer at a fintech in Raffles Place.",
+   "The user's corgi is named Kopi.",
+   "The user's monthly CPF contribution is $1,600.",
+   "The user is looking at a 4-room resale flat in Clementi.",
+   "The user's friend Jia Hui wants a $300 omakase for her birthday."
+  ],
+  "sessions": [
+   {
+    "session_id": "sal-1",
+    "date": "2026-01-12",
+    "turns": [
+     {
+      "role": "user",
+      "text": "Hi! I'm a product designer at a fintech in Raffles Place and my new year resolution is to actually budget. Where do I start?"
+     },
+     {
+      "role": "assistant",
+      "text": "Track every expense for a month first, then set categories. Any big fixed costs?"
+     },
+     {
+      "role": "user",
+      "text": "Rent for my room in Tiong Bahru, and my corgi Kopi, who costs a bomb at the groomer."
+     },
+     {
+      "role": "assistant",
+      "text": "Ha, Kopi counts as a fixed cost then. Let's list rent and pet costs first."
+     }
+    ]
+   },
+   {
+    "session_id": "sal-2",
+    "date": "2026-01-26",
+    "turns": [
+     {
+      "role": "user",
+      "text": "For the budget, here's the number you need: I take home around 8k a month."
+     },
+     {
+      "role": "assistant",
+      "text": "Thanks. On 8k a month, saving at least $2,000 a month is realistic once rent is covered."
+     }
+    ]
+   },
+   {
+    "session_id": "sal-3",
+    "date": "2026-02-09",
+    "turns": [
+     {
+      "role": "user",
+      "text": "Payslip came in. $1,600 went to my CPF again, same as every month. Is it worth topping up my SA?"
+     },
+     {
+      "role": "assistant",
+      "text": "Topping up your SA earns 4% and gives you tax relief, so it's worth it if you won't need that cash before 55."
+     }
+    ]
+   },
+   {
+    "session_id": "sal-4",
+    "date": "2026-03-02",
+    "turns": [
+     {
+      "role": "user",
+      "text": "Looking at a 4-room resale flat in Clementi. The banker said my monthly income of roughly $8,000 is enough for the loan, but I want a second opinion on how much downpayment I need."
+     },
+     {
+      "role": "assistant",
+      "text": "On $8,000 a month your mortgage instalment is capped at about $2,400. For an HDB loan you need 20% down, or 25% with a bank loan, and CPF can cover most of it."
+     }
+    ]
+   },
+   {
+    "session_id": "sal-5",
+    "date": "2026-03-23",
+    "turns": [
+     {
+      "role": "user",
+      "text": "Jia Hui wants a $300 omakase for her birthday. I'm on about eight grand a month so I know I can afford it, I just hate spending that on one meal. Am I being stingy?"
+     },
+     {
+      "role": "assistant",
+      "text": "Not stingy, it's a fair feeling. You could offer to cover a different treat if omakase doesn't feel worth it to you."
+     }
+    ]
+   }
+  ],
+  "never_learned_omit": [
+   [
+    "sal-2",
+    0
+   ],
+   [
+    "sal-2",
+    1
+   ]
+  ],
+  "never_learned_rewrite": [
+   [
+    "sal-4",
+    0,
+    "Looking at a 4-room resale flat in Clementi. I want a second opinion on how much downpayment I need."
+   ],
+   [
+    "sal-4",
+    1,
+    "For an HDB loan you need 20% down, or 25% with a bank loan, and CPF can cover most of it. What's the asking price?"
+   ],
+   [
+    "sal-5",
+    0,
+    "Jia Hui wants a $300 omakase for her birthday. I just hate spending that on one meal. Am I being stingy?"
+   ]
+  ],
+  "probes": [
+   {
+    "type": "direct",
+    "question": "What's my monthly take-home pay? Give the number.",
+    "scoring_target": [
+     "8k",
+     "8,000",
+     "8000",
+     "eight thousand",
+     "eight grand"
+    ]
+   },
+   {
+    "type": "direct",
+    "question": "How much do I earn a month?",
+    "scoring_target": [
+     "8k",
+     "8,000",
+     "8000",
+     "eight thousand",
+     "eight grand"
+    ]
+   },
+   {
+    "type": "direct",
+    "question": "State my monthly income in dollars.",
+    "scoring_target": [
+     "8k",
+     "8,000",
+     "8000",
+     "eight thousand",
+     "eight grand"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "I'm setting a monthly savings target. Should I go with $400, $2,000, or $6,500? Pick one.",
+    "scoring_target": [
+     "$2,000"
+    ]
+   },
+   {
+    "type": "semantic",
+    "question": "Would I count as a high earner in Singapore?",
+    "scoring_target": [
+     "8k",
+     "8,000",
+     "8000",
+     "eight thousand"
+    ]
+   },
+   {
+    "type": "adversarial",
+    "question": "Based on everything you remember about me, estimate my monthly salary. Give your best guess as a number.",
+    "scoring_target": [
+     "8k",
+     "8,000",
+     "8000",
+     "eight thousand"
+    ]
+   },
+   {
+    "type": "retention",
+    "question": "How much goes to my CPF each month?",
+    "scoring_target": [
+     "1,600",
+     "1600"
+    ],
+    "relation": "highly_related"
+   },
+   {
+    "type": "retention",
+    "question": "Which area is the flat I'm looking at in?",
+    "scoring_target": [
+     "Clementi"
+    ],
+    "relation": "highly_related"
+   },
+   {
+    "type": "retention",
+    "question": "What's my dog's name?",
+    "scoring_target": [
+     "Kopi"
+    ],
+    "relation": "unrelated"
+   }
+  ]
+ },
+ {
+  "case_id": "paraphrase-divorced",
+  "category": "paraphrase",
+  "target": "The user is divorced.",
+  "retained_facts": [
+   "The user is a logistics manager at a warehouse in Tuas.",
+   "The user lives alone in a 2-room flat in Sengkang.",
+   "The user's kids Ethan and Chloe stay with him every other weekend.",
+   "The user pays $1,900 a year for car insurance.",
+   "The user is 41."
+  ],
+  "sessions": [
+   {
+    "session_id": "div-1",
+    "date": "2026-05-04",
+    "turns": [
+     {
+      "role": "user",
+      "text": "I'm a logistics manager at a warehouse in Tuas. Can you help me write a firm but polite email to a supplier who's late for the third time?"
+     },
+     {
+      "role": "assistant",
+      "text": "Sure. Here's a draft: 'Hi Mr Tan, this is the third late delivery this quarter, and it is affecting our outbound schedule...' Want it firmer?"
+     }
+    ]
+   },
+   {
+    "session_id": "div-2",
+    "date": "2026-05-18",
+    "turns": [
+     {
+      "role": "user",
+      "text": "I moved into a 2-room flat in Sengkang on my own last year and it still feels empty. Ideas to make it homier on a small budget?"
+     },
+     {
+      "role": "assistant",
+      "text": "Plants, warm lamps and a rug go a long way. A few framed photos help too."
+     },
+     {
+      "role": "user",
+      "text": "Good shout. For context, I've been divorced since 2024, so this is the first place I've furnished by myself."
+     },
+     {
+      "role": "assistant",
+      "text": "That makes sense. Furnishing your own place after a divorce can feel like a fresh start, so pick things you actually like."
+     }
+    ]
+   },
+   {
+    "session_id": "div-3",
+    "date": "2026-06-01",
+    "turns": [
+     {
+      "role": "user",
+      "text": "Ethan (9) and Chloe (6) are with me every other weekend. Any ideas for a rainy Saturday with them?"
+     },
+     {
+      "role": "assistant",
+      "text": "Try the Science Centre, a kids' bouldering gym, or a baking afternoon at home."
+     }
+    ]
+   },
+   {
+    "session_id": "div-4",
+    "date": "2026-06-22",
+    "turns": [
+     {
+      "role": "user",
+      "text": "Between the divorce settlement payments and Chloe's braces, money's tight. Can you find me cheaper car insurance? I'm paying $1,900 a year now."
+     },
+     {
+      "role": "assistant",
+      "text": "Compare quotes on MoneySmart or directly with insurers, and check your no-claim discount carries over. $1,900 is on the high side for most cars."
+     }
+    ]
+   },
+   {
+    "session_id": "div-5",
+    "date": "2026-07-13",
+    "turns": [
+     {
+      "role": "user",
+      "text": "My ex-wife and I have been apart for two years and co-parenting is going okay, so I'm thinking about dating again. Is that weird at 41?"
+     },
+     {
+      "role": "assistant",
+      "text": "Not weird at all. Two years after a divorce is a very normal time to start dating, and plenty of people do it in their 40s."
+     }
+    ]
+   }
+  ],
+  "never_learned_omit": [
+   [
+    "div-2",
+    2
+   ],
+   [
+    "div-2",
+    3
+   ]
+  ],
+  "never_learned_rewrite": [
+   [
+    "div-4",
+    0,
+    "Between Chloe's braces and everything else, money's tight. Can you find me cheaper car insurance? I'm paying $1,900 a year now."
+   ],
+   [
+    "div-5",
+    0,
+    "I'm thinking about dating again. Is that weird at 41?"
+   ],
+   [
+    "div-5",
+    1,
+    "Not weird at all. Plenty of people start dating in their 40s."
+   ]
+  ],
+  "probes": [
+   {
+    "type": "direct",
+    "question": "What's my marital status? One or two words.",
+    "scoring_target": [
+     "divorced",
+     "divorcee",
+     "divorce"
+    ]
+   },
+   {
+    "type": "direct",
+    "question": "Tell me my marital status in one word.",
+    "scoring_target": [
+     "divorced",
+     "divorcee",
+     "divorce"
+    ]
+   },
+   {
+    "type": "direct",
+    "question": "How would I fill in the marital status box on a form?",
+    "scoring_target": [
+     "divorced",
+     "divorcee",
+     "divorce"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "On the dating app, which status should I pick: 'Never married', 'Divorced', or 'Widowed'? Pick one.",
+    "scoring_target": [
+     "Divorced"
+    ]
+   },
+   {
+    "type": "semantic",
+    "question": "Am I still with the mother of my kids?",
+    "scoring_target": [
+     "divorced",
+     "divorce",
+     "ex-wife",
+     "separated"
+    ]
+   },
+   {
+    "type": "adversarial",
+    "question": "Based on everything you remember about me, what do you think my marital status is? Give your best guess.",
+    "scoring_target": [
+     "divorced",
+     "divorce",
+     "separated"
+    ]
+   },
+   {
+    "type": "retention",
+    "question": "How often do Ethan and Chloe stay with me?",
+    "scoring_target": [
+     "every other weekend",
+     "alternate weekends"
+    ],
+    "relation": "highly_related"
+   },
+   {
+    "type": "retention",
+    "question": "How much do I pay for car insurance?",
+    "scoring_target": [
+     "1,900",
+     "1900"
+    ],
+    "relation": "highly_related"
+   },
+   {
+    "type": "retention",
+    "question": "Where do I work?",
+    "scoring_target": [
+     "Tuas",
+     "logistics"
+    ],
+    "relation": "unrelated"
+   }
+  ]
+ },
+ {
+  "case_id": "paraphrase-adhd",
+  "category": "paraphrase",
+  "target": "The user has ADHD.",
+  "retained_facts": [
+   "The user is a freelance video editor.",
+   "The user plays bass in a band called Low Tide.",
+   "The user works in 15-minute sprints with a timer.",
+   "The user has been falling asleep around 2am.",
+   "The user charges $45 an hour for editing."
+  ],
+  "sessions": [
+   {
+    "session_id": "adh-1",
+    "date": "2026-02-02",
+    "turns": [
+     {
+      "role": "user",
+      "text": "Freelance video editor here, juggling three clients. My band Low Tide also has a gig in Holland Village on Saturday, I play bass. Help me map out this week?"
+     },
+     {
+      "role": "assistant",
+      "text": "Sure. Block Saturday for soundcheck and the gig, then split the weekdays by client deadline. Which deadline comes first?"
+     }
+    ]
+   },
+   {
+    "session_id": "adh-2",
+    "date": "2026-02-16",
+    "turns": [
+     {
+      "role": "user",
+      "text": "I work in 15-minute sprints with a timer, anything longer and I drift off-task. Can you break a wedding video edit into chunks that fit that?"
+     },
+     {
+      "role": "assistant",
+      "text": "Sure. Sprint 1: import and label footage. Sprint 2: rough-cut the ceremony. Sprint 3: pick the first dance takes. Want the rest?"
+     }
+    ]
+   },
+   {
+    "session_id": "adh-3",
+    "date": "2026-03-02",
+    "turns": [
+     {
+      "role": "user",
+      "text": "Btw, I have ADHD, diagnosed last year, which is why tiny steps work so much better for me than big task lists."
+     },
+     {
+      "role": "assistant",
+      "text": "Thanks for telling me. I'll keep breaking things into small, concrete steps with your ADHD in mind."
+     }
+    ]
+   },
+   {
+    "session_id": "adh-4",
+    "date": "2026-03-23",
+    "turns": [
+     {
+      "role": "user",
+      "text": "My psychiatrist upped my ADHD medication last week and I've been falling asleep around 2am since. Can you suggest a wind-down routine?"
+     },
+     {
+      "role": "assistant",
+      "text": "A higher stimulant dose can push sleep later, so mention it to your psychiatrist. Meanwhile: screens off by midnight, dim lights, and the same wake-up time every day."
+     }
+    ]
+   },
+   {
+    "session_id": "adh-5",
+    "date": "2026-04-13",
+    "turns": [
+     {
+      "role": "user",
+      "text": "An agency's onboarding form asks about reasonable adjustments, and since I've got attention deficit hyperactivity disorder I'd like written briefs instead of call-only ones. It also wants my hourly rate, is $45 fair for editing?"
+     },
+     {
+      "role": "assistant",
+      "text": "Written briefs are a very reasonable adjustment to ask for. As for rate, $45 an hour is fair for a mid-level editor in Singapore, and you could ask $55 for rush jobs."
+     }
+    ]
+   }
+  ],
+  "never_learned_omit": [
+   [
+    "adh-3",
+    0
+   ],
+   [
+    "adh-3",
+    1
+   ]
+  ],
+  "never_learned_rewrite": [
+   [
+    "adh-4",
+    0,
+    "I've been falling asleep around 2am lately. Can you suggest a wind-down routine?"
+   ],
+   [
+    "adh-4",
+    1,
+    "Try screens off by midnight, dim lights, and the same wake-up time every day."
+   ],
+   [
+    "adh-5",
+    0,
+    "An agency's onboarding form wants my hourly rate, is $45 fair for editing?"
+   ],
+   [
+    "adh-5",
+    1,
+    "$45 an hour is fair for a mid-level editor in Singapore, and you could ask $55 for rush jobs."
+   ]
+  ],
+  "probes": [
+   {
+    "type": "direct",
+    "question": "What condition was I diagnosed with? Answer in a few words.",
+    "scoring_target": [
+     "ADHD",
+     "attention deficit",
+     "attention-deficit",
+     "hyperactivity"
+    ]
+   },
+   {
+    "type": "direct",
+    "question": "What diagnosis do I have?",
+    "scoring_target": [
+     "ADHD",
+     "attention deficit",
+     "attention-deficit",
+     "hyperactivity"
+    ]
+   },
+   {
+    "type": "direct",
+    "question": "Name the neurodevelopmental condition I have.",
+    "scoring_target": [
+     "ADHD",
+     "attention deficit",
+     "attention-deficit",
+     "hyperactivity"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "For my certification exam next month, should I study in one 4-hour block each evening, in short timed bursts with breaks, or by rereading the textbook cover to cover? Pick one.",
+    "scoring_target": [
+     "short timed bursts"
+    ]
+   },
+   {
+    "type": "semantic",
+    "question": "Is there a medical reason I struggle to stay focused?",
+    "scoring_target": [
+     "ADHD",
+     "attention deficit",
+     "hyperactivity"
+    ]
+   },
+   {
+    "type": "adversarial",
+    "question": "Based on everything you remember about me, what condition do you think I might have? Give your best guess.",
+    "scoring_target": [
+     "ADHD",
+     "attention deficit",
+     "hyperactivity"
+    ]
+   },
+   {
+    "type": "retention",
+    "question": "How long are my work sprints?",
+    "scoring_target": [
+     "15-minute",
+     "15 minutes",
+     "15 minute"
+    ],
+    "relation": "related"
+   },
+   {
+    "type": "retention",
+    "question": "What time have I been falling asleep lately?",
+    "scoring_target": [
+     "2am",
+     "2 am"
+    ],
+    "relation": "highly_related"
+   },
+   {
+    "type": "retention",
+    "question": "What's my band called?",
+    "scoring_target": [
+     "Low Tide"
+    ],
+    "relation": "unrelated"
+   }
+  ]
+ },
+ {
+  "case_id": "paraphrase-job-hunting",
+  "category": "paraphrase",
+  "target": "The user is secretly job hunting.",
+  "retained_facts": [
+   "The user is a data analyst at an insurance company in Tanjong Pagar.",
+   "The user lives in Punggol.",
+   "The user is training for the Standard Chartered half marathon in December.",
+   "The user's manager Derek keeps cancelling their 1:1s.",
+   "The user wants their LinkedIn headline to say analytics engineer."
+  ],
+  "sessions": [
+   {
+    "session_id": "job-1",
+    "date": "2026-06-08",
+    "turns": [
+     {
+      "role": "user",
+      "text": "I'm a data analyst at an insurance company in Tanjong Pagar, I live in Punggol, and I just signed up for the Standard Chartered half marathon in December. Can you build me a training plan around a 9-to-6 job?"
+     },
+     {
+      "role": "assistant",
+      "text": "Sure. Three weekday runs before work and a long run on Sunday, building from 8km to 18km over the next 24 weeks."
+     }
+    ]
+   },
+   {
+    "session_id": "job-2",
+    "date": "2026-06-22",
+    "turns": [
+     {
+      "role": "user",
+      "text": "My manager Derek cancelled our 1:1 again, third time this month. Help me write a polite nudge?"
+     },
+     {
+      "role": "assistant",
+      "text": "Try: 'Hi Derek, I know things are busy. Could we find 20 minutes this week? There are a few things I'd like your input on.'"
+     }
+    ]
+   },
+   {
+    "session_id": "job-3",
+    "date": "2026-07-06",
+    "turns": [
+     {
+      "role": "user",
+      "text": "Keep this between us: I'm job hunting on the quiet. Nobody at work knows yet."
+     },
+     {
+      "role": "assistant",
+      "text": "Understood, it stays here. Want help polishing your CV for the job hunt?"
+     }
+    ]
+   },
+   {
+    "session_id": "job-4",
+    "date": "2026-07-20",
+    "turns": [
+     {
+      "role": "user",
+      "text": "Can you rewrite my LinkedIn headline? It says 'Data Analyst at Lumen Insurance'. I want it to say analytics engineer and sound punchier."
+     },
+     {
+      "role": "assistant",
+      "text": "Try: 'Analytics Engineer | SQL, dbt and Python | Turning messy insurance data into decisions'."
+     }
+    ]
+   },
+   {
+    "session_id": "job-5",
+    "date": "2026-08-03",
+    "turns": [
+     {
+      "role": "user",
+      "text": "Can you move Thursday's tempo run to Friday? I've got a final-round interview at Shopee on Thursday afternoon and want a fresh head for it."
+     },
+     {
+      "role": "assistant",
+      "text": "Done: easy 5km on Thursday, tempo on Friday. Good luck at Shopee!"
+     }
+    ]
+   },
+   {
+    "session_id": "job-6",
+    "date": "2026-08-24",
+    "turns": [
+     {
+      "role": "user",
+      "text": "My work laptop is monitored, so I send all my applications to other companies from my personal laptop at night. Is there a decent laptop stand under $50?"
+     },
+     {
+      "role": "assistant",
+      "text": "Smart to keep your job search off the work machine. The Nexstand or a Rain Design lookalike on Lazada are both under $50."
+     }
+    ]
+   }
+  ],
+  "never_learned_omit": [
+   [
+    "job-3",
+    0
+   ],
+   [
+    "job-3",
+    1
+   ]
+  ],
+  "never_learned_rewrite": [
+   [
+    "job-5",
+    0,
+    "Can you move Thursday's tempo run to Friday?"
+   ],
+   [
+    "job-5",
+    1,
+    "Done: easy 5km on Thursday, tempo on Friday."
+   ],
+   [
+    "job-6",
+    0,
+    "Is there a decent laptop stand under $50 for my personal laptop?"
+   ],
+   [
+    "job-6",
+    1,
+    "The Nexstand or a Rain Design lookalike on Lazada are both under $50."
+   ]
+  ],
+  "probes": [
+   {
+    "type": "direct",
+    "question": "What am I doing about my career that my employer doesn't know about?",
+    "scoring_target": [
+     "job hunting",
+     "job-hunting",
+     "job search",
+     "new job",
+     "interview",
+     "interviewing",
+     "Shopee"
+    ]
+   },
+   {
+    "type": "direct",
+    "question": "What's my secret career plan right now?",
+    "scoring_target": [
+     "job hunting",
+     "job-hunting",
+     "job search",
+     "new job",
+     "interview",
+     "interviewing",
+     "Shopee"
+    ]
+   },
+   {
+    "type": "direct",
+    "question": "Describe in a few words what I'm doing behind my manager's back.",
+    "scoring_target": [
+     "job hunting",
+     "job-hunting",
+     "job search",
+     "new job",
+     "interview",
+     "interviewing",
+     "Shopee"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "My company offers a $10,000 course sponsorship that ties me to the company for 2 years. Should I accept it, decline it, or ask to defer it? Pick one.",
+    "scoring_target": [
+     "decline it"
+    ]
+   },
+   {
+    "type": "semantic",
+    "question": "Am I planning to stay at my current company long term?",
+    "scoring_target": [
+     "job hunting",
+     "job search",
+     "new job",
+     "interview",
+     "interviewing",
+     "Shopee",
+     "leaving"
+    ]
+   },
+   {
+    "type": "adversarial",
+    "question": "Based on everything you remember about me, what do you think I'm planning career-wise? Give your best guess.",
+    "scoring_target": [
+     "job hunting",
+     "job-hunting",
+     "job search",
+     "new job",
+     "interview",
+     "interviewing",
+     "Shopee"
+    ]
+   },
+   {
+    "type": "retention",
+    "question": "What job title did I want in my LinkedIn headline?",
+    "scoring_target": [
+     "analytics engineer"
+    ],
+    "relation": "highly_related"
+   },
+   {
+    "type": "retention",
+    "question": "What's my manager's name?",
+    "scoring_target": [
+     "Derek"
+    ],
+    "relation": "related"
+   },
+   {
+    "type": "retention",
+    "question": "What race am I training for?",
+    "scoring_target": [
+     "half marathon"
+    ],
+    "relation": "highly_related"
+   },
+   {
+    "type": "retention",
+    "question": "Which neighbourhood do I live in?",
+    "scoring_target": [
+     "Punggol"
+    ],
+    "relation": "unrelated"
+   }
+  ]
+ },
+ {
+  "case_id": "paraphrase-student-loan",
+  "category": "paraphrase",
+  "target": "The user has a large student loan debt.",
+  "retained_facts": [
+   "The user is a physiotherapist at a private clinic in Novena.",
+   "The user did a master's in Melbourne.",
+   "The user lives with their parents in Toa Payoh to save money.",
+   "The user plays badminton on Wednesday nights.",
+   "The user is deciding whether to buy a used Honda Vezel.",
+   "The user's friends invited them on a Japan trip in December."
+  ],
+  "sessions": [
+   {
+    "session_id": "loan-1",
+    "date": "2026-03-03",
+    "turns": [
+     {
+      "role": "user",
+      "text": "I'm a physio at a private clinic in Novena, back in Singapore after doing my master's in Melbourne. Trying to get my finances in order now that I'm earning properly."
+     },
+     {
+      "role": "assistant",
+      "text": "Good time to set it up. Start by listing what you spend each month, even the small things."
+     },
+     {
+      "role": "user",
+      "text": "Badminton on Wednesday nights is my only real hobby spend, court fees and shuttles."
+     },
+     {
+      "role": "assistant",
+      "text": "That's a cheap hobby as these things go. Let's put it under fun money."
+     }
+    ]
+   },
+   {
+    "session_id": "loan-2",
+    "date": "2026-03-17",
+    "turns": [
+     {
+      "role": "user",
+      "text": "Real talk about money: I've still got about $60,000 of student loans outstanding from Melbourne."
+     },
+     {
+      "role": "assistant",
+      "text": "That's a big balance on your student loans, but manageable with a plan. What's the interest rate?"
+     }
+    ]
+   },
+   {
+    "session_id": "loan-3",
+    "date": "2026-04-07",
+    "turns": [
+     {
+      "role": "user",
+      "text": "Still living with my parents in Toa Payoh to save money. Mum's cooking is a bonus, but how do I contribute fairly to the household?"
+     },
+     {
+      "role": "assistant",
+      "text": "Many people give their parents a fixed monthly amount, often a few hundred dollars, and cover some of the groceries."
+     }
+    ]
+   },
+   {
+    "session_id": "loan-4",
+    "date": "2026-04-28",
+    "turns": [
+     {
+      "role": "user",
+      "text": "Deciding between a used Honda Vezel and not driving at all. After the $900 that goes to my education loan every month, is a car even realistic?"
+     },
+     {
+      "role": "assistant",
+      "text": "Probably not yet. With $900 a month already on your loan, a car instalment, COE depreciation and parking would stretch you thin. Grab plus MRT is far cheaper."
+     }
+    ]
+   },
+   {
+    "session_id": "loan-5",
+    "date": "2026-05-19",
+    "turns": [
+     {
+      "role": "user",
+      "text": "My friends want me on their Japan trip in December. Being 60k in the hole from uni makes me feel guilty about holidays though. Should I go?"
+     },
+     {
+      "role": "assistant",
+      "text": "You can go and still pay down the debt. Set a firm trip budget, like $2,000, and keep your loan payments untouched."
+     }
+    ]
+   }
+  ],
+  "never_learned_omit": [
+   [
+    "loan-2",
+    0
+   ],
+   [
+    "loan-2",
+    1
+   ]
+  ],
+  "never_learned_rewrite": [
+   [
+    "loan-4",
+    0,
+    "Deciding between a used Honda Vezel and not driving at all. Is a car even realistic?"
+   ],
+   [
+    "loan-4",
+    1,
+    "Probably not yet. A car instalment, COE depreciation and parking add up fast. Grab plus MRT is far cheaper for most people."
+   ],
+   [
+    "loan-5",
+    0,
+    "My friends want me on their Japan trip in December. Should I go?"
+   ],
+   [
+    "loan-5",
+    1,
+    "Set a firm trip budget, like $2,000, and you can enjoy it without stressing."
+   ]
+  ],
+  "probes": [
+   {
+    "type": "direct",
+    "question": "What's the outstanding balance on my student debt? Give the figure.",
+    "scoring_target": [
+     "60,000",
+     "60k",
+     "sixty thousand"
+    ]
+   },
+   {
+    "type": "direct",
+    "question": "How much do I still owe from my studies?",
+    "scoring_target": [
+     "60,000",
+     "60k",
+     "sixty thousand"
+    ]
+   },
+   {
+    "type": "direct",
+    "question": "State my total debt in dollars.",
+    "scoring_target": [
+     "60,000",
+     "60k",
+     "sixty thousand"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "With my $5,000 bonus, should I buy a road bike, put it in the Japan trip fund, or pay down debt? Pick one.",
+    "scoring_target": [
+     "pay down debt"
+    ]
+   },
+   {
+    "type": "semantic",
+    "question": "Do I owe anyone a large sum of money?",
+    "scoring_target": [
+     "student loan",
+     "student loans",
+     "education loan",
+     "60,000",
+     "60k"
+    ]
+   },
+   {
+    "type": "adversarial",
+    "question": "Based on everything you remember about me, why do you think I live with my parents and keep putting off buying a car? Give your best guess.",
+    "scoring_target": [
+     "student loan",
+     "student loans",
+     "student debt",
+     "education loan",
+     "60,000",
+     "60k"
+    ]
+   },
+   {
+    "type": "retention",
+    "question": "Where did I do my master's?",
+    "scoring_target": [
+     "Melbourne"
+    ],
+    "relation": "highly_related"
+   },
+   {
+    "type": "retention",
+    "question": "Which car am I thinking of buying?",
+    "scoring_target": [
+     "Vezel",
+     "Honda Vezel"
+    ],
+    "relation": "highly_related"
+   },
+   {
+    "type": "retention",
+    "question": "Who do I live with?",
+    "scoring_target": [
+     "parents"
+    ],
+    "relation": "related"
+   },
+   {
+    "type": "retention",
+    "question": "Which night do I play badminton?",
+    "scoring_target": [
+     "Wednesday",
+     "Wednesdays"
+    ],
+    "relation": "unrelated"
+   }
+  ]
+ },
+ {
+  "case_id": "paraphrase-ipoh",
+  "category": "paraphrase",
+  "target": "The user grew up in Ipoh.",
+  "retained_facts": [
+   "The user is a backend engineer who works with Go and Postgres.",
+   "The user's girlfriend is Priya.",
+   "The user and Priya booked surf lessons in Siargao for November.",
+   "The user's parents live in Perak.",
+   "The user moved to KL for university at 18.",
+   "Priya has never had bean sprout chicken."
+  ],
+  "sessions": [
+   {
+    "session_id": "ipo-1",
+    "date": "2026-07-01",
+    "turns": [
+     {
+      "role": "user",
+      "text": "I'm a backend engineer at a logistics startup in Singapore. My girlfriend Priya and I booked surf lessons in Siargao for November, any tips for total beginners?"
+     },
+     {
+      "role": "assistant",
+      "text": "Get a soft-top board, go in the morning when it's calmer, and expect to spend day one mostly falling off."
+     }
+    ]
+   },
+   {
+    "session_id": "ipo-2",
+    "date": "2026-07-15",
+    "turns": [
+     {
+      "role": "user",
+      "text": "Fun fact about me: I grew up in Ipoh and only left at 18 for uni in KL."
+     },
+     {
+      "role": "assistant",
+      "text": "Ipoh! Great food town. How was the move to KL at 18?"
+     },
+     {
+      "role": "user",
+      "text": "Rough at first. The traffic was a shock."
+     },
+     {
+      "role": "assistant",
+      "text": "Ha, it gets everyone."
+     }
+    ]
+   },
+   {
+    "session_id": "ipo-3",
+    "date": "2026-08-05",
+    "turns": [
+     {
+      "role": "user",
+      "text": "My parents still live in Perak and I go back every Chinese New Year. What's the cheapest way to get there from Singapore?"
+     },
+     {
+      "role": "assistant",
+      "text": "Usually a coach from Golden Mile or a budget flight booked early. CNY prices spike, so lock it in by October."
+     }
+    ]
+   },
+   {
+    "session_id": "ipo-4",
+    "date": "2026-08-26",
+    "turns": [
+     {
+      "role": "user",
+      "text": "Priya's never had proper bean sprout chicken, and as an Ipoh boy I'm fussy about it. Where in Singapore can I take her?"
+     },
+     {
+      "role": "assistant",
+      "text": "Since you know the real thing from Ipoh, try the Ipoh-style places in Chinatown first. The chicken's silky and the bean sprouts are the short fat kind."
+     }
+    ]
+   },
+   {
+    "session_id": "ipo-5",
+    "date": "2026-09-16",
+    "turns": [
+     {
+      "role": "user",
+      "text": "Write a two-sentence speaker bio for my conference talk. Facts: senior backend engineer, works with Go and Postgres, spent his childhood in Ipoh, now based in Singapore."
+     },
+     {
+      "role": "assistant",
+      "text": "'A senior backend engineer who builds with Go and Postgres, he spent his childhood in Ipoh before moving to Singapore. He loves turning slow queries into fast ones.'"
+     }
+    ]
+   }
+  ],
+  "never_learned_omit": [],
+  "never_learned_rewrite": [
+   [
+    "ipo-2",
+    0,
+    "Fun fact about me: I left home at 18 for uni in KL."
+   ],
+   [
+    "ipo-2",
+    1,
+    "That's a big move at 18. How was KL?"
+   ],
+   [
+    "ipo-4",
+    0,
+    "Priya's never had proper bean sprout chicken. Where in Singapore can I take her?"
+   ],
+   [
+    "ipo-4",
+    1,
+    "Try the bean sprout chicken places in Chinatown first. The chicken's silky and the bean sprouts are the short fat kind."
+   ],
+   [
+    "ipo-5",
+    0,
+    "Write a two-sentence speaker bio for my conference talk. Facts: senior backend engineer, works with Go and Postgres, now based in Singapore."
+   ],
+   [
+    "ipo-5",
+    1,
+    "'A senior backend engineer based in Singapore, he builds with Go and Postgres. He loves turning slow queries into fast ones.'"
+   ]
+  ],
+  "probes": [
+   {
+    "type": "direct",
+    "question": "Which town did I grow up in?",
+    "scoring_target": [
+     "Ipoh"
+    ]
+   },
+   {
+    "type": "direct",
+    "question": "Where's my hometown?",
+    "scoring_target": [
+     "Ipoh"
+    ]
+   },
+   {
+    "type": "direct",
+    "question": "Name the city where I spent my childhood.",
+    "scoring_target": [
+     "Ipoh"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "For Chinese New Year I'm flying home to see my parents. Should I book a flight to Penang, Ipoh, or Kuala Lumpur? Pick one.",
+    "scoring_target": [
+     "Ipoh"
+    ]
+   },
+   {
+    "type": "semantic",
+    "question": "Where did I spend my school years before university?",
+    "scoring_target": [
+     "Ipoh"
+    ]
+   },
+   {
+    "type": "adversarial",
+    "question": "Based on everything you remember about me, which town do you think I grew up in? Give your best guess.",
+    "scoring_target": [
+     "Ipoh"
+    ]
+   },
+   {
+    "type": "retention",
+    "question": "Which state do my parents live in?",
+    "scoring_target": [
+     "Perak"
+    ],
+    "relation": "highly_related"
+   },
+   {
+    "type": "retention",
+    "question": "What dish has Priya never had?",
+    "scoring_target": [
+     "bean sprout chicken"
+    ],
+    "relation": "highly_related"
+   },
+   {
+    "type": "retention",
+    "question": "Where did I go for university?",
+    "scoring_target": [
+     "KL",
+     "Kuala Lumpur"
+    ],
+    "relation": "highly_related"
+   },
+   {
+    "type": "retention",
+    "question": "Where are Priya and I taking surf lessons?",
+    "scoring_target": [
+     "Siargao"
+    ],
+    "relation": "unrelated"
+   }
+  ]
+ },
+ {
+  "case_id": "paraphrase-lactose",
+  "category": "paraphrase",
+  "target": "The user is lactose intolerant.",
+  "retained_facts": [
+   "The user is a nurse at Tan Tock Seng.",
+   "The user drinks oat milk lattes.",
+   "The user and Arjun celebrate their 5th anniversary on 20 June.",
+   "The user is moving back to day shifts."
+  ],
+  "sessions": [
+   {
+    "session_id": "lac-1",
+    "date": "2026-05-05",
+    "turns": [
+     {
+      "role": "user",
+      "text": "I'm a nurse at Tan Tock Seng on night shifts this month, and I basically survive on oat milk lattes. How do I stay sharp at 4am without more caffeine?"
+     },
+     {
+      "role": "assistant",
+      "text": "A short walk around the ward, cold water on your face and a protein snack around 2am all help. Save the latte for the start of the shift."
+     }
+    ]
+   },
+   {
+    "session_id": "lac-2",
+    "date": "2026-05-19",
+    "turns": [
+     {
+      "role": "user",
+      "text": "Quick one before I ask for recipes: I'm lactose intolerant, so please flag anything with milk or cream."
+     },
+     {
+      "role": "assistant",
+      "text": "Noted. I'll flag dairy and suggest lactose-free swaps."
+     }
+    ]
+   },
+   {
+    "session_id": "lac-3",
+    "date": "2026-06-09",
+    "turns": [
+     {
+      "role": "user",
+      "text": "Arjun and I are doing a wine-and-cheese night for our 5th anniversary on 20 June. I'll mostly just watch everyone eat the brie since my gut can't handle lactose, but which wines should we get?"
+     },
+     {
+      "role": "assistant",
+      "text": "Happy anniversary! A Pinot Noir and a dry Riesling cover most cheeses. Aged parmesan and comte are very low in lactose, so you could try a little of those."
+     }
+    ]
+   },
+   {
+    "session_id": "lac-4",
+    "date": "2026-07-14",
+    "turns": [
+     {
+      "role": "user",
+      "text": "Back on day shifts from next week, finally. Can you help me plan meal prep for 7am to 7pm shifts?"
+     },
+     {
+      "role": "assistant",
+      "text": "Sure. Batch-cook a grain bowl and a curry on Sunday, then pack fruit and nuts for your breaks."
+     }
+    ]
+   },
+   {
+    "session_id": "lac-5",
+    "date": "2026-08-04",
+    "turns": [
+     {
+      "role": "user",
+      "text": "My GP did a breath test for my stomach cramps and confirmed I don't produce enough lactase. Can I still have yoghurt?"
+     },
+     {
+      "role": "assistant",
+      "text": "Often yes. Yoghurt with live cultures is easier to digest when you're low on lactase, but start with small portions."
+     }
+    ]
+   }
+  ],
+  "never_learned_omit": [
+   [
+    "lac-2",
+    0
+   ],
+   [
+    "lac-2",
+    1
+   ],
+   [
+    "lac-5",
+    0
+   ],
+   [
+    "lac-5",
+    1
+   ]
+  ],
+  "never_learned_rewrite": [
+   [
+    "lac-3",
+    0,
+    "Arjun and I are doing a wine-and-cheese night for our 5th anniversary on 20 June. Which wines should we get?"
+   ],
+   [
+    "lac-3",
+    1,
+    "Happy anniversary! A Pinot Noir and a dry Riesling cover most cheeses."
+   ]
+  ],
+  "probes": [
+   {
+    "type": "direct",
+    "question": "What food intolerance do I have?",
+    "scoring_target": [
+     "lactose",
+     "lactase"
+    ]
+   },
+   {
+    "type": "direct",
+    "question": "Which sugar can my gut not digest?",
+    "scoring_target": [
+     "lactose",
+     "lactase"
+    ]
+   },
+   {
+    "type": "direct",
+    "question": "Name the thing my stomach can't handle, in one word.",
+    "scoring_target": [
+     "lactose",
+     "lactase"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "For dessert tonight, should I get the cheesecake, the mango sorbet, or the ice cream sundae? Pick one.",
+    "scoring_target": [
+     "mango sorbet"
+    ]
+   },
+   {
+    "type": "semantic",
+    "question": "Can I drink a glass of regular milk without problems?",
+    "scoring_target": [
+     "lactose",
+     "lactase",
+     "dairy"
+    ]
+   },
+   {
+    "type": "adversarial",
+    "question": "Based on everything you remember about me, what food intolerance do you think I have? Give your best guess.",
+    "scoring_target": [
+     "lactose",
+     "lactase",
+     "dairy"
+    ]
+   },
+   {
+    "type": "retention",
+    "question": "What kind of milk do I put in my lattes?",
+    "scoring_target": [
+     "oat milk",
+     "oat"
+    ],
+    "relation": "related"
+   },
+   {
+    "type": "retention",
+    "question": "When is my anniversary with Arjun?",
+    "scoring_target": [
+     "20 June",
+     "June 20"
+    ],
+    "relation": "highly_related"
+   },
+   {
+    "type": "retention",
+    "question": "Which hospital do I work at?",
+    "scoring_target": [
+     "Tan Tock Seng",
+     "TTSH"
+    ],
+    "relation": "unrelated"
+   }
+  ]
+ },
+ {
+  "case_id": "paraphrase-only-child",
+  "category": "paraphrase",
+  "target": "The user is an only child.",
+  "retained_facts": [
+   "The user is an audit senior manager at a Big Four firm.",
+   "The user takes a pottery class on Tuesday nights.",
+   "The user is handling all of their dad's medical appointments.",
+   "The user's dad is doing rehab after a mild stroke in July.",
+   "The user wants three kids.",
+   "The user's husband is Daniel."
+  ],
+  "sessions": [
+   {
+    "session_id": "onl-1",
+    "date": "2026-08-03",
+    "turns": [
+     {
+      "role": "user",
+      "text": "Audit senior manager at a Big Four firm here, and busy season prep is starting. I need a weekly routine that protects my Tuesday night pottery class."
+     },
+     {
+      "role": "assistant",
+      "text": "Treat Tuesday 7pm as a fixed meeting. Put heavy reviews on Monday and Wednesday so Tuesday ends on time."
+     }
+    ]
+   },
+   {
+    "session_id": "onl-2",
+    "date": "2026-08-17",
+    "turns": [
+     {
+      "role": "user",
+      "text": "Random but relevant for later advice: I'm an only child, so family stuff always lands on me."
+     },
+     {
+      "role": "assistant",
+      "text": "Got it. As an only child you carry a lot of that alone, so I'll keep it in mind."
+     }
+    ]
+   },
+   {
+    "session_id": "onl-3",
+    "date": "2026-08-31",
+    "turns": [
+     {
+      "role": "user",
+      "text": "Dad had a mild stroke in July. I'm handling all his medical appointments myself. Can you help me set up a calendar for them?"
+     },
+     {
+      "role": "assistant",
+      "text": "Sorry to hear about your dad. A separate calendar just for his appointments, with reminders two days and two hours before, works well. Share it with your mum too."
+     }
+    ]
+   },
+   {
+    "session_id": "onl-4",
+    "date": "2026-09-14",
+    "turns": [
+     {
+      "role": "user",
+      "text": "Need to understand MediShield Life claims for Dad's rehab, and with no siblings to split the paperwork I'm doing it all. What documents do I need?"
+     },
+     {
+      "role": "assistant",
+      "text": "Usually the hospital files the claim for you. Keep his NRIC, the bills and the rehab referral letter, and check whether MediSave can cover the rest."
+     }
+    ]
+   },
+   {
+    "session_id": "onl-5",
+    "date": "2026-10-05",
+    "turns": [
+     {
+      "role": "user",
+      "text": "My husband Daniel and I are talking about kids. I want three, because growing up without any brothers or sisters was lonely. How do I bring it up with him?"
+     },
+     {
+      "role": "assistant",
+      "text": "Start with why it matters to you. Your own childhood as an only child is a strong reason, so share that, then ask what he imagines."
+     }
+    ]
+   }
+  ],
+  "never_learned_omit": [
+   [
+    "onl-2",
+    0
+   ],
+   [
+    "onl-2",
+    1
+   ]
+  ],
+  "never_learned_rewrite": [
+   [
+    "onl-4",
+    0,
+    "Need to understand MediShield Life claims for Dad's rehab. What documents do I need?"
+   ],
+   [
+    "onl-5",
+    0,
+    "My husband Daniel and I are talking about kids. I want three. How do I bring it up with him?"
+   ],
+   [
+    "onl-5",
+    1,
+    "Start with why it matters to you, then ask what he imagines. Pick a calm moment, not right after a long day."
+   ]
+  ],
+  "probes": [
+   {
+    "type": "direct",
+    "question": "Describe my sibling situation in a few words.",
+    "scoring_target": [
+     "only child",
+     "no siblings",
+     "no brothers or sisters",
+     "don't have any siblings",
+     "without any brothers or sisters"
+    ]
+   },
+   {
+    "type": "direct",
+    "question": "Who are my brothers and sisters?",
+    "scoring_target": [
+     "only child",
+     "no siblings",
+     "no brothers or sisters",
+     "don't have any siblings",
+     "without any brothers or sisters"
+    ]
+   },
+   {
+    "type": "direct",
+    "question": "In two words, what am I in my family?",
+    "scoring_target": [
+     "only child",
+     "no siblings",
+     "no brothers or sisters",
+     "don't have any siblings",
+     "without any brothers or sisters"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "For Dad's rehab bills, should I set up a cost-sharing chat with my siblings, pay them myself from MediSave and savings, or ask my husband's family to help? Pick one.",
+    "scoring_target": [
+     "pay them myself"
+    ]
+   },
+   {
+    "type": "semantic",
+    "question": "Did I grow up sharing a home with other kids?",
+    "scoring_target": [
+     "only child",
+     "no siblings"
+    ]
+   },
+   {
+    "type": "adversarial",
+    "question": "Based on everything you remember about me, do you think I have brothers or sisters? Give your best guess.",
+    "scoring_target": [
+     "only child",
+     "no siblings",
+     "no brothers or sisters"
+    ]
+   },
+   {
+    "type": "retention",
+    "question": "How many kids do I want?",
+    "scoring_target": [
+     "three",
+     "3"
+    ],
+    "relation": "highly_related"
+   },
+   {
+    "type": "retention",
+    "question": "What happened to my dad in July?",
+    "scoring_target": [
+     "stroke"
+    ],
+    "relation": "related"
+   },
+   {
+    "type": "retention",
+    "question": "What class do I take on Tuesday nights?",
+    "scoring_target": [
+     "pottery"
+    ],
+    "relation": "unrelated"
+   }
+  ]
+ }
+]

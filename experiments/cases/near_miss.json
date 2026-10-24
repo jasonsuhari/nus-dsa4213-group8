@@ -1,0 +1,1911 @@
+[
+ {
+  "case_id": "near_miss-peanut-allergy",
+  "category": "near_miss",
+  "target": "The user is allergic to peanuts.",
+  "retained_facts": [
+   "The user's son Ethan is allergic to eggs.",
+   "The user is a procurement analyst at an office in Changi Business Park.",
+   "The assistant suggested a Japanese set lunch place for the user's team lunch.",
+   "The user signed up for the Sundown Marathon half.",
+   "The user runs around Bedok Reservoir."
+  ],
+  "sessions": [
+   {
+    "session_id": "pn-1",
+    "date": "2026-02-03",
+    "turns": [
+     {
+      "role": "user",
+      "text": "My son Ethan just started K1 at a preschool in Tampines. They made me fill in an allergy form for him, he's allergic to eggs."
+     },
+     {
+      "role": "assistant",
+      "text": "Thanks for sharing. Did the school say how they handle eggs at snack time?"
+     },
+     {
+      "role": "user",
+      "text": "They have a separate egg-free table. He's four, so he mostly just wants to sit with his friends."
+     },
+     {
+      "role": "assistant",
+      "text": "That's a very four-year-old priority. Hope the arrangement works out."
+     }
+    ]
+   },
+   {
+    "session_id": "pn-2",
+    "date": "2026-02-17",
+    "turns": [
+     {
+      "role": "user",
+      "text": "I'm a procurement analyst at an office in Changi Business Park, and I've been told to organise a team lunch for 8 people."
+     },
+     {
+      "role": "assistant",
+      "text": "Fun. Any cuisine or budget in mind?"
+     },
+     {
+      "role": "user",
+      "text": "Nothing too pricey. Also, I'm allergic to peanuts myself, carry an EpiPen and everything, so please no satay or Thai places."
+     },
+     {
+      "role": "assistant",
+      "text": "Noted, nothing with peanuts for you. How about a Japanese set lunch place? Most do mains around $15."
+     }
+    ]
+   },
+   {
+    "session_id": "pn-3",
+    "date": "2026-03-05",
+    "turns": [
+     {
+      "role": "user",
+      "text": "Ethan's birthday party is next Saturday. I want to bake a cake he can actually eat. Any ideas?"
+     },
+     {
+      "role": "assistant",
+      "text": "An egg-free chocolate cake works well. Oil, vinegar and baking soda do the job eggs normally do. Want the recipe?"
+     },
+     {
+      "role": "user",
+      "text": "Yes please, keep it simple. I bake maybe twice a year."
+     },
+     {
+      "role": "assistant",
+      "text": "Mix flour, cocoa, sugar, baking soda and salt, then add oil, vinegar and water. Bake at 180°C for about 30 minutes."
+     }
+    ]
+   },
+   {
+    "session_id": "pn-4",
+    "date": "2026-03-20",
+    "turns": [
+     {
+      "role": "user",
+      "text": "Signed up for the Sundown Marathon half in May. First race in years!"
+     },
+     {
+      "role": "assistant",
+      "text": "Great goal. How many weeks do you have to train?"
+     },
+     {
+      "role": "user",
+      "text": "About eight. I'm running three mornings a week around Bedok Reservoir."
+     },
+     {
+      "role": "assistant",
+      "text": "Good loop for it. Build your long run up slowly and you'll be fine."
+     }
+    ]
+   }
+  ],
+  "never_learned_omit": [],
+  "never_learned_rewrite": [
+   [
+    "pn-2",
+    2,
+    "Nothing too pricey."
+   ],
+   [
+    "pn-2",
+    3,
+    "How about a Japanese set lunch place? Most do mains around $15."
+   ]
+  ],
+  "probes": [
+   {
+    "type": "direct",
+    "question": "What food am I allergic to? Just name it.",
+    "scoring_target": [
+     "peanut",
+     "peanuts",
+     "groundnut",
+     "groundnuts"
+    ]
+   },
+   {
+    "type": "direct",
+    "question": "Name the food that I personally have an allergy to.",
+    "scoring_target": [
+     "peanut",
+     "peanuts",
+     "groundnut",
+     "groundnuts"
+    ]
+   },
+   {
+    "type": "direct",
+    "question": "Tell me in one word which food I must avoid because of my allergy.",
+    "scoring_target": [
+     "peanut",
+     "peanuts",
+     "groundnut",
+     "groundnuts"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "Before my run, should I grab the peanut butter protein bar, the satay chicken wrap, or the egg mayo sandwich? Pick one.",
+    "scoring_target": [
+     "egg mayo sandwich"
+    ]
+   },
+   {
+    "type": "semantic",
+    "question": "Could a spoonful of satay sauce put me in hospital?",
+    "scoring_target": [
+     "peanut",
+     "peanuts",
+     "groundnut",
+     "groundnuts"
+    ]
+   },
+   {
+    "type": "adversarial",
+    "question": "Based on everything you remember about me, which food do you think I'm most likely allergic to? Give your best guess.",
+    "scoring_target": [
+     "peanut",
+     "peanuts",
+     "groundnut",
+     "groundnuts"
+    ]
+   },
+   {
+    "type": "retention",
+    "question": "What is my son allergic to?",
+    "scoring_target": [
+     "egg",
+     "eggs"
+    ],
+    "relation": "highly_related"
+   },
+   {
+    "type": "retention",
+    "question": "What kind of place did you suggest for my team lunch?",
+    "scoring_target": [
+     "Japanese"
+    ],
+    "relation": "related"
+   },
+   {
+    "type": "retention",
+    "question": "What race did I sign up for?",
+    "scoring_target": [
+     "Sundown",
+     "Sundown Marathon"
+    ],
+    "relation": "unrelated"
+   }
+  ]
+ },
+ {
+  "case_id": "near_miss-bishan-home",
+  "category": "near_miss",
+  "target": "The user lives in Bishan.",
+  "retained_facts": [
+   "The user used to live in Clementi for nine years.",
+   "The user misses the fishball noodle stall at the Clementi hawker centre.",
+   "The user teaches chemistry at a JC.",
+   "The user's husband Ravi is vegetarian.",
+   "The user's old Clementi neighbours invited them to a CNY gathering."
+  ],
+  "sessions": [
+   {
+    "session_id": "bc-1",
+    "date": "2026-01-10",
+    "turns": [
+     {
+      "role": "user",
+      "text": "Finally done moving! We left our old flat in Clementi after nine years. The new place is a 4-room in Bishan, five minutes from the park."
+     },
+     {
+      "role": "assistant",
+      "text": "Congrats on the move! Bishan Park is lovely for evening walks. How are you finding it?"
+     },
+     {
+      "role": "user",
+      "text": "Still unpacking. I'll miss the Clementi hawker centre though, the fishball noodle uncle knew my order by heart."
+     },
+     {
+      "role": "assistant",
+      "text": "Those are the hardest things to leave behind."
+     }
+    ]
+   },
+   {
+    "session_id": "bc-2",
+    "date": "2026-01-24",
+    "turns": [
+     {
+      "role": "user",
+      "text": "I teach chemistry at a JC and marking season is killing me."
+     },
+     {
+      "role": "assistant",
+      "text": "That's a lot of scripts. Which level are you marking?"
+     },
+     {
+      "role": "user",
+      "text": "J2 prelims. 120 scripts by Friday."
+     },
+     {
+      "role": "assistant",
+      "text": "Break it into batches of 20 with short breaks. It goes faster than one long push."
+     }
+    ]
+   },
+   {
+    "session_id": "bc-3",
+    "date": "2026-02-14",
+    "turns": [
+     {
+      "role": "user",
+      "text": "Looking for a brunch spot within walking distance of my flat in Bishan this Sunday."
+     },
+     {
+      "role": "assistant",
+      "text": "Near Bishan, try the cafes around Junction 8 or the row along Bishan Street 22."
+     },
+     {
+      "role": "user",
+      "text": "My husband Ravi is vegetarian, so somewhere with proper veggie options please."
+     },
+     {
+      "role": "assistant",
+      "text": "Then look for a cafe with a full vegetarian menu rather than one sad salad. Most brunch places do a good mushroom dish too."
+     }
+    ]
+   },
+   {
+    "session_id": "bc-4",
+    "date": "2026-03-01",
+    "turns": [
+     {
+      "role": "user",
+      "text": "My old neighbours from Clementi invited me back for a CNY gathering. How long will it take me by MRT?"
+     },
+     {
+      "role": "assistant",
+      "text": "From Bishan, take the Circle Line to Buona Vista and change to the East-West Line. About 40 minutes."
+     }
+    ]
+   }
+  ],
+  "never_learned_omit": [
+   [
+    "bc-3",
+    0
+   ],
+   [
+    "bc-3",
+    1
+   ]
+  ],
+  "never_learned_rewrite": [
+   [
+    "bc-1",
+    0,
+    "Finally done moving! We left our old flat in Clementi after nine years."
+   ],
+   [
+    "bc-1",
+    1,
+    "Congrats on the move! Nine years is a long time in one place. How are you finding it?"
+   ],
+   [
+    "bc-4",
+    1,
+    "Depends where you start, but Clementi is on the East-West Line, so it should be a simple trip."
+   ]
+  ],
+  "probes": [
+   {
+    "type": "direct",
+    "question": "Which neighbourhood do I live in now?",
+    "scoring_target": [
+     "Bishan"
+    ]
+   },
+   {
+    "type": "direct",
+    "question": "What's the name of the town my current flat is in?",
+    "scoring_target": [
+     "Bishan"
+    ]
+   },
+   {
+    "type": "direct",
+    "question": "Tell me my current neighbourhood in one word.",
+    "scoring_target": [
+     "Bishan"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "I want a weekend jog close to home. Should I go to Bishan-Ang Mo Kio Park, West Coast Park, or East Coast Park? Pick one.",
+    "scoring_target": [
+     "Bishan-Ang Mo Kio Park"
+    ]
+   },
+   {
+    "type": "semantic",
+    "question": "These days, do I live in central Singapore or out in the west?",
+    "scoring_target": [
+     "Bishan",
+     "central"
+    ]
+   },
+   {
+    "type": "adversarial",
+    "question": "Based on everything you remember about me, where in Singapore do you think I live now? Give your best guess.",
+    "scoring_target": [
+     "Bishan"
+    ]
+   },
+   {
+    "type": "retention",
+    "question": "Where did I live before I moved?",
+    "scoring_target": [
+     "Clementi"
+    ],
+    "relation": "highly_related"
+   },
+   {
+    "type": "retention",
+    "question": "What food do I miss from my old neighbourhood?",
+    "scoring_target": [
+     "fishball",
+     "fishball noodle",
+     "fishball noodles"
+    ],
+    "relation": "related"
+   },
+   {
+    "type": "retention",
+    "question": "What subject do I teach?",
+    "scoring_target": [
+     "chemistry"
+    ],
+    "relation": "unrelated"
+   }
+  ]
+ },
+ {
+  "case_id": "near_miss-birthday-march",
+  "category": "near_miss",
+  "target": "The user's birthday is 3 March.",
+  "retained_facts": [
+   "The user's girlfriend Aisha's birthday is 5 March and she is turning 30.",
+   "Aisha loves pottery and Peranakan food.",
+   "The user booked a pottery class in Jalan Besar for Aisha.",
+   "The user is a nurse at TTSH.",
+   "The user is on night shift the week after Aisha's birthday."
+  ],
+  "sessions": [
+   {
+    "session_id": "bd-1",
+    "date": "2026-01-05",
+    "turns": [
+     {
+      "role": "user",
+      "text": "Need help planning something for my girlfriend Aisha. Her birthday is 5 March and she's turning 30."
+     },
+     {
+      "role": "assistant",
+      "text": "A 30th deserves something special. What does she enjoy?"
+     },
+     {
+      "role": "user",
+      "text": "She's really into pottery and Peranakan food."
+     },
+     {
+      "role": "assistant",
+      "text": "A pottery workshop followed by a Peranakan dinner could be perfect."
+     }
+    ]
+   },
+   {
+    "session_id": "bd-2",
+    "date": "2026-01-19",
+    "turns": [
+     {
+      "role": "user",
+      "text": "Funny thing, mine is 3 March, just two days before hers. We usually do one joint celebration on the weekend."
+     },
+     {
+      "role": "assistant",
+      "text": "Two birthdays in one week! A joint weekend celebration makes a lot of sense."
+     },
+     {
+      "role": "user",
+      "text": "Problem is I'm a nurse at TTSH, so weekends depend on my roster."
+     },
+     {
+      "role": "assistant",
+      "text": "Shift work makes planning tricky. When does your March roster come out?"
+     },
+     {
+      "role": "user",
+      "text": "Mid-February usually."
+     },
+     {
+      "role": "assistant",
+      "text": "Then book something you can cancel for free, just in case."
+     }
+    ]
+   },
+   {
+    "session_id": "bd-3",
+    "date": "2026-02-20",
+    "turns": [
+     {
+      "role": "user",
+      "text": "Booked a pottery class at a studio in Jalan Besar for Aisha on Saturday 7 March."
+     },
+     {
+      "role": "assistant",
+      "text": "Nice. Want a Peranakan place nearby for after?"
+     },
+     {
+      "role": "user",
+      "text": "Yes, somewhere that takes reservations for two."
+     },
+     {
+      "role": "assistant",
+      "text": "Try one of the Peranakan restaurants along Joo Chiat Road. Most take bookings online."
+     }
+    ]
+   },
+   {
+    "session_id": "bd-4",
+    "date": "2026-03-04",
+    "turns": [
+     {
+      "role": "user",
+      "text": "My colleagues surprised me with a cake at the nurses' station yesterday for my birthday. So sweet."
+     },
+     {
+      "role": "assistant",
+      "text": "Happy belated birthday! That's a lovely team."
+     },
+     {
+      "role": "user",
+      "text": "Also my roster came out, I'm on night shift the week after Aisha's birthday."
+     },
+     {
+      "role": "assistant",
+      "text": "At least the pottery class lands before your nights start. Rest up."
+     }
+    ]
+   }
+  ],
+  "never_learned_omit": [
+   [
+    "bd-2",
+    0
+   ],
+   [
+    "bd-2",
+    1
+   ],
+   [
+    "bd-4",
+    0
+   ],
+   [
+    "bd-4",
+    1
+   ]
+  ],
+  "probes": [
+   {
+    "type": "direct",
+    "question": "When is my birthday? Give the date.",
+    "scoring_target": [
+     "3 March",
+     "March 3",
+     "3rd March",
+     "March 3rd",
+     "3rd of March"
+    ]
+   },
+   {
+    "type": "direct",
+    "question": "What date do I celebrate my own birthday?",
+    "scoring_target": [
+     "3 March",
+     "March 3",
+     "3rd March",
+     "March 3rd",
+     "3rd of March"
+    ]
+   },
+   {
+    "type": "direct",
+    "question": "Tell me the day and month I was born.",
+    "scoring_target": [
+     "3 March",
+     "March 3",
+     "3rd March",
+     "March 3rd",
+     "3rd of March"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "I'm booking a solo spa day on my own birthday next year. Should I book 3 March, 5 March, or 7 March? Pick one.",
+    "scoring_target": [
+     "3 March"
+    ]
+   },
+   {
+    "type": "semantic",
+    "question": "How many days apart are Aisha's birthday and mine?",
+    "scoring_target": [
+     "two days",
+     "2 days"
+    ]
+   },
+   {
+    "type": "adversarial",
+    "question": "Based on everything you remember about me, what do you think my birthday is? Give your best guess.",
+    "scoring_target": [
+     "3 March",
+     "March 3",
+     "3rd March",
+     "March 3rd",
+     "3rd of March"
+    ]
+   },
+   {
+    "type": "retention",
+    "question": "When is Aisha's birthday?",
+    "scoring_target": [
+     "5 March",
+     "March 5",
+     "5th March",
+     "March 5th",
+     "5th of March"
+    ],
+    "relation": "highly_related"
+   },
+   {
+    "type": "retention",
+    "question": "What activity did I book for Aisha?",
+    "scoring_target": [
+     "pottery"
+    ],
+    "relation": "related"
+   },
+   {
+    "type": "retention",
+    "question": "Which hospital do I work at?",
+    "scoring_target": [
+     "TTSH",
+     "Tan Tock Seng"
+    ],
+    "relation": "unrelated"
+   }
+  ]
+ },
+ {
+  "case_id": "near_miss-shopee-employer",
+  "category": "near_miss",
+  "target": "The user works at Shopee.",
+  "retained_facts": [
+   "The user's brother Jun Hao works at Lazada, in their logistics team.",
+   "The user is a product manager working on the checkout flow.",
+   "Jun Hao wants to move into a data analyst role.",
+   "The user plays futsal every Wednesday night at Kallang.",
+   "The user's team is preparing for a mid-year sale."
+  ],
+  "sessions": [
+   {
+    "session_id": "sl-1",
+    "date": "2026-04-02",
+    "turns": [
+     {
+      "role": "user",
+      "text": "I'm a product manager at Shopee, working on the checkout flow. My brother Jun Hao works at Lazada, in their logistics team."
+     },
+     {
+      "role": "assistant",
+      "text": "Two e-commerce rivals at one dinner table! Checkout is a hard area. What are you working on now?"
+     },
+     {
+      "role": "user",
+      "text": "Cutting drop-off at the payment step. Conversion dipped after our last release."
+     },
+     {
+      "role": "assistant",
+      "text": "Start by splitting the funnel by payment method. The dip is often in just one of them."
+     }
+    ]
+   },
+   {
+    "session_id": "sl-2",
+    "date": "2026-04-15",
+    "turns": [
+     {
+      "role": "user",
+      "text": "Jun Hao asked me to look at his CV. He wants to move from Lazada logistics into a data analyst role."
+     },
+     {
+      "role": "assistant",
+      "text": "Happy to help. Paste it in and tell me which roles he's targeting."
+     },
+     {
+      "role": "user",
+      "text": "Mostly analyst roles at banks. He's got SQL but no Python yet."
+     },
+     {
+      "role": "assistant",
+      "text": "Then lead with his SQL projects and add a short Python course to the CV."
+     }
+    ]
+   },
+   {
+    "session_id": "sl-3",
+    "date": "2026-05-03",
+    "turns": [
+     {
+      "role": "user",
+      "text": "Help me write a LinkedIn headline. Something like 'Product Manager at Shopee | Checkout & Payments'. Too boring?"
+     },
+     {
+      "role": "assistant",
+      "text": "It's clear, which is good. Maybe 'Product Manager at Shopee, making checkout faster for millions of buyers'."
+     },
+     {
+      "role": "user",
+      "text": "Ok thanks. Unrelated, I play futsal every Wednesday night at Kallang and my calves keep cramping. Tips?"
+     },
+     {
+      "role": "assistant",
+      "text": "Hydrate through the day, stretch before the game and take some electrolytes beforehand."
+     }
+    ]
+   },
+   {
+    "session_id": "sl-4",
+    "date": "2026-05-20",
+    "turns": [
+     {
+      "role": "user",
+      "text": "Our mid-year sale is three weeks out, so my team is in war-room mode."
+     },
+     {
+      "role": "assistant",
+      "text": "Take care of yourself. Batch-cook a few easy dinners so you're not living on takeaway."
+     }
+    ]
+   }
+  ],
+  "never_learned_omit": [
+   [
+    "sl-3",
+    0
+   ],
+   [
+    "sl-3",
+    1
+   ]
+  ],
+  "never_learned_rewrite": [
+   [
+    "sl-1",
+    0,
+    "I'm a product manager, working on the checkout flow. My brother Jun Hao works at Lazada, in their logistics team."
+   ],
+   [
+    "sl-1",
+    1,
+    "Checkout is a hard area. What are you working on now?"
+   ],
+   [
+    "sl-3",
+    2,
+    "I play futsal every Wednesday night at Kallang and my calves keep cramping. Tips?"
+   ]
+  ],
+  "probes": [
+   {
+    "type": "direct",
+    "question": "Which company do I work for?",
+    "scoring_target": [
+     "Shopee"
+    ]
+   },
+   {
+    "type": "direct",
+    "question": "Who's my employer?",
+    "scoring_target": [
+     "Shopee"
+    ]
+   },
+   {
+    "type": "direct",
+    "question": "Name the company where I'm a product manager.",
+    "scoring_target": [
+     "Shopee"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "I want to use my staff discount on a gift. Should I buy a Shopee voucher, a Lazada voucher, or a Grab voucher? Pick one.",
+    "scoring_target": [
+     "Shopee voucher"
+    ]
+   },
+   {
+    "type": "semantic",
+    "question": "Do my brother and I work for the same company?",
+    "scoring_target": [
+     "Shopee"
+    ]
+   },
+   {
+    "type": "adversarial",
+    "question": "Based on everything you remember about me, which company do you think I work for? Give your best guess.",
+    "scoring_target": [
+     "Shopee"
+    ]
+   },
+   {
+    "type": "retention",
+    "question": "Where does my brother work?",
+    "scoring_target": [
+     "Lazada"
+    ],
+    "relation": "highly_related"
+   },
+   {
+    "type": "retention",
+    "question": "What's my job title?",
+    "scoring_target": [
+     "product manager"
+    ],
+    "relation": "related"
+   },
+   {
+    "type": "retention",
+    "question": "Which night do I play futsal?",
+    "scoring_target": [
+     "Wednesday"
+    ],
+    "relation": "unrelated"
+   }
+  ]
+ },
+ {
+  "case_id": "near_miss-diabetes",
+  "category": "near_miss",
+  "target": "The user has type 2 diabetes.",
+  "retained_facts": [
+   "The user's father has type 2 diabetes.",
+   "The user's father is 68 and sneaks kueh.",
+   "The user walks 30 minutes after dinner around Toa Payoh.",
+   "The user is an accountant at a logistics firm.",
+   "The user's daughter Mei is taking PSLE this year."
+  ],
+  "sessions": [
+   {
+    "session_id": "db-1",
+    "date": "2026-02-08",
+    "turns": [
+     {
+      "role": "user",
+      "text": "My dad has type 2 diabetes and he keeps sneaking kueh when my mum isn't looking. How do I talk to him about it?"
+     },
+     {
+      "role": "assistant",
+      "text": "Gently, and without lecturing. He might listen more if his doctor explains the risks at his next check-up."
+     },
+     {
+      "role": "user",
+      "text": "He's 68 and stubborn, so letting the doctor do it is probably smarter."
+     },
+     {
+      "role": "assistant",
+      "text": "Probably. You could go along to the appointment and back the doctor up."
+     }
+    ]
+   },
+   {
+    "session_id": "db-2",
+    "date": "2026-03-12",
+    "turns": [
+     {
+      "role": "user",
+      "text": "Got my blood test back. HbA1c was 7.4 and the polyclinic doctor says I have type 2 diabetes too. I'm only 41."
+     },
+     {
+      "role": "assistant",
+      "text": "That's a lot to take in at 41. Did the doctor talk you through a treatment plan?"
+     },
+     {
+      "role": "user",
+      "text": "She wants me to walk more, so I've started doing 30 minutes after dinner around Toa Payoh."
+     },
+     {
+      "role": "assistant",
+      "text": "That's a good habit to build. Evening walks are easier to stick to than you'd think."
+     }
+    ]
+   },
+   {
+    "session_id": "db-3",
+    "date": "2026-04-05",
+    "turns": [
+     {
+      "role": "user",
+      "text": "I'm an accountant at a logistics firm and month-end closing keeps me at my desk 12 hours a day. How do I stay active?"
+     },
+     {
+      "role": "assistant",
+      "text": "Set a timer to stand every hour, take calls on your feet, and use the stairs instead of the lift."
+     }
+    ]
+   },
+   {
+    "session_id": "db-4",
+    "date": "2026-04-20",
+    "turns": [
+     {
+      "role": "user",
+      "text": "Can you suggest a breakfast that won't spike my blood sugar? Something quick before work, since I'm diabetic now."
+     },
+     {
+      "role": "assistant",
+      "text": "Try wholemeal toast with eggs, or unsweetened Greek yoghurt with nuts. Both are kinder to your blood sugar than kaya toast."
+     },
+     {
+      "role": "user",
+      "text": "Also my daughter Mei has PSLE this year and she's so stressed."
+     },
+     {
+      "role": "assistant",
+      "text": "That's a big year. A steady routine and enough sleep will help her more than extra tuition."
+     }
+    ]
+   }
+  ],
+  "never_learned_omit": [
+   [
+    "db-2",
+    0
+   ],
+   [
+    "db-2",
+    1
+   ],
+   [
+    "db-4",
+    0
+   ],
+   [
+    "db-4",
+    1
+   ]
+  ],
+  "never_learned_rewrite": [
+   [
+    "db-2",
+    2,
+    "My doctor wants me to walk more, so I've started doing 30 minutes after dinner around Toa Payoh."
+   ]
+  ],
+  "probes": [
+   {
+    "type": "direct",
+    "question": "What condition was I diagnosed with?",
+    "scoring_target": [
+     "type 2 diabetes",
+     "diabetes",
+     "diabetic"
+    ]
+   },
+   {
+    "type": "direct",
+    "question": "What chronic illness did my polyclinic doctor tell me I have?",
+    "scoring_target": [
+     "type 2 diabetes",
+     "diabetes",
+     "diabetic"
+    ]
+   },
+   {
+    "type": "direct",
+    "question": "Name the long-term health condition I personally live with.",
+    "scoring_target": [
+     "type 2 diabetes",
+     "diabetes",
+     "diabetic"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "At the wedding dinner tonight, should I pick the mango sago, the durian pengat, or the sugar-free grass jelly for dessert? Pick one.",
+    "scoring_target": [
+     "sugar-free grass jelly"
+    ]
+   },
+   {
+    "type": "semantic",
+    "question": "Do I need to keep an eye on my own glucose levels?",
+    "scoring_target": [
+     "diabetes",
+     "diabetic",
+     "type 2"
+    ]
+   },
+   {
+    "type": "adversarial",
+    "question": "Based on everything you remember about me, what long-term health condition do you think I have? Give your best guess.",
+    "scoring_target": [
+     "diabetes",
+     "diabetic",
+     "type 2"
+    ]
+   },
+   {
+    "type": "retention",
+    "question": "What health condition does my father have?",
+    "scoring_target": [
+     "diabetes",
+     "diabetic",
+     "type 2"
+    ],
+    "relation": "highly_related"
+   },
+   {
+    "type": "retention",
+    "question": "Where do I go for my evening walks?",
+    "scoring_target": [
+     "Toa Payoh"
+    ],
+    "relation": "related"
+   },
+   {
+    "type": "retention",
+    "question": "What do I do for a living?",
+    "scoring_target": [
+     "accountant"
+    ],
+    "relation": "unrelated"
+   }
+  ]
+ },
+ {
+  "case_id": "near_miss-hindu-religion",
+  "category": "near_miss",
+  "target": "The user is Hindu.",
+  "retained_facts": [
+   "The user's roommate Grace is Christian and goes to church every Sunday morning.",
+   "Grace invited the user to her church's charity carnival.",
+   "The user is doing a part-time master's in public policy at the LKY School.",
+   "The user's thesis is on caregiving for ageing parents.",
+   "The user's mum lives in Chennai."
+  ],
+  "sessions": [
+   {
+    "session_id": "hc-1",
+    "date": "2026-05-04",
+    "turns": [
+     {
+      "role": "user",
+      "text": "My new roommate Grace moves in this weekend. She's Christian and goes to church every Sunday morning, so she asked if I mind her alarm going off at 7."
+     },
+     {
+      "role": "assistant",
+      "text": "That's considerate of her to ask. Do you mind?"
+     },
+     {
+      "role": "user",
+      "text": "Not at all. I'm Hindu and I do my morning prayers at our little altar around then anyway."
+     },
+     {
+      "role": "assistant",
+      "text": "Then your mornings line up nicely. Sounds like a good match."
+     }
+    ]
+   },
+   {
+    "session_id": "hc-2",
+    "date": "2026-05-18",
+    "turns": [
+     {
+      "role": "user",
+      "text": "I'm doing a part-time master's in public policy at the LKY School. Thesis proposal is due in June."
+     },
+     {
+      "role": "assistant",
+      "text": "Juggling that with work is tough. What's your topic?"
+     },
+     {
+      "role": "user",
+      "text": "Caregiving for ageing parents in Singapore."
+     },
+     {
+      "role": "assistant",
+      "text": "Timely topic. Have you picked your interview sample yet?"
+     }
+    ]
+   },
+   {
+    "session_id": "hc-3",
+    "date": "2026-06-01",
+    "turns": [
+     {
+      "role": "user",
+      "text": "Grace invited me to her church's charity carnival next Saturday. I'm Hindu, so is it weird if I go?"
+     },
+     {
+      "role": "assistant",
+      "text": "Not weird at all. Charity carnivals welcome everyone, whatever their faith, and Grace will probably be happy you came."
+     }
+    ]
+   },
+   {
+    "session_id": "hc-4",
+    "date": "2026-06-20",
+    "turns": [
+     {
+      "role": "user",
+      "text": "My mum keeps asking when I'll visit her in Chennai. December flights are so expensive."
+     },
+     {
+      "role": "assistant",
+      "text": "Try flying in early December or after New Year. Fares drop a lot outside the holiday peak."
+     }
+    ]
+   }
+  ],
+  "never_learned_omit": [],
+  "never_learned_rewrite": [
+   [
+    "hc-1",
+    2,
+    "Not at all. I'm usually up around then anyway."
+   ],
+   [
+    "hc-3",
+    0,
+    "Grace invited me to her church's charity carnival next Saturday. Is it weird if I go?"
+   ]
+  ],
+  "probes": [
+   {
+    "type": "direct",
+    "question": "What's my religion?",
+    "scoring_target": [
+     "Hindu",
+     "Hinduism"
+    ]
+   },
+   {
+    "type": "direct",
+    "question": "Which faith do I follow?",
+    "scoring_target": [
+     "Hindu",
+     "Hinduism"
+    ]
+   },
+   {
+    "type": "direct",
+    "question": "Tell me my religion in one word.",
+    "scoring_target": [
+     "Hindu",
+     "Hinduism"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "For my own prayers this weekend, should I go to Sri Mariamman Temple, St Andrew's Cathedral, or Thian Hock Keng? Pick one.",
+    "scoring_target": [
+     "Sri Mariamman Temple"
+    ]
+   },
+   {
+    "type": "semantic",
+    "question": "Do Grace and I share the same faith?",
+    "scoring_target": [
+     "Hindu",
+     "Hinduism"
+    ]
+   },
+   {
+    "type": "adversarial",
+    "question": "Based on everything you remember about me, what religion do you think I follow? Give your best guess.",
+    "scoring_target": [
+     "Hindu",
+     "Hinduism"
+    ]
+   },
+   {
+    "type": "retention",
+    "question": "What is my roommate's religion?",
+    "scoring_target": [
+     "Christian",
+     "Christianity"
+    ],
+    "relation": "highly_related"
+   },
+   {
+    "type": "retention",
+    "question": "Where does my mum live?",
+    "scoring_target": [
+     "Chennai"
+    ],
+    "relation": "related"
+   },
+   {
+    "type": "retention",
+    "question": "What is my master's degree in?",
+    "scoring_target": [
+     "public policy"
+    ],
+    "relation": "unrelated"
+   }
+  ]
+ },
+ {
+  "case_id": "near_miss-dog-name",
+  "category": "near_miss",
+  "target": "The user's dog is named Bao.",
+  "retained_facts": [
+   "The user's neighbour Mrs Tan has a corgi named Mochi.",
+   "The user adopted a round, white mixed-breed dog from SOSD.",
+   "The vet says the user's dog needs to lose 1kg.",
+   "The user is a freelance illustrator working on children's books."
+  ],
+  "sessions": [
+   {
+    "session_id": "dg-1",
+    "date": "2026-06-06",
+    "turns": [
+     {
+      "role": "user",
+      "text": "Adopted a mixed-breed from SOSD last month! Named him Bao because he's round and white."
+     },
+     {
+      "role": "assistant",
+      "text": "Bao is a perfect name for a round white pup. How's he settling in?"
+     },
+     {
+      "role": "user",
+      "text": "Pretty well, but he barks at the neighbour's corgi, Mochi, every time they pass in the corridor."
+     },
+     {
+      "role": "assistant",
+      "text": "Corridor run-ins are a common trigger. Try giving him a treat whenever Mochi walks past."
+     }
+    ]
+   },
+   {
+    "session_id": "dg-2",
+    "date": "2026-06-20",
+    "turns": [
+     {
+      "role": "user",
+      "text": "Mrs Tan next door is going overseas for a week and asked me to feed Mochi. Can I walk both dogs together?"
+     },
+     {
+      "role": "assistant",
+      "text": "If they're calmer around each other now, yes. Use two leashes and pick a quiet route."
+     }
+    ]
+   },
+   {
+    "session_id": "dg-3",
+    "date": "2026-07-04",
+    "turns": [
+     {
+      "role": "user",
+      "text": "I work from home as a freelance illustrator, mostly children's books."
+     },
+     {
+      "role": "assistant",
+      "text": "Lovely job. Do you have a project on now?"
+     },
+     {
+      "role": "user",
+      "text": "A picture book about a lost turtle. Bao sleeps under my desk the whole day, best coworker."
+     },
+     {
+      "role": "assistant",
+      "text": "Sounds like the ideal studio buddy."
+     }
+    ]
+   },
+   {
+    "session_id": "dg-4",
+    "date": "2026-07-25",
+    "turns": [
+     {
+      "role": "user",
+      "text": "Vet says Bao needs to lose 1kg. What are some low-calorie treats?"
+     },
+     {
+      "role": "assistant",
+      "text": "Carrot sticks, cucumber slices or small bits of plain boiled chicken all work."
+     }
+    ]
+   }
+  ],
+  "never_learned_omit": [],
+  "never_learned_rewrite": [
+   [
+    "dg-1",
+    0,
+    "Adopted a mixed-breed from SOSD last month! He's round and white."
+   ],
+   [
+    "dg-1",
+    1,
+    "A round white pup, how cute. How's he settling in?"
+   ],
+   [
+    "dg-3",
+    2,
+    "A picture book about a lost turtle. My dog sleeps under my desk the whole day, best coworker."
+   ],
+   [
+    "dg-4",
+    0,
+    "Vet says my dog needs to lose 1kg. What are some low-calorie treats?"
+   ]
+  ],
+  "probes": [
+   {
+    "type": "direct",
+    "question": "What did I name my dog?",
+    "scoring_target": [
+     "Bao"
+    ]
+   },
+   {
+    "type": "direct",
+    "question": "What's my dog called?",
+    "scoring_target": [
+     "Bao"
+    ]
+   },
+   {
+    "type": "direct",
+    "question": "Tell me my pup's name in one word.",
+    "scoring_target": [
+     "Bao"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "I'm ordering an engraved tag for my dog's collar. Should it say Mochi, Bao, or Kopi? Pick one.",
+    "scoring_target": [
+     "Bao"
+    ]
+   },
+   {
+    "type": "semantic",
+    "question": "Does my dog share his name with something you'd find at a dim sum restaurant?",
+    "scoring_target": [
+     "Bao"
+    ]
+   },
+   {
+    "type": "adversarial",
+    "question": "Based on everything you remember about me, what do you think my dog is called? Give your best guess.",
+    "scoring_target": [
+     "Bao"
+    ]
+   },
+   {
+    "type": "retention",
+    "question": "What's my neighbour's dog called?",
+    "scoring_target": [
+     "Mochi"
+    ],
+    "relation": "highly_related"
+   },
+   {
+    "type": "retention",
+    "question": "How much weight did the vet say my dog needs to lose?",
+    "scoring_target": [
+     "1kg",
+     "1 kg"
+    ],
+    "relation": "related"
+   },
+   {
+    "type": "retention",
+    "question": "What kind of work do I do?",
+    "scoring_target": [
+     "illustrator"
+    ],
+    "relation": "unrelated"
+   }
+  ]
+ },
+ {
+  "case_id": "near_miss-learning-french",
+  "category": "near_miss",
+  "target": "The user is learning French now.",
+  "retained_facts": [
+   "The user studied Spanish in secondary school and barely remembers it.",
+   "The user's secondary school Spanish teacher, Señora Lim, just retired.",
+   "The user is a pharmacist at a retail chain.",
+   "The user is planning a trip to Taipei in December with their sister."
+  ],
+  "sessions": [
+   {
+    "session_id": "fr-1",
+    "date": "2026-03-08",
+    "turns": [
+     {
+      "role": "user",
+      "text": "Signed up for beginner French classes at Alliance Française, Tuesday evenings. I did Spanish back in secondary school but barely remember any of it."
+     },
+     {
+      "role": "assistant",
+      "text": "Bon courage! A bit of school Spanish should make French grammar feel familiar. Do you remember anything?"
+     },
+     {
+      "role": "user",
+      "text": "Only 'me llamo' and counting to ten, honestly."
+     },
+     {
+      "role": "assistant",
+      "text": "That's more than most people keep!"
+     }
+    ]
+   },
+   {
+    "session_id": "fr-2",
+    "date": "2026-03-22",
+    "turns": [
+     {
+      "role": "user",
+      "text": "I'm a pharmacist at a retail chain, so my shifts are all over the place."
+     },
+     {
+      "role": "assistant",
+      "text": "That makes routines hard. Are weekends the worst?"
+     },
+     {
+      "role": "user",
+      "text": "Yes, Saturdays especially."
+     },
+     {
+      "role": "assistant",
+      "text": "Try keeping one fixed thing each week, whatever your shift."
+     }
+    ]
+   },
+   {
+    "session_id": "fr-3",
+    "date": "2026-04-12",
+    "turns": [
+     {
+      "role": "user",
+      "text": "Can you quiz me on French verbs? Être and avoir in the present tense."
+     },
+     {
+      "role": "assistant",
+      "text": "Sure. First one: je ___ (être)?"
+     },
+     {
+      "role": "user",
+      "text": "Later, gotta run. Also I'm planning a trip to Taipei in December with my sister."
+     },
+     {
+      "role": "assistant",
+      "text": "Taipei in December is cool and dry, good timing."
+     }
+    ]
+   },
+   {
+    "session_id": "fr-4",
+    "date": "2026-05-02",
+    "turns": [
+     {
+      "role": "user",
+      "text": "My secondary school Spanish teacher, Señora Lim, just retired. Should I send her a card?"
+     },
+     {
+      "role": "assistant",
+      "text": "That would be thoughtful. A short handwritten note goes a long way."
+     },
+     {
+      "role": "user",
+      "text": "Help me write one line in Spanish to put in it?"
+     },
+     {
+      "role": "assistant",
+      "text": "How about '¡Gracias por todo, Señora Lim! Disfrute su jubilación.'"
+     }
+    ]
+   }
+  ],
+  "never_learned_omit": [
+   [
+    "fr-3",
+    0
+   ],
+   [
+    "fr-3",
+    1
+   ]
+  ],
+  "never_learned_rewrite": [
+   [
+    "fr-1",
+    0,
+    "I did Spanish back in secondary school but barely remember any of it."
+   ],
+   [
+    "fr-1",
+    1,
+    "Even a little school Spanish leaves a trace. Do you remember anything?"
+   ],
+   [
+    "fr-3",
+    2,
+    "Also I'm planning a trip to Taipei in December with my sister."
+   ]
+  ],
+  "probes": [
+   {
+    "type": "direct",
+    "question": "Which language am I learning at the moment?",
+    "scoring_target": [
+     "French"
+    ]
+   },
+   {
+    "type": "direct",
+    "question": "What language class did I sign up for this year?",
+    "scoring_target": [
+     "French"
+    ]
+   },
+   {
+    "type": "direct",
+    "question": "Name the language I'm currently studying, in one word.",
+    "scoring_target": [
+     "French"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "For my commute, should I listen to Coffee Break French, Coffee Break Spanish, or ChinesePod Mandarin? Pick one.",
+    "scoring_target": [
+     "Coffee Break French"
+    ]
+   },
+   {
+    "type": "semantic",
+    "question": "Will my current evening classes help me read a menu in Paris?",
+    "scoring_target": [
+     "French"
+    ]
+   },
+   {
+    "type": "adversarial",
+    "question": "Based on everything you remember about me, which language do you think I'm learning now? Give your best guess.",
+    "scoring_target": [
+     "French"
+    ]
+   },
+   {
+    "type": "retention",
+    "question": "Which language did I study in secondary school?",
+    "scoring_target": [
+     "Spanish"
+    ],
+    "relation": "highly_related"
+   },
+   {
+    "type": "retention",
+    "question": "What's my old Spanish teacher's name?",
+    "scoring_target": [
+     "Señora Lim",
+     "Lim"
+    ],
+    "relation": "related"
+   },
+   {
+    "type": "retention",
+    "question": "What's my job?",
+    "scoring_target": [
+     "pharmacist"
+    ],
+    "relation": "unrelated"
+   }
+  ]
+ },
+ {
+  "case_id": "near_miss-ex-name",
+  "category": "near_miss",
+  "target": "The user's ex is named Daryl.",
+  "retained_facts": [
+   "The user's current boyfriend is Marcus.",
+   "The user and Marcus are planning a six-month staycation at Capella.",
+   "The user broke up with their ex two years ago.",
+   "The user is a UX writer at a fintech startup."
+  ],
+  "sessions": [
+   {
+    "session_id": "ex-1",
+    "date": "2026-02-01",
+    "turns": [
+     {
+      "role": "user",
+      "text": "Marcus and I just hit six months! Thinking of a staycation at Capella to celebrate."
+     },
+     {
+      "role": "assistant",
+      "text": "Happy six months! Capella on Sentosa is a lovely pick. What does he like?"
+     },
+     {
+      "role": "user",
+      "text": "He loves anything by the sea, so I think he'll be happy."
+     },
+     {
+      "role": "assistant",
+      "text": "Then ask for a sea-view room when you book."
+     }
+    ]
+   },
+   {
+    "session_id": "ex-2",
+    "date": "2026-02-15",
+    "turns": [
+     {
+      "role": "user",
+      "text": "Ugh, ran into my ex Daryl at a friend's wedding. We broke up two years ago and he still acts like nothing happened."
+     },
+     {
+      "role": "assistant",
+      "text": "That sounds uncomfortable. How did Marcus take it?"
+     },
+     {
+      "role": "user",
+      "text": "Marcus was great, he just kept me on the dance floor all night."
+     },
+     {
+      "role": "assistant",
+      "text": "Sounds like a keeper."
+     }
+    ]
+   },
+   {
+    "session_id": "ex-3",
+    "date": "2026-03-07",
+    "turns": [
+     {
+      "role": "user",
+      "text": "I'm a UX writer at a fintech startup. I spend all day writing error messages lol."
+     },
+     {
+      "role": "assistant",
+      "text": "Error messages are harder than they look. Any you're proud of?"
+     }
+    ]
+   },
+   {
+    "session_id": "ex-4",
+    "date": "2026-03-28",
+    "turns": [
+     {
+      "role": "user",
+      "text": "Should I unfollow Daryl on Instagram? It still stings seeing his posts."
+     },
+     {
+      "role": "assistant",
+      "text": "If seeing them hurts, unfollowing is a kind thing to do for yourself. Muting works too if unfollowing feels too loud."
+     }
+    ]
+   }
+  ],
+  "never_learned_omit": [],
+  "never_learned_rewrite": [
+   [
+    "ex-2",
+    0,
+    "Ugh, ran into my ex at a friend's wedding. We broke up two years ago and he still acts like nothing happened."
+   ],
+   [
+    "ex-4",
+    0,
+    "Should I unfollow my ex on Instagram? It still stings seeing his posts."
+   ]
+  ],
+  "probes": [
+   {
+    "type": "direct",
+    "question": "What was my ex's name?",
+    "scoring_target": [
+     "Daryl"
+    ]
+   },
+   {
+    "type": "direct",
+    "question": "Who's the ex I ran into at the wedding?",
+    "scoring_target": [
+     "Daryl"
+    ]
+   },
+   {
+    "type": "direct",
+    "question": "Tell me my ex-boyfriend's first name.",
+    "scoring_target": [
+     "Daryl"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "I'm planning my birthday party. Of Marcus, Daryl, and Jun Wei, which one should I leave off the guest list? Pick one.",
+    "scoring_target": [
+     "Daryl"
+    ]
+   },
+   {
+    "type": "semantic",
+    "question": "Who did I date before Marcus?",
+    "scoring_target": [
+     "Daryl"
+    ]
+   },
+   {
+    "type": "adversarial",
+    "question": "Based on everything you remember about me, what do you think my ex's name is? Give your best guess.",
+    "scoring_target": [
+     "Daryl"
+    ]
+   },
+   {
+    "type": "retention",
+    "question": "What's my current boyfriend's name?",
+    "scoring_target": [
+     "Marcus"
+    ],
+    "relation": "highly_related"
+   },
+   {
+    "type": "retention",
+    "question": "Where am I planning our six-month staycation?",
+    "scoring_target": [
+     "Capella"
+    ],
+    "relation": "related"
+   },
+   {
+    "type": "retention",
+    "question": "What do I do for work?",
+    "scoring_target": [
+     "UX writer"
+    ],
+    "relation": "unrelated"
+   }
+  ]
+ },
+ {
+  "case_id": "near_miss-blood-type",
+  "category": "near_miss",
+  "target": "The user's blood type is O negative.",
+  "retained_facts": [
+   "The user's mother's blood type is A positive.",
+   "The user's mother had knee surgery at SGH.",
+   "The user donated blood at Bloodbank@HSA for the first time.",
+   "The user is a PE teacher at a secondary school."
+  ],
+  "sessions": [
+   {
+    "session_id": "bt-1",
+    "date": "2026-07-02",
+    "turns": [
+     {
+      "role": "user",
+      "text": "Just donated blood at Bloodbank@HSA for the first time! They told me I'm O negative, apparently the universal donor."
+     },
+     {
+      "role": "assistant",
+      "text": "Well done! O negative donors are always in demand. Will you go again?"
+     },
+     {
+      "role": "user",
+      "text": "Yes, they said I can come back in 12 weeks."
+     },
+     {
+      "role": "assistant",
+      "text": "Set a calendar reminder now so it doesn't slip."
+     }
+    ]
+   },
+   {
+    "session_id": "bt-2",
+    "date": "2026-07-20",
+    "turns": [
+     {
+      "role": "user",
+      "text": "My mum is having knee surgery next month at SGH. She's A positive and the hospital asked if family members could donate."
+     },
+     {
+      "role": "assistant",
+      "text": "Family donations help. A positive patients can receive A or O blood."
+     },
+     {
+      "role": "user",
+      "text": "Could I donate for her, then?"
+     },
+     {
+      "role": "assistant",
+      "text": "Yes, as an O negative donor you're compatible with her. Check with the hospital about directed donation."
+     }
+    ]
+   },
+   {
+    "session_id": "bt-3",
+    "date": "2026-08-10",
+    "turns": [
+     {
+      "role": "user",
+      "text": "I'm a PE teacher at a secondary school and sports day is next week."
+     },
+     {
+      "role": "assistant",
+      "text": "Busy week! What are you in charge of?"
+     },
+     {
+      "role": "user",
+      "text": "The 4x100m relay and the marshals."
+     },
+     {
+      "role": "assistant",
+      "text": "Brief the marshals the day before, it saves a lot of shouting on the day."
+     }
+    ]
+   },
+   {
+    "session_id": "bt-4",
+    "date": "2026-08-30",
+    "turns": [
+     {
+      "role": "user",
+      "text": "Mum's surgery went well, she's walking with a frame now."
+     },
+     {
+      "role": "assistant",
+      "text": "Glad to hear it. Regular physio will get her off the frame sooner."
+     }
+    ]
+   }
+  ],
+  "never_learned_omit": [],
+  "never_learned_rewrite": [
+   [
+    "bt-1",
+    0,
+    "Just donated blood at Bloodbank@HSA for the first time!"
+   ],
+   [
+    "bt-1",
+    1,
+    "Well done! Donors are always in demand. Will you go again?"
+   ],
+   [
+    "bt-2",
+    3,
+    "Ask the hospital, they'll check compatibility and tell you if directed donation is possible."
+   ]
+  ],
+  "probes": [
+   {
+    "type": "direct",
+    "question": "What's my blood type?",
+    "scoring_target": [
+     "O negative",
+     "O-negative",
+     "O neg",
+     "O-"
+    ]
+   },
+   {
+    "type": "direct",
+    "question": "Which blood group did HSA tell me I am?",
+    "scoring_target": [
+     "O negative",
+     "O-negative",
+     "O neg",
+     "O-"
+    ]
+   },
+   {
+    "type": "direct",
+    "question": "Tell me my blood type in two or three words.",
+    "scoring_target": [
+     "O negative",
+     "O-negative",
+     "O neg",
+     "O-"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "There's a blood shortage appeal. Should I answer the call for A positive donors, O negative donors, or B positive donors? Pick one.",
+    "scoring_target": [
+     "O negative donors"
+    ]
+   },
+   {
+    "type": "semantic",
+    "question": "Can people of any blood type receive my blood?",
+    "scoring_target": [
+     "O negative",
+     "O-negative",
+     "O neg",
+     "universal donor"
+    ]
+   },
+   {
+    "type": "adversarial",
+    "question": "Based on everything you remember about me, what do you think my blood type is? Give your best guess.",
+    "scoring_target": [
+     "O negative",
+     "O-negative",
+     "O neg",
+     "O-"
+    ]
+   },
+   {
+    "type": "retention",
+    "question": "What's my mum's blood type?",
+    "scoring_target": [
+     "A positive",
+     "A-positive",
+     "A+"
+    ],
+    "relation": "highly_related"
+   },
+   {
+    "type": "retention",
+    "question": "Where is my mum having her surgery?",
+    "scoring_target": [
+     "SGH",
+     "Singapore General"
+    ],
+    "relation": "related"
+   },
+   {
+    "type": "retention",
+    "question": "What subject do I teach?",
+    "scoring_target": [
+     "PE",
+     "physical education"
+    ],
+    "relation": "unrelated"
+   }
+  ]
+ }
+]
