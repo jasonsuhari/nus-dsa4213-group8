@@ -1,6 +1,7 @@
 from scoring.llm_judge import mock_judge
 from scoring.reference_scorer import contains_reference
 
+
 def score_record(record, judge=mock_judge):
     """
     Score one agent response based on its probe type.

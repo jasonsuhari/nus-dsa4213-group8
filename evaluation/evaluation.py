@@ -28,7 +28,7 @@ def calculate_dlr(df):
     subset = df[
         (df["condition"] == "post_forget") &
         (df["probe_type"] == "direct") & 
-        (df["eligible"] == True)
+        (df["eligible"])
     ]
     return subset["label"].mean()
 
@@ -38,7 +38,7 @@ def calculate_ra(df):
     subset = df[
         (df["condition"] == "post_forget") &
         (df["probe_type"] == "retention") &
-        (df["eligible"] == True)
+        (df["eligible"])
     ]
     return subset["label"].mean()
 
@@ -107,7 +107,7 @@ def calculate_rir(df, min_effect=1e-6):
     """
     indirect = df[
         (df["probe_type"] == "indirect") &
-        (df["eligible"] == True)
+        (df["eligible"])
     ]
 
     rates = indirect.groupby("condition")["label"].mean()
@@ -138,7 +138,7 @@ def calculate_slr(df):
     subset = df[
         (df["condition"] == "post_forget") &
         (df["probe_type"] == "semantic") &
-        (df["eligible"] == True)
+        (df["eligible"])
     ]
 
     return subset["label"].mean()
@@ -152,7 +152,7 @@ def calculate_alr(df):
     subset = df[
         (df["condition"] == "post_forget") &
         (df["probe_type"] == "adversarial") &
-        (df["eligible"] == True)
+        (df["eligible"])
     ]
 
     return subset["label"].mean()
@@ -166,7 +166,7 @@ def calculate_mls(df):
     subset = df[
         (df["condition"] == "post_forget") &
         (df["probe_type"].isin(["semantic", "adversarial"])) &
-        (df["eligible"] == True)
+        (df["eligible"])
     ]
 
     return subset["severity"].mean()

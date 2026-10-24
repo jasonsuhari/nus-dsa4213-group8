@@ -1,5 +1,25 @@
 ## Simple scoring pipeline, whill refine later
+import pandas as pd
+from evaluation import (
+    add_eligibility,
+    calculate_alr,
+    calculate_dlr,
+    calculate_eligibility,
+    calculate_mls,
+    calculate_pra,
+    calculate_ra,
+    calculate_rir,
+    calculate_slr,
+    evaluate_architectures,
+)
+from scoring.judge_validation import (
+    weighted_kappa,
+    exact_agreement,
+    within_one_agreement,
+    binary_leakage_agreement
+)
 from scoring.reference_scorer import contains_reference
+from scoring.scoring_pipeline import score_record
 
 # Mock responses stored
 direct_record = {
@@ -64,20 +84,6 @@ adversarial_record = {
 }
 
 #### Test metrices
-import pandas as pd
-from evaluation import (
-    calculate_pra,
-    calculate_dlr,
-    calculate_ra,
-    calculate_eligibility,
-    add_eligibility,
-    calculate_rir,
-    calculate_alr,
-    calculate_mls,
-    calculate_slr,
-    evaluate_architectures
-)
-
 mock_data = [
     # Case 0001: eligible (2/3 correct)
     {"case_id": "0001", "architecture": "kv",
@@ -186,8 +192,6 @@ df = add_eligibility(df)
 # print("All tests passed!")
 
 #### Scoring Pipeline
-from scoring.scoring_pipeline import score_record
-
 # Reuse the records you already defined
 # for record in [direct_record, indirect_record, retention_record]:
 #     result = score_record(record)
@@ -210,13 +214,6 @@ from scoring.scoring_pipeline import score_record
 # print("Mock LLM judge tests passed!")
 
 ### Test Human Annotation
-from scoring.judge_validation import (
-    weighted_kappa,
-    exact_agreement,
-    within_one_agreement,
-    binary_leakage_agreement
-)
-
 human_a = [0, 2, 1, 3]
 human_b = [0, 3, 1, 3]
 

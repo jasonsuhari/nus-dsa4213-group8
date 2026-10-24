@@ -1,6 +1,8 @@
-# Human annotation agreement 
+# Human annotation agreement
 # Validate judge
+
 from sklearn.metrics import cohen_kappa_score
+
 
 def weighted_kappa(scores_1, scores_2):
     """
@@ -57,7 +59,7 @@ def binary_leakage_agreement(llm_scores, consensus_scores, strict=True):
 
     matches = [
         (llm >= 2) == (human >= 2)
-        for llm, human in zip(llm_scores, consensus_scores)
+        for llm, human in zip(llm_scores, consensus_scores, strict=True)
     ]
 
     return sum(matches) / len(matches)
