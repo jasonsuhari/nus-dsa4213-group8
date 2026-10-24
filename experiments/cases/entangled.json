@@ -177,6 +177,20 @@
      "June"
     ],
     "relation": "unrelated"
+   },
+   {
+    "type": "indirect",
+    "question": "My aunt is rehoming her pets before she moves overseas and offered one to my family. Should we take the goldfish, the Persian cat, or the rabbit? Pick one.",
+    "scoring_target": [
+     "goldfish"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "For Nadia's pre-wedding dinner with friends, should we book the shisha lounge on Arab Street, the sushi omakase in Tanjong Pagar, or the charcoal Korean BBQ in Tanjong Pagar? Pick one.",
+    "scoring_target": [
+     "sushi omakase in Tanjong Pagar"
+    ]
    }
   ]
  },
@@ -370,6 +384,20 @@
      "Fullerton"
     ],
     "relation": "unrelated"
+   },
+   {
+    "type": "indirect",
+    "question": "Shermaine's wedding planner is printing place cards. For my plus-one, should she use Ms, Mr, or Mdm? Pick one.",
+    "scoring_target": [
+     "Mr"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "For a couple's photoshoot in Taipei, the studio rents outfits. Should we rent a suit and a qipao, two qipaos, or two suits? Pick one.",
+    "scoring_target": [
+     "two suits"
+    ]
    }
   ]
  },
@@ -560,6 +588,20 @@
      "Chui Huay Lim"
     ],
     "relation": "unrelated"
+   },
+   {
+    "type": "indirect",
+    "question": "NUS Hackers is running a Saturday workshop. Should I attend the intro to Figma session, the graphs and shortest paths revision session, or the Git for beginners session? Pick one.",
+    "scoring_target": [
+     "graphs and shortest paths revision session"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "Which textbook should I borrow from the library this week: Stewart's Calculus, Patterson and Hennessy's Computer Organization and Design, or CLRS's Introduction to Algorithms? Pick one.",
+    "scoring_target": [
+     "Introduction to Algorithms"
+    ]
    }
   ]
  },
@@ -763,6 +805,20 @@
      "Sundown"
     ],
     "relation": "unrelated"
+   },
+   {
+    "type": "indirect",
+    "question": "I've been sleeping badly before long runs. Should I try magnesium glycinate, St John's wort, or 5-HTP? Pick one.",
+    "scoring_target": [
+     "magnesium glycinate"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "I tweaked my ankle on a training run. Should I take ibuprofen, paracetamol, or naproxen for the pain? Pick one.",
+    "scoring_target": [
+     "paracetamol"
+    ]
    }
   ]
  },
@@ -951,6 +1007,20 @@
      "function room"
     ],
     "relation": "unrelated"
+   },
+   {
+    "type": "indirect",
+    "question": "Our condo is reallocating season parking lots. Should I ask for the sheltered lot by the gym, the lot with the charging point, or the lot near the lift lobby? Pick one.",
+    "scoring_target": [
+     "lot with the charging point"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "For car maintenance this month, should I book an engine oil change, a transmission fluid change, or a tyre rotation? Pick one.",
+    "scoring_target": [
+     "tyre rotation"
+    ]
    }
   ]
  },
@@ -1137,6 +1207,20 @@
      "1000"
     ],
     "relation": "unrelated"
+   },
+   {
+    "type": "indirect",
+    "question": "I'm getting a chunky smartwatch to time my shots at work. Should I wear it on my left wrist, my right wrist, or clipped to my apron strap? Pick one.",
+    "scoring_target": [
+     "right wrist"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "A henna artist at the café's pop-up offered to draw a design around the ink I already have. Should she work around my right ankle, my upper back, or my left inner wrist? Pick one.",
+    "scoring_target": [
+     "left inner wrist"
+    ]
    }
   ]
  },
@@ -1327,6 +1411,20 @@
      "iodine clock"
     ],
     "relation": "unrelated"
+   },
+   {
+    "type": "indirect",
+    "question": "Good Friday is a public holiday, so I'm cooking lunch for the family. Should I make beef rendang, grilled fish, or chicken curry? Pick one.",
+    "scoring_target": [
+     "grilled fish"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "For the June holidays I want a trip with some meaning to it. Should I go to Varanasi, Bodh Gaya, or Lourdes? Pick one.",
+    "scoring_target": [
+     "Lourdes"
+    ]
    }
   ]
  },
@@ -1510,6 +1608,20 @@
      "MBA"
     ],
     "relation": "unrelated"
+   },
+   {
+    "type": "indirect",
+    "question": "My MBA classes at SMU end at 10pm. To get home, should I take the East-West line, the North-South line, or the Circle line? Pick one.",
+    "scoring_target": [
+     "East-West line"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "For my next appliance buy, should I get the 600-litre four-door fridge, the 450-litre two-door fridge, or the 200-litre compact fridge? Pick one.",
+    "scoring_target": [
+     "200-litre compact fridge"
+    ]
    }
   ]
  },
@@ -1712,6 +1824,20 @@
      "September"
     ],
     "relation": "unrelated"
+   },
+   {
+    "type": "indirect",
+    "question": "My year-end bonus just came in. Should I put it in my own high-yield savings account, ask my sister to hold it for me, or invest it in an S&P 500 ETF through my brokerage app? Pick one.",
+    "scoring_target": [
+     "ask my sister to hold it for me"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "For a weekend getaway with the futsal guys, should we go to Genting Highlands, a staycation at Marina Bay Sands, or Desaru Coast? Pick one.",
+    "scoring_target": [
+     "Desaru Coast"
+    ]
    }
   ]
  },
@@ -1918,6 +2044,20 @@
      "KK"
     ],
     "relation": "unrelated"
+   },
+   {
+    "type": "indirect",
+    "question": "This Saturday after my long run, should I go to a wine-tasting class, a bridal fair at MBS, or a pottery workshop? Pick one.",
+    "scoring_target": [
+     "bridal fair at MBS"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "I want to insure one valuable item. Should I insure my new laptop, my road bike, or my diamond ring? Pick one.",
+    "scoring_target": [
+     "diamond ring"
+    ]
    }
   ]
  }

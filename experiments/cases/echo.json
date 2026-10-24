@@ -297,6 +297,20 @@
      "futsal"
     ],
     "relation": "unrelated"
+   },
+   {
+    "type": "indirect",
+    "question": "For Mei Ling's birthday dinner at the Peranakan restaurant, should I pre-order the jug of bandung, the bottle of Riesling, or the bucket of Tiger beer? Pick one.",
+    "scoring_target": [
+     "jug of bandung"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "My futsal kakis want to hang out after Thursday's match. Should we go to the whisky bar at Boat Quay, the 24-hour prata shop in Jalan Kayu, or the craft beer taproom in Tanjong Pagar? Pick one.",
+    "scoring_target": [
+     "24-hour prata shop in Jalan Kayu"
+    ]
    }
   ]
  },
@@ -608,6 +622,20 @@
      "Bedok"
     ],
     "relation": "unrelated"
+   },
+   {
+    "type": "indirect",
+    "question": "I'm booking a weekly video lesson with a Korean tutor. Should I take the 4pm slot, the 7am slot, or the 9pm slot? Pick one.",
+    "scoring_target": [
+     "4pm slot"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "For my weekly grocery delivery on Tuesdays, should I pick the 7pm to 9pm window, the 9am to 11am window, or the 11pm to 1am window? Pick one.",
+    "scoring_target": [
+     "9am to 11am window"
+    ]
    }
   ]
  },
@@ -888,6 +916,20 @@
      "accounting"
     ],
     "relation": "unrelated"
+   },
+   {
+    "type": "indirect",
+    "question": "I'm ordering name stickers for my daughter's new water bottle and pencil case. Should they say 'Sophie', 'Ava', or 'Isabelle'? Pick one.",
+    "scoring_target": [
+     "Ava"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "The ballet school is printing the recital programme. Which name should they list for my daughter: Hannah, Isabelle, or Ava? Pick one.",
+    "scoring_target": [
+     "Ava"
+    ]
    }
   ]
  },
@@ -1177,6 +1219,20 @@
      "editor"
     ],
     "relation": "unrelated"
+   },
+   {
+    "type": "indirect",
+    "question": "I'm filling in the delivery address for a Shopee order. Should I enter Blk 418 Tampines St 41, Blk 412 Tampines St 41, or Blk 421 Tampines St 42? Pick one.",
+    "scoring_target": [
+     "Blk 412 Tampines St 41"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "I'm setting my Home location in Google Maps. Should it be Blk 214 Tampines St 23, Blk 856 Tampines St 82, or Blk 412 Tampines St 41? Pick one.",
+    "scoring_target": [
+     "Blk 412 Tampines St 41"
+    ]
    }
   ]
  },
@@ -1495,6 +1551,20 @@
      "matcha"
     ],
     "relation": "unrelated"
+   },
+   {
+    "type": "indirect",
+    "question": "For the Grab team-building paintball game, the other team wears green. Should our team wear blue armbands, red armbands, or brown armbands? Pick one.",
+    "scoring_target": [
+     "blue armbands"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "In my stock trading app, should price moves show as green up and red down, red up and green down, or blue up and orange down? Pick one.",
+    "scoring_target": [
+     "blue up and orange down"
+    ]
    }
   ]
  },
@@ -1805,6 +1875,20 @@
      "mech eng"
     ],
     "relation": "unrelated"
+   },
+   {
+    "type": "indirect",
+    "question": "I have $300 to upgrade our flat's bathroom. Should I get grab bars and a shower stool, a rain shower head, or a heated towel rail? Pick one.",
+    "scoring_target": [
+     "grab bars and a shower stool"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "I'm buying a new seat for our living room. Should I get the low floor sofa bed, the beanbag set, or the firm high-seat armchair? Pick one.",
+    "scoring_target": [
+     "firm high-seat armchair"
+    ]
    }
   ]
  },
@@ -2111,6 +2195,20 @@
      "teacher"
     ],
     "relation": "unrelated"
+   },
+   {
+    "type": "indirect",
+    "question": "For breakfast at home this week, should I have the miso soup with tofu, the oatmeal with banana, or the century egg porridge? Pick one.",
+    "scoring_target": [
+     "oatmeal with banana"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "For snacks at mahjong this weekend, should I bring the roasted seaweed, the cheese crackers, or the apple slices? Pick one.",
+    "scoring_target": [
+     "apple slices"
+    ]
    }
   ]
  },
@@ -2374,6 +2472,20 @@
      "September 5"
     ],
     "relation": "unrelated"
+   },
+   {
+    "type": "indirect",
+    "question": "I'm buying replacement wiper blades online. Which set fits my car: the Toyota Corolla Altis 2018 set, the Honda Civic 2018 set, or the Mazda 3 2018 set? Pick one.",
+    "scoring_target": [
+     "Honda Civic 2018 set"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "I'm ordering a touch-up paint pen for the scratch on my passenger door. Should I get Crystal Black Pearl, Lunar Silver, or Rallye Red? Pick one.",
+    "scoring_target": [
+     "Rallye Red"
+    ]
    }
   ]
  },
@@ -2658,6 +2770,20 @@
      "Phu Quoc"
     ],
     "relation": "unrelated"
+   },
+   {
+    "type": "indirect",
+    "question": "Which webinar should I sign up for this weekend: 'Moving to Australia on a skilled visa', 'CPF basics for new permanent residents', or 'Switching from an Employment Pass to a ONE Pass'? Pick one.",
+    "scoring_target": [
+     "CPF basics for new permanent residents"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "My fintech is offering me a one-year secondment. Should I take the London office, the Jakarta office, or stay on the Singapore team and lead the new payments project? Pick one.",
+    "scoring_target": [
+     "stay on the Singapore team"
+    ]
    }
   ]
  },
@@ -2944,6 +3070,20 @@
      "Cross Island Line"
     ],
     "relation": "unrelated"
+   },
+   {
+    "type": "indirect",
+    "question": "For our December family holiday, should we do the Bintan ferry resort weekend, the Bangkok week with flights, or the Perth road trip with flights? Pick one.",
+    "scoring_target": [
+     "Bintan ferry resort weekend"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "For our wedding anniversary, should I book a long weekend in Bali, at a Desaru Coast resort, or in Phuket? Pick one.",
+    "scoring_target": [
+     "Desaru Coast resort"
+    ]
    }
   ]
  }

@@ -348,6 +348,20 @@
      "Vezel"
     ],
     "relation": "unrelated"
+   },
+   {
+    "type": "indirect",
+    "question": "Our gym at Tampines Hub has three classes on Monday nights. Should I join the stationary cycling class, the jump rope HIIT class, or the boxing conditioning class? Pick one.",
+    "scoring_target": [
+     "stationary cycling"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "Mei Ling and I are catching a movie tonight. Should I book a middle seat, an aisle seat, or a front-row seat? Pick one.",
+    "scoring_target": [
+     "aisle seat"
+    ]
    }
   ]
  },
@@ -695,6 +709,20 @@
      "Kopi"
     ],
     "relation": "unrelated"
+   },
+   {
+    "type": "indirect",
+    "question": "Before our pre-wedding photoshoot, should I book a facial, a teeth whitening session, or a haircut and brow trim? Pick one.",
+    "scoring_target": [
+     "teeth whitening"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "My company health screening lets me add one test for free. Should I add the cholesterol panel, the eye pressure test, or the lung function test? Pick one.",
+    "scoring_target": [
+     "lung function"
+    ]
    }
   ]
  },
@@ -1039,6 +1067,20 @@
      "Valorant"
     ],
     "relation": "unrelated"
+   },
+   {
+    "type": "indirect",
+    "question": "The phone shop quoted $280 for my screen. Should I pay with the credit card, by PayNow from the bank account, or with cash from my drawer? Pick one.",
+    "scoring_target": [
+     "credit card"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "Aisyah needs $120 of assessment books for her O-levels. Should I buy them this weekend, ask Mum to cover them, or buy them after the 25th? Pick one.",
+    "scoring_target": [
+     "after the 25th"
+    ]
    }
   ]
  },
@@ -1402,6 +1444,20 @@
      "Biscuit"
     ],
     "relation": "unrelated"
+   },
+   {
+    "type": "indirect",
+    "question": "Clara and I want a new Friday-night thing. Should we try a rooftop bar crawl, a sound bath session, or an escape room league? Pick one.",
+    "scoring_target": [
+     "sound bath"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "Clara wants to celebrate my birthday. Should she throw a surprise party with all our friends, book a karaoke room for twenty, or plan a small dinner for four? Pick one.",
+    "scoring_target": [
+     "small dinner for four"
+    ]
    }
   ]
  },
@@ -1745,6 +1801,20 @@
      "standing desk"
     ],
     "relation": "unrelated"
+   },
+   {
+    "type": "indirect",
+    "question": "The agent sent the renewal contract for my Kallang studio. Should I ask for a move-out inspection clause, a rent freeze, or a two-year term? Pick one.",
+    "scoring_target": [
+     "move-out inspection clause"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "Mr Goh keeps calling my phone. Should I pick up, block the number, or let it ring and reply in writing? Pick one.",
+    "scoring_target": [
+     "reply in writing"
+    ]
    }
   ]
  },
@@ -2082,6 +2152,20 @@
      "Pachinko"
     ],
     "relation": "unrelated"
+   },
+   {
+    "type": "indirect",
+    "question": "I'm addressing the envelope with a copy of Ruby's report book to her dad. Should I write Calvin, Kelvin, or Kevin on it? Pick one.",
+    "scoring_target": [
+     "Kelvin"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "I'm setting up a shared calendar for Ruby's weekends. Should I send the invite to Gavin, Melvin, or Kelvin? Pick one.",
+    "scoring_target": [
+     "Kelvin"
+    ]
    }
   ]
  },
@@ -2401,6 +2485,20 @@
      "Mochi"
     ],
     "relation": "unrelated"
+   },
+   {
+    "type": "indirect",
+    "question": "My crew base is running a blood drive next week. Should I help at the registration desk instead of donating, donate whole blood, or donate platelets? Pick one.",
+    "scoring_target": [
+     "registration desk"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "I want life cover so Ben is protected. Should I apply for the plan with a full medical exam and lower premiums, the plan with a short health questionnaire, or the guaranteed-acceptance plan with no health questions? Pick one.",
+    "scoring_target": [
+     "guaranteed-acceptance plan"
+    ]
    }
   ]
  },
@@ -2748,6 +2846,20 @@
      "chilli"
     ],
     "relation": "unrelated"
+   },
+   {
+    "type": "indirect",
+    "question": "A recruiter asked for my notice period. Should I say three months, available immediately, or one month? Pick one.",
+    "scoring_target": [
+     "available immediately"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "A friend's company has a marketing opening. Should I wait until I collect my year-end bonus, wait until my annual appraisal is done, or ask her for a referral now? Pick one.",
+    "scoring_target": [
+     "referral now"
+    ]
    }
   ]
  },
@@ -3103,6 +3215,20 @@
      "Isabel"
     ],
     "relation": "unrelated"
+   },
+   {
+    "type": "indirect",
+    "question": "Packing a snack for fishing at Changi tomorrow. Should I bring a bag of roasted peanuts, some wholemeal sandwiches, or a few bananas? Pick one.",
+    "scoring_target": [
+     "roasted peanuts"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "At the kopitiam drink stall, should I order sugarcane juice, barley water, or kopi-O kosong? Pick one.",
+    "scoring_target": [
+     "kopi-O kosong"
+    ]
    }
   ]
  },
@@ -3456,6 +3582,20 @@
      "Langkawi"
     ],
     "relation": "unrelated"
+   },
+   {
+    "type": "indirect",
+    "question": "Irfan needs a haircut. Should we book a barber who does home visits, the kids' salon at Waterway Point, or the neighbourhood barber downstairs? Pick one.",
+    "scoring_target": [
+     "home visits"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "Checking in at Changi for Langkawi. Should we queue at the regular counter, use the self check-in kiosks, or ask for the assisted check-in lane? Pick one.",
+    "scoring_target": [
+     "assisted check-in lane"
+    ]
    }
   ]
  }

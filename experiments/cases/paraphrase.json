@@ -215,6 +215,20 @@
      "futsal"
     ],
     "relation": "unrelated"
+   },
+   {
+    "type": "indirect",
+    "question": "For my first dinner in Osaka, should I book the halal wagyu yakiniku in Namba, the tonkotsu ramen bar in Umeda, or the sake-pairing izakaya in Shinsekai? Pick one.",
+    "scoring_target": [
+     "halal wagyu yakiniku"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "Work lets me pick one year-end hamper for myself. Should I take the wine-and-cheese box, the bak kwa and pineapple tart box, or the halal-certified cookie and chocolate box? Pick one.",
+    "scoring_target": [
+     "halal-certified cookie and chocolate box"
+    ]
    }
   ]
  },
@@ -420,6 +434,20 @@
      "mathematics"
     ],
     "relation": "unrelated"
+   },
+   {
+    "type": "indirect",
+    "question": "For my August staycation, should I book the Sentosa package with afternoon tea and a late checkout, the Sentosa package with Mega Adventure zipline passes, or the Marina Bay package with a free-flow champagne brunch? Pick one.",
+    "scoring_target": [
+     "afternoon tea and a late checkout"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "The school's staff wellness fund covers one class this term. Should I pick hot yoga, Muay Thai, or aqua aerobics? Pick one.",
+    "scoring_target": [
+     "aqua aerobics"
+    ]
    }
   ]
  },
@@ -627,6 +655,20 @@
      "Kopi"
     ],
     "relation": "unrelated"
+   },
+   {
+    "type": "indirect",
+    "question": "My insurance agent asks how much life cover I want. Should I go for $900,000, $500,000, or $300,000? Pick one.",
+    "scoring_target": [
+     "$900,000"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "A credit card form asks for my monthly income bracket. Should I tick $2,001 to $4,000, $4,001 to $6,000, or $6,001 to $9,000? Pick one.",
+    "scoring_target": [
+     "$6,001 to $9,000"
+    ]
    }
   ]
  },
@@ -829,6 +871,20 @@
      "logistics"
     ],
     "relation": "unrelated"
+   },
+   {
+    "type": "indirect",
+    "question": "For Mother's Day, should I arrange a gift from the kids, a family dinner for four, or a couples' staycation? Pick one.",
+    "scoring_target": [
+     "gift from the kids"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "My cousin's wedding in March asks who's coming. Should I RSVP for me and my wife, the whole family of four, or me and the kids? Pick one.",
+    "scoring_target": [
+     "me and the kids"
+    ]
    }
   ]
  },
@@ -1030,6 +1086,20 @@
      "Low Tide"
     ],
     "relation": "unrelated"
+   },
+   {
+    "type": "indirect",
+    "question": "I'm setting up a work desk at home. Should I put it in a bare corner facing a blank wall, by the window overlooking the playground, or in the living room next to the TV? Pick one.",
+    "scoring_target": [
+     "bare corner facing a blank wall"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "I can only take one of three gigs: a documentary with one deadline in three months, 40 product ads all due in six weeks, or weekly reels due every Friday. Pick one.",
+    "scoring_target": [
+     "weekly reels due every Friday"
+    ]
    }
   ]
  },
@@ -1267,6 +1337,20 @@
      "Punggol"
     ],
     "relation": "unrelated"
+   },
+   {
+    "type": "indirect",
+    "question": "I have 4 days of annual leave left this year. Should I keep them free for short-notice appointments, take a long weekend in Bintan, or carry them over to next year? Pick one.",
+    "scoring_target": [
+     "keep them free for short-notice appointments"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "With my $300 shopping budget this month, should I get new running shoes, noise-cancelling earbuds, or a smart blazer? Pick one.",
+    "scoring_target": [
+     "smart blazer"
+    ]
    }
   ]
  },
@@ -1486,6 +1570,20 @@
      "Wednesdays"
     ],
     "relation": "unrelated"
+   },
+   {
+    "type": "indirect",
+    "question": "My bank sent me three offers this week. Which should I look into: a refinancing offer, an air-miles credit card, or a 12-month fixed deposit? Pick one.",
+    "scoring_target": [
+     "refinancing offer"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "I want to set aside $500 a month. Should it go into a robo-advisor, toward extra repayments, or into Singapore Savings Bonds? Pick one.",
+    "scoring_target": [
+     "extra repayments"
+    ]
    }
   ]
  },
@@ -1690,6 +1788,20 @@
      "Siargao"
     ],
     "relation": "unrelated"
+   },
+   {
+    "type": "indirect",
+    "question": "My conference profile has a hometown field. Should I put Ipoh, Taiping, or Teluk Intan? Pick one.",
+    "scoring_target": [
+     "Ipoh"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "Priya and I are stopping in Perak on the way to CNY. Which town should we spend a night in so I can show her my old neighbourhood: Kampar, Taiping, or Ipoh? Pick one.",
+    "scoring_target": [
+     "Ipoh"
+    ]
    }
   ]
  },
@@ -1882,6 +1994,20 @@
      "TTSH"
     ],
     "relation": "unrelated"
+   },
+   {
+    "type": "indirect",
+    "question": "At the kopitiam on my break, should I order teh-o, teh C, or teh tarik? Pick one.",
+    "scoring_target": [
+     "teh-o"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "For our anniversary weekend, should Arjun and I do a cheese fondue dinner, a gelato-making class, or a Thai cooking class? Pick one.",
+    "scoring_target": [
+     "Thai cooking class"
+    ]
    }
   ]
  },
@@ -2079,6 +2205,20 @@
      "pottery"
     ],
     "relation": "unrelated"
+   },
+   {
+    "type": "indirect",
+    "question": "For my parents' 40th wedding anniversary dinner, should I plan it all myself, split the planning with my brother, or let my sister take the lead? Pick one.",
+    "scoring_target": [
+     "plan it all myself"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "Dad wants to set up a Lasting Power of Attorney. Should he name my elder brother, my younger sister, or me and Mum jointly? Pick one.",
+    "scoring_target": [
+     "me and Mum jointly"
+    ]
    }
   ]
  }

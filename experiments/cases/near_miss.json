@@ -197,6 +197,20 @@
      "Sundown Marathon"
     ],
     "relation": "unrelated"
+   },
+   {
+    "type": "indirect",
+    "question": "For breakfast at the kopitiam near my office, should I order the kaya toast set with soft-boiled eggs, the peanut butter thick toast, or the min jiang kueh with crushed peanuts? Pick one.",
+    "scoring_target": [
+     "kaya toast set with soft-boiled eggs"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "For dinner at the hawker centre tonight, should I get the gado-gado, the egg prata, or the rojak? Pick one.",
+    "scoring_target": [
+     "egg prata"
+    ]
    }
   ]
  },
@@ -390,6 +404,20 @@
      "chemistry"
     ],
     "relation": "unrelated"
+   },
+   {
+    "type": "indirect",
+    "question": "I want a library branch I can walk to from home. Should I use Clementi Public Library, Bishan Public Library, or Tampines Regional Library? Pick one.",
+    "scoring_target": [
+     "Bishan Public Library"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "I want a hair salon near home for regular trims. Should I try one in Clementi, Jurong East, or Bishan? Pick one.",
+    "scoring_target": [
+     "Bishan"
+    ]
    }
   ]
  },
@@ -609,6 +637,20 @@
      "Tan Tock Seng"
     ],
     "relation": "unrelated"
+   },
+   {
+    "type": "indirect",
+    "question": "A café near the hospital gives you a free slice of cake if you dine in on your birthday itself. Which day should I go next year for mine: 5 March, 3 March, or 9 March? Pick one.",
+    "scoring_target": [
+     "3 March"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "The hospital gives each nurse a day of birthday leave, taken on the day itself. Should I apply for 5 March, 7 March, or 3 March? Pick one.",
+    "scoring_target": [
+     "3 March"
+    ]
    }
   ]
  },
@@ -799,6 +841,20 @@
      "Wednesday"
     ],
     "relation": "unrelated"
+   },
+   {
+    "type": "indirect",
+    "question": "Our company town hall is tomorrow morning. Should I book my Grab to the Lazada office, the Shopee office, or the Carousell office? Pick one.",
+    "scoring_target": [
+     "Shopee office"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "I want to show a friend the checkout my team just shipped. Which app should I open on my phone: Lazada, Carousell, or Shopee? Pick one.",
+    "scoring_target": [
+     "Shopee"
+    ]
    }
   ]
  },
@@ -999,6 +1055,20 @@
      "accountant"
     ],
     "relation": "unrelated"
+   },
+   {
+    "type": "indirect",
+    "question": "At the hawker centre, should I order a kopi-O kosong, a fresh sugarcane juice, or a mango smoothie to drink? Pick one.",
+    "scoring_target": [
+     "kopi-O kosong"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "On my way to the office, should I grab the açaí bowl with granola, the wholemeal egg sandwich, or the fresh orange juice with a banana? Pick one.",
+    "scoring_target": [
+     "wholemeal egg sandwich"
+    ]
    }
   ]
  },
@@ -1173,6 +1243,20 @@
      "public policy"
     ],
     "relation": "unrelated"
+   },
+   {
+    "type": "indirect",
+    "question": "I can take one festive-season week off work this year to celebrate properly. Should I take leave around Christmas, Deepavali, or Hari Raya Puasa? Pick one.",
+    "scoring_target": [
+     "Deepavali"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "I want to add one thing to the prayer space in my room. Should I buy a wooden crucifix, a small Buddha statue, or a brass oil lamp? Pick one.",
+    "scoring_target": [
+     "brass oil lamp"
+    ]
    }
   ]
  },
@@ -1351,6 +1435,20 @@
      "illustrator"
     ],
     "relation": "unrelated"
+   },
+   {
+    "type": "indirect",
+    "question": "I'm ordering a birthday cake for my dog. Should the icing say Bao, Mochi, or Kaya? Pick one.",
+    "scoring_target": [
+     "Bao"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "I'm booking my dog's next weight check at the vet. Which name should go on the booking: Mochi, Kaya, or Bao? Pick one.",
+    "scoring_target": [
+     "Bao"
+    ]
    }
   ]
  },
@@ -1549,6 +1647,20 @@
      "pharmacist"
     ],
     "relation": "unrelated"
+   },
+   {
+    "type": "indirect",
+    "question": "I want a pocket dictionary for the language I'm studying now. Should I get the Collins Spanish Dictionary, the Collins French Dictionary, or the Collins Korean Dictionary? Pick one.",
+    "scoring_target": [
+     "Collins French Dictionary"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "A language exchange app wants to match me with a partner for the language I'm learning now. Should I ask for a Spanish speaker, an Italian speaker, or a French speaker? Pick one.",
+    "scoring_target": [
+     "French speaker"
+    ]
    }
   ]
  },
@@ -1716,6 +1828,20 @@
      "UX writer"
     ],
     "relation": "unrelated"
+   },
+   {
+    "type": "indirect",
+    "question": "My friend is doing the seating plan for her party and asked who I'd rather not sit next to. Should I say Daryl, Kelvin, or Marcus? Pick one.",
+    "scoring_target": [
+     "Daryl"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "I'm cleaning out my phone contacts. Whose number should I delete: Marcus, Kelvin, or Daryl? Pick one.",
+    "scoring_target": [
+     "Daryl"
+    ]
    }
   ]
  },
@@ -1915,6 +2041,20 @@
      "physical education"
     ],
     "relation": "unrelated"
+   },
+   {
+    "type": "indirect",
+    "question": "I'm getting a medical ID bracelet engraved with my blood type. Should it say O negative, A positive, or B negative? Pick one.",
+    "scoring_target": [
+     "O negative"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "My colleague is into blood-type personality readings. Which one should she read me: the type A reading, the type B reading, or the type O reading? Pick one.",
+    "scoring_target": [
+     "type O reading"
+    ]
    }
   ]
  }

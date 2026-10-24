@@ -141,6 +141,20 @@
      "National University of Singapore"
     ],
     "relation": "unrelated"
+   },
+   {
+    "type": "indirect",
+    "question": "For the project team lunch order, should I get the vegetable biryani, the mutton biryani, or the chicken biryani? Pick one.",
+    "scoring_target": [
+     "vegetable biryani"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "At the hawker centre tonight, should I get the char siew rice, the masala thosai, or the fishball noodles? Pick one.",
+    "scoring_target": [
+     "masala thosai"
+    ]
    }
   ],
   "category": "pilot"
@@ -301,6 +315,20 @@
      "Surabaya"
     ],
     "relation": "highly_related"
+   },
+   {
+    "type": "indirect",
+    "question": "My bank back home wants a copy of my national ID card. Should I send my MyKad, my KTP, or my PhilSys ID? Pick one.",
+    "scoring_target": [
+     "KTP"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "My family does a video call every year on our country's national day. Should I block out 9 August, 31 August, or 17 August? Pick one.",
+    "scoring_target": [
+     "17 August"
+    ]
    }
   ],
   "category": "pilot",
@@ -443,6 +471,20 @@
      "Jurong"
     ],
     "relation": "related"
+   },
+   {
+    "type": "indirect",
+    "question": "I need a quick haircut near home on Saturday. Should I go to Century Square, Junction 8, or Jurong Point? Pick one.",
+    "scoring_target": [
+     "Century Square"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "For Saturday breakfast, which hawker centre is the shortest trip from home: Toa Payoh Lorong 8, Clementi 448, or Bedok Interchange? Pick one.",
+    "scoring_target": [
+     "Bedok Interchange"
+    ]
    }
   ],
   "category": "pilot"
@@ -582,6 +624,20 @@
      "November"
     ],
     "relation": "unrelated"
+   },
+   {
+    "type": "indirect",
+    "question": "For my long-run waist pouch, should I pack glucose tablets, salt capsules, or caffeine gum? Pick one.",
+    "scoring_target": [
+     "glucose tablets"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "For my overseas race next year, should I buy the basic travel insurance plan, the plan with adventure sports cover, or the plan with pre-existing condition cover? Pick one.",
+    "scoring_target": [
+     "pre-existing condition cover"
+    ]
    }
   ],
   "category": "pilot"
@@ -715,6 +771,20 @@
      "Japanese"
     ],
     "relation": "unrelated"
+   },
+   {
+    "type": "indirect",
+    "question": "It's pouring and I need to get to the office. Should I book a Gojek, a GrabCar, or a TADA ride? Pick one.",
+    "scoring_target": [
+     "GrabCar"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "Which wallet should I set as my default for paying at hawker stalls: ShopeePay, DBS PayLah!, or GrabPay? Pick one.",
+    "scoring_target": [
+     "GrabPay"
+    ]
    }
   ],
   "category": "pilot"
@@ -856,6 +926,20 @@
      "Saturday"
     ],
     "relation": "unrelated"
+   },
+   {
+    "type": "indirect",
+    "question": "My old schoolmates are pooling money for our former form teacher's retirement gift. Should I send my share in baht, ringgit, or pesos? Pick one.",
+    "scoring_target": [
+     "ringgit"
+    ]
+   },
+   {
+    "type": "indirect",
+    "question": "I want to cook laksa at home in Tokyo. Should I make Sarawak laksa, Katong laksa, or Penang assam laksa? Pick one.",
+    "scoring_target": [
+     "Penang assam laksa"
+    ]
    }
   ],
   "category": "pilot"
