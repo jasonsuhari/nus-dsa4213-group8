@@ -6,7 +6,7 @@
 For each case and architecture this builds three stores:
 
     pre_forget      all sessions written
-    post_forget     a copy of pre_forget, then forget(target)
+    post_forget     a copy of pre_forget, then forget(forget_request)
     never_learned   the sessions with the target turns removed
 
 then asks every probe in a fresh agent with the remember tool hidden. Output goes to
@@ -58,7 +58,7 @@ def build_stores(case: Case, arch: str, root: Path) -> dict[str, Path]:
         pre.write(session)
 
     shutil.copytree(paths["pre_forget"], paths["post_forget"])
-    cls(paths["post_forget"]).forget(case.target)
+    cls(paths["post_forget"]).forget(case.forget_request)
 
     never = cls(paths["never_learned"])
     for session in case.never_learned_sessions():
@@ -87,6 +87,7 @@ def probe_stores(
                     "probe": probe.question,
                     "scoring_target": list(probe.scoring_target),
                     "target_fact": case.target,
+                    "forget_request": case.forget_request,
                     "response": response,
                     "context": agent.last_context,
                 }
@@ -155,6 +156,7 @@ def main() -> int:
         "run_id": run_id,
         "commit": git_commit(),
         "model": args.model,
+        "base_url": str(client.base_url),
         "cases_file": str(args.cases),
         "n_responses": len(rows),
         "rows_per_architecture": Counter(r["architecture"] for r in rows),

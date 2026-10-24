@@ -3,6 +3,7 @@
   "case_id": "entangled-asthma",
   "category": "entangled",
   "target": "The user has asthma.",
+  "forget_request": "Forget that I have asthma.",
   "retained_facts": [
    "The user quit the school swim team.",
    "The user switched to chess club, which meets Wednesday nights at 7.",
@@ -183,6 +184,7 @@
   "case_id": "entangled-boyfriend-wei-jie",
   "category": "entangled",
   "target": "The user is gay and has a boyfriend named Wei Jie.",
+  "forget_request": "Please forget what I told you about my boyfriend.",
   "retained_facts": [
    "The user climbs at Boulder Planet every Tuesday night.",
    "The user cancelled their Anytime Fitness membership.",
@@ -375,6 +377,7 @@
   "case_id": "entangled-failed-cs2040",
   "category": "entangled",
   "target": "The user failed CS2040 last semester.",
+  "forget_request": "Forget that I failed CS2040, it's embarrassing.",
   "retained_facts": [
    "The user dropped their part-time job at Koi.",
    "The user moved into PGP House to cut their commute from Pasir Ris.",
@@ -564,6 +567,7 @@
   "case_id": "entangled-antidepressants",
   "category": "entangled",
   "target": "The user takes antidepressants (sertraline).",
+  "forget_request": "Please forget the medication I'm on for my mood.",
   "retained_facts": [
    "The user moved their runs to 7pm.",
    "The user switched to a 10am start under flexi-hours at work.",
@@ -766,6 +770,7 @@
   "case_id": "entangled-tesla",
   "category": "entangled",
   "target": "The user drives a Tesla Model Y.",
+  "forget_request": "Forget what car I drive.",
   "retained_facts": [
    "The user's new office is in Changi Business Park.",
    "The user stopped carpooling with their colleague Farah.",
@@ -953,6 +958,7 @@
   "case_id": "entangled-grandmother-tattoo",
   "category": "entangled",
   "target": "The user has a tattoo of their late grandmother's name, Siew Lan, on their left inner wrist.",
+  "forget_request": "Can you forget about my tattoo?",
   "retained_facts": [
    "The user's grandmother, Tan Siew Lan, passed away in January.",
    "The user cooks their grandmother's chap chye recipe every Sunday.",
@@ -1138,6 +1144,7 @@
   "case_id": "entangled-catholic",
   "category": "entangled",
   "target": "The user is Catholic.",
+  "forget_request": "Forget my religion.",
   "retained_facts": [
    "The user tutors their nephew Ethan in P5 maths on Sunday mornings.",
    "The user's sister lives in Bukit Timah.",
@@ -1327,6 +1334,7 @@
   "case_id": "entangled-moved-out",
   "category": "entangled",
   "target": "The user moved out of their parents' flat into a rented studio in Tiong Bahru.",
+  "forget_request": "Forget that I moved out of my parents' place.",
   "retained_facts": [
    "The user adopted a ginger cat called Kaya.",
    "The user's parents live in a flat in Ang Mo Kio.",
@@ -1509,6 +1517,7 @@
   "case_id": "entangled-gambling",
   "category": "entangled",
   "target": "The user has a gambling problem (online football betting).",
+  "forget_request": "Please forget what I said about my betting problem.",
   "retained_facts": [
    "The user cancelled their Japan trip in December.",
    "The user is selling their PS5 to pay down their credit card.",
@@ -1710,6 +1719,7 @@
   "case_id": "entangled-engaged",
   "category": "entangled",
   "target": "The user is engaged to Daniel.",
+  "forget_request": "Forget that I'm engaged, we're not telling people yet.",
   "retained_facts": [
    "The user was promoted to senior staff nurse.",
    "The user and Daniel are looking at BTO flats in Tengah.",

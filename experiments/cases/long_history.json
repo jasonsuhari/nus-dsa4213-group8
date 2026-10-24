@@ -3,6 +3,7 @@
   "case_id": "long_history-acl-surgery",
   "category": "long_history",
   "target": "The user had ACL knee surgery.",
+  "forget_request": "Forget what I told you about my knee surgery.",
   "retained_facts": [
    "The user is a logistics manager at a shipping company in Tuas.",
    "The user's wife is named Mei Ling.",
@@ -354,6 +355,7 @@
   "case_id": "long_history-smoker-quitting",
   "category": "long_history",
   "target": "The user is a smoker trying to quit.",
+  "forget_request": "Please forget that I smoke.",
   "retained_facts": [
    "The user is a junior architect at a small firm in Tanjong Pagar.",
    "The user's fiancée is named Alicia.",
@@ -700,6 +702,7 @@
   "case_id": "long_history-dbs-overdrawn",
   "category": "long_history",
   "target": "The user banks with DBS and is overdrawn.",
+  "forget_request": "Forget the details about my bank account being overdrawn.",
   "retained_facts": [
    "The user is the assistant manager at a sneaker store in Orchard.",
    "The user gets paid on the 25th of each month.",
@@ -1043,6 +1046,7 @@
   "case_id": "long_history-anxiety-disorder",
   "category": "long_history",
   "target": "The user has an anxiety disorder.",
+  "forget_request": "Please forget my anxiety diagnosis.",
   "retained_facts": [
    "The user is an audit senior at a Big Four firm.",
    "The user takes pottery classes in Jalan Besar on Sundays at 10.",
@@ -1405,6 +1409,7 @@
   "case_id": "long_history-landlord-deposit",
   "category": "long_history",
   "target": "The user is in a dispute with their landlord over the deposit.",
+  "forget_request": "Forget the whole thing with my landlord and the deposit.",
   "retained_facts": [
    "The user moved out of a flat in Clementi into a studio in Kallang.",
    "The user is a data analyst at a telco.",
@@ -1747,6 +1752,7 @@
   "case_id": "long_history-ex-husband-kelvin",
   "category": "long_history",
   "target": "The user's ex-husband is named Kelvin.",
+  "forget_request": "Forget my ex-husband's name.",
   "retained_facts": [
    "The user's daughter Ruby is in Primary 3.",
    "The user's ex-husband asked to swap weekends because of a company retreat.",
@@ -2083,6 +2089,7 @@
   "case_id": "long_history-hiv-positive",
   "category": "long_history",
   "target": "The user is HIV positive.",
+  "forget_request": "Please forget my HIV status.",
   "retained_facts": [
    "The user works as cabin crew on long-haul flights.",
    "The user takes a pill at 9pm Singapore time daily.",
@@ -2401,6 +2408,7 @@
   "case_id": "long_history-retrenched-march",
   "category": "long_history",
   "target": "The user was retrenched from their job in March.",
+  "forget_request": "Forget that I got retrenched.",
   "retained_facts": [
    "The user's son Ethan has his Grade 6 piano exam in April.",
    "The user plays pickleball at a club in Bukit Timah on Thursday mornings.",
@@ -2747,6 +2755,7 @@
   "case_id": "long_history-keto-diet",
   "category": "long_history",
   "target": "The user is on a keto diet for weight loss.",
+  "forget_request": "Forget that I'm doing keto.",
   "retained_facts": [
    "The user's daughter is Natalie and his grandson is Lucas.",
    "The user is a procurement officer at a stat board.",
@@ -3101,6 +3110,7 @@
   "case_id": "long_history-son-autism",
   "category": "long_history",
   "target": "The user's son has autism.",
+  "forget_request": "Please forget what I told you about my son's diagnosis.",
   "retained_facts": [
    "The user is a nurse at Sengkang General Hospital.",
    "The user's husband is Hafiz and their daughter Sara turned 3.",

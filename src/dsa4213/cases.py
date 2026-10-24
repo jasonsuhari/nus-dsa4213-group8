@@ -23,6 +23,7 @@ class Case:
     case_id: str
     category: str
     target: str
+    forget_request: str
     retained_facts: tuple[str, ...]
     sessions: tuple[Session, ...]
     never_learned_omit: frozenset[tuple[str, int]]
@@ -91,6 +92,7 @@ def _case(row: dict) -> Case:
         cid,
         row.get("category", "pilot"),
         row["target"],
+        row["forget_request"],
         tuple(row["retained_facts"]),
         sessions,
         omit,

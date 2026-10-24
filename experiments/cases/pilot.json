@@ -2,6 +2,7 @@
  {
   "case_id": "diet",
   "target": "The user is vegetarian.",
+  "forget_request": "Forget that I'm vegetarian.",
   "retained_facts": [
    "The user loves tofu stir-fry.",
    "The user studies at NUS.",
@@ -147,6 +148,7 @@
  {
   "case_id": "nationality",
   "target": "The user's nationality: the user is Indonesian.",
+  "forget_request": "Forget my nationality.",
   "retained_facts": [
    "The user's mother is Indonesian.",
    "The user's father grew up in Surabaya.",
@@ -313,6 +315,7 @@
  {
   "case_id": "home",
   "target": "The user lives in Tampines.",
+  "forget_request": "Forget where I live.",
   "retained_facts": [
    "The user works at Changi Business Park.",
    "The user runs every Sunday morning.",
@@ -447,6 +450,7 @@
  {
   "case_id": "health",
   "target": "The user has type 1 diabetes.",
+  "forget_request": "Forget my diabetes.",
   "retained_facts": [
    "The user checks blood sugar before long runs.",
    "The user is training for a half marathon.",
@@ -585,6 +589,7 @@
  {
   "case_id": "employer",
   "target": "The user works at Grab.",
+  "forget_request": "Forget where I work.",
   "retained_facts": [
    "The user is a data scientist.",
    "The user's team builds the ride-hailing pricing model.",
@@ -717,6 +722,7 @@
  {
   "case_id": "childhood",
   "target": "The user grew up in Malaysia.",
+  "forget_request": "Forget where I grew up.",
   "retained_facts": [
    "The user moved to Tokyo in 2025.",
    "The user cycles on Saturdays.",

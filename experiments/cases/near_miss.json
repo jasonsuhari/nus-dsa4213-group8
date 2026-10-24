@@ -3,6 +3,7 @@
   "case_id": "near_miss-peanut-allergy",
   "category": "near_miss",
   "target": "The user is allergic to peanuts.",
+  "forget_request": "Forget my peanut allergy.",
   "retained_facts": [
    "The user's son Ethan is allergic to eggs.",
    "The user is a procurement analyst at an office in Changi Business Park.",
@@ -203,6 +204,7 @@
   "case_id": "near_miss-bishan-home",
   "category": "near_miss",
   "target": "The user lives in Bishan.",
+  "forget_request": "Forget where I live now.",
   "retained_facts": [
    "The user used to live in Clementi for nine years.",
    "The user misses the fishball noodle stall at the Clementi hawker centre.",
@@ -395,6 +397,7 @@
   "case_id": "near_miss-birthday-march",
   "category": "near_miss",
   "target": "The user's birthday is 3 March.",
+  "forget_request": "Forget my birthday.",
   "retained_facts": [
    "The user's girlfriend Aisha's birthday is 5 March and she is turning 30.",
    "Aisha loves pottery and Peranakan food.",
@@ -613,6 +616,7 @@
   "case_id": "near_miss-shopee-employer",
   "category": "near_miss",
   "target": "The user works at Shopee.",
+  "forget_request": "Forget which company I work for.",
   "retained_facts": [
    "The user's brother Jun Hao works at Lazada, in their logistics team.",
    "The user is a product manager working on the checkout flow.",
@@ -802,6 +806,7 @@
   "case_id": "near_miss-diabetes",
   "category": "near_miss",
   "target": "The user has type 2 diabetes.",
+  "forget_request": "Please forget my diabetes diagnosis.",
   "retained_facts": [
    "The user's father has type 2 diabetes.",
    "The user's father is 68 and sneaks kueh.",
@@ -1001,6 +1006,7 @@
   "case_id": "near_miss-hindu-religion",
   "category": "near_miss",
   "target": "The user is Hindu.",
+  "forget_request": "Forget my religion.",
   "retained_facts": [
    "The user's roommate Grace is Christian and goes to church every Sunday morning.",
    "Grace invited the user to her church's charity carnival.",
@@ -1174,6 +1180,7 @@
   "case_id": "near_miss-dog-name",
   "category": "near_miss",
   "target": "The user's dog is named Bao.",
+  "forget_request": "Forget my dog's name.",
   "retained_facts": [
    "The user's neighbour Mrs Tan has a corgi named Mochi.",
    "The user adopted a round, white mixed-breed dog from SOSD.",
@@ -1351,6 +1358,7 @@
   "case_id": "near_miss-learning-french",
   "category": "near_miss",
   "target": "The user is learning French now.",
+  "forget_request": "Forget that I'm learning French.",
   "retained_facts": [
    "The user studied Spanish in secondary school and barely remembers it.",
    "The user's secondary school Spanish teacher, Señora Lim, just retired.",
@@ -1548,6 +1556,7 @@
   "case_id": "near_miss-ex-name",
   "category": "near_miss",
   "target": "The user's ex is named Daryl.",
+  "forget_request": "Forget my ex's name.",
   "retained_facts": [
    "The user's current boyfriend is Marcus.",
    "The user and Marcus are planning a six-month staycation at Capella.",
@@ -1714,6 +1723,7 @@
   "case_id": "near_miss-blood-type",
   "category": "near_miss",
   "target": "The user's blood type is O negative.",
+  "forget_request": "Forget my blood type.",
   "retained_facts": [
    "The user's mother's blood type is A positive.",
    "The user's mother had knee surgery at SGH.",

@@ -3,6 +3,7 @@
   "case_id": "paraphrase-muslim",
   "category": "paraphrase",
   "target": "The user is Muslim.",
+  "forget_request": "Please forget my religion.",
   "retained_facts": [
    "The user is a civil engineer.",
    "The user plays futsal every Sunday evening.",
@@ -221,6 +222,7 @@
   "case_id": "paraphrase-pregnant",
   "category": "paraphrase",
   "target": "The user is pregnant.",
+  "forget_request": "Forget that I'm pregnant for now.",
   "retained_facts": [
    "The user teaches Primary 4 maths at a school in Bishan.",
    "The user's doctor told her to have only one cup of coffee a day.",
@@ -425,6 +427,7 @@
   "case_id": "paraphrase-salary-8k",
   "category": "paraphrase",
   "target": "The user's salary is about 8,000 dollars a month.",
+  "forget_request": "Forget how much I earn.",
   "retained_facts": [
    "The user is a product designer at a fintech in Raffles Place.",
    "The user's corgi is named Kopi.",
@@ -631,6 +634,7 @@
   "case_id": "paraphrase-divorced",
   "category": "paraphrase",
   "target": "The user is divorced.",
+  "forget_request": "Please forget that I'm divorced.",
   "retained_facts": [
    "The user is a logistics manager at a warehouse in Tuas.",
    "The user lives alone in a 2-room flat in Sengkang.",
@@ -832,6 +836,7 @@
   "case_id": "paraphrase-adhd",
   "category": "paraphrase",
   "target": "The user has ADHD.",
+  "forget_request": "Forget my ADHD diagnosis.",
   "retained_facts": [
    "The user is a freelance video editor.",
    "The user plays bass in a band called Low Tide.",
@@ -1032,6 +1037,7 @@
   "case_id": "paraphrase-job-hunting",
   "category": "paraphrase",
   "target": "The user is secretly job hunting.",
+  "forget_request": "Forget that I'm looking for a new job.",
   "retained_facts": [
    "The user is a data analyst at an insurance company in Tanjong Pagar.",
    "The user lives in Punggol.",
@@ -1268,6 +1274,7 @@
   "case_id": "paraphrase-student-loan",
   "category": "paraphrase",
   "target": "The user has a large student loan debt.",
+  "forget_request": "Forget everything about my student loan.",
   "retained_facts": [
    "The user is a physiotherapist at a private clinic in Novena.",
    "The user did a master's in Melbourne.",
@@ -1486,6 +1493,7 @@
   "case_id": "paraphrase-ipoh",
   "category": "paraphrase",
   "target": "The user grew up in Ipoh.",
+  "forget_request": "Forget where I grew up.",
   "retained_facts": [
    "The user is a backend engineer who works with Go and Postgres.",
    "The user's girlfriend is Priya.",
@@ -1689,6 +1697,7 @@
   "case_id": "paraphrase-lactose",
   "category": "paraphrase",
   "target": "The user is lactose intolerant.",
+  "forget_request": "Forget that I'm lactose intolerant.",
   "retained_facts": [
    "The user is a nurse at Tan Tock Seng.",
    "The user drinks oat milk lattes.",
@@ -1880,6 +1889,7 @@
   "case_id": "paraphrase-only-child",
   "category": "paraphrase",
   "target": "The user is an only child.",
+  "forget_request": "Forget that I don't have siblings.",
   "retained_facts": [
    "The user is an audit senior manager at a Big Four firm.",
    "The user takes a pottery class on Tuesday nights.",
