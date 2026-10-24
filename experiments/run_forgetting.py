@@ -46,7 +46,7 @@ ARCHITECTURES: dict[str, type[Memory]] = {
     "full": FullTranscriptMemory,
 }
 CONDITIONS = ("pre_forget", "post_forget", "never_learned")
-DEFAULT_CASES = Path(__file__).parent / "cases" / "pilot.json"
+DEFAULT_CASES = Path(__file__).parent / "cases"
 
 
 def build_stores(case: Case, arch: str, root: Path) -> dict[str, Path]:
@@ -79,9 +79,11 @@ def probe_stores(
             rows.append(
                 {
                     "case_id": case.case_id,
+                    "category": case.category,
                     "architecture": arch,
                     "condition": condition,
                     "probe_type": probe.probe_type,
+                    "relation": probe.relation,
                     "probe": probe.question,
                     "scoring_target": list(probe.scoring_target),
                     "target_fact": case.target,
@@ -103,15 +105,23 @@ def run_one(case: Case, arch: str, out: Path, model: str, client: OpenAI) -> lis
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--cases", type=Path, default=DEFAULT_CASES)
+    parser.add_argument(
+        "--cases", type=Path, default=DEFAULT_CASES, help="a .json file or a directory of them"
+    )
     parser.add_argument("--only", choices=sorted(ARCHITECTURES), action="append")
     parser.add_argument("--case", action="append", help="case_id to run, repeatable")
+    parser.add_argument("--category", action="append", help="category to run, repeatable")
     parser.add_argument("--model", default=DEFAULT_MODEL)
     parser.add_argument("--workers", type=int, default=8)
     parser.add_argument("--out", type=Path, default=Path("runs"))
     args = parser.parse_args()
 
-    cases = [c for c in load_cases(args.cases) if not args.case or c.case_id in args.case]
+    cases = [
+        c
+        for c in load_cases(args.cases)
+        if (not args.case or c.case_id in args.case)
+        and (not args.category or c.category in args.category)
+    ]
     archs = args.only or list(ARCHITECTURES)
     run_id = uuid.uuid4().hex[:8]
     out = args.out / run_id
