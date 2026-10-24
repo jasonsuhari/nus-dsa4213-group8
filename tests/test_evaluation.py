@@ -221,7 +221,7 @@ def test_metrics_on_labelled_responses():
     assert calculate_rir(df) == pytest.approx(0.5)
     assert calculate_slr(df) == pytest.approx(2 / 3)
     assert calculate_alr(df) == pytest.approx(1 / 2)
-    assert calculate_mls(df) == pytest.approx(1.8)
+    assert calculate_mls(df) == pytest.approx(1.8 / 3)
 
 
 raw_records = [
@@ -325,4 +325,4 @@ def test_scoring_then_metrics_end_to_end():
     assert row["RIR"] == 1
     assert row["SLR"] == 1
     assert row["ALR"] == 0
-    assert row["MLS"] == 1
+    assert row["MLS"] == pytest.approx(1 / 3)

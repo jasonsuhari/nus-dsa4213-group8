@@ -22,6 +22,7 @@ import time
 import uuid
 from collections import Counter
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from dataclasses import dataclass
 from pathlib import Path
 
 from openai import OpenAI
@@ -46,35 +47,48 @@ ARCHITECTURES: dict[str, type[Memory]] = {
     "full": FullTranscriptMemory,
 }
 CONDITIONS = ("pre_forget", "post_forget", "never_learned")
+UNCAPPED = 10**9
 DEFAULT_CASES = Path(__file__).parent / "cases"
 
 
-def build_stores(case: Case, arch: str, root: Path) -> dict[str, Path]:
-    cls = ARCHITECTURES[arch]
+@dataclass(frozen=True)
+class Settings:
+    model: str
+    client: OpenAI
+    max_chars: int
+
+
+def open_memory(arch: str, path: Path, settings: Settings) -> Memory:
+    if arch == "null":
+        return NullMemory(path)
+    if arch == "full":
+        return FullTranscriptMemory(path, max_chars=UNCAPPED)
+    return ARCHITECTURES[arch](path, max_chars=settings.max_chars, client=settings.client)
+
+
+def build_stores(case: Case, arch: str, root: Path, settings: Settings) -> dict[str, Path]:
     paths = {c: root / c for c in CONDITIONS}
 
-    pre = cls(paths["pre_forget"])
+    pre = open_memory(arch, paths["pre_forget"], settings)
     for session in case.sessions:
         pre.write(session)
 
     shutil.copytree(paths["pre_forget"], paths["post_forget"])
-    cls(paths["post_forget"]).forget(case.forget_request)
+    open_memory(arch, paths["post_forget"], settings).forget(case.forget_request)
 
-    never = cls(paths["never_learned"])
+    never = open_memory(arch, paths["never_learned"], settings)
     for session in case.never_learned_sessions():
         never.write(session)
     return paths
 
 
-def probe_stores(
-    case: Case, arch: str, paths: dict[str, Path], model: str, client: OpenAI
-) -> list[dict]:
+def probe_stores(case: Case, arch: str, paths: dict[str, Path], settings: Settings) -> list[dict]:
     rows = []
     for condition, path in paths.items():
-        memory = ARCHITECTURES[arch](path)
+        memory = open_memory(arch, path, settings)
         before = memory.dump()
         for probe in case.probes:
-            agent = Agent(memory, model=model, client=client)
+            agent = Agent(memory, model=settings.model, client=settings.client)
             response = agent.chat(probe.question, learn=False)
             rows.append(
                 {
@@ -90,6 +104,8 @@ def probe_stores(
                     "forget_request": case.forget_request,
                     "response": response,
                     "context": agent.last_context,
+                    "store_chars": len(before),
+                    "context_budget": memory.max_chars,
                 }
             )
         if memory.dump() != before:
@@ -98,10 +114,10 @@ def probe_stores(
     return rows
 
 
-def run_one(case: Case, arch: str, out: Path, model: str, client: OpenAI) -> list[dict]:
+def run_one(case: Case, arch: str, out: Path, settings: Settings) -> list[dict]:
     root = out / "stores" / case.case_id / arch
     shutil.rmtree(root, ignore_errors=True)
-    return probe_stores(case, arch, build_stores(case, arch, root), model, client)
+    return probe_stores(case, arch, build_stores(case, arch, root, settings), settings)
 
 
 def main() -> int:
@@ -114,6 +130,12 @@ def main() -> int:
     parser.add_argument("--category", action="append", help="category to run, repeatable")
     parser.add_argument("--model", default=DEFAULT_MODEL)
     parser.add_argument("--workers", type=int, default=8)
+    parser.add_argument(
+        "--max-chars",
+        type=int,
+        default=4000,
+        help="context budget shared by the compared architectures (full is uncapped)",
+    )
     parser.add_argument("--out", type=Path, default=Path("runs"))
     args = parser.parse_args()
 
@@ -127,13 +149,14 @@ def main() -> int:
     run_id = uuid.uuid4().hex[:8]
     out = args.out / run_id
     out.mkdir(parents=True)
-    client = OpenAI()
+    client = OpenAI(max_retries=8)
+    settings = Settings(args.model, client, args.max_chars)
     started = time.monotonic()
 
     rows, status = [], {}
     with ThreadPoolExecutor(args.workers) as pool:
         jobs = {
-            pool.submit(run_one, case, arch, out, args.model, client): (case.case_id, arch)
+            pool.submit(run_one, case, arch, out, settings): (case.case_id, arch)
             for case in cases
             for arch in archs
         }
@@ -157,6 +180,7 @@ def main() -> int:
         "commit": git_commit(),
         "model": args.model,
         "base_url": str(client.base_url),
+        "max_chars": args.max_chars,
         "cases_file": str(args.cases),
         "n_responses": len(rows),
         "rows_per_architecture": Counter(r["architecture"] for r in rows),

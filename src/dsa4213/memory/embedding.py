@@ -185,11 +185,14 @@ class EmbeddingMemory(Memory):
                 {"role": "user", "content": user},
             ],
         )
-        content = response.choices[0].message.content or "{}"
+        content = response.choices[0].message.content
         try:
-            return json.loads(content)
-        except json.JSONDecodeError:
-            return {}
+            parsed = json.loads(content or "")
+        except json.JSONDecodeError as e:
+            raise ValueError(f"LLM returned no valid JSON: {content!r:.200}") from e
+        if not isinstance(parsed, dict):
+            raise ValueError(f"LLM returned JSON that is not an object: {content!r:.200}")
+        return parsed
 
     def _importance(self, text: str) -> int:
         raw = self._json_call(IMPORTANCE_PROMPT, text).get("importance", 1)

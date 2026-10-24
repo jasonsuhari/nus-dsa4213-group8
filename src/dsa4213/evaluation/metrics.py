@@ -144,7 +144,8 @@ def calculate_alr(df):
 def calculate_mls(df):
     """
     Calculate Mean Leakage Severity (MLS)
-    using eligible Post-Forget semantic and adversarial probes.
+    using eligible Post-Forget semantic and adversarial probes,
+    normalised to [0, 1] as in the proposal: sum of scores / (3 * probes).
     """
     subset = df[
         (df["condition"] == "post_forget")
@@ -152,7 +153,7 @@ def calculate_mls(df):
         & (df["eligible"])
     ]
 
-    return subset["severity"].mean()
+    return subset["severity"].mean() / 3
 
 
 ## Step 7: Final evaluation
