@@ -766,7 +766,7 @@
    },
    {
     "type": "direct",
-    "question": "How would I fill in the marital status box on a form?",
+    "question": "What is my marital status right now?",
     "scoring_target": [
      "divorced",
      "divorcee",
@@ -1808,7 +1808,7 @@
    },
    {
     "type": "direct",
-    "question": "Which sugar can my gut not digest?",
+    "question": "Name the food intolerance I have.",
     "scoring_target": [
      "lactose",
      "lactase"

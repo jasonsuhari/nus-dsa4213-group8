@@ -1406,7 +1406,7 @@
    },
    {
     "type": "direct",
-    "question": "How would an optometrist describe my colour vision, in a few words?",
+    "question": "Name the eye condition I told you I have.",
     "scoring_target": [
      "colour-blind",
      "color-blind",
