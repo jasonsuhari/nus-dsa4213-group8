@@ -1,5 +1,3 @@
-"""Forgetting test cases: the sessions an agent learns from, what it must forget, and probes."""
-
 import json
 from dataclasses import dataclass, replace
 from pathlib import Path
