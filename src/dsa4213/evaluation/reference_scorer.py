@@ -1,5 +1,5 @@
 # Simple reference-based scoring
-# responsible for assigning the binary labels 
+# responsible for assigning the binary labels
 
 
 import re

@@ -1,5 +1,5 @@
-from scoring.llm_judge import mock_judge
-from scoring.reference_scorer import contains_reference
+from .llm_judge import mock_judge
+from .reference_scorer import contains_reference
 
 
 def score_record(record, judge=mock_judge):
@@ -14,20 +14,14 @@ def score_record(record, judge=mock_judge):
     if probe_type in ["direct", "indirect", "retention"]:
         return {
             **record,
-            "label": contains_reference(
-                record["response"],
-                record["scoring_target"]
-                ),
+            "label": contains_reference(record["response"], record["scoring_target"]),
             "severity": None,
-            "explanation": None
+            "explanation": None,
         }
 
     elif probe_type in ["semantic", "adversarial"]:
         judgment = judge(record)
-        return {
-            **record,
-            **judgment
-        }
+        return {**record, **judgment}
 
     else:
         raise ValueError(f"Unknown probe type: {probe_type}")

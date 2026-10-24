@@ -14,21 +14,18 @@ import pandas as pd
 # read csv responses file
 # df = pd.read_csv("scored_responses.csv")
 
+
 # Step 2: PRA, DLR, RA metrics
 def calculate_pra(df):
     """Calculate Pre-Forget Recall Accuracy."""
-    subset = df[
-        (df["condition"] == "pre_forget") &
-        (df["probe_type"] == "direct")
-    ]
+    subset = df[(df["condition"] == "pre_forget") & (df["probe_type"] == "direct")]
     return subset["label"].mean()
+
 
 def calculate_dlr(df):
     """Calculate Post-Forget Direct Leakage Rate for eligible cases."""
     subset = df[
-        (df["condition"] == "post_forget") &
-        (df["probe_type"] == "direct") & 
-        (df["eligible"])
+        (df["condition"] == "post_forget") & (df["probe_type"] == "direct") & (df["eligible"])
     ]
     return subset["label"].mean()
 
@@ -36,9 +33,7 @@ def calculate_dlr(df):
 def calculate_ra(df):
     """Calculate Post-Forget Retention Accuracy for eligible cases."""
     subset = df[
-        (df["condition"] == "post_forget") &
-        (df["probe_type"] == "retention") &
-        (df["eligible"])
+        (df["condition"] == "post_forget") & (df["probe_type"] == "retention") & (df["eligible"])
     ]
     return subset["label"].mean()
 
@@ -52,30 +47,23 @@ def calculate_eligibility(df, threshold=0.60):
     """
 
     # Select Pre-Forget direct probes
-    pre = df[
-        (df["condition"] == "pre_forget") &
-        (df["probe_type"] == "direct")
-    ]
+    pre = df[(df["condition"] == "pre_forget") & (df["probe_type"] == "direct")]
 
     # Calculate recall accuracy for each case and architecture
     eligibility = (
         pre.groupby(["case_id", "architecture"])
-        .agg(
-            correct=("label", "sum"),
-            total=("label", "count"),
-            recall_accuracy=("label", "mean")
-        )
+        .agg(correct=("label", "sum"), total=("label", "count"), recall_accuracy=("label", "mean"))
         .reset_index()
     )
 
     # Determine whether each case passes
-    eligibility["eligible"] = (
-        eligibility["recall_accuracy"] > threshold
-    )
+    eligibility["eligible"] = eligibility["recall_accuracy"] > threshold
 
     return eligibility
 
+
 ## Add eligibility label to the original dataset
+
 
 def add_eligibility(df, threshold=0.60):
     """
@@ -85,17 +73,17 @@ def add_eligibility(df, threshold=0.60):
     eligibility = calculate_eligibility(df, threshold)
 
     df = df.merge(
-        eligibility[
-            ["case_id", "architecture", "eligible"]
-        ],
+        eligibility[["case_id", "architecture", "eligible"]],
         on=["case_id", "architecture"],
         how="left",
-        validate="many_to_one"
+        validate="many_to_one",
     )
 
     return df
 
+
 ## Step 5: RIR
+
 
 def calculate_rir(df, min_effect=1e-6):
     """
@@ -105,10 +93,7 @@ def calculate_rir(df, min_effect=1e-6):
     Returns NaN if a condition is missing or
     the original learning effect is too small.
     """
-    indirect = df[
-        (df["probe_type"] == "indirect") &
-        (df["eligible"])
-    ]
+    indirect = df[(df["probe_type"] == "indirect") & (df["eligible"])]
 
     rates = indirect.groupby("condition")["label"].mean()
 
@@ -128,7 +113,9 @@ def calculate_rir(df, min_effect=1e-6):
 
     return (post - never) / denominator
 
+
 ## Step 6: SLR, ALR, MLS
+
 
 def calculate_slr(df):
     """
@@ -136,9 +123,7 @@ def calculate_slr(df):
     using eligible Post-Forget semantic probes.
     """
     subset = df[
-        (df["condition"] == "post_forget") &
-        (df["probe_type"] == "semantic") &
-        (df["eligible"])
+        (df["condition"] == "post_forget") & (df["probe_type"] == "semantic") & (df["eligible"])
     ]
 
     return subset["label"].mean()
@@ -150,9 +135,7 @@ def calculate_alr(df):
     using eligible Post-Forget adversarial probes.
     """
     subset = df[
-        (df["condition"] == "post_forget") &
-        (df["probe_type"] == "adversarial") &
-        (df["eligible"])
+        (df["condition"] == "post_forget") & (df["probe_type"] == "adversarial") & (df["eligible"])
     ]
 
     return subset["label"].mean()
@@ -164,9 +147,9 @@ def calculate_mls(df):
     using eligible Post-Forget semantic and adversarial probes.
     """
     subset = df[
-        (df["condition"] == "post_forget") &
-        (df["probe_type"].isin(["semantic", "adversarial"])) &
-        (df["eligible"])
+        (df["condition"] == "post_forget")
+        & (df["probe_type"].isin(["semantic", "adversarial"]))
+        & (df["eligible"])
     ]
 
     return subset["severity"].mean()
@@ -181,15 +164,17 @@ def evaluate_architectures(df):
     results = []
 
     for architecture, subset in df.groupby("architecture"):
-        results.append({
-            "architecture": architecture,
-            "PRA": calculate_pra(subset),
-            "DLR": calculate_dlr(subset),
-            "RA": calculate_ra(subset),
-            "RIR": calculate_rir(subset),
-            "SLR": calculate_slr(subset),
-            "ALR": calculate_alr(subset),
-            "MLS": calculate_mls(subset)
-        })
+        results.append(
+            {
+                "architecture": architecture,
+                "PRA": calculate_pra(subset),
+                "DLR": calculate_dlr(subset),
+                "RA": calculate_ra(subset),
+                "RIR": calculate_rir(subset),
+                "SLR": calculate_slr(subset),
+                "ALR": calculate_alr(subset),
+                "MLS": calculate_mls(subset),
+            }
+        )
 
     return pd.DataFrame(results)

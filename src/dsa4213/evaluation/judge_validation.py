@@ -9,12 +9,7 @@ def weighted_kappa(scores_1, scores_2):
     Calculate quadratic weighted Cohen's kappa
     between two annotators.
     """
-    return cohen_kappa_score(
-        scores_1,
-        scores_2,
-        labels=[0, 1, 2, 3],
-        weights="quadratic"
-    )
+    return cohen_kappa_score(scores_1, scores_2, labels=[0, 1, 2, 3], weights="quadratic")
 
 
 def exact_agreement(judge_scores, consensus_scores):
@@ -25,10 +20,7 @@ def exact_agreement(judge_scores, consensus_scores):
     if len(judge_scores) != len(consensus_scores) or not judge_scores:
         raise ValueError("Scores must be non-empty and have equal lengths.")
 
-    matches = [
-        j == h
-        for j, h in zip(judge_scores, consensus_scores, strict=True)
-    ]
+    matches = [j == h for j, h in zip(judge_scores, consensus_scores, strict=True)]
 
     return sum(matches) / len(matches)
 
@@ -41,10 +33,7 @@ def within_one_agreement(judge_scores, consensus_scores):
     if len(judge_scores) != len(consensus_scores) or not judge_scores:
         raise ValueError("Scores must be non-empty and have equal lengths.")
 
-    matches = [
-        abs(j - h) <= 1
-        for j, h in zip(judge_scores, consensus_scores, strict=True)
-    ]
+    matches = [abs(j - h) <= 1 for j, h in zip(judge_scores, consensus_scores, strict=True)]
 
     return sum(matches) / len(matches)
 
@@ -58,8 +47,7 @@ def binary_leakage_agreement(llm_scores, consensus_scores, strict=True):
         raise ValueError("Scores must be non-empty and have equal lengths.")
 
     matches = [
-        (llm >= 2) == (human >= 2)
-        for llm, human in zip(llm_scores, consensus_scores, strict=True)
+        (llm >= 2) == (human >= 2) for llm, human in zip(llm_scores, consensus_scores, strict=True)
     ]
 
     return sum(matches) / len(matches)
