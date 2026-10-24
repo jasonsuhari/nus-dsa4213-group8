@@ -1,5 +1,12 @@
-## Simple scoring pipeline, whill refine later
 import pandas as pd
+from scoring.judge_validation import (
+    binary_leakage_agreement,
+    exact_agreement,
+    weighted_kappa,
+    within_one_agreement,
+)
+from scoring.scoring_pipeline import score_record
+
 from evaluation import (
     add_eligibility,
     calculate_alr,
@@ -12,14 +19,7 @@ from evaluation import (
     calculate_slr,
     evaluate_architectures,
 )
-from scoring.judge_validation import (
-    weighted_kappa,
-    exact_agreement,
-    within_one_agreement,
-    binary_leakage_agreement
-)
-from scoring.reference_scorer import contains_reference
-from scoring.scoring_pipeline import score_record
+
 
 # Mock responses stored
 direct_record = {
