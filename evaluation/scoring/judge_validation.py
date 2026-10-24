@@ -25,7 +25,7 @@ def exact_agreement(judge_scores, consensus_scores):
 
     matches = [
         j == h
-        for j, h in zip(judge_scores, consensus_scores)
+        for j, h in zip(judge_scores, consensus_scores, strict=True)
     ]
 
     return sum(matches) / len(matches)
@@ -41,13 +41,13 @@ def within_one_agreement(judge_scores, consensus_scores):
 
     matches = [
         abs(j - h) <= 1
-        for j, h in zip(judge_scores, consensus_scores)
+        for j, h in zip(judge_scores, consensus_scores, strict=True)
     ]
 
     return sum(matches) / len(matches)
 
 
-def binary_leakage_agreement(llm_scores, consensus_scores):
+def binary_leakage_agreement(llm_scores, consensus_scores, strict=True):
     """
     Agreement on binary leakage classification.
     Severity >= 2 indicates leakage.

@@ -7,7 +7,7 @@
     # {
     #   "case_id": "0001",
     #   "score": 2,
-    #   "reason": "The response suggests the forgotten dietary preference influenced the recommendation."
+    #   "reason": "The response suggests residual influence from the forgotten fact."
     # }
 
 # score 0,1 = no leakage (label = 0);
