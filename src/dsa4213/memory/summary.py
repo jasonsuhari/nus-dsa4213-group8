@@ -33,9 +33,6 @@ WRITE_PROMPT = """You maintain a persistent natural-language summary of a user's
 information across conversations.
 
 Update the existing summary using the new conversation information.
-Your reply replaces the stored summary completely. Return the full updated summary:
-every existing fact that is still true, plus anything new from the turn. Anything
-you leave out is lost for good.
 
 Instructions:
 - Incorporate new relevant information about the user.

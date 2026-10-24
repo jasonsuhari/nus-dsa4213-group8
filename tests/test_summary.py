@@ -374,11 +374,12 @@ def test_forget_only_fact_can_persist_empty_summary(memory, client, text):
     assert SummaryMemory(memory.path, client=client).dump() == ""
 
 
-@pytest.mark.parametrize("text", ["", " \n", None])
+@pytest.mark.parametrize("text", ["", " \n"])
 def test_empty_write_cannot_erase_existing_memory(memory, client, text):
     seed(memory)
     client.chat.completions.create.return_value = completion(text)
-    memory.write(session(Turn("assistant", "Got it, I will.")))
+    with pytest.raises(ValueError, match="empty updated summary"):
+        memory.write(session(Turn("user", "I like Japanese food.")))
     assert_saved(memory, "The user studies at NUS.")
 
 
@@ -393,6 +394,7 @@ def test_empty_write_when_no_user_facts_exist(memory, client):
 @pytest.mark.parametrize(
     "response",
     [
+        completion(None),
         completion(42),
         SimpleNamespace(choices=[]),
         completion("partial", finish_reason="length"),
@@ -408,14 +410,6 @@ def test_invalid_response_preserves_memory(memory, client, operation, response):
             memory.write(session(Turn("user", "I like Japanese food.")))
         else:
             memory.forget("The user studies at NUS.")
-    assert_saved(memory, "The user studies at NUS.")
-
-
-def test_forget_with_no_content_preserves_memory(memory, client):
-    seed(memory)
-    client.chat.completions.create.return_value = completion(None)
-    with pytest.raises(ValueError, match="LLM"):
-        memory.forget("The user studies at NUS.")
     assert_saved(memory, "The user studies at NUS.")
 
 
