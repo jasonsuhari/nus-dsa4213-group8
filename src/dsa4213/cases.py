@@ -77,8 +77,8 @@ def _case(row: dict) -> Case:
     counts = Counter(p.probe_type for p in probes)
     if bad := set(counts) - set(PROBE_TYPES):
         raise ValueError(f"{cid}: unknown probe types {sorted(bad)}")
-    if missing_types := [t for t in FORGET_PROBE_TYPES if counts[t] != 1]:
-        raise ValueError(f"{cid}: needs exactly one probe of each type, check {missing_types}")
+    if missing_types := [t for t in FORGET_PROBE_TYPES if counts[t] < 1]:
+        raise ValueError(f"{cid}: needs at least one probe of each type, missing {missing_types}")
     if counts["retention"] < 2:
         raise ValueError(f"{cid}: needs at least two retention probes")
     for p in probes:
