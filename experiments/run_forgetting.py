@@ -1,0 +1,199 @@
+"""Run every case through every memory architecture under the three conditions.
+
+    uv run --env-file .env python -m experiments.run_forgetting
+    uv run --env-file .env python -m experiments.run_forgetting --only summary --case diet
+
+For each case and architecture this builds three stores:
+
+    pre_forget      all sessions written
+    post_forget     a copy of pre_forget, then forget(forget_request)
+    never_learned   the sessions with the target turns removed
+
+then asks every probe in a fresh agent with the remember tool hidden. Output goes to
+runs/<run_id>/: responses.jsonl (one row per answer, the input to evaluation/),
+stores/ (every store, inspectable) and summary.json.
+"""
+
+import argparse
+import json
+import shutil
+import sys
+import time
+import uuid
+from collections import Counter
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from dataclasses import dataclass
+from pathlib import Path
+
+from openai import OpenAI
+
+from dsa4213.agent import DEFAULT_MODEL, Agent
+from dsa4213.cases import Case, load_cases
+from dsa4213.memory import (
+    EmbeddingMemory,
+    FullTranscriptMemory,
+    KVMemory,
+    Memory,
+    NullMemory,
+    SummaryMemory,
+)
+from dsa4213.runlog import git_commit, log_run
+
+ARCHITECTURES: dict[str, type[Memory]] = {
+    "embedding": EmbeddingMemory,
+    "summary": SummaryMemory,
+    "kv": KVMemory,
+    "null": NullMemory,
+    "full": FullTranscriptMemory,
+}
+CONDITIONS = ("pre_forget", "post_forget", "never_learned")
+UNCAPPED = 10**9
+DEFAULT_CASES = Path(__file__).parent / "cases"
+
+
+@dataclass(frozen=True)
+class Settings:
+    model: str
+    client: OpenAI
+    max_chars: int
+
+
+def open_memory(arch: str, path: Path, settings: Settings) -> Memory:
+    if arch == "null":
+        return NullMemory(path)
+    if arch == "full":
+        return FullTranscriptMemory(path, max_chars=UNCAPPED)
+    return ARCHITECTURES[arch](path, max_chars=settings.max_chars, client=settings.client)
+
+
+def build_stores(case: Case, arch: str, root: Path, settings: Settings) -> dict[str, Path]:
+    paths = {c: root / c for c in CONDITIONS}
+
+    pre = open_memory(arch, paths["pre_forget"], settings)
+    for session in case.sessions:
+        pre.write(session)
+
+    shutil.copytree(paths["pre_forget"], paths["post_forget"])
+    open_memory(arch, paths["post_forget"], settings).forget(case.forget_request)
+
+    never = open_memory(arch, paths["never_learned"], settings)
+    for session in case.never_learned_sessions():
+        never.write(session)
+    return paths
+
+
+def probe_stores(case: Case, arch: str, paths: dict[str, Path], settings: Settings) -> list[dict]:
+    rows = []
+    for condition, path in paths.items():
+        memory = open_memory(arch, path, settings)
+        before = memory.dump()
+        for probe in case.probes:
+            agent = Agent(memory, model=settings.model, client=settings.client)
+            response = agent.chat(probe.question, learn=False)
+            rows.append(
+                {
+                    "case_id": case.case_id,
+                    "category": case.category,
+                    "architecture": arch,
+                    "condition": condition,
+                    "probe_type": probe.probe_type,
+                    "relation": probe.relation,
+                    "probe": probe.question,
+                    "scoring_target": list(probe.scoring_target),
+                    "target_fact": case.target,
+                    "forget_request": case.forget_request,
+                    "response": response,
+                    "context": agent.last_context,
+                    "store_chars": len(before),
+                    "context_budget": memory.max_chars,
+                }
+            )
+        if memory.dump() != before:
+            raise RuntimeError(f"{case.case_id}/{arch}/{condition}: probing changed the store")
+        (path / "dump.txt").write_text(before)
+    return rows
+
+
+def run_one(case: Case, arch: str, out: Path, settings: Settings) -> list[dict]:
+    root = out / "stores" / case.case_id / arch
+    shutil.rmtree(root, ignore_errors=True)
+    return probe_stores(case, arch, build_stores(case, arch, root, settings), settings)
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--cases", type=Path, default=DEFAULT_CASES, help="a .json file or a directory of them"
+    )
+    parser.add_argument("--only", choices=sorted(ARCHITECTURES), action="append")
+    parser.add_argument("--case", action="append", help="case_id to run, repeatable")
+    parser.add_argument("--category", action="append", help="category to run, repeatable")
+    parser.add_argument("--model", default=DEFAULT_MODEL)
+    parser.add_argument("--workers", type=int, default=8)
+    parser.add_argument(
+        "--max-chars",
+        type=int,
+        default=4000,
+        help="context budget shared by the compared architectures (full is uncapped)",
+    )
+    parser.add_argument("--out", type=Path, default=Path("runs"))
+    args = parser.parse_args()
+
+    cases = [
+        c
+        for c in load_cases(args.cases)
+        if (not args.case or c.case_id in args.case)
+        and (not args.category or c.category in args.category)
+    ]
+    archs = args.only or list(ARCHITECTURES)
+    run_id = uuid.uuid4().hex[:8]
+    out = args.out / run_id
+    out.mkdir(parents=True)
+    client = OpenAI(max_retries=8)
+    settings = Settings(args.model, client, args.max_chars)
+    started = time.monotonic()
+
+    rows, status = [], {}
+    with ThreadPoolExecutor(args.workers) as pool:
+        jobs = {
+            pool.submit(run_one, case, arch, out, settings): (case.case_id, arch)
+            for case in cases
+            for arch in archs
+        }
+        for job in as_completed(jobs):
+            key = jobs[job]
+            try:
+                rows += job.result()
+                status[key] = "ok"
+            except NotImplementedError:
+                status[key] = "not_implemented"
+            except Exception as e:
+                status[key] = f"error: {type(e).__name__}: {e}"
+            print(f"  {status[key][:60]:60} {key[0]}/{key[1]}", flush=True)
+
+    rows.sort(key=lambda r: (r["case_id"], r["architecture"], r["condition"]))
+    with (out / "responses.jsonl").open("w") as f:
+        f.writelines(json.dumps(r) + "\n" for r in rows)
+
+    summary = {
+        "run_id": run_id,
+        "commit": git_commit(),
+        "model": args.model,
+        "base_url": str(client.base_url),
+        "max_chars": args.max_chars,
+        "cases_file": str(args.cases),
+        "n_responses": len(rows),
+        "rows_per_architecture": Counter(r["architecture"] for r in rows),
+        "status": {f"{c}/{a}": s for (c, a), s in sorted(status.items())},
+        "duration_s": round(time.monotonic() - started, 1),
+    }
+    (out / "summary.json").write_text(json.dumps(summary, indent=2) + "\n")
+    log_run(task="run_forgetting", **{k: v for k, v in summary.items() if k != "status"})
+    print(f"\n{len(rows)} responses in {out}/responses.jsonl ({summary['duration_s']}s)")
+
+    errors = [k for k, s in status.items() if s.startswith("error")]
+    return 1 if errors else 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

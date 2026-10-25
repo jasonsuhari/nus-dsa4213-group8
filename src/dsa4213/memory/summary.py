@@ -33,6 +33,9 @@ WRITE_PROMPT = """You maintain a persistent natural-language summary of a user's
 information across conversations.
 
 Update the existing summary using the new conversation information.
+Your reply replaces the stored summary completely. Return the full updated summary:
+every existing fact that is still true, plus anything new from the turn. Anything
+you leave out is lost for good.
 
 Instructions:
 - Incorporate new relevant information about the user.
@@ -159,10 +162,8 @@ class SummaryMemory(Memory):
         """Extract text only from a normally completed, non-refused response.
 
         Empty strings are allowed here; each operation decides whether they
-        are valid. Missing text is invalid by default. ``write()`` permits one
-        exception: an assistant turn with empty memory may add no information,
-        represented by null text from some providers. Refusals, interruptions,
-        and tool calls cannot use that exception.
+        are valid. Missing text is invalid by default; ``write()`` reads it as
+        no change. Refusals, interruptions, and tool calls are always invalid.
         This validates response structure, not the factual quality of its text.
         """
         if not response.choices:
@@ -224,14 +225,11 @@ class SummaryMemory(Memory):
                 ],
                 temperature=0,
             )
-            # A normally completed assistant turn may add nothing to empty memory.
-            # User turns, populated memory, and forget() retain strict validation.
-            updated_summary = self._summary_from_response(
-                response, allow_missing_text=turn.role == "assistant" and not self.summary
-            )
-            # Empty text can mean no facts yet, but must not erase existing memory.
-            if not updated_summary and self.summary:
-                raise ValueError("LLM returned an empty updated summary.")
+            # gpt-4o-mini answers a turn with nothing new by returning no text (None
+            # over OpenRouter) rather than repeating the summary. Read it as no change.
+            updated_summary = self._summary_from_response(response, allow_missing_text=True)
+            if not updated_summary:
+                continue
             if updated_summary != self.summary:
                 self._set_summary(updated_summary)
 

@@ -64,6 +64,7 @@ class Agent:
         self.client = client or OpenAI()
         # Every fact the agent chose to save. Reconstruction is read off this.
         self.remembered: list[str] = []
+        self.last_context = ""
 
     def ingest(self, session: Session) -> None:
         self.memory.write(session)
@@ -71,13 +72,15 @@ class Agent:
     def forget(self, target: str) -> None:
         self.memory.forget(target)
 
-    def chat(self, message: str, date: str | None = None) -> str:
+    def chat(self, message: str, date: str | None = None, learn: bool = True) -> str:
+        """Answer one message. learn=False hides the remember tool, so the store is read-only."""
+        self.last_context = self.memory.retrieve(message)
         messages = [
-            {"role": "system", "content": SYSTEM.format(context=self.memory.retrieve(message))},
+            {"role": "system", "content": SYSTEM.format(context=self.last_context)},
             {"role": "user", "content": message},
         ]
         for _ in range(MAX_TOOL_ROUNDS):
-            reply = self._complete(messages)
+            reply = self._complete(messages, learn)
             if not reply.tool_calls:
                 return reply.content or ""
             messages.append(reply)
@@ -85,14 +88,14 @@ class Agent:
                 fact = json.loads(call.function.arguments)["fact"]
                 self._remember(fact, date or _today())
                 messages.append({"role": "tool", "tool_call_id": call.id, "content": "saved"})
-        return self._complete(messages).content or ""
+        return self._complete(messages, learn).content or ""
 
-    def _complete(self, messages: list):
+    def _complete(self, messages: list, learn: bool = True):
         response = self.client.chat.completions.create(
             model=self.model,
             temperature=0,
-            tools=TOOLS,
             messages=messages,
+            **({"tools": TOOLS} if learn else {}),
         )
         return response.choices[0].message
 
