@@ -14,6 +14,8 @@ Writes into the run directory:
                      and the number of resamples in which each metric was undefined, plus
                      DLR, SLR and ALR on the never-learned history as their floor
     retention.csv    retention accuracy by relation, before and after forgetting
+    paired.csv       differences between each pair of memories on the cases all of them
+                     learned, with 95% paired bootstrap intervals
     annotation.csv   a blind 25% sample of leakage-judged responses for two human raters,
                      keyed by a random id; annotation_key.csv maps it back to scored.jsonl
 """
@@ -35,6 +37,8 @@ from dsa4213.evaluation.llm_judge import JUDGE_MODEL, judge_choice, judge_leakag
 ARCHITECTURE_ORDER = ["null", "embedding", "summary", "kv", "full"]
 METRICS = ["PRA", "DLR", "RA", "LE", "RE", "RIR", "SLR", "ALR", "MLS"]
 FLOORS = ["DLR_never", "SLR_never", "ALR_never"]
+COMPARED = ["embedding", "summary", "kv"]
+PAIRED_METRICS = ["DLR", "SLR", "ALR", "MLS", "LE", "RE", "RA", "RA_highly_related"]
 
 
 def score(rows: list[dict], workers: int, judge_model: str) -> list[dict]:
@@ -84,28 +88,83 @@ def summarise(df: pd.DataFrame) -> pd.DataFrame:
     )
 
 
+def resample(df: pd.DataFrame, reps: int, seed: int):
+    """Draw whole cases with replacement, renaming repeats so each counts as its own case."""
+    rng = np.random.default_rng(seed)
+    by_case = {cid: g for cid, g in df.groupby("case_id")}
+    ids = list(by_case)
+    for _ in range(reps):
+        picked = rng.choice(ids, size=len(ids), replace=True)
+        yield pd.concat(
+            [by_case[c].assign(case_id=f"{c}#{i}") for i, c in enumerate(picked)],
+            ignore_index=True,
+        )
+
+
 def bootstrap(df: pd.DataFrame, reps: int, seed: int = 0) -> pd.DataFrame:
     """Percentile intervals from resampling whole cases, the unit of independence.
 
     Draws where a metric is undefined are counted in <metric>_undefined, not hidden.
     """
-    rng = np.random.default_rng(seed)
-    by_case = {cid: g for cid, g in df.groupby("case_id")}
-    ids = list(by_case)
-    draws = []
-    for _ in range(reps):
-        picked = rng.choice(ids, size=len(ids), replace=True)
-        sample = pd.concat(
-            [by_case[c].assign(case_id=f"{c}#{i}") for i, c in enumerate(picked)],
-            ignore_index=True,
-        )
-        draws.append(summarise(sample))
-    draws = pd.concat(draws)
+    draws = pd.concat(summarise(sample) for sample in resample(df, reps, seed))
     grouped = draws.groupby("architecture")[METRICS]
     low = grouped.quantile(0.025).add_suffix("_lo")
     high = grouped.quantile(0.975).add_suffix("_hi")
     undefined = grouped.agg(lambda col: int(col.isna().sum())).add_suffix("_undefined")
     return low.join(high).join(undefined).reset_index()
+
+
+def paired_metrics(df: pd.DataFrame) -> pd.DataFrame:
+    table = summarise(df).set_index("architecture")
+    kept = df[
+        (df["condition"] == "post_forget")
+        & (df["probe_type"] == "retention")
+        & (df["relation"] == "highly_related")
+    ]
+    table["RA_highly_related"] = kept.groupby("architecture")["label"].mean()
+    return table[PAIRED_METRICS]
+
+
+def paired(df: pd.DataFrame, reps: int, seed: int = 0) -> pd.DataFrame:
+    """A minus B for each pair of memories, on the cases every compared memory learned.
+
+    Each draw resamples one set of cases for both memories, so case difficulty cancels out.
+    An interval that excludes 0 separates the two memories on that metric.
+    """
+    compared = df[df["architecture"].isin(COMPARED)]
+    learned = compared.drop_duplicates(["architecture", "case_id"]).pivot(
+        index="case_id", columns="architecture", values="eligible"
+    )
+    common = learned.index[learned.all(axis=1)]
+    compared = compared[compared["case_id"].isin(common)]
+    pairs = [(a, b) for i, a in enumerate(COMPARED) for b in COMPARED[i + 1 :]]
+
+    def differences(sample: pd.DataFrame) -> pd.DataFrame:
+        table = paired_metrics(sample)
+        return pd.DataFrame(
+            [table.loc[a] - table.loc[b] for a, b in pairs],
+            index=pd.Index([f"{a} - {b}" for a, b in pairs], name="pair"),
+        )
+
+    draws = pd.concat(differences(sample) for sample in resample(compared, reps, seed))
+    draws = draws.groupby("pair")
+    estimate = differences(compared)
+    table = pd.DataFrame(
+        [
+            {
+                "pair": pair,
+                "metric": metric,
+                "difference": estimate.loc[pair, metric],
+                "lo": draws[metric].quantile(0.025)[pair],
+                "hi": draws[metric].quantile(0.975)[pair],
+                "cases": len(common),
+            }
+            for metric in PAIRED_METRICS
+            for pair in estimate.index
+        ]
+    )
+    table["separated"] = (table["lo"] > 0) | (table["hi"] < 0)
+    return table
 
 
 def eligible_cases(df: pd.DataFrame) -> pd.Series:
@@ -198,6 +257,8 @@ def main() -> int:
     table.to_csv(args.run / "metrics.csv", index=False)
     kept = retention(df)
     kept.to_csv(args.run / "retention.csv")
+    differences = paired(df, args.reps)
+    differences.to_csv(args.run / "paired.csv", index=False)
     sheet, key = annotation_sample(df)
     sheet.to_csv(args.run / "annotation.csv", index=False)
     key.to_csv(args.run / "annotation_key.csv", index=False)
@@ -219,7 +280,10 @@ def main() -> int:
             print(undefined[undefined > 0].to_string())
         print("\nretention accuracy by relation to the target, before and after forgetting")
         print(kept.round(3).to_string())
-    print(f"\nwrote scored.jsonl, metrics.csv, retention.csv, annotation*.csv in {args.run}")
+        cases = differences["cases"].iloc[0]
+        print(f"\npaired differences on the {cases} cases every compared memory learned")
+        print(differences.drop(columns="cases").round(3).to_string(index=False))
+    print(f"\nwrote scored.jsonl and the result tables in {args.run}")
     return 0
 
 
