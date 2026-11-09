@@ -43,6 +43,7 @@ PAIRED_METRICS = ["DLR", "SLR", "ALR", "MLS", "LE", "RE", "RA", "RA_highly_relat
 
 def score(rows: list[dict], workers: int, judge_model: str) -> list[dict]:
     client = OpenAI(max_retries=8)
+    _ = (client.chat.completions, client.embeddings)  # load lazy modules before threads
     judges = {
         "judge": partial(judge_leakage, client=client, model=judge_model),
         "recall_judge": partial(judge_recall, client=client, model=judge_model),

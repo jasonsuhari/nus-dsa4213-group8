@@ -152,6 +152,7 @@ def main() -> int:
     out = args.out / run_id
     out.mkdir(parents=True)
     client = OpenAI(max_retries=8)
+    _ = (client.chat.completions, client.embeddings)  # load lazy modules before threads
     settings = Settings(args.model, client, args.max_chars)
     started = time.monotonic()
 
