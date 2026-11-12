@@ -4,7 +4,7 @@ Run from the repository root:
     uv run --env-file .env python experiments/test_summary_live.py --live --provider openrouter
 
 Without --live, only an offline plan is written. --review-run updates manual
-assessments offline. See docs/summary.md for inputs, review, and current results.
+assessments offline.
 """
 
 import argparse

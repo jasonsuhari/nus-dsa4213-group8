@@ -3,8 +3,7 @@
 *.key
 
 # data + run artifacts (keep dirs, not contents)
-data/*
-!data/README.md
+data/
 runs/*
 !runs/.gitkeep
 
