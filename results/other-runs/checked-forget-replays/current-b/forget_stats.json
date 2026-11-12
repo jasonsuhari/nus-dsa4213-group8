@@ -1,0 +1,170 @@
+[
+ {
+  "case_id": "echo-home-address-tampines",
+  "calls": 1,
+  "before": 28,
+  "after": 24
+ },
+ {
+  "case_id": "echo-night-shift-nurse",
+  "calls": 1,
+  "before": 33,
+  "after": 28
+ },
+ {
+  "case_id": "near_miss-peanut-allergy",
+  "calls": 1,
+  "before": 19,
+  "after": 18
+ },
+ {
+  "case_id": "echo-red-honda-civic",
+  "calls": 1,
+  "before": 27,
+  "after": 23
+ },
+ {
+  "case_id": "entangled-engaged",
+  "calls": 1,
+  "before": 21,
+  "after": 16
+ },
+ {
+  "case_id": "long_history-keto-diet",
+  "calls": 1,
+  "before": 40,
+  "after": 39
+ },
+ {
+  "case_id": "entangled-boyfriend-wei-jie",
+  "calls": 1,
+  "before": 13,
+  "after": 11
+ },
+ {
+  "case_id": "long_history-dbs-overdrawn",
+  "calls": 1,
+  "before": 35,
+  "after": 34
+ },
+ {
+  "case_id": "long_history-son-autism",
+  "calls": 1,
+  "before": 37,
+  "after": 36
+ },
+ {
+  "case_id": "long_history-smoker-quitting",
+  "calls": 1,
+  "before": 37,
+  "after": 35
+ },
+ {
+  "case_id": "echo-lives-with-grandmother",
+  "calls": 1,
+  "before": 36,
+  "after": 34
+ },
+ {
+  "case_id": "echo-fear-of-flying",
+  "calls": 1,
+  "before": 33,
+  "after": 29
+ },
+ {
+  "case_id": "long_history-hiv-positive",
+  "calls": 1,
+  "before": 35,
+  "after": 34
+ },
+ {
+  "case_id": "entangled-grandmother-tattoo",
+  "calls": 1,
+  "before": 12,
+  "after": 10
+ },
+ {
+  "case_id": "entangled-antidepressants",
+  "calls": 1,
+  "before": 16,
+  "after": 12
+ },
+ {
+  "case_id": "entangled-asthma",
+  "calls": 1,
+  "before": 19,
+  "after": 17
+ },
+ {
+  "case_id": "near_miss-bishan-home",
+  "calls": 1,
+  "before": 20,
+  "after": 19
+ },
+ {
+  "case_id": "diet",
+  "calls": 1,
+  "before": 7,
+  "after": 6
+ },
+ {
+  "case_id": "nationality",
+  "calls": 1,
+  "before": 10,
+  "after": 8
+ },
+ {
+  "case_id": "near_miss-diabetes",
+  "calls": 1,
+  "before": 15,
+  "after": 13
+ },
+ {
+  "case_id": "paraphrase-only-child",
+  "calls": 1,
+  "before": 16,
+  "after": 12
+ },
+ {
+  "case_id": "near_miss-ex-name",
+  "calls": 1,
+  "before": 11,
+  "after": 6
+ },
+ {
+  "case_id": "home",
+  "calls": 1,
+  "before": 6,
+  "after": 4
+ },
+ {
+  "case_id": "near_miss-blood-type",
+  "calls": 1,
+  "before": 13,
+  "after": 11
+ },
+ {
+  "case_id": "paraphrase-lactose",
+  "calls": 1,
+  "before": 12,
+  "after": 9
+ },
+ {
+  "case_id": "paraphrase-job-hunting",
+  "calls": 1,
+  "before": 14,
+  "after": 11
+ },
+ {
+  "case_id": "paraphrase-student-loan",
+  "calls": 1,
+  "before": 13,
+  "after": 9
+ },
+ {
+  "case_id": "paraphrase-salary-8k",
+  "calls": 1,
+  "before": 19,
+  "after": 16
+ }
+]

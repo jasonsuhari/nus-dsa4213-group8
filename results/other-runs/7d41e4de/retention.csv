@@ -1,0 +1,5 @@
+relation,unrelated,unrelated,related,related,highly_related,highly_related
+condition,pre_forget,post_forget,pre_forget,post_forget,pre_forget,post_forget
+architecture,,,,,,
+files,0.8769230769230769,0.8769230769230769,0.7073170731707317,0.7073170731707317,0.85,0.7875
+files_topic,0.7846153846153846,0.7846153846153846,0.7073170731707317,0.7073170731707317,0.75,0.7125
