@@ -1,0 +1,11 @@
+name: The user is named Jia Hui.
+university: The user is in year 2 of information systems at NUS.
+job: The user has dropped their part-time job at Koi.
+housing: The user has moved into PGP House to cut their commute from Pasir Ris.
+commute: The user has a 1.5-hour commute each way from Pasir Ris.
+birthday: The user's dad's 60th birthday is on 21 February 2026.
+hobby: The user's dad loves Teochew food.
+event: The user is booking a table for 8 people at Chui Huay Lim for their dad's birthday.
+modules: The user is only doing 4 modules this semester.
+club: The user joined the NUS Hackers club to code more outside class.
+internship: The user is applying for a summer internship at GovTech.

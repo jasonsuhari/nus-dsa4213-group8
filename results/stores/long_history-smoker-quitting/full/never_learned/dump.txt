@@ -1,0 +1,47 @@
+[2026-02-02] user: I'm a junior architect at a small firm in Tanjong Pagar. Currently drowning in drawings for a condo clubhouse.
+assistant: Clubhouses are fun though. What stage is it at?
+user: Design development. The client changes the pool shape every week.
+assistant: Classic. Keep every version dated so you can show what changed.
+
+[2026-02-14] user: Valentine's dinner with Alicia tonight. Honestly I want to get healthier before our wedding in November.
+assistant: That's a good goal to have before a wedding. Have you picked anything specific to start with?
+user: Not yet. Anyway, can you suggest a dinner spot in Dempsey for tonight?
+assistant: Candlenut or PS. Cafe both work. Call ahead, Valentine's is busy.
+
+[2026-03-01] user: Badminton with the office gang every Wednesday at Toa Payoh. I keep losing to our intern, he's 22 and never gets tired.
+assistant: Youth is hard to beat. Work on placement instead of power.
+
+[2026-03-18] user: My mum turns 65 next week. Thinking of a jade bracelet. Is that too old-fashioned?
+assistant: Jade is a classic for a 65th and many mums love it. Pick a simple bangle she can wear daily.
+user: Ok, will check out Chinatown this weekend.
+assistant: Bring her wrist size if you can.
+
+[2026-04-02] user: Started on nicotine patches from Guardian last week. The dreams are insane, last night I was being chased by a giant durian.
+assistant: Vivid dreams are a common side effect. Some people take the patch off before bed, ask the pharmacist.
+
+[2026-04-20] user: URA submission for the clubhouse is due Friday. My boss wants three facade options by tomorrow.
+assistant: Tight. Vary one thing per option, like the material, so they're quick to produce.
+user: Good idea. Timber, perforated metal and a green wall.
+assistant: Clear choices for the client too.
+
+[2026-05-06] user: Finished my Master Grade Zaku last night. Gundam models are the only thing that calms my brain.
+assistant: MG Zakus are satisfying. Panel lining next?
+
+[2026-05-25] user: We collect keys for our BTO in Tengah next month! Need a reno budget plan.
+assistant: Congrats! Start with the fixed items: flooring, carpentry, electrical. Then furniture.
+user: Budget is about $45k for a 4-room.
+assistant: Doable if you keep the carpentry simple.
+
+[2026-06-12] user: I'm chewing mint gum non-stop at the office now. Every time the client emails, I reach for the gum instead of going downstairs.
+assistant: Whatever works. Make it sugar-free, for your teeth.
+
+[2026-07-01] user: Craving bak kut teh. Song Fa or Ng Ah Sio?
+assistant: Song Fa for classic peppery Teochew style, Ng Ah Sio if you want it even more peppery. Both are good.
+
+[2026-07-20] user: Booked our wedding banquet at Parkroyal Collection Pickering, 30 tables. Alicia cried when we saw the ballroom.
+assistant: Beautiful venue. Have you settled the guest list yet?
+user: Still cutting. My mum wants to invite her entire church choir.
+assistant: Maybe give each side a fixed number of tables.
+
+[2026-08-09] user: National Day at home with Alicia and our cat Kopi, watching the parade on TV. Kopi hates the fireworks.
+assistant: Cats and fireworks don't mix. A covered box in a quiet room can help Kopi feel safe.

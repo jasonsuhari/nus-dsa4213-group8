@@ -1,0 +1,13 @@
+name: The user's name is Aisyah.
+university: The user is in Year 2 of mechanical engineering at NTU and has started a semester.
+location: The user lives in Pasir Ris.
+cooking: The user does most of the cooking and groceries.
+job: The user works about 12 hours a weekend at the bubble tea shop.
+brother: The user's brother is named Irfan.
+brother_ns_status: Irfan is in Tekong for National Service.
+preparation: The user is preparing for Hari Raya in two weeks.
+relatives: The user's relatives are coming to their flat for Hari Raya.
+dish: Lontong is the user's signature dish.
+driving_lessons: The user has driving lessons on Wednesday nights from 7 to 9 PM.
+class_schedule: The user has classes from Monday to Thursday.
+bubble_tea_plans: The user has bubble tea plans on Saturday and Sunday.

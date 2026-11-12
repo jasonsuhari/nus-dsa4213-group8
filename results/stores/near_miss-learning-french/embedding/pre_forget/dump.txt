@@ -1,0 +1,23 @@
+[2026-03-08] user: Signed up for beginner French classes at Alliance Française, Tuesday evenings. I did Spanish back in secondary school but barely remember any of it.
+assistant: Bon courage! A bit of school Spanish should make French grammar feel familiar. Do you remember anything?
+
+[2026-03-08] user: Only 'me llamo' and counting to ten, honestly.
+assistant: That's more than most people keep!
+
+[2026-03-22] user: I'm a pharmacist at a retail chain, so my shifts are all over the place.
+assistant: That makes routines hard. Are weekends the worst?
+
+[2026-03-22] user: Yes, Saturdays especially.
+assistant: Try keeping one fixed thing each week, whatever your shift.
+
+[2026-04-12] user: Can you quiz me on French verbs? Être and avoir in the present tense.
+assistant: Sure. First one: je ___ (être)?
+
+[2026-04-12] user: Later, gotta run. Also I'm planning a trip to Taipei in December with my sister.
+assistant: Taipei in December is cool and dry, good timing.
+
+[2026-05-02] user: My secondary school Spanish teacher, Señora Lim, just retired. Should I send her a card?
+assistant: That would be thoughtful. A short handwritten note goes a long way.
+
+[2026-05-02] user: Help me write one line in Spanish to put in it?
+assistant: How about '¡Gracias por todo, Señora Lim! Disfrute su jubilación.'

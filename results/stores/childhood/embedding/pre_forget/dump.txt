@@ -1,0 +1,11 @@
+[2026-10-01] user: I spent my childhood in Penang, Malaysia.
+assistant: Thanks for sharing that.
+
+[2026-10-05] user: I moved to Tokyo in 2025 for work.
+assistant: How are you finding Tokyo?
+
+[2026-10-05] user: Good, but I miss a proper laksa.
+assistant: Hard to find a good one abroad.
+
+[2026-10-10] user: I cycle along the river every Saturday.
+assistant: Great way to see the city.

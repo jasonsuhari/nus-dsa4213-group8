@@ -1,0 +1,9 @@
+children: The user has a son named Ethan who just started K1 at a preschool in Tampines.
+allergies: Ethan is allergic to eggs.
+profession: The user works at an office in Changi Business Park.
+event: The user is training for the Sundown Marathon half in May and has about eight weeks to train.
+budget_preference: The user prefers a budget-friendly option for the team lunch.
+birthday_party: Ethan's birthday party is on March 12, 2026.
+cake_preference: The user wants to bake a cake for Ethan's birthday that he can eat.
+baking_frequency: The user bakes maybe twice a year.
+running_frequency: The user runs three mornings a week around Bedok Reservoir.

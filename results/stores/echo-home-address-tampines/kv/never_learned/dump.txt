@@ -1,0 +1,11 @@
+name: The user is named Wei Jie.
+occupation: The user is a freelance video editor.
+video_editing_focus: The user mostly edits corporate and wedding videos.
+location: The user swims at Our Tampines Hub.
+unit_size: The user's new unit is tiny.
+editing_rig_corner: The user has a corner for their editing rig.
+furniture_order: The PAX wardrobe is 150cm wide.
+wedding_job: The user has a wedding job that involves 6 hours of footage.
+wedding_job_due_date: The wedding job is due on 30 June.
+transportation: The user is thinking of getting a bike to cycle to Bedok Reservoir.
+budget_for_bike: The user's budget for the bike is around $500.

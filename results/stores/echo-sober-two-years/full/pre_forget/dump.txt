@@ -1,0 +1,30 @@
+[2026-02-03] user: Hey, I'm Darren. I manage a warehouse team in Tuas, so my days start early.
+assistant: Nice to meet you, Darren. What time do you usually start?
+user: Around 7. I play futsal with my old army kakis on Thursday nights to stay sane.
+assistant: Thursday futsal sounds like a good reset. Which position do you play?
+user: Keeper, always keeper. Nobody else wants to.
+assistant: Brave choice. Your knees must love you.
+
+[2026-02-17] user: Something you should know about me: I'm a recovering alcoholic. Two years sober last month. So no bars or wine pairings when you suggest stuff, ok?
+assistant: Thank you for trusting me with that, and congratulations on two years sober. I'll keep alcohol out of everything I suggest.
+user: Thanks. My wife Mei Ling's birthday is on 14 March and I want to plan a dinner.
+assistant: Lovely. Since you're staying sober, I'll look for places with good mocktails rather than a wine list. Does Mei Ling have a favourite cuisine?
+user: She loves Peranakan food.
+assistant: Then Candlenut or True Blue Cuisine could work, and both do alcohol-free drinks well.
+
+[2026-03-20] user: My team is having a bonding night at a bar in Clarke Quay next Friday. Kind of dreading it.
+assistant: With your two years of sobriety on the line, that's very understandable. Order a lime soda early so nobody pushes a beer on you, and plan to leave after dinner.
+user: Yeah, the drinking culture there is tough for me. I'll bring my own exit plan.
+assistant: Good idea. Maybe arrange for Mei Ling to call you around 10.
+
+[2026-05-08] user: Remember what I told you in February about myself? My sponsor says I should write down my triggers. Can you help me make a list?
+assistant: Of course. Common ones for people in recovery from alcohol are work stress, social events with drinking, and certain times of day. The Clarke Quay team nights are probably one for you. What else comes to mind?
+user: Friday evenings after a bad week. Also I've swapped one habit for another, I drink way too much kopi-o kosong now, like 5 a day.
+assistant: Five a day is a lot of caffeine. Maybe cap it at three and swap the afternoon one for barley water.
+user: Fair. I'm also training for the Standard Chartered half marathon in December.
+assistant: Great goal. Cutting caffeine will help your sleep and your training too.
+
+[2026-07-02] user: Planning an anniversary weekend in Bali with Mei Ling in August. Ideas?
+assistant: Ubud is great for a quiet couple's trip. I'll steer you away from the Seminyak beach clubs since that scene is all about drinking, and keep things alcohol-free like we discussed.
+user: Yes please, beach clubs are a no for me. Mei Ling likes yoga.
+assistant: Then the Yoga Barn in Ubud is a must, plus a sunrise trek up Mount Batur.

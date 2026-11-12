@@ -1,0 +1,32 @@
+[2026-02-03] user: Hey, I'm Darren. I manage a warehouse team in Tuas, so my days start early.
+assistant: Nice to meet you, Darren. What time do you usually start?
+
+[2026-02-03] user: Around 7. I play futsal with my old army kakis on Thursday nights to stay sane.
+assistant: Thursday futsal sounds like a good reset. Which position do you play?
+
+[2026-02-03] user: Keeper, always keeper. Nobody else wants to.
+assistant: Brave choice. Your knees must love you.
+
+[2026-02-17] user: Hey. My wife Mei Ling's birthday is on 14 March and I want to plan a dinner.
+assistant: Lovely. Does Mei Ling have a favourite cuisine?
+
+[2026-02-17] user: She loves Peranakan food.
+assistant: Then Candlenut or True Blue Cuisine could work, both are great for a birthday.
+
+[2026-03-20] user: My team is having a bonding night at a bar in Clarke Quay next Friday. Kind of dreading it.
+assistant: That's understandable if big nights out aren't your thing. You could plan to leave after dinner.
+
+[2026-03-20] user: Yeah. I'll bring my own exit plan.
+assistant: Good idea. Maybe arrange for Mei Ling to call you around 10.
+
+[2026-05-08] user: I drink way too much kopi-o kosong these days, like 5 a day.
+assistant: Five a day is a lot of caffeine. Maybe cap it at three and swap the afternoon one for barley water.
+
+[2026-05-08] user: Fair. I'm also training for the Standard Chartered half marathon in December.
+assistant: Great goal. Cutting caffeine will help your sleep and your training too.
+
+[2026-07-02] user: Planning an anniversary weekend in Bali with Mei Ling in August. Ideas?
+assistant: Ubud is great for a quiet couple's trip, with rice terraces and good food.
+
+[2026-07-02] user: Sounds good. Mei Ling likes yoga.
+assistant: Then the Yoga Barn in Ubud is a must, plus a sunrise trek up Mount Batur.

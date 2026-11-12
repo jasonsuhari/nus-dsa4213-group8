@@ -1,0 +1,20 @@
+occupation: The user is enrolled in the advanced diploma in critical care nursing part-time.
+night_shifts: The user has done four night shifts in a row, but has to swap their shifts to accommodate Irfan's therapy schedule.
+birthday_preference: The user prefers a big party for Sara's birthday.
+environmental_preference: The user prefers quieter locations for vacations.
+child: The user has a child named Sara.
+hobby: The user is considering making a little train for Irfan.
+celebration: The user is celebrating Hari Raya at their mum's in Tampines.
+cooking_responsibility: The user is responsible for making 3kg of beef rendang.
+night_shift_request: The user will ask their nurse manager for a fixed Wednesday off on the roster.
+car: The user has a Mazda 3.
+car_expiration: The COE for the user's Mazda 3 expires in 2027.
+start_playgroup: Sara starts playgroup in July 2026.
+playgroup_location: The playgroup is at a centre near the user's block in Punggol.
+child_experience: Irfan knew every station on the Thomson-East Coast Line.
+packing_headphones: The user is packing a train book for Irfan's cousin's birthday party.
+quiet_corner: The user's sister set up a quiet corner for Irfan at the birthday party.
+start_classes: Classes for the user start in October.
+relationship: The user knows Irfan.
+trip: The user is booking a trip to Langkawi for December.
+travel_companions: The user is traveling with three other people.

@@ -1,0 +1,14 @@
+[2026-08-03] user: My boyfriend Daniel and I are going to Bali from 24 to 28 September. Can you suggest a relaxed itinerary? He's into surfing, I just want the spa.
+assistant: Two nights in Uluwatu for his surfing, then three in Ubud with a full spa day for you. Fly back from Denpasar on the 28th.
+user: Love it. I'm a staff nurse at KK Hospital so I really need the rest.
+assistant: You've earned it. I've put the Ubud spa day on day 4.
+
+[2026-10-01] user: Daniel proposed on our last night in Bali, so we're engaged! And my promotion to senior staff nurse came through the same week.
+assistant: Congratulations on getting engaged, and on the promotion to senior staff nurse! What a week.
+user: Thanks!! Mum is already asking about a tea ceremony and a ROM date lol.
+assistant: Ha, mums move fast. Take it one step at a time.
+
+[2026-10-14] user: Daniel and I are looking at BTO flats in Tengah for the November launch, and since we're engaged we can apply under the fiancé/fiancée scheme. I also signed up for the Standard Chartered half marathon in December.
+assistant: Tengah has some nice nature-themed estates. And the Standard Chartered half in December gives you about 8 weeks to train.
+user: Yeah, I'm a slow runner so I need a plan.
+assistant: Three runs a week: one easy, one tempo, and a long run on weekends, building up to 18km.

@@ -1,0 +1,11 @@
+previous_housing: The user lived in their old flat in Clementi for nine years.
+location_proximity: The user's new flat is five minutes from the park.
+unpacking: The user is still unpacking after the move.
+previous_hawker_centre: The user will miss the hawker centre in Clementi.
+occupation: The user teaches chemistry at a junior college (JC).
+marking_season: The user has 120 scripts to mark by Friday.
+brunch_spot: The user is looking for a brunch spot this Sunday.
+relationship: The user has a husband named Ravi.
+diet: Ravi is vegetarian.
+previous_neighbours: The user has old neighbours from Clementi.
+event_invitation: The user was invited back for a Chinese New Year gathering.

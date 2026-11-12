@@ -1,0 +1,6 @@
+pet_adoption: The user adopted a mixed-breed dog from SOSD last month.
+dog_name: The user named their dog Bao.
+neighbor_dog_name: The user has a neighbor with a corgi named Mochi.
+neighbor_dog_care: The user is feeding their neighbor's dog, Mochi, while Mrs. Tan is overseas for a week.
+occupation: The user is currently working on a picture book about a lost turtle.
+diet: The user is concerned about Bao's weight and is seeking low-calorie treats for him.

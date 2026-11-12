@@ -1,0 +1,5 @@
+job_title: The user is an audit senior.
+hobby: The user is interested in getting back into running and is targeting the Sundown Marathon 5K category in late May, and has moved their runs to 7pm.
+work_schedule: The user switched to a 10am start under flexi-hours at work.
+pet: The user has a dog named Biscuit.
+vet_appointment: Biscuit has a vet appointment on Thursday at 5pm.

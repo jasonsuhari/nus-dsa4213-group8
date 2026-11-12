@@ -15,15 +15,20 @@ gpt-4o-mini at temperature 0 over OpenRouter, and every answer was scored by a g
 
 | file | what |
 |---|---|
-| `responses.jsonl.gz` | all 9,510 answers, with the probe, the memory context the agent saw, and the answer key. Unscored. `gunzip` it into a run folder to rescore |
+| `responses.jsonl.gz` | all 9,510 answers, with the probe, the memory context the agent saw, and the answer key. Unscored |
+| `scored.jsonl.gz` | the same 9,510 answers with the gpt-4o judge's label, severity and explanation on each. `score_forgetting` reuses these labels, so rescoring makes no API calls |
 | `metrics.csv` | PRA, DLR, RA, LE, RE, RIR, SLR, ALR, MLS per memory: overall with 95% bootstrap intervals over cases, then per case category. `*_never` columns are the same leak rates on the never-learned history |
 | `retention.csv` | retention accuracy before and after forgetting, split by how related the question is to the forgotten fact |
 | `paired.csv` | each pair of memories compared on the 39 cases all three learned. `separated` is true when the 95% interval of the difference excludes 0 |
-| `annotation.csv` | 336 leakage answers for the two human raters, blind to memory, condition and judge score |
+| `annotation.csv` | a blind sample of 336 semantic and adversarial answers, drawn for two human raters. Both rater columns are empty: this two-rater check was not done |
+| `annotation_key.csv` | maps each `annotation.csv` item to its `row_id` in `scored.jsonl.gz` |
 | `summary.json` | which run each memory's answers came from, the model, and the per-case status |
+| `stores/` | every memory store, `stores/<case>/<memory>/<pre_forget, post_forget or never_learned>/`. `dump.txt` is what the agent could see; `forget_log.jsonl` is what `forget()` removed. In `records.jsonl` each record's `embedding` vector is dropped (1,536 floats per record; with them these stores are 49 MB); every other field is as the run wrote it |
 
-`annotation_key.csv` and `scored.jsonl` hold the judge's label for every answer, so they
-stay out until the human rating is done. Otherwise a rater could look up the judge's score.
+`scored.jsonl` and `annotation_key.csv` used to stay out so that the two raters could not
+look up the judge's score. That rating did not happen and the report is final, so they are
+in. The judge's own check is against the 60 labelled answers in
+`experiments/judge_check.jsonl` (see Limits).
 
 ## Headline numbers
 
@@ -79,8 +84,18 @@ related retention drops from 0.97 to 0.14. Summary learns only
 ## How these were made
 
 ```bash
-uv run --env-file .env python -m experiments.run_forgetting   # writes runs/<run_id>/responses.jsonl
+uv run --env-file .env python -m experiments.run_forgetting   # writes runs/<run_id>/
 uv run --env-file .env python -m experiments.score_forgetting runs/<run_id>
+```
+
+To recompute every table here from the saved labels, without an API key:
+
+```bash
+mkdir -p runs/main
+cp results/summary.json runs/main/
+gunzip -c results/scored.jsonl.gz > runs/main/scored.jsonl
+uv run python -m experiments.score_forgetting runs/main
+diff runs/main/metrics.csv results/metrics.csv   # no output: identical
 ```
 
 Embedding, key-value, null and full come from run `9f50e79e`. Summary comes from run
@@ -93,9 +108,9 @@ what main has now.
 
 ## Limits
 
-- The judge is gpt-4o. On 60 hand-labelled leakage answers (`experiments/judge_check.jsonl`)
-  it agrees with the labels at kappa 0.75 to 0.79. The two-rater check on `annotation.csv`
-  has not been done.
+- The judge is gpt-4o. On the 60 labelled leakage answers in `experiments/judge_check.jsonl`
+  it agrees with the labels at kappa 0.75 to 0.79 (`experiments/check_judge.py` reruns this).
+  The two-rater check on `annotation.csv` was not done.
 - The summary memory still wipes its own summary now and then: 7 times in about 1,034 turns.
   This lowers its PRA and is a finding about summary memory, not a bug in the runner.
 - RIR is RE / LE, which swings when LE is small. Read RE and LE beside it.

@@ -1,0 +1,7 @@
+language: The user only remembers 'me llamo' and counting to ten in Spanish.
+occupation: The user is a pharmacist at a retail chain.
+work_schedule: The user's shifts are all over the place, but the user works on Saturdays.
+trip: The user is going on the trip to Taipei with their sister.
+education: The user attended secondary school.
+spanish_teacher: The user's secondary school Spanish teacher was Señora Lim.
+spanish_study: The user studied Spanish in secondary school.

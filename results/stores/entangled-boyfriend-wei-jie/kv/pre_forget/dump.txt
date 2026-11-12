@@ -1,0 +1,11 @@
+name: The user is named Darren.
+occupation: The user is a UX designer at a fintech company in Raffles Place.
+presentation: The user has a presentation slot of 20 minutes for the onboarding redesign.
+relationship: The user has a cousin named Shermaine.
+hobby: The user climbs at Boulder Planet every Tuesday night.
+gym_membership: The user has cancelled their Anytime Fitness membership.
+climbing_skill_comparison: The user finds Wei Jie to be better at climbing than they are.
+wedding_date: The user's cousin Shermaine's wedding is on 12 December and will be held at the Fullerton.
+rsvp_deadline: The user needs to RSVP by 30 April.
+trip: The user is planning a trip to Taipei in late October with Wei Jie.
+leave_request: The user is putting in for 5 days of leave for the trip to Taipei.

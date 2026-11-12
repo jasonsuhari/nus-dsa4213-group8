@@ -1,0 +1,16 @@
+moving: The user is moving this weekend.
+move_out_photos: The user is putting move-out photos in a folder for July.
+job_title: The user is a data analyst at a telecommunications company.
+job_task: The user's manager wants their SQL models version-controlled.
+churn_data: The user's churn data is messy.
+meeting_details: The user had two meetings to agree on what counts as churned.
+bouldering_gym: The user has sent their first V4 at the bouldering gym near their place.
+bouldering_challenge: The user spent three weeks falling off the same move before sending it.
+tribunal_experience: The user has never been to a tribunal before.
+parents_visiting: The user has parents who are visiting from Chennai in June for two weeks.
+parents_visiting_first_time: This is the user's parents' first time in Singapore.
+hotel_booking: The user booked a hotel for their parents nearby because the studio is too small.
+cooking: The user experienced mushy rice while making chicken biryani.
+hobby: The user will play in the final of the cricket league next Saturday at the Padang.
+furniture: The user bought a standing desk from IKEA for the studio.
+furniture_assembly_time: The user took three hours to assemble the standing desk.

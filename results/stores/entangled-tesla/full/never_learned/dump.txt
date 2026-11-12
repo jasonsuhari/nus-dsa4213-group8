@@ -1,0 +1,14 @@
+[2026-05-04] user: My twins Chloe and Caleb turn 8 next month. They're obsessed with dinosaurs. Party ideas?
+assistant: A dino dig: bury plastic fossils in a sandpit, a dino-egg piñata, and a volcano cake. Where are you hosting?
+user: Probably at our condo function room in Bedok, on 13 June.
+assistant: The function room on 13 June works well. Book it early.
+
+[2026-05-19] user: Since my new office is in Changi Business Park, I've stopped carpooling with my colleague Farah and I'll drop the twins at school on the way.
+assistant: With the office at Changi Business Park, the school drop-off on the way should be easy. Which school are the twins at?
+user: Temasek Primary. Bell is at 7.30.
+assistant: Then leave home by 7.10 and you'll have plenty of time to get to Changi Business Park after.
+
+[2026-06-28] user: Thinking of a family road trip to Malacca in the September school holidays. My wife Grace wants a stay near Jonker Street.
+assistant: Malacca is about 3 hours away, and there are plenty of hotels near Jonker Street.
+user: Great. Grace also wants to try the chicken rice balls.
+assistant: Chung Wah near Jonker Street is the famous one. Go early, the queue builds fast.

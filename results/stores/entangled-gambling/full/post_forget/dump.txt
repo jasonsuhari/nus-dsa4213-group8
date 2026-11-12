@@ -1,0 +1,14 @@
+[2026-07-07] user: I'm a logistics coordinator at a shipping firm in Tuas. Can you help me write an email asking my boss for work-from-home on Fridays?
+assistant: Sure: "Hi Mr Lee, I'd like to propose working from home on Fridays. Most of my Friday work is reporting and vendor calls, which I can do remotely. Happy to trial it for a month. Thanks, Raj."
+user: Make it less formal, my boss is chill.
+assistant: "Hey boss, could I WFH on Fridays? It's mostly reports and calls that day. Happy to try it for a month and review. Thanks!"
+
+[2026-07-21] user: I need to be honest with someone. I have a gambling problem. I've lost about $8,000 on online football betting since January, so I've cancelled my Japan trip in December and I'm selling my PS5 to pay down my credit card.
+assistant: Thank you for telling me, that takes guts. Cancelling Japan and selling the PS5 are real steps. The National Council on Problem Gambling has a free helpline if you want to talk to someone.
+user: Maybe. For now, can you help me make a plan to clear the credit card?
+assistant: Sure. Note the balance and interest rate, set a fixed monthly payment of, say, $600, and put any extra cash on it until it's cleared.
+
+[2026-08-11] user: Small win: I've done two NCPG counselling sessions and blocked all the betting sites on my phone. I also joined a futsal team that plays Saturday nights at Kallang, which keeps me busy when the matches are on.
+assistant: That's real progress. Futsal on Saturday nights at Kallang is a great way to fill those evenings.
+user: Yeah. Also my sister Anjali's baby is due in September, I'm going to be an uncle!
+assistant: Congratulations, Uncle Raj! September will come fast.

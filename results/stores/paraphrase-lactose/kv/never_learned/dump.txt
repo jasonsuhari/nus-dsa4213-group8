@@ -1,0 +1,4 @@
+occupation: The user is a nurse at Tan Tock Seng.
+shift_schedule: The user is returning to day shifts from July 21, 2026.
+diet: The user survives on oat milk lattes.
+anniversary: The user is planning a wine-and-cheese night for their anniversary.

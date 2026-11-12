@@ -1,0 +1,17 @@
+[2026-06-01] user: I'm a pharmacist at Tan Tock Seng and I'm finally starting my part-time MBA at SMU in August. Any tips for juggling shift work and classes?
+assistant: Ask for a fixed shift pattern, block study time on your off days, and front-load readings before busy weeks.
+
+[2026-06-01] user: Good idea, I'll talk to my supervisor about fixed shifts.
+assistant: Do it before August so the roster is sorted.
+
+[2026-06-20] user: Big change: two weeks ago I moved out of my parents' flat in Ang Mo Kio into a rented studio in Tiong Bahru. The same weekend I adopted a ginger cat called Kaya.
+assistant: Congrats on the studio in Tiong Bahru! And welcome, Kaya. How is she settling in?
+
+[2026-06-20] user: She hides under the bed all day lol. How do I help her settle?
+assistant: Give her a quiet corner with a hiding box, keep feeding times regular, and let her come to you. Most cats settle in one to two weeks.
+
+[2026-07-05] user: My parents are celebrating their 30th anniversary on 8 August at their flat in Ang Mo Kio. Now that I'm paying my own rent, I'm keeping the gift under $150, and I'm also saving for a trip to Hokkaido in December.
+assistant: Happy 30th to them! Under $150 you could do a family photo shoot voucher or cater a nice dinner at their place. Hokkaido in December will be beautiful.
+
+[2026-07-05] user: The photo shoot voucher is a nice idea. Any studios you'd recommend?
+assistant: Look for family portrait studios with weekend slots and check reviews for how they handle older parents. Many offer packages under $150.

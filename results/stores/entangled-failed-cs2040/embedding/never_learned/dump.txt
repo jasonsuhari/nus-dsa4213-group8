@@ -1,0 +1,17 @@
+[2026-01-14] user: Hi, I'm Jia Hui, year 2 information systems at NUS. I've dropped my part-time job at Koi and moved into PGP House to cut my commute from Pasir Ris.
+assistant: Dropping the Koi job and moving into PGP should free up a lot of hours.
+
+[2026-01-14] user: Yeah, the commute was 1.5 hours each way. What's a good weekly routine now that I'm on campus?
+assistant: Try fixed morning study blocks at the library, exercise around 6pm, and one evening a week completely off.
+
+[2026-02-02] user: My dad's 60th birthday is on 21 February. He loves Teochew food. Any restaurant ideas?
+assistant: Book a private room at a Teochew restaurant like Chui Huay Lim in Novena. The braised duck and orh nee are classics.
+
+[2026-02-02] user: Chui Huay Lim sounds good, booking for 8 people.
+assistant: Great choice. Book early since the 21st is a Saturday.
+
+[2026-02-23] user: Planning my mods. I'm only doing 4 modules this semester, and I joined the NUS Hackers club to code more outside class.
+assistant: Four modules is sensible. NUS Hackers will give you good practice at Friday Hacks.
+
+[2026-02-23] user: I also want to apply for a summer internship at GovTech. When should I start?
+assistant: Most summer internship applications open between January and March, so start polishing your resume now.

@@ -1,0 +1,10 @@
+residence: The user has moved from their old flat in Clementi after nine years.
+hawker_centre: The user misses the Clementi hawker centre.
+regular_order: The user had a regular order at the hawker centre that the fishball noodle vendor knew by heart.
+occupation: The user teaches chemistry at a junior college (JC).
+marking_season: The user is currently marking J2 prelims.
+scripts_to_mark: The user has 120 scripts to mark by Friday.
+spouse: The user has a husband named Ravi.
+diet: Ravi is vegetarian.
+neighbours: The user has old neighbours from Clementi.
+cny_gathering: The user was invited back to Clementi for a CNY gathering.

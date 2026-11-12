@@ -1,0 +1,8 @@
+[2026-06-06] user: Pretty well, but he barks at the neighbour's corgi, Mochi, every time they pass in the corridor.
+assistant: Corridor run-ins are a common trigger. Try giving him a treat whenever Mochi walks past.
+
+[2026-06-20] user: Mrs Tan next door is going overseas for a week and asked me to feed Mochi. Can I walk both dogs together?
+assistant: If they're calmer around each other now, yes. Use two leashes and pick a quiet route.
+
+[2026-07-04] user: I work from home as a freelance illustrator, mostly children's books.
+assistant: Lovely job. Do you have a project on now?

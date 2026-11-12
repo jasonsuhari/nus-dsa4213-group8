@@ -1,0 +1,5 @@
+blood_donation: The user plans to donate blood again in 12 weeks.
+family_event: The user's mother is now walking with a frame.
+occupation: The user is a PE teacher at a secondary school.
+event: Sports day is next week.
+responsibility: The user is in charge of the 4x100m relay and the marshals for sports day.

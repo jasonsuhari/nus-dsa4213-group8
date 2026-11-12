@@ -1,0 +1,4 @@
+occupation: The user is a nurse at Tan Tock Seng.
+work_schedule: The user works day shifts from July 21, 2026.
+partner: The user has a partner named Arjun.
+anniversary: The user and Arjun are celebrating their 5th anniversary on June 20, 2026.

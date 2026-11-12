@@ -1,0 +1,13 @@
+occupation: The user started a training course to become a leading steward.
+flight_type: The user is flying to Ipoh for their mum's 70th birthday.
+medication_schedule: The user carries a spare dose of their pill in their crew bag.
+hobby: A few of the developed rolls feature someone named Ben and are described as gorgeous.
+friend: The user has a friend named Ben.
+check_up: The user has a blood draw scheduled for 8am on 2026-04-17.
+gym_membership: The user has an Anytime Fitness membership in Novena.
+childhood_home: The user's mum still lives in the house the user grew up in.
+celebration_invite: The user's mum invited the whole street to the celebration.
+celebration_details: The user will have a family dinner with ten tables at a Chinese restaurant.
+layover: The user has a 24-hour layover in Zurich next week.
+course_details: The training course includes lots of service recovery role-plays.
+pet: Mochi sleeps on Ben's side of the bed.

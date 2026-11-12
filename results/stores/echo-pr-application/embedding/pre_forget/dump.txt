@@ -1,0 +1,32 @@
+[2026-02-16] user: Hi, I'm Lan, from Ho Chi Minh City. I've been working in Singapore for 4 years as a backend engineer at a fintech, on an Employment Pass.
+assistant: Hi Lan! Four years is a good stretch. How can I help?
+
+[2026-02-16] user: I'm finally applying for PR. Submitting on ICA's e-PR portal next month. Can you help me get my documents together?
+assistant: Of course. For your PR application you'll need your passport, EP card, birth certificate, degree certificates and your last 6 months of payslips. Want a checklist?
+
+[2026-02-16] user: Yes please.
+assistant: 1) passport 2) EP card 3) birth certificate with a certified English translation 4) degree certificates 5) six months of payslips. Start with the translation, it takes longest.
+
+[2026-03-21] user: Submitted the application yesterday! Now the waiting game.
+assistant: Congrats on submitting your PR application! ICA usually takes 6 to 12 months. Fingers crossed.
+
+[2026-03-21] user: Meanwhile my lease ends in June and I need a new room. Budget $1,400, near Outram.
+assistant: A room near Outram Park at $1,400 is doable in Tiong Bahru or Chinatown HDBs.
+
+[2026-05-10] user: My boyfriend Daniel wants us to move in together. He's Singaporean.
+assistant: That's exciting! Moving in together is a big step. In case you were wondering, it doesn't directly affect your pending PR application, so decide on its own merits.
+
+[2026-05-10] user: Ha, I was going to ask. Daniel rents a condo unit in Bukit Merah though.
+assistant: Then you could split his rent instead of finding your own room in June.
+
+[2026-07-07] user: Should I change jobs now? Got an offer from Shopee, 20% more.
+assistant: The pay bump is great. One thing to weigh: switching employers while your PR application is pending means updating ICA, and some people prefer to wait for the outcome first. It's not automatically a problem though.
+
+[2026-07-07] user: Hmm, the waiting thing again. Ok, I'll ask Shopee if I can start in October.
+assistant: That's a reasonable ask, plenty of companies are flexible on start dates.
+
+[2026-09-12] user: Still no news on the thing I submitted in March. Is that normal?
+assistant: Yes, PR applications often take 6 to 12 months, so six months in is still normal. You can check the status on ICA's e-PR portal.
+
+[2026-09-12] user: Ok. Unrelated: I want to learn to swim before Daniel and I go to Phu Quoc in December.
+assistant: Great goal! Queenstown Swimming Complex has adult beginner classes and it's near Bukit Merah.

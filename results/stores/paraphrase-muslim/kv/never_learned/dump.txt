@@ -1,0 +1,10 @@
+occupation: The user is a civil engineer at a consultancy in Jurong.
+project_focus: The user mostly works on drainage projects.
+site_visits: The user has site visits scheduled for Monday and Wednesday.
+report_due: The user has a report due on Friday.
+hobby: The user plays futsal with their old school friends every Sunday evening.
+lunch_ideas: The user is looking for lunch ideas near Jurong East.
+lunch_preferences: The user prefers lunch options that cost under $10.
+diet: The user is fasting during Ramadan until about 7:20 PM every day.
+sister_wedding: The user's sister is getting married on 11 April.
+trip: The user is planning to visit Osaka from June 8 to June 14, 2026.

@@ -1,0 +1,10 @@
+job_title: The user is a logistics manager at a warehouse in Tuas.
+housing: The user moved into a 2-room flat in Sengkang on their own last year.
+feelings: The user is thinking about dating again.
+children: The user has two children named Ethan and Chloe.
+children_age: Chloe is 6 years old.
+children_custody: The user has Ethan and Chloe with them every other weekend.
+insurance: The user is currently paying $1,900 a year for car insurance.
+children_braces: Chloe has braces.
+financial_status: The user is experiencing tight finances.
+age: The user is 41 years old.

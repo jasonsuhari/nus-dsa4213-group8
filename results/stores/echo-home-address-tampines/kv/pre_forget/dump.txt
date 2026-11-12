@@ -1,0 +1,12 @@
+name: The user is named Wei Jie.
+occupation: The user is a freelance video editor.
+video_editing_focus: The user mostly edits corporate and wedding videos.
+address: The user's mother lives in Jurong West, Block 652.
+editing_rig: The user has a corner for their editing rig.
+furniture_order: The user is ordering a PAX wardrobe that is 150cm wide.
+location: The user lives at Blk 412 Tampines St 41, #08-215, Singapore 520412.
+swimming_location: The user swims at Our Tampines Hub before visiting their mum.
+wedding_footage: The user has 6 hours of footage for the wedding job.
+wedding_job_due_date: The wedding job is due on 30 June 2026.
+transportation: The user is considering getting a bike to cycle to Bedok Reservoir.
+budget_for_bike: The user's budget for the bike is around $500.

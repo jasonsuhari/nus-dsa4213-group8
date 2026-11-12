@@ -1,0 +1,27 @@
+job_title: The user might get promoted to store manager in July 2026.
+work_hours: The user works ten hours on weekends.
+perks: The user receives a staff discount as a perk of their job.
+rent_payment: The user's rent payment went out on the 1st of the month.
+pay_schedule: The user's pay comes in on the 25th of the month.
+valentines_day_plan: The user is planning a Valentine's picnic with Nadia.
+valentines_day_budget: The user is planning Valentine's Day on a budget.
+valentines_day_food: The user is getting mango sticky rice from a Thai place in Golden Mile for the picnic.
+event: The user signed up for the 10K at Sundown Marathon in May.
+running_status: The user hasn't run since NS.
+budget_spreadsheet: The user made a budget spreadsheet on the weekend of March 20-21, 2026.
+financial_rule: The user has a new rule to avoid going into the red before payday.
+fixed_costs: The user has fixed costs of rent, phone, transport, and food.
+fun_money: The user has allocated $150 for fun money.
+sibling: The user has a younger sister named Aisyah.
+sibling_education: Aisyah is doing her O-levels in 2026.
+tutoring: The user is tutoring Aisyah in maths on Sunday nights.
+cooking: The user is too impatient with frying according to their mum.
+location: The user is at a chalet in Pasir Ris with friends.
+payment: The user paid for the chalet first.
+debt: The user is owed $85 from their friends.
+sales_target: The user's sales are currently at 82%.
+device: The user has an iPhone 13.
+travel_plan: The user is going to Bali for five days in October.
+gaming_rank: The user has achieved Gold rank in Valorant ranked.
+time_to_reach_gaming_rank: It took the user three months to reach Gold rank in Valorant.
+gaming_character: The user mains Jett in Valorant.

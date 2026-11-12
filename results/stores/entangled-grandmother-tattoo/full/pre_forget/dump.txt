@@ -1,0 +1,14 @@
+[2026-02-09] user: My Ah Ma, Tan Siew Lan, passed away in January. Last week I got 'Siew Lan' tattooed on my left inner wrist, and every Sunday I've been cooking her chap chye recipe so I don't lose it.
+assistant: I'm so sorry about your Ah Ma. A wrist tattoo with her name and cooking her chap chye every Sunday are lovely ways to keep her close.
+user: Thanks. Her chap chye always had lots of dried shrimp and fermented bean curd. Mine doesn't taste the same yet.
+assistant: Fry the fermented bean curd with garlic until fragrant before adding the vegetables, and soak the dried shrimp longer. That deepens the flavour.
+
+[2026-03-01] user: I'm a barista at a café in Joo Chiat. I want to open my own coffee cart in two years. How much should I save?
+assistant: A basic cart setup in Singapore is roughly $15k to $30k including the machine and permits. Saving $1,000 a month gets you most of the way.
+user: Okay, I'll aim for $1,000 a month then.
+assistant: Great. Automate the transfer on payday so you don't have to think about it.
+
+[2026-04-14] user: Now that my wrist tattoo has healed I'm back to pouring latte art, and my boss asked me to host the café's latte art throwdown on 2 May.
+assistant: Glad it healed well. Hosting the throwdown on 2 May is a great chance to show your skills. Need help with the format?
+user: Yes, maybe 8 baristas, knockout rounds.
+assistant: Quarterfinals, semis and a final, with judges scoring symmetry, contrast and definition.

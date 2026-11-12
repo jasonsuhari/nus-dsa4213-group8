@@ -1,0 +1,8 @@
+job: The user just started a fintech job.
+mother: The user has an Indonesian mother.
+mother_visit_frequency: The user's mother visits twice a year.
+language: The user speaks Bahasa at home.
+father: The user's dad grew up in Surabaya.
+meeting_preference: The user prefers to have meetings booked only before 10am.
+allergy: The user is allergic to shellfish.
+team_lunch_preference: The user does not want to have team lunches at seafood places.

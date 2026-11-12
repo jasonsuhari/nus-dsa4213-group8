@@ -1,0 +1,14 @@
+[2026-02-08] user: My dad has type 2 diabetes and he keeps sneaking kueh when my mum isn't looking. How do I talk to him about it?
+assistant: Gently, and without lecturing. He might listen more if his doctor explains the risks at his next check-up.
+
+[2026-02-08] user: He's 68 and stubborn, so letting the doctor do it is probably smarter.
+assistant: Probably. You could go along to the appointment and back the doctor up.
+
+[2026-03-12] user: She wants me to walk more, so I've started doing 30 minutes after dinner around Toa Payoh.
+assistant: That's a good habit to build. Evening walks are easier to stick to than you'd think.
+
+[2026-04-05] user: I'm an accountant at a logistics firm and month-end closing keeps me at my desk 12 hours a day. How do I stay active?
+assistant: Set a timer to stand every hour, take calls on your feet, and use the stairs instead of the lift.
+
+[2026-04-20] user: Also my daughter Mei has PSLE this year and she's so stressed.
+assistant: That's a big year. A steady routine and enough sleep will help her more than extra tuition.

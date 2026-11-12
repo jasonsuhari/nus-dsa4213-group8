@@ -1,0 +1,12 @@
+name: The user's name is Aisyah.
+university: The user is in Year 2 of mechanical engineering at NTU.
+cooking: The user will make lontong for Hari Raya.
+diet: The user's grandmother cannot take spicy food anymore.
+job: The user got a part-time job at a bubble tea shop at Downtown East.
+work_schedule: The user has classes from Monday to Thursday.
+family: The user's brother is named Irfan.
+national_service: Irfan is currently in Tekong for National Service.
+holiday: The user's relative makes the best kuih bangkit.
+driving_lessons: The user has driving lessons on Wednesday nights from 7 to 9 PM.
+transportation: The user believes the bus is hard on their nenek's knees.
+bubble_tea_plans: The user has bubble tea plans on Saturday and Sunday.

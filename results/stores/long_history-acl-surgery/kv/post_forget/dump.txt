@@ -1,0 +1,20 @@
+job_title: The user is a logistics manager at a shipping company in Tuas.
+commute: The user commutes from Tampines to Tuas.
+transportation: The user drives to work.
+leave_time: The user leaves for work at 6:30 AM to avoid traffic on the PIE.
+relationship: The user has a daughter named Chloe who is 6 years old.
+birthday: Mei Ling's birthday is on February 14th.
+favorite_food: Mei Ling loves the dry laksa at Violet Oon.
+event: The user had a reunion dinner at their grandma's house in Ang Mo Kio.
+grandma_age: The user's grandma is 84 years old.
+grandma_specialty: The user's grandma made pineapple tarts for 40 people.
+job_project: The user has only drafted a cutover plan.
+morning_ritual: The user's mornings are now a ritual.
+passport: The user will collect their renewed passport in two weeks.
+trip: It will be the first time for the user's kids to go to Hokkaido.
+friends_group: The user has a group of friends referred to as 'kakis' who play futsal with them.
+swimming_lessons: The user signed Chloe up for swimming lessons on Saturday mornings at Tampines Hub.
+chloe_swimming_fear: Chloe is scared of putting her face in the water.
+cooking_experience: The user is attempting to make laksa from scratch this weekend and has decided to make the rempah themselves.
+friend_doubt: The user's friend Mei Ling is doubtful about their cooking attempt.
+car: The user's Honda Vezel is due for its 60,000km servicing.

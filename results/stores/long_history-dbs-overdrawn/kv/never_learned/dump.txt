@@ -1,0 +1,21 @@
+job_title: The user might get promoted to store manager in July 2026.
+work_hours: The user works ten hours on weekends.
+staff_discount: The user receives a staff discount at the sneaker store.
+pay_schedule: The user receives pay on the 25th of each month.
+food: The user is trying to recreate their mum's nasi lemak sambal.
+running_status: The user hasn't run since NS.
+project: The user made a budget spreadsheet on the weekend of March 20-21, 2026.
+financial_rule: The user has a new rule to avoid going into the red before payday.
+fixed_costs: The user has fixed costs of rent, phone, transport, and food.
+fun_money: The user has allocated $150 for fun money.
+sibling: The user has a younger sister named Aisyah.
+sibling_education: Aisyah is doing her O-levels in 2026.
+tutoring: The user tutors Aisyah in maths on Sunday nights.
+impatience_with_frying: The user is too impatient with frying according to their mum.
+location: The user is going to Bali for five days in October.
+payment_for_location: The user paid for the chalet first.
+debt: The user is owed $85 from their friends.
+achievement: It took the user three months to reach Gold rank in Valorant.
+sales: The user's sales are currently at 82%.
+device: The user has an iPhone 13.
+main_character: The user mains Jett in Valorant.

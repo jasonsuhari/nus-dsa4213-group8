@@ -1,0 +1,50 @@
+[2026-01-04] user: Doctor says I need to lose weight, so I'm starting keto from today. Give me a breakfast idea that's not just eggs.
+assistant: For keto, try full-fat Greek yoghurt with nuts and a few berries, or a cheese and mushroom omelette when you do want eggs.
+user: Ok, I'll try the yoghurt. My daughter Natalie is bringing my grandson Lucas over this weekend. He's four and runs me ragged.
+assistant: Four-year-olds have endless energy. Enjoy the visit.
+
+[2026-01-21] user: Tender evaluation week at work. I'm a procurement officer at a stat board and I've read 14 proposals in two days.
+assistant: Make a scoring sheet if you haven't. It speeds up the comparison.
+
+[2026-02-08] user: Went fishing at Changi Point jetty this morning. Caught nothing but had a good chat with the regulars.
+assistant: Some days are like that. What bait do you use?
+user: Prawns. The uncles say squid is better.
+assistant: Try squid next time, the uncles usually know.
+
+[2026-02-28] user: Natalie is expecting her second child in August! Lucas will be a big brother.
+assistant: Congratulations, Grandpa, again!
+
+[2026-03-17] user: Kopitiam lunch today: I asked for the chicken without rice and an extra egg. The uncle looked at me like I'm crazy.
+assistant: He'll get used to it. Plenty of people order it that way now.
+
+[2026-04-05] user: Optician says I need progressive lenses now. Is it hard to get used to?
+assistant: Most people adjust in one to two weeks. Move your head, not just your eyes, when reading.
+user: Getting old is expensive.
+assistant: At least you'll be able to read the fishing forecasts.
+
+[2026-04-26] user: Family lunch on Sunday and I'm making my devil's curry as usual. Feeding 20.
+assistant: Make it a day ahead. Devil's curry is better the next day.
+
+[2026-05-16] user: Weighed myself this morning: down 7kg since January! Had to punch new holes in my belt.
+assistant: Fantastic progress. Time for a new belt soon.
+
+[2026-06-04] user: Karaoke tonight with my old schoolmates from St Patrick's. I always sing Elvis.
+assistant: Which one? Can't Help Falling in Love?
+user: Suspicious Minds. Crowd favourite.
+assistant: Classic choice.
+
+[2026-06-25] user: The aircon in my Toyota Corolla is blowing warm air. Gas top-up or something worse?
+assistant: Could be low refrigerant, but also the compressor or a fan. Get a workshop to check for leaks first.
+
+[2026-07-15] user: Switched to squid like the uncles said and caught a 2kg grouper at Changi!
+assistant: The uncles were right. Steamed with ginger and soy?
+user: Already in the fridge.
+assistant: Enjoy.
+
+[2026-08-06] user: Restoring an old Grundig radio from the 1960s. Found it at a karung guni.
+assistant: What a find. Check the capacitors first, they usually fail on radios that old.
+
+[2026-08-27] user: Natalie gave birth last night! A girl, Isabel, 3.2kg.
+assistant: Congratulations! Welcome, Isabel.
+user: Lucas wants to hold her all the time.
+assistant: A sweet big brother already.

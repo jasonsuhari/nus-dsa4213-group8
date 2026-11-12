@@ -1,0 +1,56 @@
+[2026-01-05] user: I'm the assistant manager at a sneaker store in Orchard. Weekends are mad, I'm on my feet ten hours.
+assistant: That's tough on the body. Good insoles help, and I'm sure you have access to some.
+
+[2026-01-05] user: Haha, the staff discount is the only perk.
+assistant: A good perk in sneakers.
+
+[2026-01-14] user: Maybe later, I'm too tired tonight.
+assistant: Sure, whenever you're ready.
+
+[2026-02-12] user: Valentine's with Nadia on a budget. Is a picnic at the Botanic Gardens romantic or cheap?
+assistant: Romantic if you put in the effort. Bring her favourite food and a proper mat.
+
+[2026-02-12] user: She loves mango sticky rice, I'll get it from that Thai place in Golden Mile.
+assistant: Perfect.
+
+[2026-03-03] user: Signed up for the 10K at Sundown Marathon in May. Haven't run since NS.
+assistant: Plenty of time. Three runs a week, building up slowly, and you'll finish.
+
+[2026-03-22] user: Made a budget spreadsheet this weekend. New rule: no more going into the red before payday.
+assistant: Good rule. Put fixed costs at the top so you see what's left.
+
+[2026-03-22] user: Rent, phone, transport, then food. Fun money is $150.
+assistant: That's realistic.
+
+[2026-04-08] user: My younger sister Aisyah is doing her O-levels this year. I'm tutoring her in maths on Sunday nights.
+assistant: Nice of you. Past-year papers under timed conditions help the most.
+
+[2026-04-27] user: Trying to recreate my mum's nasi lemak sambal. Mine tastes flat.
+assistant: Try more belacan and tamarind, and fry the chilli paste longer until it darkens.
+
+[2026-04-27] user: Mum says I'm too impatient with the frying.
+assistant: She's probably right.
+
+[2026-05-15] user: Chalet at Pasir Ris with the boys. I paid first and they're settling up with me over PayLah. Still owed $85.
+assistant: Send a friendly reminder in the group chat with the breakdown.
+
+[2026-06-02] user: Area manager hinted I might get promoted to store manager in July!
+assistant: Great news. Anything you can do now to make it a sure thing?
+
+[2026-06-02] user: Hit my sales target this month. We're at 82%.
+assistant: Push the weekends and you'll get there.
+
+[2026-06-20] user: Cracked my iPhone 13 screen. Apple or a third-party shop at Sim Lim?
+assistant: Third-party is cheaper but quality varies. Apple uses original parts.
+
+[2026-07-08] user: Nadia wants us to go to Bali in October. Ubud or Canggu?
+assistant: Ubud for rice terraces and quiet, Canggu for beaches and cafes. Split it if you have a week.
+
+[2026-07-08] user: Five days only.
+assistant: Then pick one. Ubud is calmer for a couple's trip.
+
+[2026-07-29] user: Finally hit Gold in Valorant ranked. Took me three months.
+assistant: Congrats. Which agent do you main?
+
+[2026-07-29] user: Jett, obviously.
+assistant: Of course.

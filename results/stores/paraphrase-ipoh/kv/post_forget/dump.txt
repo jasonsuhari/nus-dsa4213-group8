@@ -1,0 +1,9 @@
+job_title: The user is a senior backend engineer.
+surf_lessons: The user and Priya booked surf lessons in Siargao for November.
+move_experience: The user found the move to KL rough at first.
+traffic_experience: The user was shocked by the traffic in KL.
+hometown_visit: The user goes back to Perak every Chinese New Year.
+diet: The user is particular about bean sprout chicken.
+friend: The user's friend is named Priya.
+skills: The user works with Go and Postgres.
+location: The user is now based in Singapore.

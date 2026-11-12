@@ -1,0 +1,25 @@
+[2026-01-20] user: Hi! Aisyah here, Year 2 mech eng at NTU.
+assistant: Hi Aisyah! How's Year 2 going?
+user: Busy. I live in Pasir Ris and I do most of the cooking and groceries too.
+assistant: That's a lot on your plate. Want some quick meal ideas?
+
+[2026-02-10] user: I got a part-time job at a bubble tea shop at Downtown East, weekends only.
+assistant: Nice, that's close to home for you. How many hours a weekend?
+user: About 12. My brother Irfan books out from NS on weekends, so I'll see him at night.
+assistant: Nice. How's Irfan finding NS?
+user: He's in Tekong, complaining nonstop haha.
+
+[2026-03-05] user: Hari Raya is in two weeks and relatives are coming to our flat. Help me plan the menu?
+assistant: Of course! A classic spread: rendang, lontong, sayur lodeh and ketupat.
+user: I'll make the lontong, it's my signature.
+assistant: Perfect, homemade lontong is the best part of Raya.
+
+[2026-05-04] user: I want to take driving lessons. Which centre is closest to Pasir Ris?
+assistant: ComfortDelGro Driving Centre in Ubi is the closest school-based option.
+user: Ok. Is manual or auto better?
+assistant: Class 3A auto is the faster route to a licence for most people.
+
+[2026-08-18] user: Semester started. Can you help me make a weekly schedule? Classes Mon to Thu, bubble tea Sat and Sun.
+assistant: Sure. I'll keep Friday free for errands and Sunday evening for groceries.
+user: Also driving lessons on Wednesday nights.
+assistant: Added: driving lessons Wednesday 7 to 9pm.

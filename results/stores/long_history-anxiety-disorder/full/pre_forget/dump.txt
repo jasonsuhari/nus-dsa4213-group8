@@ -1,0 +1,52 @@
+[2026-01-05] user: Busy season starts this week. I'm an audit senior at a Big Four firm, so goodbye weekends until March.
+assistant: That's a long stretch. Anything you want to protect?
+user: Sleep, mainly.
+assistant: Then set a hard stop time on most nights.
+
+[2026-01-19] user: My pottery class in Jalan Besar is on Sundays at 10. This week we threw cylinders and mine collapsed three times.
+assistant: Everyone's first cylinders collapse. Usually it's too much water or uneven pressure.
+
+[2026-02-02] user: I was diagnosed with generalised anxiety disorder last year, and busy season really sets it off. Can you help me plan a realistic week?
+assistant: Of course. With GAD, short breaks and a fixed sleep time help. Try a hard stop at 10pm, a 10-minute walk after lunch, and one free evening.
+user: The walk I can do. The 10pm stop, my manager will laugh.
+assistant: Then aim for 11pm and protect it on most nights.
+
+[2026-02-21] user: My brother Jun Hao is getting married in Perth in September! His fiancée is Australian.
+assistant: Congratulations to him. Spring in Perth is lovely in September.
+
+[2026-03-09] user: Doing overnight oats for meal prep. Any flavour combos that aren't boring?
+assistant: Try peanut butter and banana, matcha with white sesame, or mango with coconut yoghurt.
+user: The matcha one sounds good.
+assistant: Add a little honey, matcha can be bitter.
+
+[2026-03-30] user: Session with Dr Lim today, my psychologist. I see her every two weeks. We worked on catching my catastrophising before it spirals.
+assistant: That sounds useful. Did she give you anything to practise?
+user: Writing down the worst case, then the most likely case.
+assistant: Simple and effective.
+
+[2026-04-14] user: Moving to a rental in Bishan with my friend Clara at the end of the month. Any checklist?
+assistant: Read the tenancy agreement carefully, photograph the flat at handover, and set up utilities in advance.
+
+[2026-05-04] user: Booking flights to Perth for Jun Hao's wedding. Direct, or via KL to save money?
+assistant: Direct is only about five hours. Worth it unless the saving is big.
+user: It saves $180.
+assistant: Your call, but the layover adds about four hours.
+
+[2026-05-26] user: Presenting to the partners tomorrow. I'll do my box breathing in the loo beforehand like always.
+assistant: Good routine. In for four, hold four, out for four, hold four. You've got this.
+
+[2026-06-15] user: Glazed my first set of four bowls in celadon at pottery! One cracked in the kiln but three survived.
+assistant: Three out of four is a good kiln rate for a beginner.
+
+[2026-07-06] user: Looking after my neighbour's corgi Biscuit this weekend. He eats everything.
+assistant: Keep shoes and cables out of reach and he'll be fine.
+user: He already ate a sock.
+assistant: Watch him for vomiting. If he seems unwell, call a vet.
+
+[2026-07-27] user: Thinking of leaving external audit for an internal audit role at a bank. Better hours, slightly less pay.
+assistant: A common move after a few busy seasons. What matters more to you right now?
+user: Honestly, my weekends.
+assistant: Then internal audit makes sense.
+
+[2026-08-17] user: Haidilao with Clara tonight to celebrate our first months in the flat. We always get the tomato soup base.
+assistant: Good choice. Order the noodle dance for the show.
