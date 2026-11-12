@@ -1,8 +1,10 @@
 # Final results
 
-The experiment the presentation reports. All 56 cases in `experiments/cases/` were run
-through five memories: null, embedding, summary, key-value, and full transcript. Each
-memory saw each case three ways:
+The main run, used by the report's Sections 5.3, 5.4 and 6. The fact-level run behind
+Section 5.5 is in `fact-level/`, and every other run is in `other-runs/`.
+
+All 56 cases in `experiments/cases/` were run through five memories: null, embedding,
+summary, key-value, and full transcript. Each memory saw each case three ways:
 
 - `pre_forget`: the chat was learned.
 - `post_forget`: the chat was learned, then `forget()` got the user's request.
@@ -23,7 +25,7 @@ gpt-4o-mini at temperature 0 over OpenRouter, and every answer was scored by a g
 | `annotation.csv` | a blind sample of 336 semantic and adversarial answers, drawn for two human raters. Both rater columns are empty: this two-rater check was not done |
 | `annotation_key.csv` | maps each `annotation.csv` item to its `row_id` in `scored.jsonl.gz` |
 | `summary.json` | which run each memory's answers came from, the model, and the per-case status |
-| `stores/` | every memory store, `stores/<case>/<memory>/<pre_forget, post_forget or never_learned>/`. `dump.txt` is what the agent could see; `forget_log.jsonl` is what `forget()` removed. In `records.jsonl` each record's `embedding` vector is dropped (1,536 floats per record; with them these stores are 49 MB); every other field is as the run wrote it |
+| `stores/` | every memory store, `stores/<case>/<memory>/<pre_forget, post_forget or never_learned>/`. `dump.txt` is everything the store held, as `dump()` prints it (the part the agent saw for each answer is `context` in `responses.jsonl.gz`); `forget_log.jsonl` is what `forget()` removed. In `records.jsonl` each record's `embedding` vector is dropped (1,536 floats per record; with them these stores are 49 MB); every other field is as the run wrote it |
 | `forget_reach.csv` | per memory: records stored, records one forget request deleted and redacted, the share of stored text it removed, and key-value's facts extracted per turn. From `experiments/forget_reach.py` over `stores/` and `fact-level/stores/`; the numbers in the report's Table 6.5-1 |
 
 `scored.jsonl` and `annotation_key.csv` used to stay out so that the two raters could not
@@ -85,7 +87,8 @@ related retention drops from 0.97 to 0.14. Summary learns only
 ## How these were made
 
 ```bash
-uv run --env-file .env python -m experiments.run_forgetting   # writes runs/<run_id>/
+uv run --env-file .env python -m experiments.run_forgetting \
+    --only embedding --only summary --only kv --only null --only full   # writes runs/<run_id>/
 uv run --env-file .env python -m experiments.score_forgetting runs/<run_id>
 ```
 
