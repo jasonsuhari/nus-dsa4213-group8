@@ -24,6 +24,7 @@ gpt-4o-mini at temperature 0 over OpenRouter, and every answer was scored by a g
 | `annotation_key.csv` | maps each `annotation.csv` item to its `row_id` in `scored.jsonl.gz` |
 | `summary.json` | which run each memory's answers came from, the model, and the per-case status |
 | `stores/` | every memory store, `stores/<case>/<memory>/<pre_forget, post_forget or never_learned>/`. `dump.txt` is what the agent could see; `forget_log.jsonl` is what `forget()` removed. In `records.jsonl` each record's `embedding` vector is dropped (1,536 floats per record; with them these stores are 49 MB); every other field is as the run wrote it |
+| `forget_reach.csv` | per memory: records stored, records one forget request deleted and redacted, the share of stored text it removed, and key-value's facts extracted per turn. From `experiments/forget_reach.py` over `stores/` and `fact-level/stores/`; the numbers in the report's Table 6.5-1 |
 
 `scored.jsonl` and `annotation_key.csv` used to stay out so that the two raters could not
 look up the judge's score. That rating did not happen and the report is final, so they are

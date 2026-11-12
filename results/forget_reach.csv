@@ -1,0 +1,8 @@
+stores,memory,cases,records,deleted,redacted,text_removed,facts_per_turn
+results/stores,embedding,56,9.286,2.25,0.0,0.317,
+results/stores,full,56,,0.0,0.0,0.0,
+results/stores,kv,56,11.589,1.625,0.0,0.14,2.165
+results/stores,null,56,,0.0,0.0,,
+results/stores,summary,56,,0.0,0.0,0.103,
+results/fact-level/stores,embedding,56,9.286,2.196,0.0,0.312,
+results/fact-level/stores,embedding_fact,56,27.018,4.696,0.821,0.172,
