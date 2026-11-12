@@ -77,7 +77,9 @@ def reach(stores: Path) -> pd.DataFrame:
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description=__doc__)
+    parser = argparse.ArgumentParser(
+        description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter
+    )
     parser.add_argument("stores", type=Path, nargs="+", help="runs/<run_id>/stores")
     parser.add_argument("--out", type=Path, help="also write the table as csv")
     args = parser.parse_args()

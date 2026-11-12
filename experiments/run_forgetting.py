@@ -123,7 +123,9 @@ def run_one(case: Case, arch: str, out: Path, settings: Settings) -> list[dict]:
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description=__doc__)
+    parser = argparse.ArgumentParser(
+        description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter
+    )
     parser.add_argument(
         "--cases", type=Path, default=DEFAULT_CASES, help="a .json file or a directory of them"
     )
