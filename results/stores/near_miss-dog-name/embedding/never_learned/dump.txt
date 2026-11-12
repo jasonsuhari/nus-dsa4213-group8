@@ -1,0 +1,17 @@
+[2026-06-06] user: Adopted a mixed-breed from SOSD last month! He's round and white.
+assistant: A round white pup, how cute. How's he settling in?
+
+[2026-06-06] user: Pretty well, but he barks at the neighbour's corgi, Mochi, every time they pass in the corridor.
+assistant: Corridor run-ins are a common trigger. Try giving him a treat whenever Mochi walks past.
+
+[2026-06-20] user: Mrs Tan next door is going overseas for a week and asked me to feed Mochi. Can I walk both dogs together?
+assistant: If they're calmer around each other now, yes. Use two leashes and pick a quiet route.
+
+[2026-07-04] user: I work from home as a freelance illustrator, mostly children's books.
+assistant: Lovely job. Do you have a project on now?
+
+[2026-07-04] user: A picture book about a lost turtle. My dog sleeps under my desk the whole day, best coworker.
+assistant: Sounds like the ideal studio buddy.
+
+[2026-07-25] user: Vet says my dog needs to lose 1kg. What are some low-calorie treats?
+assistant: Carrot sticks, cucumber slices or small bits of plain boiled chicken all work.

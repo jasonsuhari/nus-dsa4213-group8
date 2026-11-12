@@ -1,0 +1,12 @@
+{"id": 0, "session_id": "adh-1", "date": "2026-02-02", "turn_index": 0, "text": "The user is a freelance video editor.", "importance": 8, "deleted": false}
+{"id": 1, "session_id": "adh-1", "date": "2026-02-02", "turn_index": 0, "text": "The user is juggling three clients.", "importance": 7, "deleted": false}
+{"id": 2, "session_id": "adh-1", "date": "2026-02-02", "turn_index": 0, "text": "The user's band is called Low Tide.", "importance": 6, "deleted": false}
+{"id": 3, "session_id": "adh-1", "date": "2026-02-02", "turn_index": 0, "text": "The user plays bass in the band Low Tide.", "importance": 6, "deleted": false}
+{"id": 4, "session_id": "adh-1", "date": "2026-02-02", "turn_index": 0, "text": "The user has a gig in Holland Village on Saturday.", "importance": 7, "deleted": false}
+{"id": 5, "session_id": "adh-1", "date": "2026-02-02", "turn_index": 0, "text": "The user has a soundcheck on Saturday.", "importance": 5, "deleted": false}
+{"id": 6, "session_id": "adh-2", "date": "2026-02-16", "turn_index": 0, "text": "The user works in 15-minute sprints with a timer.", "importance": 7, "deleted": false}
+{"id": 7, "session_id": "adh-2", "date": "2026-02-16", "turn_index": 0, "text": "The user drifts off-task if working longer than 15 minutes.", "importance": 6, "deleted": false}
+{"id": 8, "session_id": "adh-4", "date": "2026-03-23", "turn_index": 0, "text": "The user has been falling asleep around 2am lately.", "importance": 5, "deleted": false}
+{"id": 9, "session_id": "adh-5", "date": "2026-04-13", "turn_index": 0, "text": "The user is a mid-level editor.", "importance": 7, "deleted": false}
+{"id": 10, "session_id": "adh-5", "date": "2026-04-13", "turn_index": 0, "text": "The user is considering an hourly rate of $45 for editing.", "importance": 6, "deleted": false}
+{"id": 11, "session_id": "adh-5", "date": "2026-04-13", "turn_index": 0, "text": "The user could ask $55 for rush jobs.", "importance": 5, "deleted": false}

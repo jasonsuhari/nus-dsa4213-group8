@@ -1,0 +1,26 @@
+{"id": 0, "session_id": "eng-1", "date": "2026-08-03", "turn_index": 0, "text": "The user has a boyfriend named Daniel.", "importance": 8, "deleted": false}
+{"id": 1, "session_id": "eng-1", "date": "2026-08-03", "turn_index": 0, "text": "The user and Daniel are going to Bali from 24 to 28 September.", "importance": 7, "deleted": false}
+{"id": 2, "session_id": "eng-1", "date": "2026-08-03", "turn_index": 0, "text": "Daniel is into surfing.", "importance": 6, "deleted": false}
+{"id": 3, "session_id": "eng-1", "date": "2026-08-03", "turn_index": 0, "text": "The user wants to go to the spa.", "importance": 6, "deleted": false}
+{"id": 4, "session_id": "eng-1", "date": "2026-08-03", "turn_index": 1, "text": "The user is a staff nurse at KK Hospital.", "importance": 8, "deleted": false}
+{"id": 5, "session_id": "eng-1", "date": "2026-08-03", "turn_index": 1, "text": "The user is going to Bali with her boyfriend Daniel from 24 to 28 September.", "importance": 7, "deleted": false}
+{"id": 6, "session_id": "eng-1", "date": "2026-08-03", "turn_index": 1, "text": "The user wants to relax at the spa while in Bali.", "importance": 6, "deleted": false}
+{"id": 7, "session_id": "eng-1", "date": "2026-08-03", "turn_index": 1, "text": "The user feels she really needs the rest.", "importance": 7, "deleted": false}
+{"id": 8, "session_id": "eng-2", "date": "2026-10-01", "turn_index": 0, "text": "The user's name is Daniel.", "importance": 10, "deleted": false}
+{"id": 9, "session_id": "eng-2", "date": "2026-10-01", "turn_index": 0, "text": "The user is engaged.", "importance": 10, "deleted": false}
+{"id": 10, "session_id": "eng-2", "date": "2026-10-01", "turn_index": 0, "text": "Daniel proposed to the user on their last night in Bali.", "importance": 10, "deleted": false}
+{"id": 11, "session_id": "eng-2", "date": "2026-10-01", "turn_index": 0, "text": "The user was promoted to senior staff nurse.", "importance": 10, "deleted": false}
+{"id": 12, "session_id": "eng-2", "date": "2026-10-01", "turn_index": 0, "text": "The user's promotion to senior staff nurse came through the same week as their engagement.", "importance": 10, "deleted": false}
+{"id": 13, "session_id": "eng-2", "date": "2026-10-01", "turn_index": 1, "text": "The user's name is Daniel.", "importance": 10, "deleted": false}
+{"id": 14, "session_id": "eng-2", "date": "2026-10-01", "turn_index": 1, "text": "The user is engaged.", "importance": 10, "deleted": false}
+{"id": 15, "session_id": "eng-2", "date": "2026-10-01", "turn_index": 1, "text": "The user was promoted to senior staff nurse.", "importance": 10, "deleted": false}
+{"id": 16, "session_id": "eng-2", "date": "2026-10-01", "turn_index": 1, "text": "The user's mother is asking about a tea ceremony and a ROM date.", "importance": 5, "deleted": false}
+{"id": 17, "session_id": "eng-3", "date": "2026-10-14", "turn_index": 0, "text": "The user is engaged to Daniel.", "importance": 10, "deleted": false}
+{"id": 18, "session_id": "eng-3", "date": "2026-10-14", "turn_index": 0, "text": "The user and Daniel are looking at BTO flats in Tengah for the November launch.", "importance": 8, "deleted": false}
+{"id": 19, "session_id": "eng-3", "date": "2026-10-14", "turn_index": 0, "text": "The user can apply for BTO flats under the fiancé/fiancée scheme.", "importance": 7, "deleted": false}
+{"id": 20, "session_id": "eng-3", "date": "2026-10-14", "turn_index": 0, "text": "The user signed up for the Standard Chartered half marathon in December.", "importance": 8, "deleted": false}
+{"id": 21, "session_id": "eng-3", "date": "2026-10-14", "turn_index": 1, "text": "The user is engaged to Daniel.", "importance": 10, "deleted": false}
+{"id": 22, "session_id": "eng-3", "date": "2026-10-14", "turn_index": 1, "text": "The user and Daniel are looking at BTO flats in Tengah for the November launch.", "importance": 8, "deleted": false}
+{"id": 23, "session_id": "eng-3", "date": "2026-10-14", "turn_index": 1, "text": "The user can apply for the fiancé/fiancée scheme.", "importance": 7, "deleted": false}
+{"id": 24, "session_id": "eng-3", "date": "2026-10-14", "turn_index": 1, "text": "The user signed up for the Standard Chartered half marathon in December.", "importance": 8, "deleted": false}
+{"id": 25, "session_id": "eng-3", "date": "2026-10-14", "turn_index": 1, "text": "The user is a slow runner.", "importance": 6, "deleted": false}

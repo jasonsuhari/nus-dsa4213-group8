@@ -1,0 +1,10 @@
+children: The user has twins named Chloe and Caleb who will turn 8 on June 13, 2026.
+children_interests: Chloe and Caleb are obsessed with dinosaurs.
+birthday_party_location: The user is hosting the twins' birthday party at their condo function room in Bedok.
+office_location: The user has a new office in Changi Business Park.
+carpooling_status: The user has stopped carpooling with their colleague Farah.
+school_dropoff: The user drops the twins at Temasek Primary school.
+school_bell_time: The school bell at Temasek Primary is at 7:30.
+family_trip: The user is planning a family road trip to Malacca during the September school holidays and wants to stay near Jonker Street.
+spouse: The user's wife is named Grace.
+family_trip_interests: Grace wants to try the chicken rice balls in Malacca.

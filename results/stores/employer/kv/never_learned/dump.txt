@@ -1,0 +1,2 @@
+occupation: The user works on a team that builds the ride-hailing pricing model.
+language_learning: The user started learning Japanese for a trip next spring.

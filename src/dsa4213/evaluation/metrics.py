@@ -1,18 +1,4 @@
-# run scoring, calculate metrics and save results
-
-# load agent response from data/.
-# apply appropriate score depending on probe type, can use a if-else statement
-# check pre-forget eligibility
-# calculate PRA, DLR, SLR, ALR, RIR, RA and mean leakage severiy
-# group results by memory architecture and condition
-# save results into results/.
-
-
-# Import libraries
 import pandas as pd
-
-# read csv responses file
-# df = pd.read_csv("scored_responses.csv")
 
 
 # Step 2: PRA, DLR, RA metrics

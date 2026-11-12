@@ -1,0 +1,69 @@
+[2026-01-15] The user's name is Jonathan.
+
+[2026-01-15] Jonathan is a civil engineer.
+
+[2026-01-15] Jonathan works for LTA.
+
+[2026-01-15] Jonathan is working on the Cross Island Line project.
+
+[2026-01-15] The user's name is Jonathan.
+
+[2026-01-15] Jonathan is a civil engineer with LTA.
+
+[2026-01-15] Jonathan is working on the Cross Island Line project.
+
+[2026-01-15] Jonathan is planning a family holiday for the June school holidays.
+
+[2026-01-15] Jonathan's wife's name is Wen.
+
+[2026-01-15] Jonathan has two sons, aged 9 and 12.
+
+[2026-01-15] Jonathan hasn't been on a plane in 10 years.
+
+[2026-01-15] The user's name is Jonathan.
+
+[2026-01-15] Jonathan is a civil engineer with LTA.
+
+[2026-01-15] Jonathan is working on the Cross Island Line project.
+
+[2026-01-15] Jonathan's wife is named Wen.
+
+[2026-01-15] Jonathan has two sons who are 9 and 12 years old.
+
+[2026-01-15] Jonathan hasn't been on a plane in 10 years.
+
+[2026-01-15] Jonathan's sons love food.
+
+[2026-03-03] The user booked a trip to Penang from 6 to 12 June.
+
+[2026-03-03] The user's elder son is named Ethan.
+
+[2026-03-03] Ethan is obsessed with bugs.
+
+[2026-03-03] The user has two sons.
+
+[2026-05-19] The user is being sent to a tunnelling conference in Munich in October by work.
+
+[2026-05-19] The user has never been to Europe.
+
+[2026-05-19] The user's friend Wen would be upset if the user wasted the chance to go to Europe.
+
+[2026-07-02] The user recently returned from Penang.
+
+[2026-07-02] The user had the best trip to Penang.
+
+[2026-07-02] The user's son Ethan wants to go to Japan next year for an insect museum.
+
+[2026-07-02] The user has been to Penang.
+
+[2026-07-02] The user's son Ethan wants to go to Japan next year for an insect museum.
+
+[2026-07-02] The user's friend Wen jokes that the user is the only Singaporean who has never been to Japan.
+
+[2026-09-20] The user is traveling to Munich from 12 to 16 October.
+
+[2026-09-20] The user is traveling to Munich from 12 to 16 October.
+
+[2026-09-20] The user needs a packing list for the trip to Munich.
+
+[2026-09-20] The weather in Munich in mid-October is around 5 to 12 degrees.

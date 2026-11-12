@@ -1,0 +1,11 @@
+[2026-05-04] The user is a data scientist.
+
+[2026-05-04] The user's work mostly involves pricing.
+
+[2026-05-04] The user is a data scientist.
+
+[2026-05-04] The user mostly works in pricing.
+
+[2026-05-04] The user's team builds the ride-hailing pricing model.
+
+[2026-05-18] The user started learning Japanese for a trip next spring.

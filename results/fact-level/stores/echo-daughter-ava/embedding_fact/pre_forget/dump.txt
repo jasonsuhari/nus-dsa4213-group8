@@ -1,0 +1,97 @@
+[2026-03-03] The user's name is Rachel.
+
+[2026-03-03] The user is a working mum.
+
+[2026-03-03] The user is an accountant.
+
+[2026-03-03] The user feels overwhelmed.
+
+[2026-03-03] The user's name is Rachel.
+
+[2026-03-03] The user's daughter is named Ava.
+
+[2026-03-03] Ava is 6 years old.
+
+[2026-03-03] Ava starts Primary 1 next year.
+
+[2026-03-03] The user needs to figure out the registration exercise for Ava's Primary 1.
+
+[2026-03-03] The user's name is Rachel.
+
+[2026-03-03] Rachel is a working mum.
+
+[2026-03-03] Rachel is an accountant.
+
+[2026-03-03] Rachel has a daughter named Ava.
+
+[2026-03-03] Ava is 6 years old.
+
+[2026-03-03] Ava starts Primary 1 next year.
+
+[2026-03-03] Rachel needs to figure out the registration exercise for Ava.
+
+[2026-03-03] Rachel's family lives near Rosyth School in Serangoon.
+
+[2026-03-03] Rosyth School is near Rachel's home in Serangoon.
+
+[2026-04-11] The user's daughter Ava has ballet every Saturday at 9am in Hougang.
+
+[2026-04-11] The user keeps forgetting Ava's ballet shoes.
+
+[2026-04-11] The user's daughter Ava has ballet every Saturday at 9am in Hougang.
+
+[2026-04-11] The user's daughter Ava is allergic to peanuts.
+
+[2026-04-11] The user finds birthday parties stressful due to Ava's peanut allergy.
+
+[2026-04-11] The user's daughter Ava has ballet every Saturday at 9am in Hougang.
+
+[2026-04-11] The user's daughter Ava is allergic to peanuts.
+
+[2026-04-11] The user keeps an EpiPen in their handbag.
+
+[2026-06-20] Marcus is in Jakarta for work the whole of next week.
+
+[2026-06-20] The user has a child named Ava.
+
+[2026-06-20] The user will be alone with Ava next week.
+
+[2026-06-20] Marcus is in Jakarta for work the whole of next week.
+
+[2026-06-20] The user has a child named Ava.
+
+[2026-06-20] The user is planning a simple peanut-free meal plan for themselves and Ava.
+
+[2026-08-29] The user's daughter Ava's 7th birthday is on 12 September.
+
+[2026-08-29] The user's daughter Ava's birthday party will be at home.
+
+[2026-08-29] The user's daughter Ava's birthday party has a ballet theme.
+
+[2026-08-29] The user's daughter Ava's 7th birthday is on 12 September.
+
+[2026-08-29] The user's daughter Ava's birthday party will be at home.
+
+[2026-08-29] The user's daughter Ava's birthday party has a ballet theme.
+
+[2026-08-29] The user is inviting about 12 kids to Ava's birthday party.
+
+[2026-08-29] The user wants the banner text for Ava's birthday party to include her name.
+
+[2026-08-29] The user's daughter Ava's 7th birthday is on 12 September.
+
+[2026-08-29] The user's daughter Ava's birthday party will be at home and has a ballet theme.
+
+[2026-08-29] The user wants the birthday cake to be peanut-free.
+
+[2026-09-14] The user had a party that went well.
+
+[2026-09-14] The user's kids loved the banner at the party.
+
+[2026-09-14] The user's daughter is named Ava.
+
+[2026-09-14] Ava danced the whole time at the party.
+
+[2026-09-14] The Rosyth balloting results come out next week.
+
+[2026-09-14] Xinmin Primary is close to Serangoon.

@@ -1,0 +1,45 @@
+{"id": 0, "session_id": "hiv-1", "date": "2026-01-12", "turn_index": 0, "text": "The user is cabin crew.", "importance": 8, "deleted": false}
+{"id": 1, "session_id": "hiv-1", "date": "2026-01-12", "turn_index": 0, "text": "The user works on long-haul flights.", "importance": 7, "deleted": false}
+{"id": 2, "session_id": "hiv-1", "date": "2026-01-12", "turn_index": 0, "text": "The user recently returned from a turnaround in London.", "importance": 6, "deleted": false}
+{"id": 3, "session_id": "hiv-1", "date": "2026-01-12", "turn_index": 0, "text": "The user's body clock is affected by their job as cabin crew.", "importance": 5, "deleted": false}
+{"id": 4, "session_id": "hiv-2", "date": "2026-01-30", "turn_index": 0, "text": "The user takes their pill at 9pm Singapore time daily.", "importance": 8, "deleted": false}
+{"id": 5, "session_id": "hiv-2", "date": "2026-01-30", "turn_index": 0, "text": "The user is concerned about keeping their pill schedule consistent across flights.", "importance": 6, "deleted": false}
+{"id": 6, "session_id": "hiv-2", "date": "2026-01-30", "turn_index": 1, "text": "The user takes their pill at 9pm Singapore time daily.", "importance": 8, "deleted": false}
+{"id": 7, "session_id": "hiv-2", "date": "2026-01-30", "turn_index": 1, "text": "The user carries a spare dose in their crew bag.", "importance": 7, "deleted": false}
+{"id": 8, "session_id": "hiv-3", "date": "2026-02-18", "turn_index": 0, "text": "The user's name is Ben.", "importance": 8, "deleted": false}
+{"id": 9, "session_id": "hiv-3", "date": "2026-02-18", "turn_index": 0, "text": "The user has been in a relationship with Ben for five years.", "importance": 10, "deleted": false}
+{"id": 10, "session_id": "hiv-3", "date": "2026-02-18", "turn_index": 0, "text": "The user's five-year anniversary with Ben is next week.", "importance": 9, "deleted": false}
+{"id": 11, "session_id": "hiv-3", "date": "2026-02-18", "turn_index": 1, "text": "The user's partner is named Ben.", "importance": 10, "deleted": false}
+{"id": 12, "session_id": "hiv-3", "date": "2026-02-18", "turn_index": 1, "text": "Ben loves Cicheti.", "importance": 7, "deleted": false}
+{"id": 13, "session_id": "hiv-3", "date": "2026-02-18", "turn_index": 1, "text": "The user and Ben will celebrate five years together next week.", "importance": 8, "deleted": false}
+{"id": 14, "session_id": "hiv-4", "date": "2026-03-07", "turn_index": 0, "text": "The user picked up a Pentax K1000 at a flea market.", "importance": 6, "deleted": false}
+{"id": 15, "session_id": "hiv-4", "date": "2026-03-07", "turn_index": 0, "text": "Film photography is the user's new obsession.", "importance": 7, "deleted": false}
+{"id": 16, "session_id": "hiv-5", "date": "2026-03-28", "turn_index": 0, "text": "The user's sourdough starter is named Gerald.", "importance": 5, "deleted": false}
+{"id": 17, "session_id": "hiv-5", "date": "2026-03-28", "turn_index": 0, "text": "The user's sourdough starter Gerald doubled in four hours.", "importance": 4, "deleted": false}
+{"id": 18, "session_id": "hiv-5", "date": "2026-03-28", "turn_index": 0, "text": "The user plans to make bread this weekend.", "importance": 6, "deleted": false}
+{"id": 19, "session_id": "hiv-5", "date": "2026-03-28", "turn_index": 1, "text": "The user has a sourdough starter named Gerald.", "importance": 8, "deleted": false}
+{"id": 20, "session_id": "hiv-5", "date": "2026-03-28", "turn_index": 1, "text": "The user plans to bake bread this weekend.", "importance": 7, "deleted": false}
+{"id": 21, "session_id": "hiv-5", "date": "2026-03-28", "turn_index": 1, "text": "The user's friend Ben feels that the user loves Gerald more than him.", "importance": 6, "deleted": false}
+{"id": 22, "session_id": "hiv-6", "date": "2026-04-16", "turn_index": 0, "text": "The user has a quarterly check-up at NCID tomorrow.", "importance": 7, "deleted": false}
+{"id": 23, "session_id": "hiv-6", "date": "2026-04-16", "turn_index": 0, "text": "The user's blood draw is scheduled for 8am tomorrow.", "importance": 7, "deleted": false}
+{"id": 24, "session_id": "hiv-7", "date": "2026-05-05", "turn_index": 0, "text": "The user has an Anytime Fitness membership in Novena.", "importance": 6, "deleted": false}
+{"id": 25, "session_id": "hiv-8", "date": "2026-05-24", "turn_index": 0, "text": "The user is flying to Ipoh for their mum's 70th birthday.", "importance": 8, "deleted": false}
+{"id": 26, "session_id": "hiv-8", "date": "2026-05-24", "turn_index": 0, "text": "The user's mum is 70 years old.", "importance": 8, "deleted": false}
+{"id": 27, "session_id": "hiv-8", "date": "2026-05-24", "turn_index": 0, "text": "The user's mum still lives in the house the user grew up in.", "importance": 7, "deleted": false}
+{"id": 28, "session_id": "hiv-8", "date": "2026-05-24", "turn_index": 1, "text": "The user's mother is turning 70 years old.", "importance": 10, "deleted": false}
+{"id": 29, "session_id": "hiv-8", "date": "2026-05-24", "turn_index": 1, "text": "The user's mother still lives in the house the user grew up in.", "importance": 10, "deleted": false}
+{"id": 30, "session_id": "hiv-8", "date": "2026-05-24", "turn_index": 1, "text": "The user is flying to Ipoh for their mother's 70th birthday.", "importance": 10, "deleted": false}
+{"id": 31, "session_id": "hiv-8", "date": "2026-05-24", "turn_index": 1, "text": "The user's mother invited the whole street to the birthday celebration.", "importance": 8, "deleted": false}
+{"id": 32, "session_id": "hiv-8", "date": "2026-05-24", "turn_index": 1, "text": "There will be ten tables at a Chinese restaurant for the birthday celebration.", "importance": 7, "deleted": false}
+{"id": 33, "session_id": "hiv-9", "date": "2026-06-13", "turn_index": 0, "text": "The user has a 24-hour layover in Zurich next week.", "importance": 5, "deleted": false}
+{"id": 34, "session_id": "hiv-10", "date": "2026-07-03", "turn_index": 0, "text": "The user got their first rolls developed at a lab in Peninsula Plaza.", "importance": 5, "deleted": false}
+{"id": 35, "session_id": "hiv-10", "date": "2026-07-03", "turn_index": 0, "text": "Half of the user's developed rolls are blurry.", "importance": 5, "deleted": false}
+{"id": 36, "session_id": "hiv-10", "date": "2026-07-03", "turn_index": 0, "text": "A few of the user's developed rolls featuring Ben are gorgeous.", "importance": 6, "deleted": false}
+{"id": 37, "session_id": "hiv-11", "date": "2026-07-22", "turn_index": 0, "text": "The user started a training course to become a leading steward.", "importance": 7, "deleted": false}
+{"id": 38, "session_id": "hiv-11", "date": "2026-07-22", "turn_index": 0, "text": "The training course includes lots of service recovery role-plays.", "importance": 5, "deleted": false}
+{"id": 39, "session_id": "hiv-12", "date": "2026-08-11", "turn_index": 0, "text": "The user adopted a rescue dog named Mochi.", "importance": 8, "deleted": false}
+{"id": 40, "session_id": "hiv-12", "date": "2026-08-11", "turn_index": 0, "text": "Mochi is a 3-year-old Singapore Special.", "importance": 7, "deleted": false}
+{"id": 41, "session_id": "hiv-12", "date": "2026-08-11", "turn_index": 0, "text": "The user's partner is named Ben.", "importance": 6, "deleted": false}
+{"id": 42, "session_id": "hiv-12", "date": "2026-08-11", "turn_index": 1, "text": "The user and Ben adopted a rescue dog named Mochi.", "importance": 8, "deleted": false}
+{"id": 43, "session_id": "hiv-12", "date": "2026-08-11", "turn_index": 1, "text": "Mochi is a 3-year-old Singapore Special.", "importance": 7, "deleted": false}
+{"id": 44, "session_id": "hiv-12", "date": "2026-08-11", "turn_index": 1, "text": "Mochi sleeps on Ben's side of the bed.", "importance": 6, "deleted": false}

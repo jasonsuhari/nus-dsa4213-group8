@@ -1,0 +1,9 @@
+occupation: The user is a product designer at a fintech in Raffles Place.
+resolution: The user's new year resolution is to budget.
+location: The user is looking at a 4-room resale flat in Clementi.
+pet: The user has a corgi named Kopi.
+grooming_expenses: The user spends a lot on grooming for Kopi.
+salary: The user has a monthly payslip of $1,600 that goes to their CPF.
+financial_decision: The user is considering whether to top up their SA.
+spending_opinion: The user thinks spending $300 on one meal is excessive.
+birthday_treat: The user is considering alternatives for Jia Hui's birthday treat.

@@ -1,0 +1,11 @@
+name: The user is named Melissa.
+occupation: The user is a pharma sales rep.
+work_location: The user drives to clinics all over the island for work.
+car_coe_expiration: The user's car's COE expires in March 2028.
+car_damage: The user has a car that was scratched on the passenger door.
+pet: The user has a golden retriever named Biscuit.
+car_needs: The user needs a rental car for clinic rounds in Jurong on Thursday.
+event: The user is going to a friend's wedding at Capella Sentosa on 5 September.
+dress_needs: The user needs a dress for the wedding.
+car_decision: The user is considering whether to renew their COE or switch to an electric vehicle (EV).
+mileage: The user drives around 2,500 km a month.

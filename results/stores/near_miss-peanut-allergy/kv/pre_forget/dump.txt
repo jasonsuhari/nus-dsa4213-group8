@@ -1,0 +1,11 @@
+children: The user has a son named Ethan who is four years old.
+allergies: The user carries an EpiPen.
+preschool: Ethan is in K1 at a preschool in Tampines.
+occupation: The user works at an office in Changi Business Park.
+task: The user has been tasked with organizing a team lunch for 8 people.
+diet: The user prefers not to eat at satay or Thai places.
+birthday_party: Ethan's birthday party is on March 12, 2026.
+cake_baking: The user wants to bake a cake for Ethan's birthday that he can actually eat.
+baking_frequency: The user bakes maybe twice a year.
+event: The user has about eight weeks to train.
+running_frequency: The user runs three mornings a week around Bedok Reservoir.

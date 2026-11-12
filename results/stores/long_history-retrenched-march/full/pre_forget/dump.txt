@@ -1,0 +1,47 @@
+[2026-03-04] user: My son Ethan has his Grade 6 piano exam in April and he hasn't practised scales once this week.
+assistant: Fifteen minutes of scales before his pieces each day adds up. Maybe tie it to screen time.
+user: Screen time as the bargaining chip, yes.
+assistant: Works on most 15-year-olds.
+
+[2026-03-17] user: Got retrenched this morning. They cut the whole APAC marketing team. Eight years at the company and it ended in a 15-minute call.
+assistant: I'm so sorry, Jasmine. Being retrenched after eight years is a real shock. Do you want help with next steps, or just to talk?
+user: Not tonight. I just want comfort food. What can I cook with chicken thighs and miso?
+assistant: Miso-glazed chicken thighs: marinate 30 minutes in miso, mirin and honey, then pan-fry skin side down. Serve with rice.
+
+[2026-04-02] user: Joined a pickleball club in Bukit Timah, we play Thursday mornings. Never thought I'd be into it.
+assistant: Pickleball is easy to pick up and very social. Get proper court shoes.
+
+[2026-04-21] user: Started a SkillsFuture course in UX design today. Weird being a student again at 44.
+assistant: Plenty of people switch at your stage, and your marketing background helps a lot in UX.
+user: First assignment is user interviews.
+assistant: That's where your marketing instincts will show.
+
+[2026-05-08] user: Desmond's birthday is on Saturday. He's impossible to buy for. Ideas?
+assistant: An experience works for hard-to-buy-for people: an omakase dinner, a cooking class together, or a staycation.
+user: Omakase, he's been talking about it for months.
+assistant: Then book soon, good counters fill up a week out.
+
+[2026-05-27] user: Bringing my mum to SGH for her cataract op next Tuesday. What should she expect afterwards?
+assistant: Mild blurriness and grittiness for a few days, an eye shield at night, and eye drops several times a day. No bending or heavy lifting for a week.
+
+[2026-06-14] user: Making bentos for Ethan, he says canteen food is boring. Easy ideas?
+assistant: Tuna mayo onigiri, teriyaki chicken with edamame, or egg fried rice. Prep the rice the night before.
+
+[2026-07-02] user: First interview in months today! Product marketing role at a logistics startup. Second round next week.
+assistant: That's great news. For round two, bring one campaign story with numbers.
+user: I have one from a 2024 launch that tripled sign-ups.
+assistant: Lead with that.
+
+[2026-07-21] user: Our pickleball club has a doubles tournament in August. My partner is a 70-year-old uncle who's better than all of us.
+assistant: Let him take the net and you cover the baseline.
+
+[2026-08-09] user: Family trip in December, thinking Phuket for a week. Cheap but nice?
+assistant: Stay in Kata or Karon instead of Patong, they're quieter and cheaper. Fly midweek.
+
+[2026-08-30] user: UX course final project: I'm redesigning a hawker centre ordering app. Testing it on my mum.
+assistant: Older users are great testers. Watch where she hesitates.
+user: She hesitated everywhere.
+assistant: Then you have lots of material.
+
+[2026-09-17] user: Growing chilli padi on my balcony. Five plants, and finally some flowers.
+assistant: Nice. Hand-pollinate with a small brush if insects don't reach the balcony.

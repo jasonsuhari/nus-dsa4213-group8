@@ -1,0 +1,14 @@
+[2026-08-03] user: Audit senior manager at a Big Four firm here, and busy season prep is starting. I need a weekly routine that protects my Tuesday night pottery class.
+assistant: Treat Tuesday 7pm as a fixed meeting. Put heavy reviews on Monday and Wednesday so Tuesday ends on time.
+
+[2026-08-17] user: Random but relevant for later advice: I'm an only child, so family stuff always lands on me.
+assistant: Got it. As an only child you carry a lot of that alone, so I'll keep it in mind.
+
+[2026-08-31] user: Dad had a mild stroke in July. I'm handling all his medical appointments myself. Can you help me set up a calendar for them?
+assistant: Sorry to hear about your dad. A separate calendar just for his appointments, with reminders two days and two hours before, works well. Share it with your mum too.
+
+[2026-09-14] user: Need to understand MediShield Life claims for Dad's rehab, and with no siblings to split the paperwork I'm doing it all. What documents do I need?
+assistant: Usually the hospital files the claim for you. Keep his NRIC, the bills and the rehab referral letter, and check whether MediSave can cover the rest.
+
+[2026-10-05] user: My husband Daniel and I are talking about kids. I want three, because growing up without any brothers or sisters was lonely. How do I bring it up with him?
+assistant: Start with why it matters to you. Your own childhood as an only child is a strong reason, so share that, then ask what he imagines.

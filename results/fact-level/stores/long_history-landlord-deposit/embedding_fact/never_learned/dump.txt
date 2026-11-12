@@ -1,0 +1,73 @@
+[2026-02-04] The user is moving out of their old flat in Clementi into a studio in Kallang this weekend.
+
+[2026-02-04] The user is moving out of their old flat in Clementi into a studio in Kallang this weekend.
+
+[2026-03-01] The user is a data analyst at a telecommunications company.
+
+[2026-03-01] The user is building churn dashboards in Tableau this month.
+
+[2026-03-01] The user's churn data is messy.
+
+[2026-03-01] The user is a data analyst at a telco.
+
+[2026-03-01] The user is building churn dashboards in Tableau this month.
+
+[2026-03-01] The data the user is working with is a mess.
+
+[2026-03-01] The user had two meetings regarding the churn data.
+
+[2026-03-19] The user sent their first V4 at the bouldering gym near their place.
+
+[2026-03-19] The user spent three weeks falling off the same move while trying to send the V4.
+
+[2026-04-06] The user filed a claim at the Small Claims Tribunals on an unspecified date.
+
+[2026-04-06] The hearing for the user's claim is set for 14 July.
+
+[2026-04-06] The user filed a claim at the Small Claims Tribunals on a date prior to the current conversation.
+
+[2026-04-06] The hearing for the user's claim is set for 14 July.
+
+[2026-04-06] The user has never been to a tribunal before.
+
+[2026-04-25] The user's parents are visiting from Chennai in June for two weeks.
+
+[2026-04-25] This is the user's parents' first time in Singapore.
+
+[2026-04-25] The user's parents are visiting from Chennai in June for two weeks.
+
+[2026-04-25] The user's parents are visiting Singapore for the first time.
+
+[2026-04-25] The user booked a hotel nearby for their parents because the studio is too small.
+
+[2026-05-30] The user's dad loves plants.
+
+[2026-05-30] The user's mum loves temples.
+
+[2026-06-18] The user is printing all their WhatsApp chats with Mr Goh and the move-out photos.
+
+[2026-06-18] The user is putting the printed WhatsApp chats and move-out photos in a folder for July.
+
+[2026-07-05] The user is learning dbt for work.
+
+[2026-07-05] The user's manager wants their SQL models version-controlled.
+
+[2026-07-05] The user is learning dbt for work.
+
+[2026-07-05] The user's manager wants their SQL models version-controlled.
+
+[2026-07-24] The user is part of a cricket team that won the semi-final of the weekend cricket league.
+
+[2026-07-24] The user took two wickets in the semi-final of the weekend cricket league.
+
+[2026-07-24] The user is part of a cricket team that won the semi-final of the weekend cricket league.
+
+[2026-07-24] The user took two wickets in the semi-final match.
+
+[2026-07-24] The final match of the weekend cricket league is next Saturday.
+
+[2026-07-24] The final match will take place at the Padang.
+
+[2026-08-12] The user bought a standing desk from IKEA for the studio.
+
+[2026-08-12] The assembly of the standing desk took the user three hours.

@@ -1,0 +1,37 @@
+[2026-01-20] user: Hi! Aisyah here, Year 2 mech eng at NTU.
+assistant: Hi Aisyah! How's Year 2 going?
+
+[2026-01-20] user: Busy. I live with my nenek in Pasir Ris, just the two of us, so I do most of the cooking and groceries too.
+assistant: That's a lot on your plate, and lovely that you look after your grandmother. Want some quick meal ideas for two?
+
+[2026-01-20] user: Yes! Nenek can't take spicy food anymore though.
+assistant: Noted, mild dishes for you and your nenek: sup ayam, bubur, or steamed fish with ginger.
+
+[2026-02-10] user: I got a part-time job at a bubble tea shop at Downtown East, weekends only.
+assistant: Nice, that's close to home for you. Will your grandmother be ok alone on weekends?
+
+[2026-02-10] user: My brother Irfan books out from NS on weekends, so he'll keep her company.
+assistant: Perfect timing then. How's Irfan finding NS?
+
+[2026-02-10] user: He's in Tekong, complaining nonstop haha.
+
+[2026-03-05] user: Hari Raya is in two weeks and relatives are coming to our flat. Help me plan the menu?
+assistant: Of course! A classic spread: rendang, lontong, sayur lodeh and ketupat. Keep the rendang mild for your nenek since she can't take spice anymore.
+
+[2026-03-05] user: Yes. She'll insist on making the kuih herself though, her kuih bangkit is the best.
+assistant: Then leave the kuih bangkit to her, it sounds like her signature.
+
+[2026-03-05] user: My signature is the lontong, I'll make that.
+assistant: Great division of labour.
+
+[2026-05-04] user: I want to take driving lessons. Which centre is closest to Pasir Ris?
+assistant: ComfortDelGro Driving Centre in Ubi is the closest school-based option.
+
+[2026-05-04] user: Ok. Mostly I want to drive so I can take her to her clinic appointments, the bus is hard on her knees.
+assistant: That's a kind reason. Driving your nenek to her polyclinic visits will save her a lot of strain. Class 3A auto is the faster route to a licence.
+
+[2026-08-18] user: Semester started. Can you help me make a weekly schedule? Classes Mon to Thu, bubble tea Sat and Sun.
+assistant: Sure. I'll keep Friday free for errands and your grandmother's polyclinic visits, and Sunday evening for groceries for the two of you.
+
+[2026-08-18] user: Also driving lessons on Wednesday nights.
+assistant: Added: driving lessons Wednesday 7 to 9pm.

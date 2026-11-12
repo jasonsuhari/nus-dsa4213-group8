@@ -1,0 +1,22 @@
+children: The user has a son named Ethan who is 11 years old.
+piano_exam: Ethan has his Grade 6 piano exam in April.
+practice: Ethan hasn't practiced scales once this week.
+food_preference: Ethan finds canteen food boring.
+hobby: The user has five chilli padi plants.
+schedule: The user plays pickleball on Thursday mornings.
+course: The user started a SkillsFuture course in UX design on April 21, 2026.
+age: The user is 44 years old.
+background: The user has a marketing background.
+assignment: The user's first assignment in the UX design course is user interviews.
+birthday: Desmond's birthday is on May 9, 2026.
+medical: The user is bringing their mum to SGH for her cataract operation on May 31, 2026.
+bento_making: The user makes bentos for Ethan.
+interview_status: The user has a second round interview next week.
+campaign_story: The user has a campaign story from a 2024 launch that tripled sign-ups.
+pickleball_club: The user is part of a pickleball club.
+tournament: The user has a doubles tournament in August with their partner, a 70-year-old uncle.
+uncle_comparison: The user's uncle is better than all of them.
+family_trip: The user is planning a family trip to Phuket in December.
+project: The user is redesigning a hawker centre ordering app for their UX course final project.
+testing_app: The user is testing the app on their mum, who hesitated everywhere while testing.
+chilli_padi_flowers: The user has flowers on their chilli padi plants.

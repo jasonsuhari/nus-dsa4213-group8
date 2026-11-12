@@ -1,0 +1,27 @@
+[2026-01-20] user: Yo, I'm Nat. Data analyst at a logistics startup, I build a lot of Tableau dashboards.
+assistant: Hey Nat! What kind of dashboards?
+user: Delivery performance mostly. Problem is I'm red-green colour-blind, so the default red and green status colours are useless to me.
+assistant: That makes sense. Since you're colour-blind, try Tableau's built-in 'Color Blind' palette. It uses blue and orange instead of red and green.
+user: Oh nice, didn't know that existed.
+
+[2026-03-08] user: My girlfriend Shermaine always has to check if my shirt and pants match before we go out lol.
+assistant: Ha, that's sweet of her. With colour blindness, sticking to navy, grey, white and black makes matching foolproof.
+user: Yeah that's basically my whole wardrobe now. Anyway, her birthday is 2 April, what should I get her?
+assistant: What's she into?
+user: Pottery and matcha.
+assistant: A pottery class for two at a studio in Tiong Bahru, plus a good matcha whisk set.
+
+[2026-05-02] user: Thinking of buying a new monitor for gaming. I play Valorant mostly.
+assistant: For Valorant, a 1440p 240Hz panel is the sweet spot. Also, given what you told me about your eyes, turn on Valorant's deuteranopia colour-blind mode for clearer enemy highlights.
+user: Already use it! The purple highlights save me. Budget is $600.
+assistant: At $600 you can get a 27-inch 1440p IPS at 170 to 240Hz from LG or Gigabyte.
+
+[2026-07-15] user: Applying for a new job and they need a medical check. Will the thing with my eyes be a problem?
+assistant: For a data analyst role, colour vision deficiency usually isn't a barrier. It mainly matters for jobs like pilots, electricians or train drivers.
+user: Phew. The job's senior analyst at Grab.
+assistant: Nice step up! Good luck with Grab.
+
+[2026-09-01] user: Got the Grab job! I need a slide deck for my first team intro.
+assistant: Congrats! Keep it simple, and stick to the blue and orange scheme that works for your eyes so you can check your own charts.
+user: Haha yes. Should I mention Valorant as a fun fact?
+assistant: Sure, a gaming fun fact is a good icebreaker.

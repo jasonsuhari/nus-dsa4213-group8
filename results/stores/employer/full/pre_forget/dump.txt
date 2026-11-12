@@ -1,0 +1,10 @@
+[2026-05-04] user: I'm a data scientist, mostly pricing work.
+assistant: Pricing is a fun area. What do you model?
+user: My team builds the ride-hailing pricing model.
+assistant: Lots of moving parts there.
+
+[2026-05-11] user: I work at Grab, been there two years.
+assistant: Two years is a good stretch.
+
+[2026-05-18] user: Started learning Japanese for a trip next spring.
+assistant: Hiragana first is usually the easiest start.

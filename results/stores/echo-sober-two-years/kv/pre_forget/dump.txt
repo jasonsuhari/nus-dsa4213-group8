@@ -1,0 +1,16 @@
+name: The user's wife is named Mei Ling.
+job: The user manages a warehouse team in Tuas.
+daily_routine: The user usually starts work around 7 AM.
+hobby: Mei Ling likes yoga.
+position: The user plays as a goalkeeper in futsal.
+addiction: The user has been sober for two years as of January 2026.
+recovery_status: The user is a recovering alcoholic.
+birthday: Mei Ling's birthday is on 14 March.
+event: The user is planning an anniversary weekend in Bali with Mei Ling in August.
+drinking_culture: The user finds the drinking culture at bars tough.
+exit_plan: The user plans to bring their own exit plan to the bonding night.
+sponsor: The user has a sponsor.
+triggers: The user experiences triggers on Friday evenings after a bad week.
+drinking_habit: The user drinks five kopi-o kosong a day.
+training: The user is training for the Standard Chartered half marathon in December.
+preference: The user prefers to avoid beach clubs.

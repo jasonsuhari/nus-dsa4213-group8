@@ -1,0 +1,24 @@
+[2026-01-08] user: Hello. I am Mr Lim, retired teacher. My son set up this app for me.
+assistant: Hello Mr Lim, nice to meet you. What can I help you with?
+user: I like hawker food. Wanton mee, laksa, chicken rice. Recommend me some?
+assistant: Good taste! Try the chicken rice at Maxwell, and the wanton mee in Toa Payoh.
+
+[2026-02-12] user: Chinese New Year next week. Reunion dinner at my daughter's house in Toa Payoh.
+assistant: Lovely! Steamboat is always a good reunion dinner, everyone can cook together.
+user: My grandson Jayden, 8 years old, wants to give me a red packet he saved.
+assistant: That's very sweet of Jayden!
+
+[2026-04-14] user: Every morning I do tai chi at Bishan Park with my kakis, 7am.
+assistant: That's a great habit, Mr Lim. Tai chi is very good for balance.
+user: After tai chi we go kopitiam. What should I order?
+assistant: Kaya toast with half-boiled eggs and a kopi is the classic.
+user: Ok, kaya toast it is.
+
+[2026-06-09] user: I have blood test every 3 months at the polyclinic. Next one is 23 June. Can you remind me to fast?
+assistant: Sure. Fast from midnight on 22 June, and bring your medication list too.
+user: Ok, thank you.
+
+[2026-08-25] user: My mahjong kakis want to go Malacca for a weekend in September. Food there very famous right?
+assistant: Yes! Chicken rice balls and Nyonya food. Asam pedas is a must-try.
+user: Nice, I want the chicken rice balls.
+assistant: Good choice, Jonker Street has the famous ones.

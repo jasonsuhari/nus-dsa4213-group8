@@ -1,0 +1,8 @@
+[2026-06-08] user: I'm a data analyst at an insurance company in Tanjong Pagar, I live in Punggol, and I just signed up for the Standard Chartered half marathon in December. Can you build me a training plan around a 9-to-6 job?
+assistant: Sure. Three weekday runs before work and a long run on Sunday, building from 8km to 18km over the next 24 weeks.
+
+[2026-06-22] user: My manager Derek cancelled our 1:1 again, third time this month. Help me write a polite nudge?
+assistant: Try: 'Hi Derek, I know things are busy. Could we find 20 minutes this week? There are a few things I'd like your input on.'
+
+[2026-07-20] user: Can you rewrite my LinkedIn headline? It says 'Data Analyst at Lumen Insurance'. I want it to say analytics engineer and sound punchier.
+assistant: Try: 'Analytics Engineer | SQL, dbt and Python | Turning messy insurance data into decisions'.

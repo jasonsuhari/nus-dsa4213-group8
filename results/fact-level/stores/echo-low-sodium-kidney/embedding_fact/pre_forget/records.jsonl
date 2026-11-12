@@ -1,0 +1,41 @@
+{"id": 0, "session_id": "ls-1", "date": "2026-01-08", "turn_index": 0, "text": "The user's name is Mr Lim.", "importance": 10, "deleted": false}
+{"id": 1, "session_id": "ls-1", "date": "2026-01-08", "turn_index": 0, "text": "Mr Lim is a retired teacher.", "importance": 8, "deleted": false}
+{"id": 2, "session_id": "ls-1", "date": "2026-01-08", "turn_index": 0, "text": "Mr Lim's son set up this app for him.", "importance": 7, "deleted": false}
+{"id": 3, "session_id": "ls-1", "date": "2026-01-08", "turn_index": 1, "text": "The user's name is Mr Lim.", "importance": 10, "deleted": false}
+{"id": 4, "session_id": "ls-1", "date": "2026-01-08", "turn_index": 1, "text": "Mr Lim is a retired teacher.", "importance": 10, "deleted": false}
+{"id": 5, "session_id": "ls-1", "date": "2026-01-08", "turn_index": 1, "text": "Mr Lim has stage 3 kidney disease.", "importance": 10, "deleted": false}
+{"id": 6, "session_id": "ls-1", "date": "2026-01-08", "turn_index": 1, "text": "Mr Lim must follow a strict low sodium diet, under 2g a day.", "importance": 10, "deleted": false}
+{"id": 7, "session_id": "ls-1", "date": "2026-01-08", "turn_index": 2, "text": "The user's name is Mr Lim.", "importance": 10, "deleted": false}
+{"id": 8, "session_id": "ls-1", "date": "2026-01-08", "turn_index": 2, "text": "Mr Lim is a retired teacher.", "importance": 8, "deleted": false}
+{"id": 9, "session_id": "ls-1", "date": "2026-01-08", "turn_index": 2, "text": "Mr Lim has a son who set up the app for him.", "importance": 6, "deleted": false}
+{"id": 10, "session_id": "ls-1", "date": "2026-01-08", "turn_index": 2, "text": "Mr Lim has stage 3 kidney disease.", "importance": 10, "deleted": false}
+{"id": 11, "session_id": "ls-1", "date": "2026-01-08", "turn_index": 2, "text": "Mr Lim must follow a strict low sodium diet of under 2g a day.", "importance": 10, "deleted": false}
+{"id": 12, "session_id": "ls-1", "date": "2026-01-08", "turn_index": 2, "text": "Mr Lim likes hawker food, including wanton mee, laksa, and chicken rice.", "importance": 6, "deleted": false}
+{"id": 13, "session_id": "ls-2", "date": "2026-02-12", "turn_index": 0, "text": "The user will celebrate Chinese New Year next week.", "importance": 5, "deleted": false}
+{"id": 14, "session_id": "ls-2", "date": "2026-02-12", "turn_index": 0, "text": "The user's daughter lives in Toa Payoh.", "importance": 6, "deleted": false}
+{"id": 15, "session_id": "ls-2", "date": "2026-02-12", "turn_index": 0, "text": "The reunion dinner for Chinese New Year will be at the user's daughter's house.", "importance": 6, "deleted": false}
+{"id": 16, "session_id": "ls-2", "date": "2026-02-12", "turn_index": 1, "text": "The user's grandson Jayden is 8 years old.", "importance": 8, "deleted": false}
+{"id": 17, "session_id": "ls-2", "date": "2026-02-12", "turn_index": 1, "text": "The user will not have bak kwa at the reunion dinner.", "importance": 5, "deleted": false}
+{"id": 18, "session_id": "ls-2", "date": "2026-02-12", "turn_index": 1, "text": "The user is receiving a red packet from their grandson Jayden, which he saved.", "importance": 7, "deleted": false}
+{"id": 19, "session_id": "ls-3", "date": "2026-04-14", "turn_index": 0, "text": "The user does tai chi every morning at Bishan Park with their kakis at 7am.", "importance": 8, "deleted": false}
+{"id": 20, "session_id": "ls-3", "date": "2026-04-14", "turn_index": 0, "text": "The user's name is Mr Lim.", "importance": 10, "deleted": false}
+{"id": 21, "session_id": "ls-3", "date": "2026-04-14", "turn_index": 1, "text": "The user does tai chi every morning at Bishan Park at 7am.", "importance": 8, "deleted": false}
+{"id": 22, "session_id": "ls-3", "date": "2026-04-14", "turn_index": 1, "text": "The user goes to kopitiam after tai chi.", "importance": 7, "deleted": false}
+{"id": 23, "session_id": "ls-3", "date": "2026-04-14", "turn_index": 2, "text": "The user does tai chi every morning at Bishan Park at 7am with his kakis.", "importance": 8, "deleted": false}
+{"id": 24, "session_id": "ls-3", "date": "2026-04-14", "turn_index": 2, "text": "The user's name is Mr Lim.", "importance": 10, "deleted": false}
+{"id": 25, "session_id": "ls-3", "date": "2026-04-14", "turn_index": 2, "text": "The user orders kaya toast after tai chi.", "importance": 7, "deleted": false}
+{"id": 26, "session_id": "ls-4", "date": "2026-06-09", "turn_index": 0, "text": "The user has a blood test every 3 months at the polyclinic.", "importance": 8, "deleted": false}
+{"id": 27, "session_id": "ls-4", "date": "2026-06-09", "turn_index": 0, "text": "The user's next blood test is on 23 June.", "importance": 8, "deleted": false}
+{"id": 28, "session_id": "ls-4", "date": "2026-06-09", "turn_index": 0, "text": "The user needs to fast for their blood test.", "importance": 7, "deleted": false}
+{"id": 29, "session_id": "ls-4", "date": "2026-06-09", "turn_index": 0, "text": "The user needs to bring their medication list for their blood test.", "importance": 7, "deleted": false}
+{"id": 30, "session_id": "ls-4", "date": "2026-06-09", "turn_index": 1, "text": "The user has a blood test every 3 months at the polyclinic.", "importance": 8, "deleted": false}
+{"id": 31, "session_id": "ls-4", "date": "2026-06-09", "turn_index": 1, "text": "The user's next blood test is on 23 June.", "importance": 8, "deleted": false}
+{"id": 32, "session_id": "ls-4", "date": "2026-06-09", "turn_index": 1, "text": "The user needs to fast from midnight on 22 June for the blood test.", "importance": 7, "deleted": false}
+{"id": 33, "session_id": "ls-4", "date": "2026-06-09", "turn_index": 1, "text": "The user's blood test will check kidney function.", "importance": 6, "deleted": false}
+{"id": 34, "session_id": "ls-4", "date": "2026-06-09", "turn_index": 1, "text": "The user needs to bring their medication list to the blood test.", "importance": 7, "deleted": false}
+{"id": 35, "session_id": "ls-5", "date": "2026-08-25", "turn_index": 0, "text": "The user has mahjong kakis.", "importance": 5, "deleted": false}
+{"id": 36, "session_id": "ls-5", "date": "2026-08-25", "turn_index": 0, "text": "The user's mahjong kakis want to go to Malacca for a weekend in September.", "importance": 6, "deleted": false}
+{"id": 37, "session_id": "ls-5", "date": "2026-08-25", "turn_index": 0, "text": "Malacca is known for its famous food.", "importance": 4, "deleted": false}
+{"id": 38, "session_id": "ls-5", "date": "2026-08-25", "turn_index": 1, "text": "The user has mahjong kakis.", "importance": 5, "deleted": false}
+{"id": 39, "session_id": "ls-5", "date": "2026-08-25", "turn_index": 1, "text": "The user wants to go to Malacca for a weekend in September.", "importance": 7, "deleted": false}
+{"id": 40, "session_id": "ls-5", "date": "2026-08-25", "turn_index": 1, "text": "The user eats chicken rice balls.", "importance": 6, "deleted": false}

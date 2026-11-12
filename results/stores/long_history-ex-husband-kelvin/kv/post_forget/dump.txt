@@ -1,0 +1,13 @@
+child: Ruby is starting Primary 3 on January 9, 2026.
+school_shoes: The user needs to buy new school shoes for Ruby.
+school: The user is teaching P4 at a primary school in Woodlands.
+work: The user is currently marking maths worksheets that include fractions.
+hobby: The user is reading Pachinko this month.
+visitation: The user has a Saturday to themselves on March 15, 2026.
+plans: The user is having Mother's Day lunch at their mum's in Jurong West.
+passport_renewal: The user is renewing Ruby's passport for a trip to Taiwan in June.
+mum_cooking_policy: The user's mum refuses to let anyone else cook.
+co_parenting: The user co-parents after a divorce.
+school_fees: The user splits school fees 50-50 with their co-parent.
+travel: The user is going to spend five days in Taipei with Ruby.
+work_position: The user's interview for the position is in August.

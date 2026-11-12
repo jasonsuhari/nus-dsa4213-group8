@@ -1,0 +1,8 @@
+grandparent: The user's Ah Ma, Tan Siew Lan, passed away in January 2026.
+tattoo: The user got a tattoo of 'Siew Lan' on their left inner wrist that has healed.
+cooking: The user is back to pouring latte art.
+job: The user is a barista at a café in Joo Chiat.
+business_aspiration: The user wants to open their own coffee cart in two years.
+savings_goal: The user will aim to save $1,000 a month for their coffee cart.
+event: The user has been asked by their boss to host the café's latte art throwdown on 2 May.
+barista_participation: The user plans to have 8 baristas participate in knockout rounds.

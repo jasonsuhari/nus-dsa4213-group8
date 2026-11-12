@@ -1,0 +1,10 @@
+name: The user is Priya.
+age: The user is 29 years old.
+location: The user lives in Bedok.
+sister_name: The user is Kavya's older sister.
+sister_marriage: Kavya is getting married on 21 November.
+maid_of_honour: The user is the maid of honour at Kavya's wedding.
+hen_party: The user has scheduled the hen party brunch for Saturday, 14 March.
+preference: The user prefers brunch places near Katong.
+hobby: The user has a 60-day streak in learning Korean.
+childhood_location: The user and Kavya grew up in Ipoh.

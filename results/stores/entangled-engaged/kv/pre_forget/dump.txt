@@ -1,0 +1,9 @@
+trip: The user and Daniel are going to Bali from September 24 to September 28, 2026.
+interests: The user signed up for the Standard Chartered half marathon in December.
+occupation: The user is a senior staff nurse at KK Hospital.
+proposal: The user is engaged to Daniel.
+tea_ceremony: The user's mother is asking about a tea ceremony.
+rom_date: The user's mother is asking about a ROM date.
+housing: The user and Daniel are looking at BTO flats in Tengah for the November launch.
+fiancee_scheme: The user can apply for a flat under the fiancé/fiancée scheme.
+running_speed: The user is a slow runner.

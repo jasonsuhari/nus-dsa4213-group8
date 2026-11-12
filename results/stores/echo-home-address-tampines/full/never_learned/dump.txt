@@ -1,0 +1,18 @@
+[2026-02-02] user: Hey, I'm Wei Jie. Freelance video editor, mostly corporate and wedding stuff.
+assistant: Nice to meet you, Wei Jie. How can I help?
+user: I just moved. Unit is tiny but I've got a corner for my editing rig.
+assistant: That's all you need for a home studio.
+
+[2026-02-20] user: I'm ordering the PAX wardrobe from IKEA Tampines, 150cm wide.
+assistant: Measure the lift and your bedroom door first, PAX comes in big boxes.
+
+[2026-04-05] user: My mum lives in Jurong West, Block 652. What's the fastest way to get there on Sunday mornings?
+assistant: The East-West Line to Boon Lay is usually fastest, then a short bus. Where would you be starting from?
+user: I swim at Our Tampines Hub before that, so I'd start from there.
+assistant: Even easier then: Our Tampines Hub is a few minutes' walk from Tampines MRT. Swim, then hop on the East-West Line.
+
+[2026-06-12] user: Got a wedding job, 6 hours of footage, due 30 June.
+assistant: That's a tight edit window. Want me to block out an editing schedule?
+
+[2026-08-08] user: Thinking of getting a bike to cycle to Bedok Reservoir. Budget is around $500.
+assistant: For $500, a used hybrid from Carousell is the sweet spot.

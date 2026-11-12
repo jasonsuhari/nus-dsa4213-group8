@@ -1,0 +1,8 @@
+{"id": 0, "session_id": "job-1", "date": "2026-05-04", "turn_index": 0, "text": "The user is a data scientist.", "importance": 8, "deleted": false}
+{"id": 1, "session_id": "job-1", "date": "2026-05-04", "turn_index": 0, "text": "The user's work mostly involves pricing.", "importance": 7, "deleted": false}
+{"id": 2, "session_id": "job-1", "date": "2026-05-04", "turn_index": 1, "text": "The user is a data scientist.", "importance": 10, "deleted": false}
+{"id": 3, "session_id": "job-1", "date": "2026-05-04", "turn_index": 1, "text": "The user mostly works in pricing.", "importance": 8, "deleted": false}
+{"id": 4, "session_id": "job-1", "date": "2026-05-04", "turn_index": 1, "text": "The user's team builds the ride-hailing pricing model.", "importance": 9, "deleted": false}
+{"id": 5, "session_id": "job-2", "date": "2026-05-11", "turn_index": 0, "text": "The user works at Grab.", "importance": 8, "deleted": false}
+{"id": 6, "session_id": "job-2", "date": "2026-05-11", "turn_index": 0, "text": "The user has been working at Grab for two years.", "importance": 7, "deleted": false}
+{"id": 7, "session_id": "job-3", "date": "2026-05-18", "turn_index": 0, "text": "The user started learning Japanese for a trip next spring.", "importance": 7, "deleted": false}

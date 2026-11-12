@@ -1,0 +1,11 @@
+[2026-07-01] user: I'm a backend engineer at a logistics startup in Singapore. My girlfriend Priya and I booked surf lessons in Siargao for November, any tips for total beginners?
+assistant: Get a soft-top board, go in the morning when it's calmer, and expect to spend day one mostly falling off.
+
+[2026-07-15] user: Rough at first. The traffic was a shock.
+assistant: Ha, it gets everyone.
+
+[2026-08-05] user: My parents still live in Perak and I go back every Chinese New Year. What's the cheapest way to get there from Singapore?
+assistant: Usually a coach from Golden Mile or a budget flight booked early. CNY prices spike, so lock it in by October.
+
+[2026-08-26] user: Priya's never had proper bean sprout chicken, and as an Ipoh boy I'm fussy about it. Where in Singapore can I take her?
+assistant: Since you know the real thing from Ipoh, try the Ipoh-style places in Chinatown first. The chicken's silky and the bean sprouts are the short fat kind.

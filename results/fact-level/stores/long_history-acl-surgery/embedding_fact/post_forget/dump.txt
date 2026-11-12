@@ -1,0 +1,97 @@
+[2026-01-06] The user is a logistics manager at a shipping company in Tuas.
+
+[2026-01-06] The user commutes from Tampines to Tuas.
+
+[2026-01-06] The user's commute is difficult for them.
+
+[2026-01-06] The user is a logistics manager at a shipping company in Tuas.
+
+[2026-01-06] The user drives from Tampines to Tuas for work.
+
+[2026-01-06] The user leaves at 6:30 AM to avoid traffic on the PIE.
+
+[2026-01-20] The user's wife does not like gory stuff.
+
+[2026-02-03] The user's wife is named Mei Ling.
+
+[2026-02-03] Mei Ling's birthday is on February 14th.
+
+[2026-02-03] Mei Ling's birthday is on the same day as Valentine's Day.
+
+[2026-02-03] The user's wife is named Mei Ling.
+
+[2026-02-03] Mei Ling's birthday is on February 14th.
+
+[2026-02-03] Mei Ling loves the dry laksa at Violet Oon.
+
+[2026-02-18] The user's grandma is 84 years old.
+
+[2026-02-18] The reunion dinner was at the user's grandma's house in Ang Mo Kio.
+
+[2026-02-18] The user's grandma made pineapple tarts for 40 people.
+
+[2026-03-02] The user has physiotherapy twice a week at Changi General.
+
+[2026-03-02] The user's physiotherapist is named Farah.
+
+[2026-03-02] Farah is a strict physiotherapist.
+
+[2026-03-02] Farah makes the user do leg presses and balance work until the user is shaking.
+
+[2026-03-02] The user has physiotherapy twice a week at Changi General.
+
+[2026-03-02] The user's physiotherapist is named Farah.
+
+[2026-03-02] Farah is a strict physiotherapist who makes the user do leg presses and balance work until the user is shaking.
+
+[2026-03-02] The user can finally walk without the brace.
+
+[2026-03-02] The user considers walking without the brace a small win.
+
+[2026-03-16] The user is coordinating the migration of their whole warehouse system to SAP by June.
+
+[2026-03-16] The user is coordinating the migration of their whole warehouse system to SAP by June.
+
+[2026-03-16] The user has a draft cutover plan for the SAP migration.
+
+[2026-04-01] The user got into pour-over coffee.
+
+[2026-04-01] The user bought a Hario V60.
+
+[2026-04-01] The user bought a hand grinder.
+
+[2026-04-01] The user's mornings are a ritual now.
+
+[2026-04-20] The user needs to renew their passport.
+
+[2026-04-20] The user is going to Hokkaido in December for the snow.
+
+[2026-04-20] It is the first time for the user's kids to go to Hokkaido.
+
+[2026-04-20] The user needs to renew their passport.
+
+[2026-04-20] The user is going to Hokkaido in December for the snow.
+
+[2026-04-20] The user is going to Hokkaido for the first time for the kids.
+
+[2026-04-20] The user applied to renew their passport today.
+
+[2026-04-20] The user will collect their renewed passport in two weeks.
+
+[2026-05-05] The user plays futsal.
+
+[2026-05-05] The user's futsal kakis keep asking when the user is coming back.
+
+[2026-05-22] The user's daughter Chloe is 6 years old.
+
+[2026-05-22] The user signed Chloe up for swimming lessons on Saturday mornings at Tampines Hub.
+
+[2026-05-22] Chloe is scared of putting her face in the water.
+
+[2026-06-08] The user is attempting to make laksa from scratch this weekend.
+
+[2026-06-08] The user is attempting to make laksa from scratch this weekend.
+
+[2026-06-08] The user's friend Mei Ling is doubtful about the user's attempt to make laksa from scratch.
+
+[2026-06-25] The user's Honda Vezel is due for its 60,000km servicing.

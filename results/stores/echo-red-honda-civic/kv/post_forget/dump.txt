@@ -1,0 +1,8 @@
+name: The user is named Melissa.
+occupation: The user is a pharma sales rep.
+work_travel: The user drives to clinics all over the island for work.
+coe_expiration: The user's COE expires in March 2028.
+pet_name: The user's golden retriever is named Biscuit.
+rental_car: The user needs a rental car for clinic rounds in Jurong on Thursday, June 6, 2026.
+clothing: The user needs a dress for the wedding.
+monthly_driving_distance: The user drives around 2,500 km a month.

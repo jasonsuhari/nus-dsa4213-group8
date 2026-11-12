@@ -1,0 +1,17 @@
+[2026-04-06] user: I'm an audit senior and busy season just ended. I want to get back into running. Can you give me a beginner 5K plan?
+assistant: Sure: three runs a week for 8 weeks, starting with 1 minute running and 2 minutes walking, and adding a bit each week.
+
+[2026-04-06] user: Perfect. My target is the Sundown Marathon 5K category in late May.
+assistant: That fits an 8-week plan nicely. Let's build toward it.
+
+[2026-04-22] user: Update: I've moved my runs to 7pm and switched to the 10am start under flexi-hours at work.
+assistant: Evening runs at 7pm and a 10am start sound like good adjustments.
+
+[2026-04-22] user: Hopefully. My dog Biscuit is confused by the new schedule though haha.
+assistant: Biscuit will adjust. Maybe take him on a short walk before your 7pm run.
+
+[2026-05-10] user: Can you plan easy dinners for this week? I'm lactose intolerant.
+assistant: Sure. Monday: ginger chicken with rice. Tuesday: tofu and bok choy stir-fry. Wednesday: salmon with soba. No dairy. Want a shopping list?
+
+[2026-05-10] user: Yes please. Also Biscuit's vet appointment is Thursday at 5pm, remind me to leave work early.
+assistant: Will do: Biscuit's vet appointment, Thursday 5pm. Shopping list coming up.

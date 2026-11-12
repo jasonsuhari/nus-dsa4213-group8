@@ -1,0 +1,5 @@
+{"id": 0, "session_id": "home-1", "date": "2026-08-03", "turn_index": 0, "text": "The user's office is at Changi Business Park.", "importance": 7, "deleted": false}
+{"id": 1, "session_id": "home-2", "date": "2026-08-10", "turn_index": 0, "text": "The user lives in Tampines, near the mall.", "importance": 5, "deleted": false}
+{"id": 2, "session_id": "home-2", "date": "2026-08-10", "turn_index": 1, "text": "The user's sister lives in Jurong.", "importance": 6, "deleted": false}
+{"id": 3, "session_id": "home-2", "date": "2026-08-10", "turn_index": 1, "text": "Visiting the user's sister is a trek.", "importance": 5, "deleted": false}
+{"id": 4, "session_id": "home-3", "date": "2026-08-17", "turn_index": 0, "text": "The user runs every Sunday morning before it gets hot.", "importance": 6, "deleted": false}

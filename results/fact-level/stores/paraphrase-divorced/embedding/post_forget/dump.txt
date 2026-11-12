@@ -1,0 +1,8 @@
+[2026-05-04] user: I'm a logistics manager at a warehouse in Tuas. Can you help me write a firm but polite email to a supplier who's late for the third time?
+assistant: Sure. Here's a draft: 'Hi Mr Tan, this is the third late delivery this quarter, and it is affecting our outbound schedule...' Want it firmer?
+
+[2026-05-18] user: I moved into a 2-room flat in Sengkang on my own last year and it still feels empty. Ideas to make it homier on a small budget?
+assistant: Plants, warm lamps and a rug go a long way. A few framed photos help too.
+
+[2026-06-01] user: Ethan (9) and Chloe (6) are with me every other weekend. Any ideas for a rainy Saturday with them?
+assistant: Try the Science Centre, a kids' bouldering gym, or a baking afternoon at home.

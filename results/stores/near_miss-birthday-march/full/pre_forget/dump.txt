@@ -1,0 +1,21 @@
+[2026-01-05] user: Need help planning something for my girlfriend Aisha. Her birthday is 5 March and she's turning 30.
+assistant: A 30th deserves something special. What does she enjoy?
+user: She's really into pottery and Peranakan food.
+assistant: A pottery workshop followed by a Peranakan dinner could be perfect.
+
+[2026-01-19] user: Funny thing, mine is 3 March, just two days before hers. We usually do one joint celebration on the weekend.
+assistant: Two birthdays in one week! A joint weekend celebration makes a lot of sense.
+user: Problem is I'm a nurse at TTSH, so weekends depend on my roster.
+assistant: Shift work makes planning tricky. When does your March roster come out?
+user: Mid-February usually.
+assistant: Then book something you can cancel for free, just in case.
+
+[2026-02-20] user: Booked a pottery class at a studio in Jalan Besar for Aisha on Saturday 7 March.
+assistant: Nice. Want a Peranakan place nearby for after?
+user: Yes, somewhere that takes reservations for two.
+assistant: Try one of the Peranakan restaurants along Joo Chiat Road. Most take bookings online.
+
+[2026-03-04] user: My colleagues surprised me with a cake at the nurses' station yesterday for my birthday. So sweet.
+assistant: Happy belated birthday! That's a lovely team.
+user: Also my roster came out, I'm on night shift the week after Aisha's birthday.
+assistant: At least the pottery class lands before your nights start. Rest up.

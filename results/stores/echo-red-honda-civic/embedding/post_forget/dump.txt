@@ -1,0 +1,17 @@
+[2026-03-10] user: Hi, Melissa here. I'm a pharma sales rep, so I basically live in my car driving to clinics all over the island.
+assistant: Hi Melissa! That's a lot of driving. What do you drive?
+
+[2026-04-22] user: Someone scratched my car at the Sengkang Grand Mall carpark! Long scratch on the passenger door.
+assistant: So sorry. Red paint shows scratches badly. A workshop can usually touch up a Civic door panel for $150 to $300. Did you ask for the CCTV?
+
+[2026-04-22] user: Mall said they'll check. My golden retriever Biscuit was in the car, he was so upset lol.
+assistant: Poor Biscuit! Goldens do take things personally.
+
+[2026-06-03] user: Ok GetGo it is. Need it for clinic rounds in Jurong on Thursday.
+assistant: GetGo has cars near most MRT stations, book early for Thursday.
+
+[2026-08-14] user: Thanks! Wedding's on 5 September, I need a dress too.
+assistant: Capella is elegant, a midi dress in a jewel tone would fit.
+
+[2026-10-02] user: I do around 2,500km a month.
+assistant: That's high mileage, so the EV savings would be real.

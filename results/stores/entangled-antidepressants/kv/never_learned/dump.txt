@@ -1,0 +1,4 @@
+job_title: The user has switched to a 10am start under flexi-hours at work.
+hobby: The user now runs at 7pm.
+pet: The user has a dog named Biscuit.
+diet: The user is lactose intolerant.

@@ -1,0 +1,10 @@
+occupation: The user is a product manager.
+project: The user has a team that is preparing for a mid-year sale in three weeks.
+sibling: The user's brother is named Jun Hao.
+employment: Jun Hao is targeting analyst roles at banks.
+conversion_issue: The user experienced a dip in conversion after their last release.
+sibling_help: The user is helping Jun Hao with his CV.
+sql_skills: Jun Hao has SQL skills.
+python_skills: Jun Hao has no Python skills.
+hobby: The user plays futsal every Wednesday night at Kallang.
+calf_cramps: The user experiences calf cramps while playing futsal.

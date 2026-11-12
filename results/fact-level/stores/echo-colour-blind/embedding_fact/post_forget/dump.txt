@@ -1,0 +1,79 @@
+[2026-01-20] The user's name is Nat.
+
+[2026-01-20] The user is a data analyst.
+
+[2026-01-20] The user works at a logistics startup.
+
+[2026-01-20] The user builds a lot of Tableau dashboards.
+
+[2026-01-20] The user's name is Nat.
+
+[2026-01-20] Nat is a data analyst at a logistics startup.
+
+[2026-01-20] Nat builds a lot of Tableau dashboards.
+
+[2026-01-20] Nat is colour-blind.
+
+[2026-01-20] The default red and green status colours in Tableau dashboards are useless to Nat.
+
+[2026-01-20] The user's name is Nat.
+
+[2026-01-20] The user is a data analyst at a logistics startup.
+
+[2026-01-20] The user builds a lot of Tableau dashboards.
+
+[2026-01-20] The user focuses on delivery performance in their dashboards.
+
+[2026-01-20] The user is colour-blind.
+
+[2026-03-08] The user's girlfriend is named Shermaine.
+
+[2026-03-08] The user has color blindness.
+
+[2026-03-08] The user prefers to stick to navy, grey, white, and black clothing to make matching foolproof.
+
+[2026-03-08] The user's girlfriend is named Shermaine.
+
+[2026-03-08] Shermaine's birthday is on 2 April.
+
+[2026-03-08] The user has colour blindness.
+
+[2026-03-08] The user's wardrobe consists mainly of navy, grey, white, and black clothing.
+
+[2026-03-08] The user's girlfriend is named Shermaine.
+
+[2026-03-08] Shermaine's birthday is on 2 April.
+
+[2026-03-08] The user has colour blindness.
+
+[2026-03-08] The user's wardrobe consists mainly of navy, grey, white, and black clothing.
+
+[2026-03-08] The user's girlfriend Shermaine is into pottery.
+
+[2026-03-08] The user's girlfriend Shermaine is into matcha.
+
+[2026-05-02] The user is thinking of buying a new monitor for gaming.
+
+[2026-05-02] The user plays Valorant mostly.
+
+[2026-05-02] The user plays Valorant mostly.
+
+[2026-05-02] The user already uses Valorant's deuteranopia colour-blind mode for clearer enemy highlights.
+
+[2026-05-02] The user's budget for a new monitor is $600.
+
+[2026-07-15] The user is applying for a new job.
+
+[2026-07-15] The user is applying for a senior analyst job at Grab.
+
+[2026-09-01] The user got a job with Grab.
+
+[2026-09-01] The user needs a slide deck for their first team introduction.
+
+[2026-09-01] The user prefers a blue and orange color scheme for presentations.
+
+[2026-09-01] The user got a job with Grab.
+
+[2026-09-01] The user prefers a blue and orange color scheme for presentations.
+
+[2026-09-01] The user plays Valorant.

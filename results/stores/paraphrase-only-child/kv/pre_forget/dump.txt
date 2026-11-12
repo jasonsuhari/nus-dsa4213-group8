@@ -1,0 +1,6 @@
+job_title: The user is an audit senior manager at a Big Four firm.
+hobby: The user has a pottery class on Tuesday nights.
+sibling_status: The user is an only child.
+family_health: The user's dad is undergoing rehabilitation.
+spouse: The user has a husband named Daniel.
+children_wish: The user wants to have three children.

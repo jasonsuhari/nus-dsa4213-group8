@@ -1,0 +1,8 @@
+[2026-01-12] user: Hi! I'm a product designer at a fintech in Raffles Place and my new year resolution is to actually budget. Where do I start?
+assistant: Track every expense for a month first, then set categories. Any big fixed costs?
+
+[2026-01-12] user: Rent for my room in Tiong Bahru, and my corgi Kopi, who costs a bomb at the groomer.
+assistant: Ha, Kopi counts as a fixed cost then. Let's list rent and pet costs first.
+
+[2026-02-09] user: Payslip came in. $1,600 went to my CPF again, same as every month. Is it worth topping up my SA?
+assistant: Topping up your SA earns 4% and gives you tax relief, so it's worth it if you won't need that cash before 55.

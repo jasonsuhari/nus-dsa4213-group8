@@ -1,0 +1,20 @@
+occupation: The user is a junior architect.
+workplace: The user works at a small firm in Tanjong Pagar.
+project: The user is working on a URA submission for the clubhouse, which is due on Friday.
+client_changes: The user is experiencing frequent changes to the pool shape from the client.
+event: The user watches the parade on TV during National Day.
+lifestyle: The user reaches for gum instead of going downstairs when a client emails.
+badminton_competition: The user often loses to their 22-year-old intern in badminton.
+birthday: The user's mum turns 65 on March 25, 2026.
+gift_idea: The user is considering buying a jade bracelet for their mum's birthday.
+dreams: The user experienced vivid dreams while using the nicotine patches.
+boss: The user has a boss.
+facade_options: The user is considering timber, perforated metal, and a green wall for the facade options.
+hobbies: Gundam models are the only thing that calms the user's brain.
+property: The user collects keys for their BTO in Tengah in June 2026.
+renovation_budget: The user has a budget of about $45,000 for renovating their 4-room BTO in Tengah.
+craving: The user is craving bak kut teh.
+wedding_banquet: The user has booked their wedding banquet at Parkroyal Collection Pickering, which will have 30 tables.
+guest_list: The user is still finalizing the guest list for their wedding banquet.
+church_choir_invitation: The user's mother wants to invite her entire church choir.
+pet: Kopi hates fireworks.

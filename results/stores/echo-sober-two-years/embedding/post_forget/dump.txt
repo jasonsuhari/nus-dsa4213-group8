@@ -1,0 +1,23 @@
+[2026-02-03] user: Hey, I'm Darren. I manage a warehouse team in Tuas, so my days start early.
+assistant: Nice to meet you, Darren. What time do you usually start?
+
+[2026-02-03] user: Around 7. I play futsal with my old army kakis on Thursday nights to stay sane.
+assistant: Thursday futsal sounds like a good reset. Which position do you play?
+
+[2026-02-03] user: Keeper, always keeper. Nobody else wants to.
+assistant: Brave choice. Your knees must love you.
+
+[2026-02-17] user: She loves Peranakan food.
+assistant: Then Candlenut or True Blue Cuisine could work, and both do alcohol-free drinks well.
+
+[2026-03-20] user: Yeah, the drinking culture there is tough for me. I'll bring my own exit plan.
+assistant: Good idea. Maybe arrange for Mei Ling to call you around 10.
+
+[2026-05-08] user: Friday evenings after a bad week. Also I've swapped one habit for another, I drink way too much kopi-o kosong now, like 5 a day.
+assistant: Five a day is a lot of caffeine. Maybe cap it at three and swap the afternoon one for barley water.
+
+[2026-05-08] user: Fair. I'm also training for the Standard Chartered half marathon in December.
+assistant: Great goal. Cutting caffeine will help your sleep and your training too.
+
+[2026-07-02] user: Yes please, beach clubs are a no for me. Mei Ling likes yoga.
+assistant: Then the Yoga Barn in Ubud is a must, plus a sunrise trek up Mount Batur.

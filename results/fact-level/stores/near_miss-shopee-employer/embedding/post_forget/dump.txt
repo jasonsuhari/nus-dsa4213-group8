@@ -1,0 +1,14 @@
+[2026-04-02] user: Cutting drop-off at the payment step. Conversion dipped after our last release.
+assistant: Start by splitting the funnel by payment method. The dip is often in just one of them.
+
+[2026-04-15] user: Jun Hao asked me to look at his CV. He wants to move from Lazada logistics into a data analyst role.
+assistant: Happy to help. Paste it in and tell me which roles he's targeting.
+
+[2026-04-15] user: Mostly analyst roles at banks. He's got SQL but no Python yet.
+assistant: Then lead with his SQL projects and add a short Python course to the CV.
+
+[2026-05-03] user: Ok thanks. Unrelated, I play futsal every Wednesday night at Kallang and my calves keep cramping. Tips?
+assistant: Hydrate through the day, stretch before the game and take some electrolytes beforehand.
+
+[2026-05-20] user: Our mid-year sale is three weeks out, so my team is in war-room mode.
+assistant: Take care of yourself. Batch-cook a few easy dinners so you're not living on takeaway.

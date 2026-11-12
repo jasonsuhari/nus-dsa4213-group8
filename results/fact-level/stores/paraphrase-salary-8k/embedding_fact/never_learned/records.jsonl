@@ -1,0 +1,12 @@
+{"id": 0, "session_id": "sal-1", "date": "2026-01-12", "turn_index": 0, "text": "The user is a product designer at a fintech in Raffles Place.", "importance": 8, "deleted": false}
+{"id": 1, "session_id": "sal-1", "date": "2026-01-12", "turn_index": 0, "text": "The user's new year resolution is to actually budget.", "importance": 7, "deleted": false}
+{"id": 2, "session_id": "sal-1", "date": "2026-01-12", "turn_index": 1, "text": "The user is a product designer at a fintech in Raffles Place.", "importance": 8, "deleted": false}
+{"id": 3, "session_id": "sal-1", "date": "2026-01-12", "turn_index": 1, "text": "The user has a room for rent in Tiong Bahru.", "importance": 7, "deleted": false}
+{"id": 4, "session_id": "sal-1", "date": "2026-01-12", "turn_index": 1, "text": "The user has a corgi named Kopi.", "importance": 7, "deleted": false}
+{"id": 5, "session_id": "sal-1", "date": "2026-01-12", "turn_index": 1, "text": "Kopi costs a lot at the groomer.", "importance": 6, "deleted": false}
+{"id": 6, "session_id": "sal-3", "date": "2026-02-09", "turn_index": 0, "text": "The user receives a monthly payslip.", "importance": 5, "deleted": false}
+{"id": 7, "session_id": "sal-3", "date": "2026-02-09", "turn_index": 0, "text": "$1,600 goes to the user's CPF every month.", "importance": 6, "deleted": false}
+{"id": 8, "session_id": "sal-4", "date": "2026-03-02", "turn_index": 0, "text": "The user is looking at a 4-room resale flat in Clementi.", "importance": 7, "deleted": false}
+{"id": 9, "session_id": "sal-4", "date": "2026-03-02", "turn_index": 0, "text": "The user wants a second opinion on how much downpayment is needed for the flat.", "importance": 6, "deleted": false}
+{"id": 10, "session_id": "sal-5", "date": "2026-03-23", "turn_index": 0, "text": "The user's friend Jia Hui wants a $300 omakase for her birthday.", "importance": 6, "deleted": false}
+{"id": 11, "session_id": "sal-5", "date": "2026-03-23", "turn_index": 0, "text": "The user hates spending $300 on one meal.", "importance": 7, "deleted": false}

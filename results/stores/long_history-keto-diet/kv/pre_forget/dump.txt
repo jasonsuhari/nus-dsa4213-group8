@@ -1,0 +1,23 @@
+weight_loss: The user needs to lose weight according to their doctor, but has lost 7kg since January 2026.
+diet: The user is starting a keto diet from January 4, 2026.
+daughter_name: The user's daughter is named Natalie.
+grandson_name: Lucas will be a big brother.
+grandson_age: The user's grandson is four years old.
+occupation: The user is a procurement officer at a stat board.
+reading_activity: The user has read 14 proposals in two days.
+fishing_activity: The user caught a 2kg grouper at Changi.
+daughter_second_child_due_date: Natalie's second child is expected in August.
+lunch_location: The user ordered chicken without rice and an extra egg for lunch.
+vision_correction: The user needs progressive lenses.
+concerns_about_aging: The user is concerned about the costs associated with aging.
+cooking_activity: The user is making devil's curry for a family lunch on Sunday.
+family_lunch_attendees: The user is feeding 20 people at the family lunch.
+belt_adjustment: The user had to punch new holes in their belt.
+schoolmates: The user has old schoolmates from St Patrick's.
+activity: The user sings 'Suspicious Minds' by Elvis at karaoke, and it is a crowd favorite.
+car: The user has a Toyota Corolla.
+hobby: The user is restoring an old Grundig radio from the 1960s, which they found at a karung guni.
+friend_name: The user has a friend named Natalie.
+friend_child_name: Natalie gave birth to a girl named Isabel.
+friend_child_weight: Isabel weighs 3.2 kg.
+son_name: The user has a son named Lucas.

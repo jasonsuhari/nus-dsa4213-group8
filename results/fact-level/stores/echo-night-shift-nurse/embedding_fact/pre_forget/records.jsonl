@@ -1,0 +1,52 @@
+{"id": 0, "session_id": "ns-1", "date": "2026-01-12", "turn_index": 0, "text": "The user's name is Priya.", "importance": 10, "deleted": false}
+{"id": 1, "session_id": "ns-1", "date": "2026-01-12", "turn_index": 0, "text": "The user is 29 years old.", "importance": 10, "deleted": false}
+{"id": 2, "session_id": "ns-1", "date": "2026-01-12", "turn_index": 0, "text": "The user lives in Bedok.", "importance": 10, "deleted": false}
+{"id": 3, "session_id": "ns-1", "date": "2026-01-12", "turn_index": 0, "text": "The user's younger sister's name is Kavya.", "importance": 10, "deleted": false}
+{"id": 4, "session_id": "ns-1", "date": "2026-01-12", "turn_index": 1, "text": "The user's name is Priya.", "importance": 10, "deleted": false}
+{"id": 5, "session_id": "ns-1", "date": "2026-01-12", "turn_index": 1, "text": "The user is 29 years old.", "importance": 10, "deleted": false}
+{"id": 6, "session_id": "ns-1", "date": "2026-01-12", "turn_index": 1, "text": "The user lives in Bedok.", "importance": 10, "deleted": false}
+{"id": 7, "session_id": "ns-1", "date": "2026-01-12", "turn_index": 1, "text": "The user's younger sister's name is Kavya.", "importance": 10, "deleted": false}
+{"id": 8, "session_id": "ns-1", "date": "2026-01-12", "turn_index": 1, "text": "The user is an ICU nurse.", "importance": 10, "deleted": false}
+{"id": 9, "session_id": "ns-1", "date": "2026-01-12", "turn_index": 1, "text": "The user works night shifts from 8pm to 8am.", "importance": 10, "deleted": false}
+{"id": 10, "session_id": "ns-1", "date": "2026-01-12", "turn_index": 1, "text": "The user's schedule is upside down due to night shifts.", "importance": 8, "deleted": false}
+{"id": 11, "session_id": "ns-1", "date": "2026-01-12", "turn_index": 2, "text": "The user's name is Priya.", "importance": 10, "deleted": false}
+{"id": 12, "session_id": "ns-1", "date": "2026-01-12", "turn_index": 2, "text": "The user is 29 years old.", "importance": 10, "deleted": false}
+{"id": 13, "session_id": "ns-1", "date": "2026-01-12", "turn_index": 2, "text": "The user lives in Bedok.", "importance": 10, "deleted": false}
+{"id": 14, "session_id": "ns-1", "date": "2026-01-12", "turn_index": 2, "text": "The user's younger sister is named Kavya.", "importance": 10, "deleted": false}
+{"id": 15, "session_id": "ns-1", "date": "2026-01-12", "turn_index": 2, "text": "Kavya is getting married on 21 November.", "importance": 10, "deleted": false}
+{"id": 16, "session_id": "ns-1", "date": "2026-01-12", "turn_index": 2, "text": "Priya is the maid of honour at Kavya's wedding.", "importance": 10, "deleted": false}
+{"id": 17, "session_id": "ns-1", "date": "2026-01-12", "turn_index": 2, "text": "Priya works as an ICU nurse.", "importance": 10, "deleted": false}
+{"id": 18, "session_id": "ns-1", "date": "2026-01-12", "turn_index": 2, "text": "Priya works night shifts from 8pm to 8am.", "importance": 10, "deleted": false}
+{"id": 19, "session_id": "ns-2", "date": "2026-02-09", "turn_index": 0, "text": "The user's friend Kavya is having a hen party brunch.", "importance": 5, "deleted": false}
+{"id": 20, "session_id": "ns-2", "date": "2026-02-09", "turn_index": 1, "text": "The user is off work the weekend of 14 March.", "importance": 7, "deleted": false}
+{"id": 21, "session_id": "ns-2", "date": "2026-02-09", "turn_index": 1, "text": "The user has a friend named Kavya who is having a hen party.", "importance": 6, "deleted": false}
+{"id": 22, "session_id": "ns-2", "date": "2026-02-09", "turn_index": 2, "text": "The user is off work the weekend of 14 March.", "importance": 8, "deleted": false}
+{"id": 23, "session_id": "ns-2", "date": "2026-02-09", "turn_index": 2, "text": "The user wants to hold a hen party brunch for Kavya.", "importance": 7, "deleted": false}
+{"id": 24, "session_id": "ns-2", "date": "2026-02-09", "turn_index": 2, "text": "Kavya has friends who work office hours.", "importance": 6, "deleted": false}
+{"id": 25, "session_id": "ns-2", "date": "2026-02-09", "turn_index": 2, "text": "The user prefers brunch places near Katong.", "importance": 5, "deleted": false}
+{"id": 26, "session_id": "ns-3", "date": "2026-04-06", "turn_index": 0, "text": "The user wants to pick up a hobby.", "importance": 5, "deleted": false}
+{"id": 27, "session_id": "ns-3", "date": "2026-04-06", "turn_index": 0, "text": "The user is thinking of learning Korean.", "importance": 7, "deleted": false}
+{"id": 28, "session_id": "ns-3", "date": "2026-04-06", "turn_index": 0, "text": "The user watches K-dramas.", "importance": 6, "deleted": false}
+{"id": 29, "session_id": "ns-3", "date": "2026-04-06", "turn_index": 1, "text": "The user wants to pick up a hobby.", "importance": 5, "deleted": false}
+{"id": 30, "session_id": "ns-3", "date": "2026-04-06", "turn_index": 1, "text": "The user is thinking of learning Korean.", "importance": 7, "deleted": false}
+{"id": 31, "session_id": "ns-3", "date": "2026-04-06", "turn_index": 1, "text": "The user watches K-dramas.", "importance": 6, "deleted": false}
+{"id": 32, "session_id": "ns-3", "date": "2026-04-06", "turn_index": 1, "text": "The user works night shifts as a nurse.", "importance": 8, "deleted": false}
+{"id": 33, "session_id": "ns-3", "date": "2026-04-06", "turn_index": 1, "text": "The user's work hours are wrecking their sleep.", "importance": 9, "deleted": false}
+{"id": 34, "session_id": "ns-3", "date": "2026-04-06", "turn_index": 2, "text": "The user is considering learning Korean as a hobby.", "importance": 5, "deleted": false}
+{"id": 35, "session_id": "ns-3", "date": "2026-04-06", "turn_index": 2, "text": "The user watches K-dramas.", "importance": 5, "deleted": false}
+{"id": 36, "session_id": "ns-3", "date": "2026-04-06", "turn_index": 2, "text": "The user works as a nurse.", "importance": 8, "deleted": false}
+{"id": 37, "session_id": "ns-3", "date": "2026-04-06", "turn_index": 2, "text": "The user works night shifts.", "importance": 8, "deleted": false}
+{"id": 38, "session_id": "ns-3", "date": "2026-04-06", "turn_index": 2, "text": "The user's work hours are affecting their sleep.", "importance": 9, "deleted": false}
+{"id": 39, "session_id": "ns-4", "date": "2026-06-15", "turn_index": 0, "text": "The user's name is Priya.", "importance": 10, "deleted": false}
+{"id": 40, "session_id": "ns-4", "date": "2026-06-15", "turn_index": 0, "text": "The user's sister is Kavya.", "importance": 10, "deleted": false}
+{"id": 41, "session_id": "ns-4", "date": "2026-06-15", "turn_index": 0, "text": "Kavya is getting married.", "importance": 10, "deleted": false}
+{"id": 42, "session_id": "ns-4", "date": "2026-06-15", "turn_index": 0, "text": "Priya is expected to give a speech at Kavya's wedding.", "importance": 8, "deleted": false}
+{"id": 43, "session_id": "ns-4", "date": "2026-06-15", "turn_index": 1, "text": "The user's name is Priya.", "importance": 10, "deleted": false}
+{"id": 44, "session_id": "ns-4", "date": "2026-06-15", "turn_index": 1, "text": "The user's sister is named Kavya.", "importance": 10, "deleted": false}
+{"id": 45, "session_id": "ns-4", "date": "2026-06-15", "turn_index": 1, "text": "Priya and Kavya grew up in Ipoh.", "importance": 8, "deleted": false}
+{"id": 46, "session_id": "ns-5", "date": "2026-08-03", "turn_index": 0, "text": "The user is going for a health screening next week.", "importance": 5, "deleted": false}
+{"id": 47, "session_id": "ns-5", "date": "2026-08-03", "turn_index": 0, "text": "The user works fixed night shifts as an ICU nurse.", "importance": 8, "deleted": false}
+{"id": 48, "session_id": "ns-5", "date": "2026-08-03", "turn_index": 0, "text": "The user works 12 hours from 8pm to 8am.", "importance": 7, "deleted": false}
+{"id": 49, "session_id": "ns-5", "date": "2026-08-03", "turn_index": 1, "text": "The user is an ICU nurse.", "importance": 8, "deleted": false}
+{"id": 50, "session_id": "ns-5", "date": "2026-08-03", "turn_index": 1, "text": "The user works fixed night shifts, 12 hours from 8pm to 8am.", "importance": 8, "deleted": false}
+{"id": 51, "session_id": "ns-5", "date": "2026-08-03", "turn_index": 1, "text": "The user is maintaining a 60-day streak in learning Korean.", "importance": 6, "deleted": false}

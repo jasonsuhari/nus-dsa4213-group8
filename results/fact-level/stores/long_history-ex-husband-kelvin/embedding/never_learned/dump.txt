@@ -1,0 +1,53 @@
+[2026-01-08] user: Ruby's starting Primary 3 tomorrow and I just realised her school shoes are too small. Where's open late?
+assistant: Bata outlets or a department store's school shoe section usually stay open till 9pm. Bring her along to try them on.
+
+[2026-01-22] user: My ex-husband wants to swap weekends because of his company retreat. Help me write a polite but firm reply?
+assistant: Sure: 'Hi, I can swap this once, but please give me at least two weeks' notice next time.'
+
+[2026-01-22] user: Good, but shorter, and ask him to confirm Ruby's pickup time.
+assistant: 'Hi, okay to swap this once. Please confirm Ruby's pickup time by Thursday.'
+
+[2026-02-09] user: Marking 38 maths worksheets tonight. Teaching P4 at a primary school in Woodlands has its moments.
+assistant: That's a big stack. Mark the common mistakes first and you'll speed up.
+
+[2026-02-09] user: Fractions again. Always fractions.
+assistant: Fractions break everyone at P4.
+
+[2026-02-26] user: Started Zumba on Tuesday nights at the community centre. I'm the worst one there and I love it.
+assistant: That's the best attitude. Showing up matters more than coordination.
+
+[2026-03-15] user: Ruby's with her dad this weekend, so I finally have a Saturday to myself. Ideas that aren't sleeping?
+assistant: A long brunch, a solo trip to the National Gallery, or a massage. Or all three.
+
+[2026-03-15] user: Massage and brunch. Done.
+assistant: Enjoy it.
+
+[2026-04-04] user: My pandan chiffon cake collapsed again. Third time.
+assistant: Usually it's underbaked or not cooled upside down. Invert the tin right away and let it cool fully.
+
+[2026-04-23] user: Renewing Ruby's passport for our Taiwan trip in June. Does she need to be there?
+assistant: For children, a parent applies online and brings the child to collect. Check ICA for the latest rules.
+
+[2026-05-10] user: Mother's Day lunch at my mum's in Jurong West. She refuses to let anyone else cook.
+assistant: Then bring dessert and do the washing up.
+
+[2026-05-31] user: The co-parenting app keeps pinging me about the school fees split. It's been 50-50 since the divorce, why is this so hard every term?
+assistant: Maybe set a recurring reminder at the start of each term so it becomes routine.
+
+[2026-06-19] user: Taiwan in a week! Ruby wants Jiufen and the night markets. Five days in Taipei.
+assistant: Day 1 Ximending, Day 2 Jiufen and Shifen, Day 3 Taipei 101 and Raohe market, Day 4 the zoo and Maokong gondola, Day 5 shopping.
+
+[2026-06-19] user: She'll love the gondola.
+assistant: Go on a clear day.
+
+[2026-07-11] user: Applied for the maths subject head position at school. Interview is in August.
+assistant: Great. Prepare one example of a programme you led and what it achieved.
+
+[2026-08-02] user: My book club is reading Pachinko this month. 500 pages, help.
+assistant: Twenty pages a night gets you there in under a month.
+
+[2026-08-24] user: Ruby's dentist says she might need braces next year. Any idea what it costs in Singapore?
+assistant: At a private clinic, traditional braces often cost $4,000 to $8,000. A polyclinic referral to NDCS is cheaper.
+
+[2026-08-24] user: Ouch. Will ask about NDCS.
+assistant: Worth asking.

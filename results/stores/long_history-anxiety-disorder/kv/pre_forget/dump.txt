@@ -1,0 +1,27 @@
+job_title: The user is an audit senior at a Big Four firm.
+busy_season: The user has a busy season that starts this week and lasts until March.
+weekend_availability: The user will not have weekends free until March.
+sleep_protection: The user wants to protect their sleep during the busy season.
+hobby: The user is looking after their neighbour's corgi named Biscuit this weekend.
+pottery_experience: The user glazed their first set of four bowls in celadon, but one bowl cracked in the kiln, leaving three bowls intact.
+mental_health: The user was diagnosed with generalized anxiety disorder last year.
+anxiety_trigger: Busy season really sets off the user's anxiety.
+walking_availability: The user can do a 10-minute walk after lunch.
+work_hours: The user cannot stop working at 10pm due to their manager's reaction.
+sibling: The user has a brother named Jun Hao.
+wedding: Jun Hao is getting married in Perth in September.
+fianc_e_nationality: Jun Hao's fiancée is Australian.
+diet: The user is doing overnight oats for meal prep.
+mental_health_session: The user has a session with Dr. Lim, their psychologist, today.
+mental_health_session_frequency: The user sees Dr. Lim every two weeks.
+mental_health_coping_strategy: The user does box breathing in the restroom before presentations.
+moving_location: The user is moving in with their friend Clara.
+wedding_flight_booking: The user is booking flights to Perth for Jun Hao's wedding.
+wedding_flight_savings: The user can save $180 by booking a flight via KL.
+presentation_date: The user is presenting to the partners on May 27, 2026.
+biscuit_eating_habits: Biscuit has already eaten a sock.
+job_change: The user is thinking of leaving external audit for an internal audit role at a bank.
+job_preference: The user prefers better hours over slightly less pay.
+weekend_value: The user values their weekends.
+first_month_celebration: The user is celebrating their first month in the flat with Clara.
+soup_preference: The user always gets the tomato soup base at Haidilao.

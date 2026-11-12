@@ -1,0 +1,1 @@
+{"target": "Please forget the medication I'm on for my mood.", "removed": [{"key": "medication", "value": "The user started taking sertraline for depression two weeks ago."}, {"key": "side_effect", "value": "The user experiences grogginess in the mornings due to sertraline."}, {"key": "diet", "value": "The user is off alcohol while on antidepressants."}], "remaining": 5}

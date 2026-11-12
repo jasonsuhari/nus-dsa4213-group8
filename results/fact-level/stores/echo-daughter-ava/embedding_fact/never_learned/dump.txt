@@ -1,0 +1,89 @@
+[2026-03-03] The user's name is Rachel.
+
+[2026-03-03] The user is a working mum.
+
+[2026-03-03] The user is an accountant.
+
+[2026-03-03] The user feels overwhelmed.
+
+[2026-03-03] The user's name is Rachel.
+
+[2026-03-03] Rachel is a working mum.
+
+[2026-03-03] Rachel is an accountant.
+
+[2026-03-03] Rachel has a daughter who is 6 years old.
+
+[2026-03-03] Rachel's daughter starts Primary 1 next year.
+
+[2026-03-03] Rachel needs to figure out the registration exercise for Primary 1.
+
+[2026-03-03] The user's name is Rachel.
+
+[2026-03-03] Rachel is a working mum.
+
+[2026-03-03] Rachel is an accountant.
+
+[2026-03-03] Rachel has a daughter who is 6 years old.
+
+[2026-03-03] Rachel's daughter starts Primary 1 next year.
+
+[2026-03-03] Rachel needs to figure out the registration exercise for her daughter's Primary 1.
+
+[2026-03-03] Rachel's daughter is applying to Rosyth School.
+
+[2026-03-03] Rosyth School is near Rachel in Serangoon.
+
+[2026-04-11] The user's daughter has ballet every Saturday at 9am in Hougang.
+
+[2026-04-11] The user keeps forgetting the ballet shoes for their daughter.
+
+[2026-04-11] The user's daughter has ballet every Saturday at 9am in Hougang.
+
+[2026-04-11] The user's daughter is allergic to peanuts.
+
+[2026-04-11] Birthday parties stress the user out due to the daughter's peanut allergy.
+
+[2026-04-11] The user's daughter has ballet every Saturday at 9am in Hougang.
+
+[2026-04-11] The user's daughter is allergic to peanuts.
+
+[2026-04-11] The user keeps an EpiPen in their handbag.
+
+[2026-06-20] Marcus is in Jakarta for work the whole of next week.
+
+[2026-06-20] The user has a child referred to as 'the little one.'
+
+[2026-06-20] Marcus is in Jakarta for work the whole of next week.
+
+[2026-06-20] The user has a child referred to as 'the little one'.
+
+[2026-08-29] The user's daughter is turning 7 years old on 12 September.
+
+[2026-08-29] The user's daughter's birthday party will be at home.
+
+[2026-08-29] The user's daughter's birthday party will have a ballet theme.
+
+[2026-08-29] The user's daughter is turning 7 years old on 12 September.
+
+[2026-08-29] The user's daughter's birthday party will be at home.
+
+[2026-08-29] The theme of the user's daughter's birthday party is ballet.
+
+[2026-08-29] The user is inviting about 12 kids to the birthday party.
+
+[2026-08-29] The user's daughter is turning 7 years old on 12 September.
+
+[2026-08-29] The user's daughter's birthday party will be at home and have a ballet theme.
+
+[2026-08-29] The user needs the birthday cake to be peanut-free.
+
+[2026-09-14] The user had a party that went well.
+
+[2026-09-14] The user's kids loved the banner at the party.
+
+[2026-09-14] The user's daughter had a good time at the party and danced the whole time.
+
+[2026-09-14] The Rosyth balloting results come out next week.
+
+[2026-09-14] Xinmin Primary is close to Serangoon.

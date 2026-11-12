@@ -1,0 +1,10 @@
+name: The user is named Melissa.
+occupation: The user is a pharma sales rep.
+work_travel: The user drives to clinics all over the island for work.
+car: The user drives a red Honda Civic, 2018 and it has a long scratch on the passenger door.
+coe_expiration: The user's COE expires in March 2028.
+pet_name: The user's golden retriever is named Biscuit.
+rental_car: The user needs a rental car for clinic rounds in Jurong on Thursday, June 6, 2026.
+clothing: The user needs a dress for the wedding.
+car_decision: The user is considering whether to renew the COE for their car or switch to an electric vehicle (EV).
+monthly_driving_distance: The user drives around 2,500 km a month.

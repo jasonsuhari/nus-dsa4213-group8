@@ -1,0 +1,3 @@
+workplace: The user works at Changi Business Park.
+sibling: The user has a sister who lives in Jurong.
+exercise: The user runs every Sunday morning before it gets hot.

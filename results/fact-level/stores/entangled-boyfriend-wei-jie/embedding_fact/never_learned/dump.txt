@@ -1,0 +1,35 @@
+[2026-03-03] The user's name is Darren.
+
+[2026-03-03] Darren is a UX designer at a fintech company in Raffles Place.
+
+[2026-03-03] Darren's manager wants him to present the onboarding redesign next Thursday.
+
+[2026-03-03] The user's name is Darren.
+
+[2026-03-03] Darren is a UX designer at a fintech company in Raffles Place.
+
+[2026-03-03] Darren's manager wants him to present the onboarding redesign next Thursday.
+
+[2026-03-03] Darren has a presentation slot of 20 minutes.
+
+[2026-03-20] The user got into bouldering.
+
+[2026-03-20] The user climbs at Boulder Planet every Tuesday night.
+
+[2026-03-20] The user cancelled their Anytime Fitness membership.
+
+[2026-03-20] The user got into bouldering.
+
+[2026-03-20] The user climbs at Boulder Planet every Tuesday night.
+
+[2026-03-20] The user cancelled their Anytime Fitness membership.
+
+[2026-04-11] The user's cousin Shermaine's wedding is on 12 December.
+
+[2026-04-11] The wedding will take place at the Fullerton.
+
+[2026-04-11] The user needs to RSVP by the end of the month.
+
+[2026-04-11] The user is planning a trip to Taipei in late October.
+
+[2026-04-11] The user is putting in for 5 days of leave for the trip to Taipei.

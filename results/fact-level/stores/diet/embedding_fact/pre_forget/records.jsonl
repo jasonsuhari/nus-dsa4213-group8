@@ -1,0 +1,11 @@
+{"id": 0, "session_id": "diet-1", "date": "2026-09-01", "turn_index": 0, "text": "The user studies data science at NUS.", "importance": 8, "deleted": false}
+{"id": 1, "session_id": "diet-1", "date": "2026-09-01", "turn_index": 0, "text": "The user is in year 4 of their studies.", "importance": 7, "deleted": false}
+{"id": 2, "session_id": "diet-1", "date": "2026-09-01", "turn_index": 1, "text": "The user studies data science at NUS.", "importance": 8, "deleted": false}
+{"id": 3, "session_id": "diet-1", "date": "2026-09-01", "turn_index": 1, "text": "The user is in year 4 of their studies.", "importance": 8, "deleted": false}
+{"id": 4, "session_id": "diet-1", "date": "2026-09-01", "turn_index": 1, "text": "The user's cat is named Miso.", "importance": 7, "deleted": false}
+{"id": 5, "session_id": "diet-1", "date": "2026-09-01", "turn_index": 1, "text": "The user finds their cat Miso helps them cope with a heavy workload.", "importance": 6, "deleted": false}
+{"id": 6, "session_id": "diet-2", "date": "2026-09-08", "turn_index": 0, "text": "The user is vegetarian.", "importance": 8, "deleted": false}
+{"id": 7, "session_id": "diet-3", "date": "2026-09-15", "turn_index": 0, "text": "The user made tofu stir-fry for dinner.", "importance": 6, "deleted": false}
+{"id": 8, "session_id": "diet-3", "date": "2026-09-15", "turn_index": 0, "text": "Tofu stir-fry is the user's go-to dinner.", "importance": 7, "deleted": false}
+{"id": 9, "session_id": "diet-3", "date": "2026-09-15", "turn_index": 1, "text": "The user's go-to dinner is tofu stir-fry.", "importance": 8, "deleted": false}
+{"id": 10, "session_id": "diet-3", "date": "2026-09-15", "turn_index": 1, "text": "The user uses soy, garlic, and a bit of chilli as sauce for tofu stir-fry.", "importance": 7, "deleted": false}

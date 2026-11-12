@@ -1,0 +1,1 @@
+{"target": "Forget that I have asthma.", "mode": "hard", "passes": [{"pass": 1, "deleted": [{"id": 5, "text": "Hakim has asthma."}, {"id": 20, "text": "The user has asthma."}], "redacted": [{"id": 21, "before": "The user is skipping the hall's cross-country run on 1 March due to asthma.", "after": "The user is skipping the hall's cross-country run on 1 March."}]}]}

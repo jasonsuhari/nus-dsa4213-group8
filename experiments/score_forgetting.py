@@ -227,7 +227,9 @@ def annotation_sample(
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description=__doc__)
+    parser = argparse.ArgumentParser(
+        description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter
+    )
     parser.add_argument("run", type=Path, help="runs/<run_id>")
     parser.add_argument("--workers", type=int, default=16)
     parser.add_argument("--reps", type=int, default=1000, help="bootstrap resamples")

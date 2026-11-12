@@ -1,0 +1,37 @@
+[2026-03-03] user: Hi, I'm Rachel. Working mum, accountant, drowning a bit.
+assistant: Hi Rachel. Happy to help lighten the load. What's on your plate?
+
+[2026-03-03] user: My daughter is 6 and starts Primary 1 next year. I need to figure out the registration exercise.
+assistant: Got it. For P1 registration, the phases open around July. Do you have a school in mind?
+
+[2026-03-03] user: Rosyth School, it's near us in Serangoon.
+assistant: Rosyth is popular. Your daughter would likely fall under Phase 2C if you live within 1km, so there may be balloting.
+
+[2026-04-11] user: She has ballet every Saturday at 9am in Hougang and I keep forgetting her shoes.
+assistant: Classic. Keep a dedicated ballet bag by the door and pack it Friday night.
+
+[2026-04-11] user: Good idea. Also she's allergic to peanuts, so birthday parties stress me out.
+assistant: Understandable. When she goes to a party, a quick message to the host parent and her own safe snack in the bag help a lot. Does she carry an EpiPen?
+
+[2026-04-11] user: Yes, it lives in my handbag.
+
+[2026-06-20] user: Marcus is in Jakarta for work the whole of next week, so it's just me and the little one.
+assistant: Solo week. Want a simple peanut-free meal plan for the two of you?
+
+[2026-06-20] user: Yes please, nothing fancy.
+assistant: Monday chicken porridge, Tuesday fried rice, Wednesday tomato pasta, Thursday fish soup, and Friday pizza night as a treat.
+
+[2026-08-29] user: Her 7th birthday is on 12 September. Party at home, ballet theme.
+assistant: Cute! A ballet theme sounds perfect. How many kids?
+
+[2026-08-29] user: About 12. Can you write the banner text?
+assistant: 'Happy 7th Birthday, Our Little Ballerina!' Pink and gold lettering would look great.
+
+[2026-08-29] user: Love it. And remember the cake has to be peanut-free.
+assistant: Definitely. Go with a bakery that has a nut-free kitchen.
+
+[2026-09-14] user: Party went well! The kids loved the banner.
+assistant: So glad! Did the birthday girl have a good time?
+
+[2026-09-14] user: She danced the whole time. Now back to reality, Rosyth balloting results come out next week.
+assistant: Fingers crossed. If Rosyth doesn't work out, Xinmin Primary is close to Serangoon too.

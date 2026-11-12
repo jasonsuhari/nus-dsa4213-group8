@@ -1,0 +1,17 @@
+[2026-02-02] user: I teach Sec 3 chemistry. Can you help me come up with a fun demo for reaction rates?
+assistant: Try elephant toothpaste with different amounts of catalyst, or the iodine clock reaction at different temperatures.
+
+[2026-02-02] user: Iodine clock it is. My HOD is observing that lesson on 12 February.
+assistant: Good pick for an observation. Run it once beforehand to check the timing.
+
+[2026-02-15] user: I'm Catholic, so Sunday mornings are 9am Mass at St Ignatius, and after that I tutor my nephew Ethan in P5 maths at my sister's place in Bukit Timah.
+assistant: A full Sunday: Mass at 9, then tutoring Ethan. What topics is he struggling with?
+
+[2026-02-15] user: Fractions and ratio. He hates word problems.
+assistant: Use the model method with bar diagrams. It makes ratio word problems much more concrete for P5 kids.
+
+[2026-02-25] user: It's Lent, so I'm giving up bubble tea and skipping meat on Fridays. Can you plan this week's dinners? I also signed up for a pottery class on Thursday evenings.
+assistant: Sure. Mon: chicken rice. Tue: beef hor fun. Wed: pork noodle soup. Thu: an early wrap before pottery. Fri: fish soup bee hoon, no meat for Lent.
+
+[2026-02-25] user: Perfect, thanks.
+assistant: Enjoy your first pottery class!

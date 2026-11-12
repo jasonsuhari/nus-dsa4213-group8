@@ -1,0 +1,17 @@
+name: The user is named Rachel.
+occupation: The user is an accountant.
+emotional_state: The user feels overwhelmed.
+child: The user has a daughter who is 7 years old.
+registration_exercise: The user needs to figure out the registration exercise for Primary 1.
+location: The user lives in Serangoon.
+school_consideration: The user is considering Rosyth School for her daughter's Primary 1 registration and is waiting for balloting results to come out next week.
+ballet_schedule: The user has a child who has ballet every Saturday at 9am in Hougang.
+allergy: The user's child is allergic to peanuts.
+stress_due_to_allergy: Birthday parties stress the user out due to the child's peanut allergy.
+epipen: The user carries an EpiPen in their handbag.
+partner: The user's partner, Marcus, is in Jakarta for work the whole of next week.
+birthday: The user's daughter has a birthday on 12 September.
+birthday_cake_preference: The user wants the birthday cake to be peanut-free.
+party: The user has a daughter who recently had a birthday party.
+party_banner_feedback: The user's kids loved the banner at the party.
+party_activity: The user's daughter danced the whole time at her birthday party.

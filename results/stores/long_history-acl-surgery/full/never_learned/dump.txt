@@ -1,0 +1,49 @@
+[2026-01-06] user: New year, same commute. I'm a logistics manager at a shipping company in Tuas and the drive from Tampines is killing me.
+assistant: That's a long way across the island. Do you drive or take the company bus?
+user: Drive. Leaving at 6.30am is the only way to beat the PIE jam.
+assistant: Early starts it is. A good podcast might help the drive.
+
+[2026-01-20] user: I'm stuck on the sofa for a while. Recommend me a series to binge?
+assistant: Sure, a long series helps. Have you watched Slow Horses?
+user: Not yet. Is it very violent? My wife doesn't like gory stuff.
+assistant: Some tense scenes but nothing gory. It's more dry British humour than blood.
+
+[2026-02-03] user: My wife Mei Ling's birthday is on the 14th, same day as Valentine's. Any Peranakan restaurant ideas?
+assistant: Candlenut in Dempsey is a nice choice, or Violet Oon at the National Gallery for the view.
+user: Violet Oon sounds good, she loves the dry laksa there.
+assistant: Book early, the 14th will be packed.
+
+[2026-02-18] user: Reunion dinner was at my grandma's in Ang Mo Kio. She made pineapple tarts for 40 people, at 84 years old.
+assistant: That's impressive. Did she share the recipe?
+
+[2026-03-02] user: Physio twice a week at Changi General now. My physio Farah is strict, she makes me do leg presses and balance work until I'm shaking.
+assistant: Strict physios get results. Are you seeing progress?
+user: Can finally walk without the brace. Small wins.
+assistant: That's a big milestone. Keep at it.
+
+[2026-03-16] user: Work is chaos. We're moving our whole warehouse system to SAP by June and I'm the one coordinating it.
+assistant: Big migration. Do you have a cutover plan yet?
+user: Draft only. Can you give me a simple checklist for the cutover weekend?
+assistant: Freeze transactions, back up, migrate master data, then open balances, reconcile stock counts, and keep a rollback plan ready.
+
+[2026-04-01] user: Got into pour-over coffee. Bought a Hario V60 and a hand grinder, my mornings are a ritual now.
+assistant: Nice. Try a 1:16 ratio to start, about 15g of coffee to 250g of water.
+
+[2026-04-20] user: Need to renew my passport. We're going to Hokkaido in December for the snow, first time for the kids.
+assistant: You can renew online through ICA. Do it early, December trips book out fast.
+user: Done, applied today. Collection in two weeks.
+assistant: Great, one less thing to worry about.
+
+[2026-05-05] user: My futsal kakis keep asking when I'm coming back. Surgeon says no futsal before August at the earliest.
+assistant: Annoying, but August isn't far. You could still join them for kopi after their games.
+
+[2026-05-22] user: Signed my daughter Chloe up for swimming lessons on Saturday mornings at Tampines Hub. She's 6 and scared of putting her face in the water.
+assistant: Very common at 6. Bubble-blowing games in the bath can help her get used to it.
+
+[2026-06-08] user: Attempting laksa from scratch this weekend. Is it worth making the rempah myself or should I buy the paste?
+assistant: Homemade rempah tastes far better if you have the time. Fry it low and slow until the oil splits.
+user: Ok, I'll go all in. Mei Ling is doubtful.
+assistant: Prove her wrong. Good luck.
+
+[2026-06-25] user: My Honda Vezel is due for its 60,000km servicing. Should I go back to the authorised dealer or a workshop?
+assistant: A trusted independent workshop is usually cheaper for routine servicing once the warranty is over.

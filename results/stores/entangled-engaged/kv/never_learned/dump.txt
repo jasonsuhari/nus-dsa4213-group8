@@ -1,0 +1,8 @@
+relationship: The user has a boyfriend named Daniel.
+trip: The user wants a relaxed itinerary for their trip to Bali.
+spa_activities: The user is interested in spa activities.
+surfing: The user's boyfriend is into surfing.
+occupation: The user was promoted to senior staff nurse in the week of October 1, 2026.
+housing: The user is looking at BTO flats in Tengah for the November launch.
+event: The user signed up for the Standard Chartered half marathon in December.
+running_speed: The user is a slow runner.

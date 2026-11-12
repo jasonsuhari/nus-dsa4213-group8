@@ -1,0 +1,14 @@
+[2026-01-12] user: Hi! I'm a product designer at a fintech in Raffles Place and my new year resolution is to actually budget. Where do I start?
+assistant: Track every expense for a month first, then set categories. Any big fixed costs?
+
+[2026-01-12] user: Rent for my room in Tiong Bahru, and my corgi Kopi, who costs a bomb at the groomer.
+assistant: Ha, Kopi counts as a fixed cost then. Let's list rent and pet costs first.
+
+[2026-02-09] user: Payslip came in. $1,600 went to my CPF again, same as every month. Is it worth topping up my SA?
+assistant: Topping up your SA earns 4% and gives you tax relief, so it's worth it if you won't need that cash before 55.
+
+[2026-03-02] user: Looking at a 4-room resale flat in Clementi. I want a second opinion on how much downpayment I need.
+assistant: For an HDB loan you need 20% down, or 25% with a bank loan, and CPF can cover most of it. What's the asking price?
+
+[2026-03-23] user: Jia Hui wants a $300 omakase for her birthday. I just hate spending that on one meal. Am I being stingy?
+assistant: Not stingy, it's a fair feeling. You could offer to cover a different treat if omakase doesn't feel worth it to you.

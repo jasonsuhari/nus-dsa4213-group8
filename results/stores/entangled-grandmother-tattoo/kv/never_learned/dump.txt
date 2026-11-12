@@ -1,0 +1,8 @@
+grandmother: The user's Ah Ma, Tan Siew Lan, passed away in January 2026.
+cooking: The user's Ah Ma's chap chye recipe includes lots of dried shrimp and fermented bean curd.
+occupation: The user is a barista at a café in Joo Chiat.
+business_aspiration: The user wants to open their own coffee cart in two years.
+savings_goal: The user will aim to save $1,000 a month for their coffee cart.
+boss: The user has a boss.
+event: The user was asked to host the café's latte art throwdown on 2 May.
+barista_participation: The user plans to have 8 baristas participate in knockout rounds.

@@ -1,0 +1,10 @@
+{"id": 0, "session_id": "job-1", "date": "2026-06-08", "turn_index": 0, "text": "The user is a data analyst at an insurance company.", "importance": 8, "deleted": false}
+{"id": 1, "session_id": "job-1", "date": "2026-06-08", "turn_index": 0, "text": "The user works in Tanjong Pagar.", "importance": 7, "deleted": false}
+{"id": 2, "session_id": "job-1", "date": "2026-06-08", "turn_index": 0, "text": "The user lives in Punggol.", "importance": 7, "deleted": false}
+{"id": 3, "session_id": "job-1", "date": "2026-06-08", "turn_index": 0, "text": "The user signed up for the Standard Chartered half marathon in December.", "importance": 8, "deleted": false}
+{"id": 4, "session_id": "job-2", "date": "2026-06-22", "turn_index": 0, "text": "The user's manager is named Derek.", "importance": 7, "deleted": false}
+{"id": 5, "session_id": "job-2", "date": "2026-06-22", "turn_index": 0, "text": "Derek has cancelled the user's 1:1 meeting three times this month.", "importance": 6, "deleted": false}
+{"id": 8, "session_id": "job-4", "date": "2026-07-20", "turn_index": 0, "text": "The user is a Data Analyst at Lumen Insurance.", "importance": 5, "deleted": false}
+{"id": 9, "session_id": "job-4", "date": "2026-07-20", "turn_index": 0, "text": "The user wants their LinkedIn headline to say 'analytics engineer' and sound punchier.", "importance": 7, "deleted": false}
+{"id": 12, "session_id": "job-5", "date": "2026-08-03", "turn_index": 0, "text": "The user requested to move Thursday's tempo run to Friday.", "importance": 6, "deleted": false}
+{"id": 13, "session_id": "job-6", "date": "2026-08-24", "turn_index": 0, "text": "The user has a work laptop that is monitored.", "importance": 7, "deleted": false}

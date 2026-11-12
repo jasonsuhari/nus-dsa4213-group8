@@ -1,0 +1,91 @@
+[2026-02-01] The user is a nurse at Sengkang General.
+
+[2026-02-01] The user has done four night shifts in a row.
+
+[2026-02-15] Sara turns 3 next week.
+
+[2026-02-15] Hafiz wants a big party for Sara's birthday.
+
+[2026-02-15] The user wants a small party at home for Sara's birthday.
+
+[2026-02-15] Sara turns 3 next week.
+
+[2026-02-15] Hafiz wants a big party for Sara's birthday.
+
+[2026-02-15] The user wants a small party at home for Sara's birthday.
+
+[2026-03-02] Irfan is autistic.
+
+[2026-03-02] Irfan finds loud places hard.
+
+[2026-03-02] Irfan is 7 years old.
+
+[2026-03-02] Irfan is autistic.
+
+[2026-03-02] Irfan finds loud places hard.
+
+[2026-03-02] Irfan loves trains.
+
+[2026-03-21] The user celebrates Hari Raya at their mum's house in Tampines.
+
+[2026-03-21] The user is responsible for preparing 3kg of beef rendang for Hari Raya.
+
+[2026-04-09] Irfan's occupational therapy at KKH moved to Wednesdays.
+
+[2026-04-09] The user has to swap their shifts again due to Irfan's occupational therapy schedule.
+
+[2026-04-09] Irfan's occupational therapy at KKH moved to Wednesdays.
+
+[2026-04-09] The user has to swap their shifts due to Irfan's occupational therapy schedule.
+
+[2026-04-09] The user will ask their nurse manager tomorrow.
+
+[2026-04-28] The user started crocheting a blanket for Sara.
+
+[2026-04-28] The user has 120 granny squares to go to finish the blanket for Sara.
+
+[2026-05-17] The user has a Mazda 3.
+
+[2026-05-17] The COE for the user's Mazda 3 expires next year.
+
+[2026-06-05] The user's daughter Sara starts playgroup in July at a centre near their block in Punggol.
+
+[2026-06-05] Sara has never been away from the user.
+
+[2026-06-24] Irfan's cousin's birthday party is on Sunday.
+
+[2026-06-24] The user is packing Irfan's noise-cancelling headphones.
+
+[2026-06-24] The user is packing Irfan's train book.
+
+[2026-06-24] The user's sister set up a birthday party for Irfan.
+
+[2026-07-13] The user is enrolled in the advanced diploma in critical care nursing.
+
+[2026-07-13] Classes for the user's advanced diploma in critical care nursing start in October.
+
+[2026-07-13] The user is enrolled in the advanced diploma in critical care nursing.
+
+[2026-07-13] Classes for the advanced diploma in critical care nursing start in October.
+
+[2026-07-13] The user will attend classes alongside their shifts.
+
+[2026-08-01] The user rode the whole Thomson-East Coast Line end to end on Saturday.
+
+[2026-08-01] The user's friend Irfan knew every station on the Thomson-East Coast Line.
+
+[2026-08-20] The user finished making a blanket for Sara.
+
+[2026-08-20] The user is starting an amigurumi project next.
+
+[2026-08-20] The user is considering making a little train for Irfan.
+
+[2026-09-08] The user is booking a trip to Langkawi for December.
+
+[2026-09-08] The user is traveling with three other people.
+
+[2026-09-08] The user is booking a trip to Langkawi for December.
+
+[2026-09-08] The user is traveling with three other people.
+
+[2026-09-08] The user prefers quieter beaches.

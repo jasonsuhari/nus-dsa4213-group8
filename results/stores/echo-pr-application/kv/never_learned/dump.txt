@@ -1,0 +1,16 @@
+name: The user is named Lan.
+hometown: The user is from Ho Chi Minh City.
+work_experience: The user has been working in Singapore for 4 years.
+work: The user works as a backend engineer at a fintech and has received a job offer from Shopee that includes a 20% pay increase.
+employment_pass: The user is on an Employment Pass.
+lease_end: The user's lease ends in June.
+housing: The user needs a new room.
+budget: The user's budget for a new room is $1,400.
+location_preference: The user wants the new room to be near Outram.
+relationship: The user has a boyfriend named Daniel.
+nationality: Daniel is Singaporean.
+cohabitation: The user is considering moving in with Daniel.
+housing_details: Daniel rents a condo unit in Bukit Merah.
+start_date: The user plans to ask Shopee if they can start in October.
+hobby: The user wants to learn to swim before December.
+trip: The user is going to Phu Quoc in December with Daniel.

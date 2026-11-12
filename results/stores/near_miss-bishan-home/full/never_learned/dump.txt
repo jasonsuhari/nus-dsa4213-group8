@@ -1,0 +1,15 @@
+[2026-01-10] user: Finally done moving! We left our old flat in Clementi after nine years.
+assistant: Congrats on the move! Nine years is a long time in one place. How are you finding it?
+user: Still unpacking. I'll miss the Clementi hawker centre though, the fishball noodle uncle knew my order by heart.
+assistant: Those are the hardest things to leave behind.
+
+[2026-01-24] user: I teach chemistry at a JC and marking season is killing me.
+assistant: That's a lot of scripts. Which level are you marking?
+user: J2 prelims. 120 scripts by Friday.
+assistant: Break it into batches of 20 with short breaks. It goes faster than one long push.
+
+[2026-02-14] user: My husband Ravi is vegetarian, so somewhere with proper veggie options please.
+assistant: Then look for a cafe with a full vegetarian menu rather than one sad salad. Most brunch places do a good mushroom dish too.
+
+[2026-03-01] user: My old neighbours from Clementi invited me back for a CNY gathering. How long will it take me by MRT?
+assistant: Depends where you start, but Clementi is on the East-West Line, so it should be a simple trip.

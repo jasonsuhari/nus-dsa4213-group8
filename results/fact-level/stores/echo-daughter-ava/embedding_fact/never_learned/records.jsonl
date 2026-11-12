@@ -1,0 +1,45 @@
+{"id": 0, "session_id": "ava-1", "date": "2026-03-03", "turn_index": 0, "text": "The user's name is Rachel.", "importance": 10, "deleted": false}
+{"id": 1, "session_id": "ava-1", "date": "2026-03-03", "turn_index": 0, "text": "The user is a working mum.", "importance": 8, "deleted": false}
+{"id": 2, "session_id": "ava-1", "date": "2026-03-03", "turn_index": 0, "text": "The user is an accountant.", "importance": 8, "deleted": false}
+{"id": 3, "session_id": "ava-1", "date": "2026-03-03", "turn_index": 0, "text": "The user feels overwhelmed.", "importance": 6, "deleted": false}
+{"id": 4, "session_id": "ava-1", "date": "2026-03-03", "turn_index": 1, "text": "The user's name is Rachel.", "importance": 10, "deleted": false}
+{"id": 5, "session_id": "ava-1", "date": "2026-03-03", "turn_index": 1, "text": "Rachel is a working mum.", "importance": 8, "deleted": false}
+{"id": 6, "session_id": "ava-1", "date": "2026-03-03", "turn_index": 1, "text": "Rachel is an accountant.", "importance": 8, "deleted": false}
+{"id": 7, "session_id": "ava-1", "date": "2026-03-03", "turn_index": 1, "text": "Rachel has a daughter who is 6 years old.", "importance": 9, "deleted": false}
+{"id": 8, "session_id": "ava-1", "date": "2026-03-03", "turn_index": 1, "text": "Rachel's daughter starts Primary 1 next year.", "importance": 9, "deleted": false}
+{"id": 9, "session_id": "ava-1", "date": "2026-03-03", "turn_index": 1, "text": "Rachel needs to figure out the registration exercise for Primary 1.", "importance": 7, "deleted": false}
+{"id": 10, "session_id": "ava-1", "date": "2026-03-03", "turn_index": 2, "text": "The user's name is Rachel.", "importance": 10, "deleted": false}
+{"id": 11, "session_id": "ava-1", "date": "2026-03-03", "turn_index": 2, "text": "Rachel is a working mum.", "importance": 8, "deleted": false}
+{"id": 12, "session_id": "ava-1", "date": "2026-03-03", "turn_index": 2, "text": "Rachel is an accountant.", "importance": 8, "deleted": false}
+{"id": 13, "session_id": "ava-1", "date": "2026-03-03", "turn_index": 2, "text": "Rachel has a daughter who is 6 years old.", "importance": 10, "deleted": false}
+{"id": 14, "session_id": "ava-1", "date": "2026-03-03", "turn_index": 2, "text": "Rachel's daughter starts Primary 1 next year.", "importance": 10, "deleted": false}
+{"id": 15, "session_id": "ava-1", "date": "2026-03-03", "turn_index": 2, "text": "Rachel needs to figure out the registration exercise for her daughter's Primary 1.", "importance": 8, "deleted": false}
+{"id": 16, "session_id": "ava-1", "date": "2026-03-03", "turn_index": 2, "text": "Rachel's daughter is applying to Rosyth School.", "importance": 8, "deleted": false}
+{"id": 17, "session_id": "ava-1", "date": "2026-03-03", "turn_index": 2, "text": "Rosyth School is near Rachel in Serangoon.", "importance": 7, "deleted": false}
+{"id": 18, "session_id": "ava-2", "date": "2026-04-11", "turn_index": 0, "text": "The user's daughter has ballet every Saturday at 9am in Hougang.", "importance": 8, "deleted": false}
+{"id": 19, "session_id": "ava-2", "date": "2026-04-11", "turn_index": 0, "text": "The user keeps forgetting the ballet shoes for their daughter.", "importance": 6, "deleted": false}
+{"id": 20, "session_id": "ava-2", "date": "2026-04-11", "turn_index": 1, "text": "The user's daughter has ballet every Saturday at 9am in Hougang.", "importance": 8, "deleted": false}
+{"id": 21, "session_id": "ava-2", "date": "2026-04-11", "turn_index": 1, "text": "The user's daughter is allergic to peanuts.", "importance": 10, "deleted": false}
+{"id": 22, "session_id": "ava-2", "date": "2026-04-11", "turn_index": 1, "text": "Birthday parties stress the user out due to the daughter's peanut allergy.", "importance": 7, "deleted": false}
+{"id": 23, "session_id": "ava-2", "date": "2026-04-11", "turn_index": 2, "text": "The user's daughter has ballet every Saturday at 9am in Hougang.", "importance": 7, "deleted": false}
+{"id": 24, "session_id": "ava-2", "date": "2026-04-11", "turn_index": 2, "text": "The user's daughter is allergic to peanuts.", "importance": 10, "deleted": false}
+{"id": 25, "session_id": "ava-2", "date": "2026-04-11", "turn_index": 2, "text": "The user keeps an EpiPen in their handbag.", "importance": 9, "deleted": false}
+{"id": 26, "session_id": "ava-3", "date": "2026-06-20", "turn_index": 0, "text": "Marcus is in Jakarta for work the whole of next week.", "importance": 7, "deleted": false}
+{"id": 27, "session_id": "ava-3", "date": "2026-06-20", "turn_index": 0, "text": "The user has a child referred to as 'the little one.'", "importance": 6, "deleted": false}
+{"id": 28, "session_id": "ava-3", "date": "2026-06-20", "turn_index": 1, "text": "Marcus is in Jakarta for work the whole of next week.", "importance": 8, "deleted": false}
+{"id": 29, "session_id": "ava-3", "date": "2026-06-20", "turn_index": 1, "text": "The user has a child referred to as 'the little one'.", "importance": 7, "deleted": false}
+{"id": 30, "session_id": "ava-4", "date": "2026-08-29", "turn_index": 0, "text": "The user's daughter is turning 7 years old on 12 September.", "importance": 10, "deleted": false}
+{"id": 31, "session_id": "ava-4", "date": "2026-08-29", "turn_index": 0, "text": "The user's daughter's birthday party will be at home.", "importance": 8, "deleted": false}
+{"id": 32, "session_id": "ava-4", "date": "2026-08-29", "turn_index": 0, "text": "The user's daughter's birthday party will have a ballet theme.", "importance": 8, "deleted": false}
+{"id": 33, "session_id": "ava-4", "date": "2026-08-29", "turn_index": 1, "text": "The user's daughter is turning 7 years old on 12 September.", "importance": 10, "deleted": false}
+{"id": 34, "session_id": "ava-4", "date": "2026-08-29", "turn_index": 1, "text": "The user's daughter's birthday party will be at home.", "importance": 8, "deleted": false}
+{"id": 35, "session_id": "ava-4", "date": "2026-08-29", "turn_index": 1, "text": "The theme of the user's daughter's birthday party is ballet.", "importance": 8, "deleted": false}
+{"id": 36, "session_id": "ava-4", "date": "2026-08-29", "turn_index": 1, "text": "The user is inviting about 12 kids to the birthday party.", "importance": 7, "deleted": false}
+{"id": 37, "session_id": "ava-4", "date": "2026-08-29", "turn_index": 2, "text": "The user's daughter is turning 7 years old on 12 September.", "importance": 10, "deleted": false}
+{"id": 38, "session_id": "ava-4", "date": "2026-08-29", "turn_index": 2, "text": "The user's daughter's birthday party will be at home and have a ballet theme.", "importance": 10, "deleted": false}
+{"id": 39, "session_id": "ava-4", "date": "2026-08-29", "turn_index": 2, "text": "The user needs the birthday cake to be peanut-free.", "importance": 10, "deleted": false}
+{"id": 40, "session_id": "ava-5", "date": "2026-09-14", "turn_index": 0, "text": "The user had a party that went well.", "importance": 6, "deleted": false}
+{"id": 41, "session_id": "ava-5", "date": "2026-09-14", "turn_index": 0, "text": "The user's kids loved the banner at the party.", "importance": 5, "deleted": false}
+{"id": 42, "session_id": "ava-5", "date": "2026-09-14", "turn_index": 1, "text": "The user's daughter had a good time at the party and danced the whole time.", "importance": 8, "deleted": false}
+{"id": 43, "session_id": "ava-5", "date": "2026-09-14", "turn_index": 1, "text": "The Rosyth balloting results come out next week.", "importance": 5, "deleted": false}
+{"id": 44, "session_id": "ava-5", "date": "2026-09-14", "turn_index": 1, "text": "Xinmin Primary is close to Serangoon.", "importance": 4, "deleted": false}

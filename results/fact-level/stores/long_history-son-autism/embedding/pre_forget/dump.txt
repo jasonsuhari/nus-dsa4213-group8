@@ -1,0 +1,56 @@
+[2026-02-01] user: Night shift again. I'm a nurse at Sengkang General and I've done four nights in a row.
+assistant: That's tiring. Blackout curtains and the same sleep time after each shift help.
+
+[2026-02-15] user: Sara turns 3 next week. Hafiz wants a big party, I want something small at home.
+assistant: A small party at home with a few cousins is plenty at three.
+
+[2026-02-15] user: That's what I said!
+assistant: Show Hafiz this message.
+
+[2026-03-02] user: Irfan is autistic and loud places are hard for him. Can you suggest quiet weekend activities in Singapore for a 7-year-old?
+assistant: Since he's autistic, quiet places at off-peak times work well: the Botanic Gardens early in the morning, library story corners, or the Science Centre on weekday afternoons.
+
+[2026-03-02] user: He loves trains, so maybe the train exhibits?
+assistant: Yes, and riding the Downtown Line off-peak is a cheap hit.
+
+[2026-03-21] user: Hari Raya at my mum's in Tampines. I'm on beef rendang duty, 3kg of beef.
+assistant: Selamat Hari Raya! Slow cook it until the coconut dries out and the oil separates.
+
+[2026-04-09] user: Irfan's occupational therapy at KKH moved to Wednesdays, so I have to swap my shifts again.
+assistant: Can you ask for a fixed Wednesday off on the roster?
+
+[2026-04-09] user: Will ask my nurse manager tomorrow.
+assistant: Good luck.
+
+[2026-04-28] user: Started crocheting a blanket for Sara. 120 granny squares to go.
+assistant: A square a day and you'll finish by August.
+
+[2026-05-17] user: The COE for our Mazda 3 expires next year. Renew or sell?
+assistant: If the car is in good condition, renewing for five years is often cheaper than buying new at current COE prices.
+
+[2026-06-05] user: Sara starts playgroup in July at a centre near our block in Punggol. She's never been away from me.
+assistant: The first week will be teary. Short goodbyes help.
+
+[2026-06-24] user: Irfan's cousin's birthday party is on Sunday. Packing his noise-cancelling headphones and his train book.
+assistant: Good prep. A quiet corner for breaks helps too.
+
+[2026-06-24] user: My sister already set one up for him.
+assistant: Lovely of her.
+
+[2026-07-13] user: Enrolled in the advanced diploma in critical care nursing. Classes start in October.
+assistant: That's a big step. Will you do it part-time?
+
+[2026-07-13] user: Yes, alongside my shifts.
+assistant: Tough, but doable.
+
+[2026-08-01] user: Irfan made me ride the whole Thomson-East Coast Line end to end on Saturday. He knew every station.
+assistant: What a memory. Sounds like a great day for him.
+
+[2026-08-20] user: Finished Sara's blanket! Starting amigurumi next, maybe a little train for Irfan.
+assistant: Perfect project. Start with a simple shape and add details later.
+
+[2026-09-08] user: Booking Langkawi for December, just the four of us.
+assistant: Lovely. Pick a quieter beach like Tanjung Rhu.
+
+[2026-09-08] user: Quiet is good for us.
+assistant: Then Tanjung Rhu it is.

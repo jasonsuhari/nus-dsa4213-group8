@@ -1,0 +1,13 @@
+{"id": 0, "session_id": "ex-1", "date": "2026-02-01", "turn_index": 0, "text": "The user has been in a relationship with Marcus for six months.", "importance": 8, "deleted": false}
+{"id": 1, "session_id": "ex-1", "date": "2026-02-01", "turn_index": 0, "text": "The user is considering a staycation at Capella to celebrate the six-month anniversary with Marcus.", "importance": 7, "deleted": false}
+{"id": 2, "session_id": "ex-1", "date": "2026-02-01", "turn_index": 1, "text": "The user has been in a relationship with Marcus for six months.", "importance": 8, "deleted": false}
+{"id": 3, "session_id": "ex-1", "date": "2026-02-01", "turn_index": 1, "text": "The user is considering a staycation at Capella to celebrate six months with Marcus.", "importance": 7, "deleted": false}
+{"id": 4, "session_id": "ex-1", "date": "2026-02-01", "turn_index": 1, "text": "Marcus loves anything by the sea.", "importance": 6, "deleted": false}
+{"id": 5, "session_id": "ex-2", "date": "2026-02-15", "turn_index": 0, "text": "The user has an ex who they broke up with two years ago.", "importance": 6, "deleted": false}
+{"id": 6, "session_id": "ex-2", "date": "2026-02-15", "turn_index": 0, "text": "The user ran into their ex at a friend's wedding.", "importance": 5, "deleted": false}
+{"id": 7, "session_id": "ex-2", "date": "2026-02-15", "turn_index": 1, "text": "The user has an ex-boyfriend.", "importance": 7, "deleted": false}
+{"id": 8, "session_id": "ex-2", "date": "2026-02-15", "turn_index": 1, "text": "The user broke up with the ex-boyfriend two years ago.", "importance": 8, "deleted": false}
+{"id": 9, "session_id": "ex-2", "date": "2026-02-15", "turn_index": 1, "text": "The user's current partner is named Marcus.", "importance": 9, "deleted": false}
+{"id": 10, "session_id": "ex-2", "date": "2026-02-15", "turn_index": 1, "text": "Marcus kept the user on the dance floor all night at a friend's wedding.", "importance": 6, "deleted": false}
+{"id": 11, "session_id": "ex-3", "date": "2026-03-07", "turn_index": 0, "text": "The user is a UX writer at a fintech startup.", "importance": 8, "deleted": false}
+{"id": 12, "session_id": "ex-3", "date": "2026-03-07", "turn_index": 0, "text": "The user spends all day writing error messages.", "importance": 6, "deleted": false}

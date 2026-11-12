@@ -1,0 +1,14 @@
+[2026-05-04] user: I'm a logistics manager at a warehouse in Tuas. Can you help me write a firm but polite email to a supplier who's late for the third time?
+assistant: Sure. Here's a draft: 'Hi Mr Tan, this is the third late delivery this quarter, and it is affecting our outbound schedule...' Want it firmer?
+
+[2026-05-18] user: I moved into a 2-room flat in Sengkang on my own last year and it still feels empty. Ideas to make it homier on a small budget?
+assistant: Plants, warm lamps and a rug go a long way. A few framed photos help too.
+
+[2026-06-01] user: Ethan (9) and Chloe (6) are with me every other weekend. Any ideas for a rainy Saturday with them?
+assistant: Try the Science Centre, a kids' bouldering gym, or a baking afternoon at home.
+
+[2026-06-22] user: Between Chloe's braces and everything else, money's tight. Can you find me cheaper car insurance? I'm paying $1,900 a year now.
+assistant: Compare quotes on MoneySmart or directly with insurers, and check your no-claim discount carries over. $1,900 is on the high side for most cars.
+
+[2026-07-13] user: I'm thinking about dating again. Is that weird at 41?
+assistant: Not weird at all. Plenty of people start dating in their 40s.

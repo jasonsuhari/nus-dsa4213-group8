@@ -1,0 +1,18 @@
+[2026-02-16] user: Hi, I'm Lan, from Ho Chi Minh City. I've been working in Singapore for 4 years as a backend engineer at a fintech, on an Employment Pass.
+assistant: Hi Lan! Four years is a good stretch. How can I help?
+
+[2026-03-21] user: My lease ends in June and I need a new room. Budget $1,400, near Outram.
+assistant: A room near Outram Park at $1,400 is doable in Tiong Bahru or Chinatown HDBs.
+
+[2026-05-10] user: My boyfriend Daniel wants us to move in together. He's Singaporean.
+assistant: That's exciting! Moving in together is a big step.
+user: Daniel rents a condo unit in Bukit Merah though.
+assistant: Then you could split his rent instead of finding your own room in June.
+
+[2026-07-07] user: Should I change jobs now? Got an offer from Shopee, 20% more.
+assistant: The pay bump is great. Weigh the team, the tech stack and the growth path too, not just the 20%.
+user: Ok, I'll ask Shopee if I can start in October.
+assistant: That's a reasonable ask, plenty of companies are flexible on start dates.
+
+[2026-09-12] user: I want to learn to swim before Daniel and I go to Phu Quoc in December.
+assistant: Great goal! Queenstown Swimming Complex has adult beginner classes and it's near Bukit Merah.

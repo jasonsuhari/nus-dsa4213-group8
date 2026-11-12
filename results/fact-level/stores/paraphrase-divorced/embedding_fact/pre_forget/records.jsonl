@@ -1,0 +1,19 @@
+{"id": 0, "session_id": "div-1", "date": "2026-05-04", "turn_index": 0, "text": "The user is a logistics manager at a warehouse in Tuas.", "importance": 8, "deleted": false}
+{"id": 1, "session_id": "div-2", "date": "2026-05-18", "turn_index": 0, "text": "The user moved into a 2-room flat in Sengkang on their own last year.", "importance": 7, "deleted": false}
+{"id": 2, "session_id": "div-2", "date": "2026-05-18", "turn_index": 0, "text": "The user's flat still feels empty.", "importance": 5, "deleted": false}
+{"id": 3, "session_id": "div-2", "date": "2026-05-18", "turn_index": 1, "text": "The user moved into a 2-room flat in Sengkang on their own last year.", "importance": 7, "deleted": false}
+{"id": 4, "session_id": "div-2", "date": "2026-05-18", "turn_index": 1, "text": "The user has been divorced since 2024.", "importance": 8, "deleted": false}
+{"id": 5, "session_id": "div-2", "date": "2026-05-18", "turn_index": 1, "text": "The user is furnishing their own place for the first time after the divorce.", "importance": 7, "deleted": false}
+{"id": 6, "session_id": "div-3", "date": "2026-06-01", "turn_index": 0, "text": "The user's son is named Ethan and is 9 years old.", "importance": 8, "deleted": false}
+{"id": 7, "session_id": "div-3", "date": "2026-06-01", "turn_index": 0, "text": "The user's daughter is named Chloe and is 6 years old.", "importance": 8, "deleted": false}
+{"id": 8, "session_id": "div-3", "date": "2026-06-01", "turn_index": 0, "text": "Ethan and Chloe are with the user every other weekend.", "importance": 7, "deleted": false}
+{"id": 9, "session_id": "div-4", "date": "2026-06-22", "turn_index": 0, "text": "The user is paying $1,900 a year for car insurance.", "importance": 6, "deleted": false}
+{"id": 10, "session_id": "div-4", "date": "2026-06-22", "turn_index": 0, "text": "The user is going through a divorce settlement.", "importance": 7, "deleted": false}
+{"id": 11, "session_id": "div-4", "date": "2026-06-22", "turn_index": 0, "text": "The user's daughter is named Chloe.", "importance": 8, "deleted": false}
+{"id": 12, "session_id": "div-4", "date": "2026-06-22", "turn_index": 0, "text": "Chloe needs braces.", "importance": 7, "deleted": false}
+{"id": 13, "session_id": "div-4", "date": "2026-06-22", "turn_index": 0, "text": "Money is tight for the user due to divorce settlement payments and Chloe's braces.", "importance": 8, "deleted": false}
+{"id": 14, "session_id": "div-5", "date": "2026-07-13", "turn_index": 0, "text": "The user has an ex-wife.", "importance": 8, "deleted": false}
+{"id": 15, "session_id": "div-5", "date": "2026-07-13", "turn_index": 0, "text": "The user and the ex-wife have been apart for two years.", "importance": 7, "deleted": false}
+{"id": 16, "session_id": "div-5", "date": "2026-07-13", "turn_index": 0, "text": "The user is co-parenting with the ex-wife.", "importance": 7, "deleted": false}
+{"id": 17, "session_id": "div-5", "date": "2026-07-13", "turn_index": 0, "text": "The user is 41 years old.", "importance": 8, "deleted": false}
+{"id": 18, "session_id": "div-5", "date": "2026-07-13", "turn_index": 0, "text": "The user is thinking about dating again.", "importance": 6, "deleted": false}

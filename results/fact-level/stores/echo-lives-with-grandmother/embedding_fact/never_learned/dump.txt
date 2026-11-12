@@ -1,0 +1,67 @@
+[2026-01-20] The user's name is Aisyah.
+
+[2026-01-20] Aisyah is in Year 2 of mechanical engineering at NTU.
+
+[2026-01-20] The user's name is Aisyah.
+
+[2026-01-20] Aisyah is in Year 2 of mechanical engineering at NTU.
+
+[2026-01-20] Aisyah lives in Pasir Ris.
+
+[2026-01-20] Aisyah does most of the cooking.
+
+[2026-01-20] Aisyah does most of the grocery shopping.
+
+[2026-02-10] The user got a part-time job at a bubble tea shop at Downtown East.
+
+[2026-02-10] The user works weekends only.
+
+[2026-02-10] The user has a part-time job at a bubble tea shop at Downtown East on weekends only.
+
+[2026-02-10] The user works about 12 hours a weekend at the bubble tea shop.
+
+[2026-02-10] The user's brother is named Irfan.
+
+[2026-02-10] Irfan books out from NS on weekends.
+
+[2026-02-10] The user will see Irfan at night on weekends.
+
+[2026-02-10] The user has a part-time job at a bubble tea shop at Downtown East on weekends only.
+
+[2026-02-10] The user works about 12 hours a weekend at the bubble tea shop.
+
+[2026-02-10] The user's brother is named Irfan.
+
+[2026-02-10] Irfan is in Tekong.
+
+[2026-02-10] Irfan complains nonstop about his experience in NS.
+
+[2026-03-05] Hari Raya is in two weeks.
+
+[2026-03-05] The user's relatives are coming to the user's flat for Hari Raya.
+
+[2026-03-05] The user will make lontong for Hari Raya.
+
+[2026-03-05] The user's lontong is their signature dish.
+
+[2026-05-04] The user wants to take driving lessons.
+
+[2026-05-04] The user wants to take driving lessons.
+
+[2026-08-18] The user has classes from Monday to Thursday.
+
+[2026-08-18] The user has bubble tea on Saturday and Sunday.
+
+[2026-08-18] The user wants to keep Friday free for errands.
+
+[2026-08-18] The user wants to schedule grocery shopping for Sunday evening.
+
+[2026-08-18] The user has classes from Monday to Thursday.
+
+[2026-08-18] The user has bubble tea plans on Saturday and Sunday.
+
+[2026-08-18] The user has driving lessons on Wednesday nights from 7 to 9pm.
+
+[2026-08-18] The user keeps Friday free for errands.
+
+[2026-08-18] The user has grocery shopping planned for Sunday evening.

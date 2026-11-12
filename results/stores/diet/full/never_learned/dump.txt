@@ -1,0 +1,9 @@
+[2026-09-01] user: I study data science at NUS, year 4 now.
+assistant: Final year, nice. How is the workload?
+user: Heavy. My cat Miso keeps me sane.
+assistant: Miso is a great name for a cat.
+
+[2026-09-15] user: Made tofu stir-fry again tonight, it's my go-to dinner.
+assistant: Quick and filling. What sauce do you use?
+user: Just soy, garlic and a bit of chilli.
+assistant: Classic combination.

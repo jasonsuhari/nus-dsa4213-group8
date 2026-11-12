@@ -1,0 +1,55 @@
+[2026-02-03] The user's son Ethan just started K1 at a preschool in Tampines.
+
+[2026-02-03] Ethan is allergic to eggs.
+
+[2026-02-03] The user's son Ethan is four years old.
+
+[2026-02-03] Ethan just started K1 at a preschool in Tampines.
+
+[2026-02-03] Ethan is allergic to eggs.
+
+[2026-02-03] The preschool has a separate egg-free table for snacks.
+
+[2026-02-03] Ethan mostly wants to sit with his friends.
+
+[2026-02-17] The user is a procurement analyst.
+
+[2026-02-17] The user works at an office in Changi Business Park.
+
+[2026-02-17] The user has been told to organise a team lunch for 8 people.
+
+[2026-02-17] The user is a procurement analyst.
+
+[2026-02-17] The user works at an office in Changi Business Park.
+
+[2026-02-17] The user is allergic to peanuts.
+
+[2026-02-17] The user carries an EpiPen.
+
+[2026-02-17] The user prefers not to have satay or Thai places for lunch due to their peanut allergy.
+
+[2026-02-17] The user prefers a budget that is not too pricey for the team lunch.
+
+[2026-02-17] The user is organising a team lunch for 8 people.
+
+[2026-03-05] Ethan's birthday party is next Saturday.
+
+[2026-03-05] The user wants to bake a cake for Ethan's birthday party that he can actually eat.
+
+[2026-03-05] Ethan's birthday party is next Saturday.
+
+[2026-03-05] The user wants to bake a cake for Ethan's birthday party.
+
+[2026-03-05] The user bakes maybe twice a year.
+
+[2026-03-20] The user signed up for the Sundown Marathon half in May.
+
+[2026-03-20] The user is participating in their first race in years.
+
+[2026-03-20] The user signed up for the Sundown Marathon half in May.
+
+[2026-03-20] The user has not raced in years.
+
+[2026-03-20] The user has about eight weeks to train for the Sundown Marathon half.
+
+[2026-03-20] The user is running three mornings a week around Bedok Reservoir.

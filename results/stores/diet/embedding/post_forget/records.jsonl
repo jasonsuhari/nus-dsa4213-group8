@@ -1,0 +1,4 @@
+{"id": 0, "session_id": "diet-1", "date": "2026-09-01", "turn_index": 0, "text": "user: I study data science at NUS, year 4 now.\nassistant: Final year, nice. How is the workload?", "importance": 8, "deleted": false}
+{"id": 1, "session_id": "diet-1", "date": "2026-09-01", "turn_index": 1, "text": "user: Heavy. My cat Miso keeps me sane.\nassistant: Miso is a great name for a cat.", "importance": 7, "deleted": false}
+{"id": 3, "session_id": "diet-3", "date": "2026-09-15", "turn_index": 0, "text": "user: Made tofu stir-fry again tonight, it's my go-to dinner.\nassistant: Quick and filling. What sauce do you use?", "importance": 5, "deleted": false}
+{"id": 4, "session_id": "diet-3", "date": "2026-09-15", "turn_index": 1, "text": "user: Just soy, garlic and a bit of chilli.\nassistant: Classic combination.", "importance": 2, "deleted": false}

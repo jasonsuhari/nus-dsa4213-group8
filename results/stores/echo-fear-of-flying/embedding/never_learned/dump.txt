@@ -1,0 +1,32 @@
+[2026-01-15] user: Morning. Jonathan here, civil engineer with LTA, working on the Cross Island Line.
+assistant: Morning Jonathan! That's a big project. How can I help?
+
+[2026-01-15] user: Family holiday planning for the June school holidays. Wife Wen and our two boys, 9 and 12.
+assistant: Fun! KL, Penang, Bintan, Bangkok and Japan are all popular with families. Any preference?
+
+[2026-01-15] user: Penang sounds good. The boys love food.
+assistant: Penang is a food paradise for kids. Want an itinerary?
+
+[2026-03-03] user: Booked Penang for 6 to 12 June. Can you build an itinerary?
+assistant: Sure. Day 1 travel up, Day 2 Georgetown street art, Day 3 Penang Hill, Day 4 the Entopia butterfly farm.
+
+[2026-03-03] user: The boys will love Entopia. My elder one, Ethan, is obsessed with bugs.
+assistant: Then Entopia is a must for Ethan. Book the morning slot, the butterflies are most active then.
+
+[2026-05-19] user: Work wants to send me to a tunnelling conference in Munich in October.
+assistant: Munich in October is lovely, and it's just after Oktoberfest. Want help planning the trip?
+
+[2026-05-19] user: Maybe later. Never been to Europe, Wen would kill me if I waste the chance.
+assistant: Then go for it!
+
+[2026-07-02] user: Back from Penang! Best trip. Ethan wants to go to Japan next year for an insect museum.
+assistant: Glad it went well! Japan would be amazing for the boys.
+
+[2026-07-02] user: Wen jokes I'm the only Singaporean who's never been to Japan.
+assistant: Plenty of time to change that.
+
+[2026-09-20] user: Munich is confirmed, 12 to 16 October. Can you help me prepare for the journey?
+assistant: Sure. It's about 13 hours direct. Book an aisle seat if you like to stretch, and download some movies.
+
+[2026-09-20] user: Also need a packing list, it'll be cold.
+assistant: Munich in mid-October is around 5 to 12 degrees: a warm jacket, layers and comfortable walking shoes.

@@ -1,0 +1,28 @@
+{"id": 0, "session_id": "pn-1", "date": "2026-02-03", "turn_index": 0, "text": "The user's son Ethan just started K1 at a preschool in Tampines.", "importance": 8, "deleted": false}
+{"id": 1, "session_id": "pn-1", "date": "2026-02-03", "turn_index": 0, "text": "Ethan is allergic to eggs.", "importance": 10, "deleted": false}
+{"id": 2, "session_id": "pn-1", "date": "2026-02-03", "turn_index": 1, "text": "The user's son Ethan is four years old.", "importance": 8, "deleted": false}
+{"id": 3, "session_id": "pn-1", "date": "2026-02-03", "turn_index": 1, "text": "Ethan just started K1 at a preschool in Tampines.", "importance": 7, "deleted": false}
+{"id": 4, "session_id": "pn-1", "date": "2026-02-03", "turn_index": 1, "text": "Ethan is allergic to eggs.", "importance": 9, "deleted": false}
+{"id": 5, "session_id": "pn-1", "date": "2026-02-03", "turn_index": 1, "text": "The preschool has a separate egg-free table for snacks.", "importance": 6, "deleted": false}
+{"id": 6, "session_id": "pn-1", "date": "2026-02-03", "turn_index": 1, "text": "Ethan mostly wants to sit with his friends.", "importance": 5, "deleted": false}
+{"id": 7, "session_id": "pn-2", "date": "2026-02-17", "turn_index": 0, "text": "The user is a procurement analyst.", "importance": 8, "deleted": false}
+{"id": 8, "session_id": "pn-2", "date": "2026-02-17", "turn_index": 0, "text": "The user works at an office in Changi Business Park.", "importance": 7, "deleted": false}
+{"id": 9, "session_id": "pn-2", "date": "2026-02-17", "turn_index": 0, "text": "The user has been told to organise a team lunch for 8 people.", "importance": 6, "deleted": false}
+{"id": 10, "session_id": "pn-2", "date": "2026-02-17", "turn_index": 1, "text": "The user is a procurement analyst.", "importance": 8, "deleted": false}
+{"id": 11, "session_id": "pn-2", "date": "2026-02-17", "turn_index": 1, "text": "The user works at an office in Changi Business Park.", "importance": 7, "deleted": false}
+{"id": 12, "session_id": "pn-2", "date": "2026-02-17", "turn_index": 1, "text": "The user is allergic to peanuts.", "importance": 10, "deleted": false}
+{"id": 13, "session_id": "pn-2", "date": "2026-02-17", "turn_index": 1, "text": "The user carries an EpiPen.", "importance": 10, "deleted": false}
+{"id": 14, "session_id": "pn-2", "date": "2026-02-17", "turn_index": 1, "text": "The user prefers not to have satay or Thai places for lunch due to their peanut allergy.", "importance": 9, "deleted": false}
+{"id": 15, "session_id": "pn-2", "date": "2026-02-17", "turn_index": 1, "text": "The user prefers a budget that is not too pricey for the team lunch.", "importance": 6, "deleted": false}
+{"id": 16, "session_id": "pn-2", "date": "2026-02-17", "turn_index": 1, "text": "The user is organising a team lunch for 8 people.", "importance": 7, "deleted": false}
+{"id": 17, "session_id": "pn-3", "date": "2026-03-05", "turn_index": 0, "text": "Ethan's birthday party is next Saturday.", "importance": 5, "deleted": false}
+{"id": 18, "session_id": "pn-3", "date": "2026-03-05", "turn_index": 0, "text": "The user wants to bake a cake for Ethan's birthday party that he can actually eat.", "importance": 7, "deleted": false}
+{"id": 19, "session_id": "pn-3", "date": "2026-03-05", "turn_index": 1, "text": "Ethan's birthday party is next Saturday.", "importance": 5, "deleted": false}
+{"id": 20, "session_id": "pn-3", "date": "2026-03-05", "turn_index": 1, "text": "The user wants to bake a cake for Ethan's birthday party.", "importance": 7, "deleted": false}
+{"id": 21, "session_id": "pn-3", "date": "2026-03-05", "turn_index": 1, "text": "The user bakes maybe twice a year.", "importance": 4, "deleted": false}
+{"id": 22, "session_id": "pn-4", "date": "2026-03-20", "turn_index": 0, "text": "The user signed up for the Sundown Marathon half in May.", "importance": 8, "deleted": false}
+{"id": 23, "session_id": "pn-4", "date": "2026-03-20", "turn_index": 0, "text": "The user is participating in their first race in years.", "importance": 7, "deleted": false}
+{"id": 24, "session_id": "pn-4", "date": "2026-03-20", "turn_index": 1, "text": "The user signed up for the Sundown Marathon half in May.", "importance": 8, "deleted": false}
+{"id": 25, "session_id": "pn-4", "date": "2026-03-20", "turn_index": 1, "text": "The user has not raced in years.", "importance": 7, "deleted": false}
+{"id": 26, "session_id": "pn-4", "date": "2026-03-20", "turn_index": 1, "text": "The user has about eight weeks to train for the Sundown Marathon half.", "importance": 8, "deleted": false}
+{"id": 27, "session_id": "pn-4", "date": "2026-03-20", "turn_index": 1, "text": "The user is running three mornings a week around Bedok Reservoir.", "importance": 7, "deleted": false}

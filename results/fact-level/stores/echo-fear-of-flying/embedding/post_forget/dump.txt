@@ -1,0 +1,23 @@
+[2026-01-15] user: Morning. Jonathan here, civil engineer with LTA, working on the Cross Island Line.
+assistant: Morning Jonathan! That's a big project. How can I help?
+
+[2026-01-15] user: Penang sounds good. The boys love food.
+assistant: Penang is a food paradise. The ETS train from JB to Butterworth is comfortable, then a short ferry across.
+
+[2026-03-03] user: Booked Penang for 6 to 12 June. Can you build an itinerary?
+assistant: Sure. Day 1 the train up from JB, since we're keeping you on the ground. Day 2 Georgetown street art, Day 3 Penang Hill, Day 4 the Entopia butterfly farm.
+
+[2026-03-03] user: The boys will love Entopia. My elder one, Ethan, is obsessed with bugs.
+assistant: Then Entopia is a must for Ethan. Book the morning slot, the butterflies are most active then.
+
+[2026-05-19] user: Maybe I'll try the course. Never been to Europe, Wen would kill me if I waste the chance.
+assistant: Then the course is a good first step.
+
+[2026-07-02] user: Back from Penang! Best trip. Ethan wants to go to Japan next year for an insect museum.
+assistant: Glad it went well! Japan is tricky without flying though, the only other way is a long cruise. Maybe the course will make a short flight possible by then.
+
+[2026-07-02] user: Haha, one step at a time. Wen jokes I'm the only Singaporean who's never been to Japan.
+assistant: Plenty of time to change that.
+
+[2026-09-20] user: Also need a packing list, it'll be cold.
+assistant: Munich in mid-October is around 5 to 12 degrees: a warm jacket, layers and comfortable walking shoes.

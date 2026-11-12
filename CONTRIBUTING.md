@@ -38,29 +38,17 @@ gh pr create
 
 | path | what |
 |---|---|
-| `src/dsa4213/` | agent, tools, eval harness. All real logic lives here |
-| `notebooks/` | thin and exploratory. Import from `src/`, don't define logic there |
-| `experiments/` | runnable scripts, one per experiment |
-| `runs/runs.jsonl` | append-only log of every run (committed) |
-| `data/` | gitignored. `data/README.md` records how to rebuild it |
-| `docs/` | proposal and report drafts |
-
-Keep logic out of notebooks. Five people editing one notebook is a merge
-conflict factory, and notebook diffs are unreadable even when they do merge.
+| `src/dsa4213/` | agent, memories, evaluation. All real logic lives here |
+| `experiments/` | runnable scripts and the cases |
+| `runs/` | gitignored. Each run writes `runs/<run_id>/`, and `run_forgetting` appends a line to `runs/runs.jsonl` |
+| `results/` | committed copies of the runs we report, and every other run under `results/other-runs/` |
+| `data/` | gitignored scratch output of the live scripts |
 
 ## Logging runs
 
-One line per run. This is what the evaluation, cost, and reproducibility
-sections of the report get written from.
-
-```python
-from dsa4213.runlog import log_run
-
-log_run(task="tool_use_bench", model="claude-opus-5", temperature=0.0,
-        seed=42, n_tokens=12_400, cost_usd=0.18, latency_s=6.2, score=0.71)
-```
-
-`run_id`, `timestamp` and the git commit are filled in automatically.
+`experiments/run_forgetting.py` calls `log_run` (`src/dsa4213/runlog.py`) at the end of every
+run, which records the run id, commit, model and answer counts in `runs/runs.jsonl`. To keep a
+run, copy its folder into `results/` and say what it was in the README there.
 
 Agent runs are not bit-reproducible. LLM sampling and rolling model snapshots
 see to that. Log the model and its snapshot date, fix seeds where you can,

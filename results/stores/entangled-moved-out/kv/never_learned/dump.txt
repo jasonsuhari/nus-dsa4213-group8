@@ -1,0 +1,7 @@
+occupation: The user is a pharmacist at Tan Tock Seng.
+university: The user is starting a part-time MBA at SMU in August 2026.
+pet: Kaya hides under the bed all day.
+anniversary: The user has parents who are celebrating their 30th anniversary on 8 August.
+celebration_location: The celebration will take place at their flat in Ang Mo Kio.
+gift_budget: The user is considering a family photo shoot voucher as a gift for their parents' anniversary.
+savings_trip: The user is saving for a trip to Hokkaido in December.

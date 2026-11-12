@@ -1,0 +1,32 @@
+{"id": 0, "session_id": "ns-1", "date": "2026-01-12", "turn_index": 0, "text": "The user's name is Priya.", "importance": 10, "deleted": false}
+{"id": 1, "session_id": "ns-1", "date": "2026-01-12", "turn_index": 0, "text": "The user is 29 years old.", "importance": 10, "deleted": false}
+{"id": 2, "session_id": "ns-1", "date": "2026-01-12", "turn_index": 0, "text": "The user lives in Bedok.", "importance": 10, "deleted": false}
+{"id": 3, "session_id": "ns-1", "date": "2026-01-12", "turn_index": 0, "text": "The user's younger sister's name is Kavya.", "importance": 10, "deleted": false}
+{"id": 4, "session_id": "ns-1", "date": "2026-01-12", "turn_index": 1, "text": "The user's name is Priya.", "importance": 10, "deleted": false}
+{"id": 5, "session_id": "ns-1", "date": "2026-01-12", "turn_index": 1, "text": "The user is 29 years old.", "importance": 10, "deleted": false}
+{"id": 6, "session_id": "ns-1", "date": "2026-01-12", "turn_index": 1, "text": "The user lives in Bedok.", "importance": 8, "deleted": false}
+{"id": 7, "session_id": "ns-1", "date": "2026-01-12", "turn_index": 1, "text": "The user's younger sister is Kavya.", "importance": 10, "deleted": false}
+{"id": 8, "session_id": "ns-1", "date": "2026-01-12", "turn_index": 1, "text": "Kavya is getting married on 21 November.", "importance": 9, "deleted": false}
+{"id": 9, "session_id": "ns-1", "date": "2026-01-12", "turn_index": 1, "text": "Priya is the maid of honour for Kavya's wedding.", "importance": 9, "deleted": false}
+{"id": 10, "session_id": "ns-2", "date": "2026-02-09", "turn_index": 0, "text": "The user's friend Kavya is having a hen party.", "importance": 7, "deleted": false}
+{"id": 11, "session_id": "ns-2", "date": "2026-02-09", "turn_index": 1, "text": "The user is planning a hen party brunch for Kavya.", "importance": 8, "deleted": false}
+{"id": 12, "session_id": "ns-2", "date": "2026-02-09", "turn_index": 1, "text": "The hen party brunch is scheduled for Saturday 14 March.", "importance": 7, "deleted": false}
+{"id": 13, "session_id": "ns-2", "date": "2026-02-09", "turn_index": 2, "text": "The user's friend Kavya is having a hen party brunch.", "importance": 8, "deleted": false}
+{"id": 14, "session_id": "ns-2", "date": "2026-02-09", "turn_index": 2, "text": "The hen party brunch is scheduled for Saturday 14 March.", "importance": 8, "deleted": false}
+{"id": 15, "session_id": "ns-2", "date": "2026-02-09", "turn_index": 2, "text": "The user prefers brunch places near Katong.", "importance": 7, "deleted": false}
+{"id": 16, "session_id": "ns-3", "date": "2026-04-06", "turn_index": 0, "text": "The user wants to pick up a hobby.", "importance": 5, "deleted": false}
+{"id": 17, "session_id": "ns-3", "date": "2026-04-06", "turn_index": 0, "text": "The user is thinking of learning Korean.", "importance": 7, "deleted": false}
+{"id": 18, "session_id": "ns-3", "date": "2026-04-06", "turn_index": 0, "text": "The user watches K-dramas.", "importance": 6, "deleted": false}
+{"id": 19, "session_id": "ns-3", "date": "2026-04-06", "turn_index": 1, "text": "The user wants to pick up a hobby.", "importance": 5, "deleted": false}
+{"id": 20, "session_id": "ns-3", "date": "2026-04-06", "turn_index": 1, "text": "The user is thinking of learning Korean.", "importance": 7, "deleted": false}
+{"id": 21, "session_id": "ns-3", "date": "2026-04-06", "turn_index": 1, "text": "The user watches K-dramas.", "importance": 6, "deleted": false}
+{"id": 22, "session_id": "ns-3", "date": "2026-04-06", "turn_index": 1, "text": "The user will start learning Korean with Duolingo.", "importance": 8, "deleted": false}
+{"id": 23, "session_id": "ns-4", "date": "2026-06-15", "turn_index": 0, "text": "The user's name is Priya.", "importance": 10, "deleted": false}
+{"id": 24, "session_id": "ns-4", "date": "2026-06-15", "turn_index": 0, "text": "The user's sister is named Kavya.", "importance": 10, "deleted": false}
+{"id": 25, "session_id": "ns-4", "date": "2026-06-15", "turn_index": 0, "text": "Kavya wants Priya to give a speech at her wedding.", "importance": 8, "deleted": false}
+{"id": 26, "session_id": "ns-4", "date": "2026-06-15", "turn_index": 1, "text": "The user's name is Priya.", "importance": 10, "deleted": false}
+{"id": 27, "session_id": "ns-4", "date": "2026-06-15", "turn_index": 1, "text": "The user's sister is named Kavya.", "importance": 10, "deleted": false}
+{"id": 28, "session_id": "ns-4", "date": "2026-06-15", "turn_index": 1, "text": "Priya is Kavya's older sister.", "importance": 10, "deleted": false}
+{"id": 29, "session_id": "ns-4", "date": "2026-06-15", "turn_index": 1, "text": "Priya and Kavya grew up in Ipoh.", "importance": 8, "deleted": false}
+{"id": 30, "session_id": "ns-5", "date": "2026-08-03", "turn_index": 0, "text": "The user is learning Korean.", "importance": 7, "deleted": false}
+{"id": 31, "session_id": "ns-5", "date": "2026-08-03", "turn_index": 0, "text": "The user has a 60-day streak in learning Korean.", "importance": 8, "deleted": false}

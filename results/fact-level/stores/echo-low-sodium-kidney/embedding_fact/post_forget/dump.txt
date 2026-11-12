@@ -1,0 +1,71 @@
+[2026-01-08] The user's name is Mr Lim.
+
+[2026-01-08] Mr Lim is a retired teacher.
+
+[2026-01-08] Mr Lim's son set up this app for him.
+
+[2026-01-08] The user's name is Mr Lim.
+
+[2026-01-08] Mr Lim is a retired teacher.
+
+[2026-01-08] The user's name is Mr Lim.
+
+[2026-01-08] Mr Lim is a retired teacher.
+
+[2026-01-08] Mr Lim has a son who set up the app for him.
+
+[2026-01-08] Mr Lim likes hawker food, including wanton mee, laksa, and chicken rice.
+
+[2026-02-12] The user will celebrate Chinese New Year next week.
+
+[2026-02-12] The user's daughter lives in Toa Payoh.
+
+[2026-02-12] The reunion dinner for Chinese New Year will be at the user's daughter's house.
+
+[2026-02-12] The user's grandson Jayden is 8 years old.
+
+[2026-02-12] The user will not have bak kwa at the reunion dinner.
+
+[2026-02-12] The user is receiving a red packet from their grandson Jayden, which he saved.
+
+[2026-04-14] The user does tai chi every morning at Bishan Park with their kakis at 7am.
+
+[2026-04-14] The user's name is Mr Lim.
+
+[2026-04-14] The user does tai chi every morning at Bishan Park at 7am.
+
+[2026-04-14] The user goes to kopitiam after tai chi.
+
+[2026-04-14] The user does tai chi every morning at Bishan Park at 7am with his kakis.
+
+[2026-04-14] The user's name is Mr Lim.
+
+[2026-04-14] The user orders kaya toast after tai chi.
+
+[2026-06-09] The user has a blood test every 3 months at the polyclinic.
+
+[2026-06-09] The user's next blood test is on 23 June.
+
+[2026-06-09] The user needs to fast for their blood test.
+
+[2026-06-09] The user needs to bring their medication list for their blood test.
+
+[2026-06-09] The user has a blood test every 3 months at the polyclinic.
+
+[2026-06-09] The user's next blood test is on 23 June.
+
+[2026-06-09] The user needs to fast from midnight on 22 June for the blood test.
+
+[2026-06-09] The user needs to bring their medication list to the blood test.
+
+[2026-08-25] The user has mahjong kakis.
+
+[2026-08-25] The user's mahjong kakis want to go to Malacca for a weekend in September.
+
+[2026-08-25] Malacca is known for its famous food.
+
+[2026-08-25] The user has mahjong kakis.
+
+[2026-08-25] The user wants to go to Malacca for a weekend in September.
+
+[2026-08-25] The user eats chicken rice balls.

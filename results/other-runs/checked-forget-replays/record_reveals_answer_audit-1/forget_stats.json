@@ -1,0 +1,170 @@
+[
+ {
+  "case_id": "entangled-boyfriend-wei-jie",
+  "calls": 19,
+  "before": 13,
+  "after": 11
+ },
+ {
+  "case_id": "entangled-grandmother-tattoo",
+  "calls": 18,
+  "before": 12,
+  "after": 10
+ },
+ {
+  "case_id": "entangled-antidepressants",
+  "calls": 22,
+  "before": 16,
+  "after": 12
+ },
+ {
+  "case_id": "entangled-asthma",
+  "calls": 25,
+  "before": 19,
+  "after": 17
+ },
+ {
+  "case_id": "echo-lives-with-grandmother",
+  "calls": 42,
+  "before": 36,
+  "after": 33
+ },
+ {
+  "case_id": "echo-fear-of-flying",
+  "calls": 39,
+  "before": 33,
+  "after": 28
+ },
+ {
+  "case_id": "long_history-smoker-quitting",
+  "calls": 43,
+  "before": 37,
+  "after": 33
+ },
+ {
+  "case_id": "near_miss-peanut-allergy",
+  "calls": 30,
+  "before": 19,
+  "after": 16
+ },
+ {
+  "case_id": "long_history-hiv-positive",
+  "calls": 41,
+  "before": 35,
+  "after": 33
+ },
+ {
+  "case_id": "long_history-keto-diet",
+  "calls": 46,
+  "before": 40,
+  "after": 38
+ },
+ {
+  "case_id": "echo-home-address-tampines",
+  "calls": 39,
+  "before": 28,
+  "after": 17
+ },
+ {
+  "case_id": "entangled-engaged",
+  "calls": 32,
+  "before": 21,
+  "after": 13
+ },
+ {
+  "case_id": "echo-red-honda-civic",
+  "calls": 38,
+  "before": 27,
+  "after": 9
+ },
+ {
+  "case_id": "echo-night-shift-nurse",
+  "calls": 44,
+  "before": 33,
+  "after": 23
+ },
+ {
+  "case_id": "long_history-son-autism",
+  "calls": 48,
+  "before": 37,
+  "after": 34
+ },
+ {
+  "case_id": "long_history-dbs-overdrawn",
+  "calls": 46,
+  "before": 35,
+  "after": 32
+ },
+ {
+  "case_id": "near_miss-ex-name",
+  "calls": 17,
+  "before": 11,
+  "after": 6
+ },
+ {
+  "case_id": "near_miss-blood-type",
+  "calls": 19,
+  "before": 13,
+  "after": 10
+ },
+ {
+  "case_id": "diet",
+  "calls": 13,
+  "before": 7,
+  "after": 4
+ },
+ {
+  "case_id": "paraphrase-only-child",
+  "calls": 22,
+  "before": 16,
+  "after": 12
+ },
+ {
+  "case_id": "near_miss-diabetes",
+  "calls": 26,
+  "before": 15,
+  "after": 11
+ },
+ {
+  "case_id": "near_miss-bishan-home",
+  "calls": 31,
+  "before": 20,
+  "after": 9
+ },
+ {
+  "case_id": "paraphrase-student-loan",
+  "calls": 19,
+  "before": 13,
+  "after": 9
+ },
+ {
+  "case_id": "paraphrase-lactose",
+  "calls": 18,
+  "before": 12,
+  "after": 7
+ },
+ {
+  "case_id": "paraphrase-salary-8k",
+  "calls": 25,
+  "before": 19,
+  "after": 13
+ },
+ {
+  "case_id": "home",
+  "calls": 17,
+  "before": 6,
+  "after": 3
+ },
+ {
+  "case_id": "nationality",
+  "calls": 21,
+  "before": 10,
+  "after": 7
+ },
+ {
+  "case_id": "paraphrase-job-hunting",
+  "calls": 25,
+  "before": 14,
+  "after": 7
+ }
+]

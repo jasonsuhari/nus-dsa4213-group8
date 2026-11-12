@@ -1,0 +1,11 @@
+[2026-01-12] user: Hi! I'm Hakim, first year mechanical engineering at NTU. Can you help me set up a weekly timetable? My lectures are mostly in the mornings.
+assistant: Sure, Hakim. Mornings for lectures, afternoons for tutorials and self-study. Do you have any CCAs I should fit in?
+
+[2026-01-28] user: My older sister Nadia is getting married in June and I'm in charge of the gate crash games. Any fun, cheap ideas?
+assistant: Fun! Try a spicy food challenge, a quiz about the couple, and a dance-off. All of them cost almost nothing.
+
+[2026-01-28] user: Haha the quiz is a good one. I also need a wedding gift under $100.
+assistant: A framed photo collage of the two of them, or a nice cookware set from Tangs. Both fit under $100.
+
+[2026-02-16] user: My thermodynamics midterm is on 4 March and I'm panicking. Chess club is also running a rapid tournament that same week.
+assistant: Let's split it: three evenings for thermo practice papers and keep Wednesday for chess. When is the tournament?

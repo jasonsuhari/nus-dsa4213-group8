@@ -18,4 +18,6 @@ repos:
       - id: detect-private-key
       - id: check-merge-conflict
       - id: end-of-file-fixer
+        exclude: ^results/
       - id: trailing-whitespace
+        exclude: ^results/

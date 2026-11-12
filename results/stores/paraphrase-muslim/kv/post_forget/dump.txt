@@ -1,0 +1,11 @@
+occupation: The user is a civil engineer at a consultancy in Jurong.
+project_focus: The user mostly works on drainage projects.
+site_visits: The user is planning to visit Osaka from June 8 to June 14, 2026.
+report_due: The user has a report due on Friday.
+hobby: The user plays futsal with their old school friends every Sunday evening.
+diet: The user requires food suggestions to be halal.
+fasting: The user is fasting during Ramadan until about 7:20 PM every day.
+sister_wedding: The user's sister is getting married on 11 April.
+nikah_details: The nikah will be at the mosque in the morning.
+reception_details: There will be a void deck reception after the nikah.
+prayer_needs: The user needs somewhere to pray during the day while in Osaka.

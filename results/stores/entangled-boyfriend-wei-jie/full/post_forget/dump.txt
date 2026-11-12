@@ -1,0 +1,14 @@
+[2026-03-03] user: Hey, I'm Darren, UX designer at a fintech in Raffles Place. My manager wants me to present the onboarding redesign next Thursday. Can you help me outline it?
+assistant: Sure. Start with the problem, show the drop-off data, walk through the new flow, and end with the metrics you'll track. How long is the slot?
+user: 20 minutes. Thanks, that structure works.
+assistant: Then aim for about 10 slides. Happy to review them.
+
+[2026-03-20] user: My boyfriend Wei Jie got me into bouldering, so now I climb at Boulder Planet every Tuesday night and I've cancelled my Anytime Fitness membership.
+assistant: Nice, bouldering is great for grip and core. Does Wei Jie climb with you on Tuesdays?
+user: Yeah, he's way better than me lol. Any tips for my forearms getting pumped so fast?
+assistant: Warm up on easy routes, rest 3 to 4 minutes between hard attempts, and add some reverse wrist curls on off days.
+
+[2026-04-11] user: My cousin Shermaine's wedding is on 12 December at the Fullerton. I need to RSVP by the end of the month.
+assistant: Noted: Shermaine's wedding, 12 December, at the Fullerton, RSVP by 30 April.
+user: Wei Jie and I are also planning Taipei in late October, so I'm putting in for 5 days of leave now before my team grabs the dates.
+assistant: Smart to lock it in early. Taipei in late October has great weather. Want a rough itinerary for the two of you later?
