@@ -17,7 +17,7 @@ Follows proposal Section 4.2.1, adapting the weighted retrieval of Park et al. (
     dump()      every record still physically stored, ordered by timestamp, with no
                 scoring. This is the ground-truth check on forget().
 
-Evidence for explaining *why* forgetting succeeds or fails:
+Evidence for explaining why forgetting succeeds or fails:
 
     retrieve_with_trace()  the context plus which records produced it, with each
                            record's relevance, recency and importance. When a probe
@@ -123,7 +123,7 @@ class EmbeddingMemory(Memory):
         self.client = client or OpenAI()
         self.top_k = top_k
         self.decay_per_hour = decay_per_hour
-        # (relevance, recency, importance), all 1 in the proposal for now.
+        # (relevance, recency, importance), all 1, as in Park et al. (2023).
         self.weights = weights
         self.soft_delete = soft_delete
         self.identify_batch_size = identify_batch_size
