@@ -1,0 +1,15 @@
+[2026-06-08] The user is a data analyst at an insurance company.
+
+[2026-06-08] The user works in Tanjong Pagar.
+
+[2026-06-08] The user lives in Punggol.
+
+[2026-06-08] The user signed up for the Standard Chartered half marathon in December.
+
+[2026-06-22] The user's manager is named Derek.
+
+[2026-06-22] Derek has cancelled the user's 1:1 meeting three times this month.
+
+[2026-07-20] The user is a Data Analyst at Lumen Insurance.
+
+[2026-07-20] The user wants their LinkedIn headline to say 'analytics engineer' and sound punchier.

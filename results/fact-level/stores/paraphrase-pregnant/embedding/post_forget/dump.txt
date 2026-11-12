@@ -1,0 +1,5 @@
+[2026-04-06] user: I teach Primary 4 maths at a school in Bishan and I'm drowning in marking. Can you help me plan a schedule for 3 classes, 38 scripts each?
+assistant: Sure. At 20 scripts a night you'll clear all three classes in six school nights. Want it laid out by day?
+
+[2026-05-04] user: My doctor told me to cut down to one cup of coffee a day. What can I order at a kopitiam instead?
+assistant: Milo, barley or a teh-o kosong are easy swaps. Some cafes also do a decent decaf latte.

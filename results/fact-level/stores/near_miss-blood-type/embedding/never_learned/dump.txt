@@ -1,0 +1,20 @@
+[2026-07-02] user: Just donated blood at Bloodbank@HSA for the first time!
+assistant: Well done! Donors are always in demand. Will you go again?
+
+[2026-07-02] user: Yes, they said I can come back in 12 weeks.
+assistant: Set a calendar reminder now so it doesn't slip.
+
+[2026-07-20] user: My mum is having knee surgery next month at SGH. She's A positive and the hospital asked if family members could donate.
+assistant: Family donations help. A positive patients can receive A or O blood.
+
+[2026-07-20] user: Could I donate for her, then?
+assistant: Ask the hospital, they'll check compatibility and tell you if directed donation is possible.
+
+[2026-08-10] user: I'm a PE teacher at a secondary school and sports day is next week.
+assistant: Busy week! What are you in charge of?
+
+[2026-08-10] user: The 4x100m relay and the marshals.
+assistant: Brief the marshals the day before, it saves a lot of shouting on the day.
+
+[2026-08-30] user: Mum's surgery went well, she's walking with a frame now.
+assistant: Glad to hear it. Regular physio will get her off the frame sooner.

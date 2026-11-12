@@ -1,0 +1,37 @@
+{"id": 0, "session_id": "dep-1", "date": "2026-02-04", "turn_index": 0, "text": "The user is moving out of their old flat in Clementi into a studio in Kallang this weekend.", "importance": 8, "deleted": false}
+{"id": 1, "session_id": "dep-1", "date": "2026-02-04", "turn_index": 1, "text": "The user is moving out of their old flat in Clementi into a studio in Kallang this weekend.", "importance": 8, "deleted": false}
+{"id": 2, "session_id": "dep-3", "date": "2026-03-01", "turn_index": 0, "text": "The user is a data analyst at a telecommunications company.", "importance": 8, "deleted": false}
+{"id": 3, "session_id": "dep-3", "date": "2026-03-01", "turn_index": 0, "text": "The user is building churn dashboards in Tableau this month.", "importance": 7, "deleted": false}
+{"id": 4, "session_id": "dep-3", "date": "2026-03-01", "turn_index": 0, "text": "The user's churn data is messy.", "importance": 6, "deleted": false}
+{"id": 5, "session_id": "dep-3", "date": "2026-03-01", "turn_index": 1, "text": "The user is a data analyst at a telco.", "importance": 10, "deleted": false}
+{"id": 6, "session_id": "dep-3", "date": "2026-03-01", "turn_index": 1, "text": "The user is building churn dashboards in Tableau this month.", "importance": 8, "deleted": false}
+{"id": 7, "session_id": "dep-3", "date": "2026-03-01", "turn_index": 1, "text": "The data the user is working with is a mess.", "importance": 6, "deleted": false}
+{"id": 8, "session_id": "dep-3", "date": "2026-03-01", "turn_index": 1, "text": "The user had two meetings regarding the churn data.", "importance": 5, "deleted": false}
+{"id": 9, "session_id": "dep-4", "date": "2026-03-19", "turn_index": 0, "text": "The user sent their first V4 at the bouldering gym near their place.", "importance": 8, "deleted": false}
+{"id": 10, "session_id": "dep-4", "date": "2026-03-19", "turn_index": 0, "text": "The user spent three weeks falling off the same move while trying to send the V4.", "importance": 6, "deleted": false}
+{"id": 11, "session_id": "dep-5", "date": "2026-04-06", "turn_index": 0, "text": "The user filed a claim at the Small Claims Tribunals on an unspecified date.", "importance": 6, "deleted": false}
+{"id": 12, "session_id": "dep-5", "date": "2026-04-06", "turn_index": 0, "text": "The hearing for the user's claim is set for 14 July.", "importance": 6, "deleted": false}
+{"id": 13, "session_id": "dep-5", "date": "2026-04-06", "turn_index": 1, "text": "The user filed a claim at the Small Claims Tribunals on a date prior to the current conversation.", "importance": 7, "deleted": false}
+{"id": 14, "session_id": "dep-5", "date": "2026-04-06", "turn_index": 1, "text": "The hearing for the user's claim is set for 14 July.", "importance": 8, "deleted": false}
+{"id": 15, "session_id": "dep-5", "date": "2026-04-06", "turn_index": 1, "text": "The user has never been to a tribunal before.", "importance": 6, "deleted": false}
+{"id": 16, "session_id": "dep-6", "date": "2026-04-25", "turn_index": 0, "text": "The user's parents are visiting from Chennai in June for two weeks.", "importance": 8, "deleted": false}
+{"id": 17, "session_id": "dep-6", "date": "2026-04-25", "turn_index": 0, "text": "This is the user's parents' first time in Singapore.", "importance": 7, "deleted": false}
+{"id": 18, "session_id": "dep-6", "date": "2026-04-25", "turn_index": 1, "text": "The user's parents are visiting from Chennai in June for two weeks.", "importance": 8, "deleted": false}
+{"id": 19, "session_id": "dep-6", "date": "2026-04-25", "turn_index": 1, "text": "The user's parents are visiting Singapore for the first time.", "importance": 7, "deleted": false}
+{"id": 20, "session_id": "dep-6", "date": "2026-04-25", "turn_index": 1, "text": "The user booked a hotel nearby for their parents because the studio is too small.", "importance": 6, "deleted": false}
+{"id": 21, "session_id": "dep-8", "date": "2026-05-30", "turn_index": 0, "text": "The user's dad loves plants.", "importance": 7, "deleted": false}
+{"id": 22, "session_id": "dep-8", "date": "2026-05-30", "turn_index": 0, "text": "The user's mum loves temples.", "importance": 7, "deleted": false}
+{"id": 23, "session_id": "dep-9", "date": "2026-06-18", "turn_index": 0, "text": "The user is printing all their WhatsApp chats with Mr Goh and the move-out photos.", "importance": 6, "deleted": false}
+{"id": 24, "session_id": "dep-9", "date": "2026-06-18", "turn_index": 0, "text": "The user is putting the printed WhatsApp chats and move-out photos in a folder for July.", "importance": 5, "deleted": false}
+{"id": 25, "session_id": "dep-10", "date": "2026-07-05", "turn_index": 0, "text": "The user is learning dbt for work.", "importance": 7, "deleted": false}
+{"id": 26, "session_id": "dep-10", "date": "2026-07-05", "turn_index": 0, "text": "The user's manager wants their SQL models version-controlled.", "importance": 6, "deleted": false}
+{"id": 27, "session_id": "dep-10", "date": "2026-07-05", "turn_index": 1, "text": "The user is learning dbt for work.", "importance": 7, "deleted": false}
+{"id": 28, "session_id": "dep-10", "date": "2026-07-05", "turn_index": 1, "text": "The user's manager wants their SQL models version-controlled.", "importance": 6, "deleted": false}
+{"id": 29, "session_id": "dep-11", "date": "2026-07-24", "turn_index": 0, "text": "The user is part of a cricket team that won the semi-final of the weekend cricket league.", "importance": 7, "deleted": false}
+{"id": 30, "session_id": "dep-11", "date": "2026-07-24", "turn_index": 0, "text": "The user took two wickets in the semi-final of the weekend cricket league.", "importance": 6, "deleted": false}
+{"id": 31, "session_id": "dep-11", "date": "2026-07-24", "turn_index": 1, "text": "The user is part of a cricket team that won the semi-final of the weekend cricket league.", "importance": 8, "deleted": false}
+{"id": 32, "session_id": "dep-11", "date": "2026-07-24", "turn_index": 1, "text": "The user took two wickets in the semi-final match.", "importance": 7, "deleted": false}
+{"id": 33, "session_id": "dep-11", "date": "2026-07-24", "turn_index": 1, "text": "The final match of the weekend cricket league is next Saturday.", "importance": 6, "deleted": false}
+{"id": 34, "session_id": "dep-11", "date": "2026-07-24", "turn_index": 1, "text": "The final match will take place at the Padang.", "importance": 6, "deleted": false}
+{"id": 35, "session_id": "dep-12", "date": "2026-08-12", "turn_index": 0, "text": "The user bought a standing desk from IKEA for the studio.", "importance": 7, "deleted": false}
+{"id": 36, "session_id": "dep-12", "date": "2026-08-12", "turn_index": 0, "text": "The assembly of the standing desk took the user three hours.", "importance": 5, "deleted": false}

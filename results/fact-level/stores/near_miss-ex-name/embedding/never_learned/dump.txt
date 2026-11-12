@@ -1,0 +1,17 @@
+[2026-02-01] user: Marcus and I just hit six months! Thinking of a staycation at Capella to celebrate.
+assistant: Happy six months! Capella on Sentosa is a lovely pick. What does he like?
+
+[2026-02-01] user: He loves anything by the sea, so I think he'll be happy.
+assistant: Then ask for a sea-view room when you book.
+
+[2026-02-15] user: Ugh, ran into my ex at a friend's wedding. We broke up two years ago and he still acts like nothing happened.
+assistant: That sounds uncomfortable. How did Marcus take it?
+
+[2026-02-15] user: Marcus was great, he just kept me on the dance floor all night.
+assistant: Sounds like a keeper.
+
+[2026-03-07] user: I'm a UX writer at a fintech startup. I spend all day writing error messages lol.
+assistant: Error messages are harder than they look. Any you're proud of?
+
+[2026-03-28] user: Should I unfollow my ex on Instagram? It still stings seeing his posts.
+assistant: If seeing them hurts, unfollowing is a kind thing to do for yourself. Muting works too if unfollowing feels too loud.

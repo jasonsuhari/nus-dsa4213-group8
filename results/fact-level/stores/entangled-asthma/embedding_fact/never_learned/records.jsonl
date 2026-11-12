@@ -1,0 +1,23 @@
+{"id": 0, "session_id": "asthma-1", "date": "2026-01-12", "turn_index": 0, "text": "The user's name is Hakim.", "importance": 10, "deleted": false}
+{"id": 1, "session_id": "asthma-1", "date": "2026-01-12", "turn_index": 0, "text": "Hakim is a first year mechanical engineering student at NTU.", "importance": 10, "deleted": false}
+{"id": 2, "session_id": "asthma-1", "date": "2026-01-12", "turn_index": 0, "text": "Hakim's lectures are mostly in the mornings.", "importance": 8, "deleted": false}
+{"id": 3, "session_id": "asthma-1", "date": "2026-01-12", "turn_index": 1, "text": "The user's name is Hakim.", "importance": 10, "deleted": false}
+{"id": 4, "session_id": "asthma-1", "date": "2026-01-12", "turn_index": 1, "text": "Hakim is a first year mechanical engineering student at NTU.", "importance": 10, "deleted": false}
+{"id": 5, "session_id": "asthma-1", "date": "2026-01-12", "turn_index": 1, "text": "Hakim quit the school swim team last week.", "importance": 5, "deleted": false}
+{"id": 6, "session_id": "asthma-1", "date": "2026-01-12", "turn_index": 1, "text": "Hakim switched to the chess club.", "importance": 5, "deleted": false}
+{"id": 7, "session_id": "asthma-1", "date": "2026-01-12", "turn_index": 1, "text": "The chess club meets Wednesday nights at 7.", "importance": 5, "deleted": false}
+{"id": 8, "session_id": "asthma-2", "date": "2026-01-28", "turn_index": 0, "text": "The user's older sister is named Nadia.", "importance": 8, "deleted": false}
+{"id": 9, "session_id": "asthma-2", "date": "2026-01-28", "turn_index": 0, "text": "Nadia is getting married in June.", "importance": 8, "deleted": false}
+{"id": 10, "session_id": "asthma-2", "date": "2026-01-28", "turn_index": 0, "text": "The user is in charge of the gate crash games for Nadia's wedding.", "importance": 7, "deleted": false}
+{"id": 11, "session_id": "asthma-2", "date": "2026-01-28", "turn_index": 1, "text": "The user's older sister Nadia is getting married in June.", "importance": 8, "deleted": false}
+{"id": 12, "session_id": "asthma-2", "date": "2026-01-28", "turn_index": 1, "text": "The user is in charge of the gate crash games for Nadia's wedding.", "importance": 7, "deleted": false}
+{"id": 13, "session_id": "asthma-2", "date": "2026-01-28", "turn_index": 1, "text": "The user needs a wedding gift under $100.", "importance": 6, "deleted": false}
+{"id": 14, "session_id": "asthma-3", "date": "2026-02-16", "turn_index": 0, "text": "The user's thermodynamics midterm is on 4 March.", "importance": 8, "deleted": false}
+{"id": 15, "session_id": "asthma-3", "date": "2026-02-16", "turn_index": 0, "text": "The user is panicking about the thermodynamics midterm.", "importance": 6, "deleted": false}
+{"id": 16, "session_id": "asthma-3", "date": "2026-02-16", "turn_index": 0, "text": "The user is a member of the chess club.", "importance": 7, "deleted": false}
+{"id": 17, "session_id": "asthma-3", "date": "2026-02-16", "turn_index": 0, "text": "The chess club is running a rapid tournament during the same week as the thermodynamics midterm.", "importance": 6, "deleted": false}
+{"id": 18, "session_id": "asthma-3", "date": "2026-02-16", "turn_index": 1, "text": "The user's thermodynamics midterm is on 4 March.", "importance": 8, "deleted": false}
+{"id": 19, "session_id": "asthma-3", "date": "2026-02-16", "turn_index": 1, "text": "The user's chess club is running a rapid tournament on 7 March.", "importance": 7, "deleted": false}
+{"id": 20, "session_id": "asthma-3", "date": "2026-02-16", "turn_index": 1, "text": "The chess tournament is at Jurong West CC.", "importance": 7, "deleted": false}
+{"id": 21, "session_id": "asthma-3", "date": "2026-02-16", "turn_index": 1, "text": "The user is skipping the hall's cross-country run on 1 March.", "importance": 6, "deleted": false}
+{"id": 22, "session_id": "asthma-3", "date": "2026-02-16", "turn_index": 1, "text": "The user is doing the indoor rowing challenge instead of the cross-country run.", "importance": 6, "deleted": false}

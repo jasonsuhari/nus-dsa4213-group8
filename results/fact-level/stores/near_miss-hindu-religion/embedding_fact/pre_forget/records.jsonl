@@ -1,0 +1,18 @@
+{"id": 0, "session_id": "hc-1", "date": "2026-05-04", "turn_index": 0, "text": "The user's new roommate is named Grace.", "importance": 8, "deleted": false}
+{"id": 1, "session_id": "hc-1", "date": "2026-05-04", "turn_index": 0, "text": "Grace is Christian.", "importance": 6, "deleted": false}
+{"id": 2, "session_id": "hc-1", "date": "2026-05-04", "turn_index": 0, "text": "Grace goes to church every Sunday morning.", "importance": 6, "deleted": false}
+{"id": 3, "session_id": "hc-1", "date": "2026-05-04", "turn_index": 0, "text": "Grace asked the user if they mind her alarm going off at 7.", "importance": 5, "deleted": false}
+{"id": 4, "session_id": "hc-1", "date": "2026-05-04", "turn_index": 1, "text": "The user's new roommate is named Grace.", "importance": 8, "deleted": false}
+{"id": 5, "session_id": "hc-1", "date": "2026-05-04", "turn_index": 1, "text": "Grace is Christian and goes to church every Sunday morning.", "importance": 7, "deleted": false}
+{"id": 6, "session_id": "hc-1", "date": "2026-05-04", "turn_index": 1, "text": "The user is Hindu.", "importance": 8, "deleted": false}
+{"id": 7, "session_id": "hc-1", "date": "2026-05-04", "turn_index": 1, "text": "The user does their morning prayers at their little altar around the same time as Grace's alarm.", "importance": 6, "deleted": false}
+{"id": 8, "session_id": "hc-2", "date": "2026-05-18", "turn_index": 0, "text": "The user is doing a part-time master's in public policy at the LKY School.", "importance": 8, "deleted": false}
+{"id": 9, "session_id": "hc-2", "date": "2026-05-18", "turn_index": 0, "text": "The user's thesis proposal is due in June.", "importance": 7, "deleted": false}
+{"id": 10, "session_id": "hc-2", "date": "2026-05-18", "turn_index": 1, "text": "The user is doing a part-time master's in public policy at the LKY School.", "importance": 8, "deleted": false}
+{"id": 11, "session_id": "hc-2", "date": "2026-05-18", "turn_index": 1, "text": "The user's thesis proposal is due in June.", "importance": 7, "deleted": false}
+{"id": 12, "session_id": "hc-2", "date": "2026-05-18", "turn_index": 1, "text": "The user's thesis topic is caregiving for ageing parents in Singapore.", "importance": 9, "deleted": false}
+{"id": 13, "session_id": "hc-3", "date": "2026-06-01", "turn_index": 0, "text": "The user is Hindu.", "importance": 8, "deleted": false}
+{"id": 14, "session_id": "hc-3", "date": "2026-06-01", "turn_index": 0, "text": "Grace invited the user to her church's charity carnival next Saturday.", "importance": 6, "deleted": false}
+{"id": 15, "session_id": "hc-4", "date": "2026-06-20", "turn_index": 0, "text": "The user's mother keeps asking when the user will visit her in Chennai.", "importance": 6, "deleted": false}
+{"id": 16, "session_id": "hc-4", "date": "2026-06-20", "turn_index": 0, "text": "The user is considering visiting their mother in Chennai in December.", "importance": 5, "deleted": false}
+{"id": 17, "session_id": "hc-4", "date": "2026-06-20", "turn_index": 0, "text": "December flights to Chennai are expensive.", "importance": 5, "deleted": false}

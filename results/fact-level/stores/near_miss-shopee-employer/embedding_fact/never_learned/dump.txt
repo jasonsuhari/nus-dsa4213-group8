@@ -1,0 +1,33 @@
+[2026-04-02] The user is a product manager.
+
+[2026-04-02] The user works on the checkout flow.
+
+[2026-04-02] The user's brother is Jun Hao.
+
+[2026-04-02] Jun Hao works at Lazada.
+
+[2026-04-02] Jun Hao works in the logistics team at Lazada.
+
+[2026-04-02] The user is a product manager.
+
+[2026-04-02] The user is working on the checkout flow.
+
+[2026-04-02] The user's brother Jun Hao works at Lazada.
+
+[2026-04-02] Jun Hao works in the logistics team at Lazada.
+
+[2026-04-02] The user is cutting drop-off at the payment step.
+
+[2026-04-02] The user experienced a dip in conversion after the last release.
+
+[2026-04-15] Jun Hao wants to move from Lazada logistics into a data analyst role.
+
+[2026-04-15] Jun Hao wants to move from Lazada logistics into a data analyst role.
+
+[2026-04-15] Jun Hao is targeting mostly analyst roles at banks.
+
+[2026-04-15] Jun Hao has SQL skills but no Python skills yet.
+
+[2026-05-03] The user plays futsal every Wednesday night at Kallang.
+
+[2026-05-03] The user experiences calf cramps.

@@ -1,0 +1,44 @@
+{"id": 0, "session_id": "aut-1", "date": "2026-02-01", "turn_index": 0, "text": "The user is a nurse at Sengkang General.", "importance": 8, "deleted": false}
+{"id": 1, "session_id": "aut-1", "date": "2026-02-01", "turn_index": 0, "text": "The user has done four night shifts in a row.", "importance": 6, "deleted": false}
+{"id": 2, "session_id": "aut-2", "date": "2026-02-15", "turn_index": 0, "text": "Sara turns 3 next week.", "importance": 10, "deleted": false}
+{"id": 3, "session_id": "aut-2", "date": "2026-02-15", "turn_index": 0, "text": "Hafiz wants a big party for Sara's birthday.", "importance": 8, "deleted": false}
+{"id": 4, "session_id": "aut-2", "date": "2026-02-15", "turn_index": 0, "text": "The user wants a small party at home for Sara's birthday.", "importance": 8, "deleted": false}
+{"id": 5, "session_id": "aut-2", "date": "2026-02-15", "turn_index": 1, "text": "Sara turns 3 next week.", "importance": 10, "deleted": false}
+{"id": 6, "session_id": "aut-2", "date": "2026-02-15", "turn_index": 1, "text": "Hafiz wants a big party for Sara's birthday.", "importance": 8, "deleted": false}
+{"id": 7, "session_id": "aut-2", "date": "2026-02-15", "turn_index": 1, "text": "The user wants a small party at home for Sara's birthday.", "importance": 8, "deleted": false}
+{"id": 9, "session_id": "aut-3", "date": "2026-03-02", "turn_index": 0, "text": "Irfan finds loud places hard.", "importance": 8, "deleted": false}
+{"id": 10, "session_id": "aut-3", "date": "2026-03-02", "turn_index": 0, "text": "Irfan is 7 years old.", "importance": 9, "deleted": false}
+{"id": 12, "session_id": "aut-3", "date": "2026-03-02", "turn_index": 1, "text": "Irfan finds loud places hard.", "importance": 8, "deleted": false}
+{"id": 13, "session_id": "aut-3", "date": "2026-03-02", "turn_index": 1, "text": "Irfan loves trains.", "importance": 7, "deleted": false}
+{"id": 14, "session_id": "aut-4", "date": "2026-03-21", "turn_index": 0, "text": "The user celebrates Hari Raya at their mum's house in Tampines.", "importance": 7, "deleted": false}
+{"id": 15, "session_id": "aut-4", "date": "2026-03-21", "turn_index": 0, "text": "The user is responsible for preparing 3kg of beef rendang for Hari Raya.", "importance": 6, "deleted": false}
+{"id": 16, "session_id": "aut-5", "date": "2026-04-09", "turn_index": 0, "text": "Irfan's occupational therapy at KKH moved to Wednesdays.", "importance": 7, "deleted": false}
+{"id": 17, "session_id": "aut-5", "date": "2026-04-09", "turn_index": 0, "text": "The user has to swap their shifts again due to Irfan's occupational therapy schedule.", "importance": 6, "deleted": false}
+{"id": 18, "session_id": "aut-5", "date": "2026-04-09", "turn_index": 1, "text": "Irfan's occupational therapy at KKH moved to Wednesdays.", "importance": 6, "deleted": false}
+{"id": 19, "session_id": "aut-5", "date": "2026-04-09", "turn_index": 1, "text": "The user has to swap their shifts due to Irfan's occupational therapy schedule.", "importance": 5, "deleted": false}
+{"id": 20, "session_id": "aut-5", "date": "2026-04-09", "turn_index": 1, "text": "The user will ask their nurse manager tomorrow.", "importance": 4, "deleted": false}
+{"id": 21, "session_id": "aut-6", "date": "2026-04-28", "turn_index": 0, "text": "The user started crocheting a blanket for Sara.", "importance": 7, "deleted": false}
+{"id": 22, "session_id": "aut-6", "date": "2026-04-28", "turn_index": 0, "text": "The user has 120 granny squares to go to finish the blanket for Sara.", "importance": 6, "deleted": false}
+{"id": 23, "session_id": "aut-7", "date": "2026-05-17", "turn_index": 0, "text": "The user has a Mazda 3.", "importance": 6, "deleted": false}
+{"id": 24, "session_id": "aut-7", "date": "2026-05-17", "turn_index": 0, "text": "The COE for the user's Mazda 3 expires next year.", "importance": 5, "deleted": false}
+{"id": 25, "session_id": "aut-8", "date": "2026-06-05", "turn_index": 0, "text": "The user's daughter Sara starts playgroup in July at a centre near their block in Punggol.", "importance": 8, "deleted": false}
+{"id": 26, "session_id": "aut-8", "date": "2026-06-05", "turn_index": 0, "text": "Sara has never been away from the user.", "importance": 7, "deleted": false}
+{"id": 27, "session_id": "aut-9", "date": "2026-06-24", "turn_index": 0, "text": "Irfan's cousin's birthday party is on Sunday.", "importance": 5, "deleted": false}
+{"id": 28, "session_id": "aut-9", "date": "2026-06-24", "turn_index": 0, "text": "The user is packing Irfan's noise-cancelling headphones.", "importance": 5, "deleted": false}
+{"id": 29, "session_id": "aut-9", "date": "2026-06-24", "turn_index": 0, "text": "The user is packing Irfan's train book.", "importance": 5, "deleted": false}
+{"id": 30, "session_id": "aut-9", "date": "2026-06-24", "turn_index": 1, "text": "The user's sister set up a birthday party for Irfan.", "importance": 6, "deleted": false}
+{"id": 31, "session_id": "aut-10", "date": "2026-07-13", "turn_index": 0, "text": "The user is enrolled in the advanced diploma in critical care nursing.", "importance": 8, "deleted": false}
+{"id": 32, "session_id": "aut-10", "date": "2026-07-13", "turn_index": 0, "text": "Classes for the user's advanced diploma in critical care nursing start in October.", "importance": 7, "deleted": false}
+{"id": 33, "session_id": "aut-10", "date": "2026-07-13", "turn_index": 1, "text": "The user is enrolled in the advanced diploma in critical care nursing.", "importance": 8, "deleted": false}
+{"id": 34, "session_id": "aut-10", "date": "2026-07-13", "turn_index": 1, "text": "Classes for the advanced diploma in critical care nursing start in October.", "importance": 8, "deleted": false}
+{"id": 35, "session_id": "aut-10", "date": "2026-07-13", "turn_index": 1, "text": "The user will attend classes alongside their shifts.", "importance": 7, "deleted": false}
+{"id": 36, "session_id": "aut-11", "date": "2026-08-01", "turn_index": 0, "text": "The user rode the whole Thomson-East Coast Line end to end on Saturday.", "importance": 5, "deleted": false}
+{"id": 37, "session_id": "aut-11", "date": "2026-08-01", "turn_index": 0, "text": "The user's friend Irfan knew every station on the Thomson-East Coast Line.", "importance": 5, "deleted": false}
+{"id": 38, "session_id": "aut-12", "date": "2026-08-20", "turn_index": 0, "text": "The user finished making a blanket for Sara.", "importance": 8, "deleted": false}
+{"id": 39, "session_id": "aut-12", "date": "2026-08-20", "turn_index": 0, "text": "The user is starting an amigurumi project next.", "importance": 7, "deleted": false}
+{"id": 40, "session_id": "aut-12", "date": "2026-08-20", "turn_index": 0, "text": "The user is considering making a little train for Irfan.", "importance": 7, "deleted": false}
+{"id": 41, "session_id": "aut-13", "date": "2026-09-08", "turn_index": 0, "text": "The user is booking a trip to Langkawi for December.", "importance": 8, "deleted": false}
+{"id": 42, "session_id": "aut-13", "date": "2026-09-08", "turn_index": 0, "text": "The user is traveling with three other people.", "importance": 7, "deleted": false}
+{"id": 43, "session_id": "aut-13", "date": "2026-09-08", "turn_index": 1, "text": "The user is booking a trip to Langkawi for December.", "importance": 7, "deleted": false}
+{"id": 44, "session_id": "aut-13", "date": "2026-09-08", "turn_index": 1, "text": "The user is traveling with three other people.", "importance": 6, "deleted": false}
+{"id": 45, "session_id": "aut-13", "date": "2026-09-08", "turn_index": 1, "text": "The user prefers quieter beaches.", "importance": 5, "deleted": false}

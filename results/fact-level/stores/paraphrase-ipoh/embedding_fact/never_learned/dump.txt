@@ -1,0 +1,27 @@
+[2026-07-01] The user is a backend engineer at a logistics startup in Singapore.
+
+[2026-07-01] The user's girlfriend is named Priya.
+
+[2026-07-01] The user and Priya booked surf lessons in Siargao for November.
+
+[2026-07-15] The user left home at 18 for university in Kuala Lumpur (KL).
+
+[2026-07-15] The user left home at 18 for university in Kuala Lumpur (KL).
+
+[2026-07-15] The user found the traffic in Kuala Lumpur (KL) to be a shock.
+
+[2026-08-05] The user's parents still live in Perak.
+
+[2026-08-05] The user goes back to Perak every Chinese New Year.
+
+[2026-08-26] The user's friend is named Priya.
+
+[2026-08-26] The user is looking for places in Singapore to take Priya for bean sprout chicken.
+
+[2026-09-16] The user is a senior backend engineer.
+
+[2026-09-16] The user works with Go.
+
+[2026-09-16] The user works with Postgres.
+
+[2026-09-16] The user is now based in Singapore.

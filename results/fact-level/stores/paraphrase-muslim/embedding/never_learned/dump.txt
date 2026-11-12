@@ -1,0 +1,17 @@
+[2026-01-19] user: Hey, I'm a civil engineer at a consultancy in Jurong, mostly drainage projects. Can you help me plan this week? Site visits Monday and Wednesday, report due Friday.
+assistant: Sure. Draft the report on Tuesday and Thursday morning so Friday is just checking figures. Anything else fixed?
+
+[2026-01-19] user: Futsal with my old school friends every Sunday evening, that one's non-negotiable.
+assistant: Noted, Sundays stay free for futsal.
+
+[2026-02-02] user: Lunch ideas near Jurong East under $10?
+assistant: Try the stalls at the Westgate food court, most sets are under $10.
+
+[2026-02-23] user: It's Ramadan so I'm fasting until about 7.20pm every day. Can we shift Sunday futsal to start after 8?
+assistant: Makes sense. An 8.30pm start gives you time to break fast and settle first.
+
+[2026-03-16] user: My sister's getting married on 11 April. Where can I get a decent outfit for it without paying a bomb?
+assistant: Congrats to her! Depends on the dress code, but Bugis Street and Joo Chiat Complex both have good-value options.
+
+[2026-04-27] user: Planning Osaka for 8 to 14 June. What should I see around Namba and Umeda?
+assistant: Namba is great for street food at Dotonbori, and Umeda has the Sky Building for views.

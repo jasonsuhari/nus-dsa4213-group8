@@ -1,0 +1,53 @@
+[2026-03-03] The user's name is Rachel.
+
+[2026-03-03] The user is a working mum.
+
+[2026-03-03] The user is an accountant.
+
+[2026-03-03] The user feels overwhelmed.
+
+[2026-03-03] The user's name is Rachel.
+
+[2026-03-03] The user's daughter is 6 years old.
+
+[2026-03-03] The user's daughter starts Primary 1 next year.
+
+[2026-03-03] The user needs to figure out the registration exercise for Primary 1.
+
+[2026-03-03] The user's name is Rachel.
+
+[2026-03-03] Rachel is a working mum.
+
+[2026-03-03] Rachel is an accountant.
+
+[2026-03-03] The user's daughter is 6 years old.
+
+[2026-03-03] The user's daughter starts Primary 1 next year.
+
+[2026-03-03] Rachel needs to figure out the registration exercise for Primary 1.
+
+[2026-03-03] Rachel's family lives near Rosyth School in Serangoon.
+
+[2026-03-03] Rosyth School is near Rachel's home in Serangoon.
+
+[2026-04-11] The user keeps an EpiPen in their handbag.
+
+[2026-06-20] Marcus is in Jakarta for work the whole of next week.
+
+[2026-06-20] The user will be alone with their child next week.
+
+[2026-06-20] Marcus is in Jakarta for work the whole of next week.
+
+[2026-06-20] The user has a child.
+
+[2026-08-29] The user wants the birthday cake to be peanut-free.
+
+[2026-09-14] The user had a party that went well.
+
+[2026-09-14] The user's kids loved the banner at the party.
+
+[2026-09-14] The child danced the whole time at the party.
+
+[2026-09-14] The Rosyth balloting results come out next week.
+
+[2026-09-14] Xinmin Primary is close to Serangoon.

@@ -1,0 +1,15 @@
+{"id": 0, "session_id": "bc-1", "date": "2026-01-10", "turn_index": 0, "text": "The user lived in their old flat in Clementi for nine years.", "importance": 6, "deleted": false}
+{"id": 1, "session_id": "bc-1", "date": "2026-01-10", "turn_index": 1, "text": "The user lived in their old flat in Clementi for nine years.", "importance": 7, "deleted": false}
+{"id": 2, "session_id": "bc-1", "date": "2026-01-10", "turn_index": 1, "text": "The user is currently unpacking after moving.", "importance": 5, "deleted": false}
+{"id": 3, "session_id": "bc-1", "date": "2026-01-10", "turn_index": 1, "text": "The user will miss the hawker centre in Clementi.", "importance": 6, "deleted": false}
+{"id": 4, "session_id": "bc-1", "date": "2026-01-10", "turn_index": 1, "text": "The user had a regular order at the fishball noodle stall in the Clementi hawker centre.", "importance": 6, "deleted": false}
+{"id": 5, "session_id": "bc-2", "date": "2026-01-24", "turn_index": 0, "text": "The user teaches chemistry at a JC.", "importance": 8, "deleted": false}
+{"id": 6, "session_id": "bc-2", "date": "2026-01-24", "turn_index": 0, "text": "The user is currently in marking season.", "importance": 6, "deleted": false}
+{"id": 7, "session_id": "bc-2", "date": "2026-01-24", "turn_index": 1, "text": "The user teaches chemistry at a junior college (JC).", "importance": 8, "deleted": false}
+{"id": 8, "session_id": "bc-2", "date": "2026-01-24", "turn_index": 1, "text": "The user is marking J2 prelims.", "importance": 7, "deleted": false}
+{"id": 9, "session_id": "bc-2", "date": "2026-01-24", "turn_index": 1, "text": "The user has 120 scripts to mark by Friday.", "importance": 7, "deleted": false}
+{"id": 10, "session_id": "bc-3", "date": "2026-02-14", "turn_index": 0, "text": "The user's husband is named Ravi.", "importance": 8, "deleted": false}
+{"id": 11, "session_id": "bc-3", "date": "2026-02-14", "turn_index": 0, "text": "Ravi is vegetarian.", "importance": 8, "deleted": false}
+{"id": 12, "session_id": "bc-3", "date": "2026-02-14", "turn_index": 0, "text": "The user prefers places with proper vegetarian options.", "importance": 7, "deleted": false}
+{"id": 13, "session_id": "bc-4", "date": "2026-03-01", "turn_index": 0, "text": "The user has old neighbours from Clementi.", "importance": 5, "deleted": false}
+{"id": 14, "session_id": "bc-4", "date": "2026-03-01", "turn_index": 0, "text": "The user was invited back for a CNY gathering by their old neighbours from Clementi.", "importance": 6, "deleted": false}

@@ -1,0 +1,21 @@
+[2026-09-01] The user studies data science at NUS.
+
+[2026-09-01] The user is in year 4 of their studies.
+
+[2026-09-01] The user studies data science at NUS.
+
+[2026-09-01] The user is in year 4 of their studies.
+
+[2026-09-01] The user's cat is named Miso.
+
+[2026-09-01] The user finds their cat Miso helps them cope with a heavy workload.
+
+[2026-09-08] The user is vegetarian.
+
+[2026-09-15] The user made tofu stir-fry for dinner.
+
+[2026-09-15] Tofu stir-fry is the user's go-to dinner.
+
+[2026-09-15] The user's go-to dinner is tofu stir-fry.
+
+[2026-09-15] The user uses soy, garlic, and a bit of chilli as sauce for tofu stir-fry.

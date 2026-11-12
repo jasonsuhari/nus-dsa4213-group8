@@ -1,0 +1,89 @@
+[2026-01-05] The user is the assistant manager at a sneaker store in Orchard.
+
+[2026-01-05] The user works ten hours on weekends.
+
+[2026-01-05] The user is the assistant manager at a sneaker store in Orchard.
+
+[2026-01-05] The user works ten hours on weekends.
+
+[2026-01-05] The user receives a staff discount as a perk of their job.
+
+[2026-01-14] The user's rent payment went out on the 1st of the month.
+
+[2026-01-14] The user's pay comes in on the 25th of the month.
+
+[2026-01-14] The user's rent payment went out on the 1st.
+
+[2026-01-14] The user's pay comes in on the 25th.
+
+[2026-02-12] The user is planning a Valentine's Day with Nadia.
+
+[2026-02-12] The user is considering a picnic at the Botanic Gardens for Valentine's Day.
+
+[2026-02-12] The user's partner Nadia loves mango sticky rice.
+
+[2026-02-12] The user will get mango sticky rice from a Thai place in Golden Mile.
+
+[2026-03-03] The user signed up for the 10K at Sundown Marathon in May.
+
+[2026-03-03] The user hasn't run since NS.
+
+[2026-03-22] The user made a budget spreadsheet this weekend.
+
+[2026-03-22] The user has a new rule of no more going into the red before payday.
+
+[2026-03-22] The user has a budget spreadsheet.
+
+[2026-03-22] The user's fixed costs include rent, phone, and transport.
+
+[2026-03-22] The user's fun money is $150.
+
+[2026-04-08] The user's younger sister Aisyah is doing her O-levels this year.
+
+[2026-04-08] The user is tutoring Aisyah in maths on Sunday nights.
+
+[2026-04-27] The user's mother makes nasi lemak sambal.
+
+[2026-04-27] The user is trying to recreate their mother's nasi lemak sambal.
+
+[2026-04-27] The user's nasi lemak sambal tastes flat.
+
+[2026-04-27] The user's mother says the user is too impatient with frying.
+
+[2026-05-15] The user has a chalet at Pasir Ris with the boys.
+
+[2026-05-15] The user paid first for the chalet and is owed $85.
+
+[2026-05-15] The boys are settling up with the user over PayLah.
+
+[2026-06-02] The user is an area manager.
+
+[2026-06-02] The user might get promoted to store manager in July.
+
+[2026-06-02] The user is an area manager.
+
+[2026-06-02] The user might get promoted to store manager in July.
+
+[2026-06-02] The user hit their sales target this month.
+
+[2026-06-02] The user's sales percentage is at 82%.
+
+[2026-06-20] The user has an iPhone 13.
+
+[2026-07-08] The user's friend Nadia wants the user to go to Bali in October.
+
+[2026-07-08] The user is considering going to Ubud or Canggu in Bali.
+
+[2026-07-08] The user is going to Bali in October for five days.
+
+[2026-07-08] The user's companion is Nadia.
+
+[2026-07-29] The user has achieved Gold rank in Valorant ranked.
+
+[2026-07-29] The user took three months to achieve Gold rank in Valorant ranked.
+
+[2026-07-29] The user has achieved Gold rank in Valorant ranked.
+
+[2026-07-29] The user took three months to achieve Gold rank in Valorant ranked.
+
+[2026-07-29] The user mains the agent Jett in Valorant.

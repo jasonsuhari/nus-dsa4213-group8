@@ -1,0 +1,47 @@
+[2026-02-04] user: Moving out of my old flat in Clementi into a studio in Kallang this weekend. Give me a packing checklist?
+assistant: Pack by room, label boxes, keep a day-one box with chargers, toiletries and documents, and photograph cable setups before unplugging.
+
+[2026-02-04] user: Day-one box is genius.
+assistant: It saves the first night.
+
+[2026-02-16] user: Yes, every room on the last day. Now he's just ignoring my messages.
+assistant: Keep everything in writing. If he won't respond, you can look at the Small Claims Tribunals.
+
+[2026-03-01] user: I'm a data analyst at a telco. This month I'm building churn dashboards in Tableau and the data is a mess.
+assistant: Churn data always is. Start by agreeing on what counts as churned.
+
+[2026-03-01] user: That alone took two meetings.
+assistant: Sounds about right.
+
+[2026-03-19] user: Finally sent my first V4 at the bouldering gym near my place! Three weeks of falling off the same move.
+assistant: Congrats! The first V4 feels huge.
+
+[2026-04-06] user: Will do. Bit nervous, never been to a tribunal.
+assistant: They're informal by design. You'll mostly just explain your side.
+
+[2026-04-25] user: My parents are visiting from Chennai in June for two weeks. First time in Singapore.
+assistant: Exciting. Will they stay with you in the studio?
+
+[2026-04-25] user: Booked them a hotel nearby, the studio is too small.
+assistant: Smart choice.
+
+[2026-05-12] user: Trying to make chicken biryani in the Instant Pot. The rice came out mushy.
+assistant: Use less water than on the stovetop, about 1:1.25 for soaked basmati, and let the pressure release naturally.
+
+[2026-05-30] user: Need a plan for my parents. Dad loves plants, Mum loves temples.
+assistant: Gardens by the Bay and the Botanic Gardens for your dad, Sri Mariamman and Sri Srinivasa Perumal temples for your mum.
+
+[2026-07-05] user: Learning dbt for work. My manager wants our SQL models version-controlled.
+assistant: dbt is a good fit. Start by moving one dashboard's queries into models.
+
+[2026-07-05] user: Any good free course?
+assistant: dbt Labs' own fundamentals course is free and solid.
+
+[2026-07-24] user: Our team won the semi-final of the weekend cricket league! I took two wickets.
+assistant: Brilliant. When's the final?
+
+[2026-07-24] user: Next Saturday at the Padang.
+assistant: Good luck.
+
+[2026-08-12] user: Bought a standing desk from IKEA for the studio. Assembly took me three hours.
+assistant: Worth it for your back. Remember to alternate standing and sitting.

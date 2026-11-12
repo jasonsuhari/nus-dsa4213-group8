@@ -1,0 +1,17 @@
+{"id": 0, "session_id": "bd-1", "date": "2026-01-05", "turn_index": 0, "text": "The user's girlfriend is named Aisha.", "importance": 8, "deleted": false}
+{"id": 1, "session_id": "bd-1", "date": "2026-01-05", "turn_index": 0, "text": "Aisha's birthday is on 5 March.", "importance": 7, "deleted": false}
+{"id": 2, "session_id": "bd-1", "date": "2026-01-05", "turn_index": 0, "text": "Aisha is turning 30.", "importance": 7, "deleted": false}
+{"id": 3, "session_id": "bd-1", "date": "2026-01-05", "turn_index": 1, "text": "The user's girlfriend is named Aisha.", "importance": 10, "deleted": false}
+{"id": 4, "session_id": "bd-1", "date": "2026-01-05", "turn_index": 1, "text": "Aisha's birthday is on 5 March.", "importance": 10, "deleted": false}
+{"id": 5, "session_id": "bd-1", "date": "2026-01-05", "turn_index": 1, "text": "Aisha is turning 30.", "importance": 10, "deleted": false}
+{"id": 6, "session_id": "bd-1", "date": "2026-01-05", "turn_index": 1, "text": "Aisha is really into pottery.", "importance": 7, "deleted": false}
+{"id": 7, "session_id": "bd-1", "date": "2026-01-05", "turn_index": 1, "text": "Aisha is really into Peranakan food.", "importance": 7, "deleted": false}
+{"id": 8, "session_id": "bd-2", "date": "2026-01-19", "turn_index": 0, "text": "The user is a nurse at TTSH.", "importance": 8, "deleted": false}
+{"id": 9, "session_id": "bd-2", "date": "2026-01-19", "turn_index": 0, "text": "The user's weekends depend on their roster.", "importance": 6, "deleted": false}
+{"id": 10, "session_id": "bd-2", "date": "2026-01-19", "turn_index": 1, "text": "The user is a nurse at TTSH.", "importance": 8, "deleted": false}
+{"id": 11, "session_id": "bd-2", "date": "2026-01-19", "turn_index": 1, "text": "The user's weekend availability depends on their roster.", "importance": 7, "deleted": false}
+{"id": 12, "session_id": "bd-2", "date": "2026-01-19", "turn_index": 1, "text": "The user's March roster usually comes out in mid-February.", "importance": 6, "deleted": false}
+{"id": 13, "session_id": "bd-3", "date": "2026-02-20", "turn_index": 0, "text": "The user booked a pottery class at a studio in Jalan Besar for Aisha on Saturday 7 March.", "importance": 7, "deleted": false}
+{"id": 14, "session_id": "bd-3", "date": "2026-02-20", "turn_index": 1, "text": "The user booked a pottery class at a studio in Jalan Besar for Aisha on Saturday 7 March.", "importance": 8, "deleted": false}
+{"id": 15, "session_id": "bd-3", "date": "2026-02-20", "turn_index": 1, "text": "The user is looking for a restaurant that takes reservations for two.", "importance": 6, "deleted": false}
+{"id": 16, "session_id": "bd-4", "date": "2026-03-04", "turn_index": 0, "text": "The user is on night shift the week after Aisha's birthday.", "importance": 6, "deleted": false}

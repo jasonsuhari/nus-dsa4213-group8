@@ -1,0 +1,13 @@
+{"id": 0, "session_id": "db-1", "date": "2026-02-08", "turn_index": 0, "text": "The user's dad has type 2 diabetes.", "importance": 8, "deleted": false}
+{"id": 1, "session_id": "db-1", "date": "2026-02-08", "turn_index": 0, "text": "The user's dad sneaks kueh when the user's mum isn't looking.", "importance": 5, "deleted": false}
+{"id": 2, "session_id": "db-1", "date": "2026-02-08", "turn_index": 1, "text": "The user's dad is 68 years old.", "importance": 7, "deleted": false}
+{"id": 3, "session_id": "db-1", "date": "2026-02-08", "turn_index": 1, "text": "The user's dad has type 2 diabetes.", "importance": 10, "deleted": false}
+{"id": 4, "session_id": "db-1", "date": "2026-02-08", "turn_index": 1, "text": "The user's dad is stubborn.", "importance": 6, "deleted": false}
+{"id": 5, "session_id": "db-2", "date": "2026-03-12", "turn_index": 0, "text": "The user is 41 years old.", "importance": 8, "deleted": false}
+{"id": 10, "session_id": "db-2", "date": "2026-03-12", "turn_index": 1, "text": "The user is 41 years old.", "importance": 7, "deleted": false}
+{"id": 11, "session_id": "db-2", "date": "2026-03-12", "turn_index": 1, "text": "The user has started walking for 30 minutes after dinner.", "importance": 6, "deleted": false}
+{"id": 12, "session_id": "db-2", "date": "2026-03-12", "turn_index": 1, "text": "The user walks around Toa Payoh.", "importance": 5, "deleted": false}
+{"id": 13, "session_id": "db-3", "date": "2026-04-05", "turn_index": 0, "text": "The user is an accountant at a logistics firm.", "importance": 8, "deleted": false}
+{"id": 14, "session_id": "db-3", "date": "2026-04-05", "turn_index": 0, "text": "The user works 12 hours a day during month-end closing.", "importance": 7, "deleted": false}
+{"id": 17, "session_id": "db-4", "date": "2026-04-20", "turn_index": 1, "text": "The user's daughter Mei has PSLE this year.", "importance": 8, "deleted": false}
+{"id": 18, "session_id": "db-4", "date": "2026-04-20", "turn_index": 1, "text": "The user's daughter Mei is stressed about PSLE.", "importance": 7, "deleted": false}

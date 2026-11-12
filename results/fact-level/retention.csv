@@ -1,0 +1,5 @@
+relation,unrelated,unrelated,related,related,highly_related,highly_related
+condition,pre_forget,post_forget,pre_forget,post_forget,pre_forget,post_forget
+architecture,,,,,,
+embedding,1.0,0.9846153846153847,1.0,0.8292682926829268,0.9625,0.4875
+embedding_fact,1.0,1.0,0.9512195121951219,0.8780487804878049,0.95,0.825

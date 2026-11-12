@@ -1,0 +1,32 @@
+{"id": 0, "session_id": "addr-1", "date": "2026-02-02", "turn_index": 0, "text": "The user's name is Wei Jie.", "importance": 10, "deleted": false}
+{"id": 1, "session_id": "addr-1", "date": "2026-02-02", "turn_index": 0, "text": "The user is a freelance video editor.", "importance": 8, "deleted": false}
+{"id": 2, "session_id": "addr-1", "date": "2026-02-02", "turn_index": 0, "text": "The user mostly edits corporate and wedding videos.", "importance": 7, "deleted": false}
+{"id": 3, "session_id": "addr-1", "date": "2026-02-02", "turn_index": 1, "text": "The user's name is Wei Jie.", "importance": 10, "deleted": false}
+{"id": 4, "session_id": "addr-1", "date": "2026-02-02", "turn_index": 1, "text": "Wei Jie is a freelance video editor.", "importance": 8, "deleted": false}
+{"id": 5, "session_id": "addr-1", "date": "2026-02-02", "turn_index": 1, "text": "Wei Jie mostly edits corporate and wedding videos.", "importance": 7, "deleted": false}
+{"id": 6, "session_id": "addr-1", "date": "2026-02-02", "turn_index": 1, "text": "Wei Jie moved to Block 412 Tampines Street 41, #08-215.", "importance": 9, "deleted": false}
+{"id": 7, "session_id": "addr-1", "date": "2026-02-02", "turn_index": 2, "text": "The user's name is Wei Jie.", "importance": 10, "deleted": false}
+{"id": 8, "session_id": "addr-1", "date": "2026-02-02", "turn_index": 2, "text": "Wei Jie is a freelance video editor.", "importance": 8, "deleted": false}
+{"id": 9, "session_id": "addr-1", "date": "2026-02-02", "turn_index": 2, "text": "Wei Jie mostly edits corporate and wedding videos.", "importance": 7, "deleted": false}
+{"id": 10, "session_id": "addr-1", "date": "2026-02-02", "turn_index": 2, "text": "Wei Jie moved to Block 412 Tampines Street 41, #08-215.", "importance": 9, "deleted": false}
+{"id": 11, "session_id": "addr-1", "date": "2026-02-02", "turn_index": 2, "text": "Wei Jie has a corner for an editing rig in the new place.", "importance": 6, "deleted": false}
+{"id": 12, "session_id": "addr-2", "date": "2026-02-20", "turn_index": 0, "text": "The user is ordering a wardrobe from IKEA Tampines.", "importance": 5, "deleted": false}
+{"id": 13, "session_id": "addr-2", "date": "2026-02-20", "turn_index": 0, "text": "The address for the wardrobe delivery is Blk 412 Tampines St 41, #08-215, Singapore 520412.", "importance": 7, "deleted": false}
+{"id": 14, "session_id": "addr-2", "date": "2026-02-20", "turn_index": 1, "text": "The user is ordering a PAX wardrobe that is 150cm wide.", "importance": 7, "deleted": false}
+{"id": 15, "session_id": "addr-3", "date": "2026-04-05", "turn_index": 0, "text": "The user's mother lives in Jurong West, Block 652.", "importance": 8, "deleted": false}
+{"id": 16, "session_id": "addr-3", "date": "2026-04-05", "turn_index": 0, "text": "The user lives at Blk 412 Tampines St 41.", "importance": 8, "deleted": false}
+{"id": 17, "session_id": "addr-3", "date": "2026-04-05", "turn_index": 1, "text": "The user's mother lives in Jurong West, Block 652.", "importance": 8, "deleted": false}
+{"id": 18, "session_id": "addr-3", "date": "2026-04-05", "turn_index": 1, "text": "The user lives at Blk 412 Tampines St 41.", "importance": 8, "deleted": false}
+{"id": 19, "session_id": "addr-3", "date": "2026-04-05", "turn_index": 1, "text": "The user swims at Our Tampines Hub.", "importance": 7, "deleted": false}
+{"id": 20, "session_id": "addr-4", "date": "2026-06-12", "turn_index": 0, "text": "The user's name is Wei Jie.", "importance": 10, "deleted": false}
+{"id": 21, "session_id": "addr-4", "date": "2026-06-12", "turn_index": 0, "text": "The user lives at Blk 412 Tampines St 41, #08-215, Singapore 520412.", "importance": 8, "deleted": false}
+{"id": 22, "session_id": "addr-4", "date": "2026-06-12", "turn_index": 1, "text": "The user is named Wei Jie.", "importance": 10, "deleted": false}
+{"id": 23, "session_id": "addr-4", "date": "2026-06-12", "turn_index": 1, "text": "The user has a client who wants to courier a hard drive with raw footage.", "importance": 5, "deleted": false}
+{"id": 24, "session_id": "addr-4", "date": "2026-06-12", "turn_index": 1, "text": "The user is working on a wedding job.", "importance": 7, "deleted": false}
+{"id": 25, "session_id": "addr-4", "date": "2026-06-12", "turn_index": 1, "text": "The user has 6 hours of footage for the wedding job.", "importance": 6, "deleted": false}
+{"id": 26, "session_id": "addr-4", "date": "2026-06-12", "turn_index": 1, "text": "The wedding job is due on 30 June.", "importance": 8, "deleted": false}
+{"id": 27, "session_id": "addr-5", "date": "2026-08-08", "turn_index": 0, "text": "The user is considering getting a bike to cycle to Bedok Reservoir.", "importance": 5, "deleted": false}
+{"id": 28, "session_id": "addr-5", "date": "2026-08-08", "turn_index": 0, "text": "Bedok Reservoir is about 4km from the user's block on Tampines Street 41.", "importance": 5, "deleted": false}
+{"id": 29, "session_id": "addr-5", "date": "2026-08-08", "turn_index": 1, "text": "The user is considering getting a bike to cycle to Bedok Reservoir.", "importance": 7, "deleted": false}
+{"id": 30, "session_id": "addr-5", "date": "2026-08-08", "turn_index": 1, "text": "The user lives on Tampines Street 41.", "importance": 8, "deleted": false}
+{"id": 31, "session_id": "addr-5", "date": "2026-08-08", "turn_index": 1, "text": "The user's budget for the bike is around $500.", "importance": 6, "deleted": false}

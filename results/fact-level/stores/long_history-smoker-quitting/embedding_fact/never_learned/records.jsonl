@@ -1,0 +1,46 @@
+{"id": 0, "session_id": "smk-1", "date": "2026-02-02", "turn_index": 0, "text": "The user is a junior architect at a small firm in Tanjong Pagar.", "importance": 8, "deleted": false}
+{"id": 1, "session_id": "smk-1", "date": "2026-02-02", "turn_index": 0, "text": "The user is currently working on drawings for a condo clubhouse.", "importance": 7, "deleted": false}
+{"id": 2, "session_id": "smk-1", "date": "2026-02-02", "turn_index": 1, "text": "The user is a junior architect at a small firm in Tanjong Pagar.", "importance": 8, "deleted": false}
+{"id": 3, "session_id": "smk-1", "date": "2026-02-02", "turn_index": 1, "text": "The user is currently working on design development for a condo clubhouse.", "importance": 7, "deleted": false}
+{"id": 4, "session_id": "smk-1", "date": "2026-02-02", "turn_index": 1, "text": "The user is experiencing frequent changes to the pool shape from the client.", "importance": 6, "deleted": false}
+{"id": 5, "session_id": "smk-2", "date": "2026-02-14", "turn_index": 0, "text": "The user has a Valentine's dinner with Alicia tonight.", "importance": 5, "deleted": false}
+{"id": 6, "session_id": "smk-2", "date": "2026-02-14", "turn_index": 0, "text": "The user wants to get healthier before their wedding in November.", "importance": 8, "deleted": false}
+{"id": 7, "session_id": "smk-2", "date": "2026-02-14", "turn_index": 1, "text": "The user has a Valentine's dinner with Alicia tonight.", "importance": 7, "deleted": false}
+{"id": 8, "session_id": "smk-2", "date": "2026-02-14", "turn_index": 1, "text": "The user wants to get healthier before their wedding in November.", "importance": 8, "deleted": false}
+{"id": 9, "session_id": "smk-2", "date": "2026-02-14", "turn_index": 1, "text": "The user's wedding is in November.", "importance": 9, "deleted": false}
+{"id": 10, "session_id": "smk-2", "date": "2026-02-14", "turn_index": 1, "text": "The user is looking for a dinner spot in Dempsey for tonight.", "importance": 6, "deleted": false}
+{"id": 11, "session_id": "smk-3", "date": "2026-03-01", "turn_index": 0, "text": "The user plays badminton with the office gang every Wednesday at Toa Payoh.", "importance": 7, "deleted": false}
+{"id": 12, "session_id": "smk-3", "date": "2026-03-01", "turn_index": 0, "text": "The user keeps losing to the office intern.", "importance": 6, "deleted": false}
+{"id": 13, "session_id": "smk-3", "date": "2026-03-01", "turn_index": 0, "text": "The office intern is 22 years old.", "importance": 5, "deleted": false}
+{"id": 14, "session_id": "smk-3", "date": "2026-03-01", "turn_index": 0, "text": "The office intern never gets tired.", "importance": 5, "deleted": false}
+{"id": 15, "session_id": "smk-4", "date": "2026-03-18", "turn_index": 0, "text": "The user's mum turns 65 next week.", "importance": 8, "deleted": false}
+{"id": 16, "session_id": "smk-4", "date": "2026-03-18", "turn_index": 0, "text": "The user is considering a jade bracelet as a gift for their mum's birthday.", "importance": 7, "deleted": false}
+{"id": 17, "session_id": "smk-4", "date": "2026-03-18", "turn_index": 1, "text": "The user's mother turns 65 next week.", "importance": 8, "deleted": false}
+{"id": 18, "session_id": "smk-4", "date": "2026-03-18", "turn_index": 1, "text": "The user is considering a jade bracelet as a gift for their mother.", "importance": 7, "deleted": false}
+{"id": 19, "session_id": "smk-4", "date": "2026-03-18", "turn_index": 1, "text": "The user plans to check out Chinatown this weekend.", "importance": 5, "deleted": false}
+{"id": 20, "session_id": "smk-5", "date": "2026-04-02", "turn_index": 0, "text": "The user started on nicotine patches from Guardian last week.", "importance": 8, "deleted": false}
+{"id": 21, "session_id": "smk-5", "date": "2026-04-02", "turn_index": 0, "text": "The user experienced insane dreams after starting the nicotine patches.", "importance": 6, "deleted": false}
+{"id": 22, "session_id": "smk-5", "date": "2026-04-02", "turn_index": 0, "text": "Last night, the user had a dream about being chased by a giant durian.", "importance": 5, "deleted": false}
+{"id": 23, "session_id": "smk-6", "date": "2026-04-20", "turn_index": 0, "text": "The user has a boss.", "importance": 5, "deleted": false}
+{"id": 24, "session_id": "smk-6", "date": "2026-04-20", "turn_index": 0, "text": "The user is working on a URA submission for the clubhouse.", "importance": 7, "deleted": false}
+{"id": 25, "session_id": "smk-6", "date": "2026-04-20", "turn_index": 0, "text": "The URA submission for the clubhouse is due on Friday.", "importance": 8, "deleted": false}
+{"id": 26, "session_id": "smk-6", "date": "2026-04-20", "turn_index": 0, "text": "The user's boss wants three facade options by tomorrow.", "importance": 8, "deleted": false}
+{"id": 27, "session_id": "smk-6", "date": "2026-04-20", "turn_index": 1, "text": "The user has a boss.", "importance": 5, "deleted": false}
+{"id": 28, "session_id": "smk-6", "date": "2026-04-20", "turn_index": 1, "text": "The user's boss wants three facade options for the clubhouse by tomorrow.", "importance": 8, "deleted": false}
+{"id": 29, "session_id": "smk-6", "date": "2026-04-20", "turn_index": 1, "text": "The user is working on a URA submission for the clubhouse.", "importance": 7, "deleted": false}
+{"id": 30, "session_id": "smk-6", "date": "2026-04-20", "turn_index": 1, "text": "The facade options the user is considering are timber, perforated metal, and a green wall.", "importance": 6, "deleted": false}
+{"id": 31, "session_id": "smk-7", "date": "2026-05-06", "turn_index": 0, "text": "The user finished their Master Grade Zaku last night.", "importance": 5, "deleted": false}
+{"id": 32, "session_id": "smk-7", "date": "2026-05-06", "turn_index": 0, "text": "Gundam models are the only thing that calms the user's brain.", "importance": 7, "deleted": false}
+{"id": 33, "session_id": "smk-8", "date": "2026-05-25", "turn_index": 0, "text": "The user collects keys for their BTO in Tengah next month.", "importance": 8, "deleted": false}
+{"id": 34, "session_id": "smk-8", "date": "2026-05-25", "turn_index": 0, "text": "The user needs a renovation budget plan.", "importance": 7, "deleted": false}
+{"id": 35, "session_id": "smk-8", "date": "2026-05-25", "turn_index": 1, "text": "The user collects keys for their BTO in Tengah next month.", "importance": 8, "deleted": false}
+{"id": 36, "session_id": "smk-8", "date": "2026-05-25", "turn_index": 1, "text": "The user's budget for renovation is about $45k for a 4-room.", "importance": 7, "deleted": false}
+{"id": 37, "session_id": "smk-9", "date": "2026-06-12", "turn_index": 0, "text": "The user is chewing mint gum non-stop at the office.", "importance": 5, "deleted": false}
+{"id": 38, "session_id": "smk-9", "date": "2026-06-12", "turn_index": 0, "text": "The user reaches for gum instead of going downstairs when the client emails.", "importance": 4, "deleted": false}
+{"id": 39, "session_id": "smk-11", "date": "2026-07-20", "turn_index": 0, "text": "The user booked their wedding banquet at Parkroyal Collection Pickering.", "importance": 10, "deleted": false}
+{"id": 40, "session_id": "smk-11", "date": "2026-07-20", "turn_index": 0, "text": "The user booked 30 tables for their wedding banquet.", "importance": 10, "deleted": false}
+{"id": 41, "session_id": "smk-11", "date": "2026-07-20", "turn_index": 0, "text": "Alicia cried when the user and Alicia saw the ballroom.", "importance": 5, "deleted": false}
+{"id": 42, "session_id": "smk-11", "date": "2026-07-20", "turn_index": 1, "text": "The user booked their wedding banquet at Parkroyal Collection Pickering with 30 tables.", "importance": 10, "deleted": false}
+{"id": 43, "session_id": "smk-11", "date": "2026-07-20", "turn_index": 1, "text": "The user's mother wants to invite her entire church choir to the wedding.", "importance": 6, "deleted": false}
+{"id": 44, "session_id": "smk-12", "date": "2026-08-09", "turn_index": 0, "text": "The user spent National Day at home with Alicia and their cat Kopi, watching the parade on TV.", "importance": 5, "deleted": false}
+{"id": 45, "session_id": "smk-12", "date": "2026-08-09", "turn_index": 0, "text": "The user's cat Kopi hates fireworks.", "importance": 7, "deleted": false}

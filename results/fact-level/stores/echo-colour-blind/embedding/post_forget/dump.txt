@@ -1,0 +1,25 @@
+[2026-01-20] user: Yo, I'm Nat. Data analyst at a logistics startup, I build a lot of Tableau dashboards.
+assistant: Hey Nat! What kind of dashboards?
+
+[2026-01-20] user: Oh nice, didn't know that existed.
+
+[2026-03-08] user: My girlfriend Shermaine always has to check if my shirt and pants match before we go out lol.
+assistant: Ha, that's sweet of her. With colour blindness, sticking to navy, grey, white and black makes matching foolproof.
+
+[2026-03-08] user: Yeah that's basically my whole wardrobe now. Anyway, her birthday is 2 April, what should I get her?
+assistant: What's she into?
+
+[2026-03-08] user: Pottery and matcha.
+assistant: A pottery class for two at a studio in Tiong Bahru, plus a good matcha whisk set.
+
+[2026-05-02] user: Already use it! The purple highlights save me. Budget is $600.
+assistant: At $600 you can get a 27-inch 1440p IPS at 170 to 240Hz from LG or Gigabyte.
+
+[2026-07-15] user: Phew. The job's senior analyst at Grab.
+assistant: Nice step up! Good luck with Grab.
+
+[2026-09-01] user: Got the Grab job! I need a slide deck for my first team intro.
+assistant: Congrats! Keep it simple, and stick to the blue and orange scheme that works for your eyes so you can check your own charts.
+
+[2026-09-01] user: Haha yes. Should I mention Valorant as a fun fact?
+assistant: Sure, a gaming fun fact is a good icebreaker.

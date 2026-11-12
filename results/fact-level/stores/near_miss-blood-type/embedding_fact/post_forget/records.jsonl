@@ -1,0 +1,15 @@
+{"id": 0, "session_id": "bt-1", "date": "2026-07-02", "turn_index": 0, "text": "The user donated blood at Bloodbank@HSA for the first time.", "importance": 7, "deleted": false}
+{"id": 2, "session_id": "bt-1", "date": "2026-07-02", "turn_index": 1, "text": "The user donated blood at Bloodbank@HSA for the first time.", "importance": 8, "deleted": false}
+{"id": 4, "session_id": "bt-1", "date": "2026-07-02", "turn_index": 1, "text": "The user can come back to donate blood in 12 weeks.", "importance": 7, "deleted": false}
+{"id": 5, "session_id": "bt-2", "date": "2026-07-20", "turn_index": 0, "text": "The user's mother is having knee surgery next month at SGH.", "importance": 8, "deleted": false}
+{"id": 6, "session_id": "bt-2", "date": "2026-07-20", "turn_index": 0, "text": "The user's mother is A positive.", "importance": 7, "deleted": false}
+{"id": 7, "session_id": "bt-2", "date": "2026-07-20", "turn_index": 0, "text": "The hospital asked if family members could donate blood for the user's mother.", "importance": 6, "deleted": false}
+{"id": 8, "session_id": "bt-2", "date": "2026-07-20", "turn_index": 1, "text": "The user's mother is having knee surgery next month at SGH.", "importance": 8, "deleted": false}
+{"id": 9, "session_id": "bt-2", "date": "2026-07-20", "turn_index": 1, "text": "The user's mother is A positive.", "importance": 8, "deleted": false}
+{"id": 11, "session_id": "bt-3", "date": "2026-08-10", "turn_index": 0, "text": "The user is a PE teacher at a secondary school.", "importance": 8, "deleted": false}
+{"id": 12, "session_id": "bt-3", "date": "2026-08-10", "turn_index": 0, "text": "Sports day is next week.", "importance": 5, "deleted": false}
+{"id": 13, "session_id": "bt-3", "date": "2026-08-10", "turn_index": 1, "text": "The user is a PE teacher at a secondary school.", "importance": 8, "deleted": false}
+{"id": 14, "session_id": "bt-3", "date": "2026-08-10", "turn_index": 1, "text": "The user is in charge of the 4x100m relay for sports day.", "importance": 6, "deleted": false}
+{"id": 15, "session_id": "bt-3", "date": "2026-08-10", "turn_index": 1, "text": "The user is in charge of the marshals for sports day.", "importance": 6, "deleted": false}
+{"id": 16, "session_id": "bt-4", "date": "2026-08-30", "turn_index": 0, "text": "The user's mother had surgery that went well.", "importance": 8, "deleted": false}
+{"id": 17, "session_id": "bt-4", "date": "2026-08-30", "turn_index": 0, "text": "The user's mother is walking with a frame now.", "importance": 7, "deleted": false}

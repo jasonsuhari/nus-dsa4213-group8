@@ -1,0 +1,63 @@
+[2026-01-12] The user's name is Priya.
+
+[2026-01-12] The user is 29 years old.
+
+[2026-01-12] The user lives in Bedok.
+
+[2026-01-12] The user's younger sister's name is Kavya.
+
+[2026-01-12] The user's name is Priya.
+
+[2026-01-12] The user is 29 years old.
+
+[2026-01-12] The user lives in Bedok.
+
+[2026-01-12] The user's younger sister is Kavya.
+
+[2026-01-12] Kavya is getting married on 21 November.
+
+[2026-01-12] Priya is the maid of honour for Kavya's wedding.
+
+[2026-02-09] The user's friend Kavya is having a hen party.
+
+[2026-02-09] The user is planning a hen party brunch for Kavya.
+
+[2026-02-09] The hen party brunch is scheduled for Saturday 14 March.
+
+[2026-02-09] The user's friend Kavya is having a hen party brunch.
+
+[2026-02-09] The hen party brunch is scheduled for Saturday 14 March.
+
+[2026-02-09] The user prefers brunch places near Katong.
+
+[2026-04-06] The user wants to pick up a hobby.
+
+[2026-04-06] The user is thinking of learning Korean.
+
+[2026-04-06] The user watches K-dramas.
+
+[2026-04-06] The user wants to pick up a hobby.
+
+[2026-04-06] The user is thinking of learning Korean.
+
+[2026-04-06] The user watches K-dramas.
+
+[2026-04-06] The user will start learning Korean with Duolingo.
+
+[2026-06-15] The user's name is Priya.
+
+[2026-06-15] The user's sister is named Kavya.
+
+[2026-06-15] Kavya wants Priya to give a speech at her wedding.
+
+[2026-06-15] The user's name is Priya.
+
+[2026-06-15] The user's sister is named Kavya.
+
+[2026-06-15] Priya is Kavya's older sister.
+
+[2026-06-15] Priya and Kavya grew up in Ipoh.
+
+[2026-08-03] The user is learning Korean.
+
+[2026-08-03] The user has a 60-day streak in learning Korean.

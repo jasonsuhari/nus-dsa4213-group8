@@ -1,0 +1,49 @@
+{"id": 0, "session_id": "ret-1", "date": "2026-03-04", "turn_index": 0, "text": "The user's son Ethan has his Grade 6 piano exam in April.", "importance": 8, "deleted": false}
+{"id": 1, "session_id": "ret-1", "date": "2026-03-04", "turn_index": 0, "text": "Ethan hasn't practiced scales once this week.", "importance": 6, "deleted": false}
+{"id": 2, "session_id": "ret-1", "date": "2026-03-04", "turn_index": 1, "text": "The user's son Ethan has his Grade 6 piano exam in April.", "importance": 8, "deleted": false}
+{"id": 3, "session_id": "ret-1", "date": "2026-03-04", "turn_index": 1, "text": "Ethan hasn't practiced scales once this week.", "importance": 6, "deleted": false}
+{"id": 4, "session_id": "ret-2", "date": "2026-03-17", "turn_index": 0, "text": "The user's name is Jasmine.", "importance": 10, "deleted": false}
+{"id": 5, "session_id": "ret-2", "date": "2026-03-17", "turn_index": 0, "text": "Jasmine was retrenched from her job this morning.", "importance": 10, "deleted": false}
+{"id": 6, "session_id": "ret-2", "date": "2026-03-17", "turn_index": 0, "text": "Jasmine worked for eight years at her company before being retrenched.", "importance": 10, "deleted": false}
+{"id": 7, "session_id": "ret-2", "date": "2026-03-17", "turn_index": 0, "text": "The entire APAC marketing team was cut.", "importance": 8, "deleted": false}
+{"id": 8, "session_id": "ret-2", "date": "2026-03-17", "turn_index": 0, "text": "Jasmine was informed of her retrenchment in a 15-minute call.", "importance": 7, "deleted": false}
+{"id": 9, "session_id": "ret-2", "date": "2026-03-17", "turn_index": 1, "text": "The user's name is Jasmine.", "importance": 10, "deleted": false}
+{"id": 10, "session_id": "ret-2", "date": "2026-03-17", "turn_index": 1, "text": "Jasmine was retrenched from her job this morning.", "importance": 10, "deleted": false}
+{"id": 11, "session_id": "ret-2", "date": "2026-03-17", "turn_index": 1, "text": "Jasmine worked at her company for eight years.", "importance": 10, "deleted": false}
+{"id": 12, "session_id": "ret-2", "date": "2026-03-17", "turn_index": 1, "text": "Jasmine was part of the APAC marketing team that was cut.", "importance": 10, "deleted": false}
+{"id": 13, "session_id": "ret-3", "date": "2026-04-02", "turn_index": 0, "text": "The user joined a pickleball club in Bukit Timah.", "importance": 7, "deleted": false}
+{"id": 14, "session_id": "ret-3", "date": "2026-04-02", "turn_index": 0, "text": "The user plays pickleball on Thursday mornings.", "importance": 6, "deleted": false}
+{"id": 15, "session_id": "ret-3", "date": "2026-04-02", "turn_index": 0, "text": "The user never thought they would be into pickleball.", "importance": 5, "deleted": false}
+{"id": 16, "session_id": "ret-4", "date": "2026-04-21", "turn_index": 0, "text": "The user started a SkillsFuture course in UX design today.", "importance": 7, "deleted": false}
+{"id": 17, "session_id": "ret-4", "date": "2026-04-21", "turn_index": 0, "text": "The user is 44 years old.", "importance": 6, "deleted": false}
+{"id": 18, "session_id": "ret-4", "date": "2026-04-21", "turn_index": 0, "text": "The user has a marketing background.", "importance": 5, "deleted": false}
+{"id": 19, "session_id": "ret-4", "date": "2026-04-21", "turn_index": 1, "text": "The user started a SkillsFuture course in UX design.", "importance": 8, "deleted": false}
+{"id": 20, "session_id": "ret-4", "date": "2026-04-21", "turn_index": 1, "text": "The user is 44 years old.", "importance": 7, "deleted": false}
+{"id": 21, "session_id": "ret-4", "date": "2026-04-21", "turn_index": 1, "text": "The user's first assignment in the SkillsFuture course is user interviews.", "importance": 6, "deleted": false}
+{"id": 22, "session_id": "ret-5", "date": "2026-05-08", "turn_index": 0, "text": "Desmond's birthday is on Saturday.", "importance": 5, "deleted": false}
+{"id": 23, "session_id": "ret-5", "date": "2026-05-08", "turn_index": 0, "text": "Desmond is hard to buy for.", "importance": 6, "deleted": false}
+{"id": 24, "session_id": "ret-5", "date": "2026-05-08", "turn_index": 1, "text": "Desmond's birthday is on Saturday.", "importance": 8, "deleted": false}
+{"id": 25, "session_id": "ret-5", "date": "2026-05-08", "turn_index": 1, "text": "Desmond has been talking about omakase for months.", "importance": 6, "deleted": false}
+{"id": 26, "session_id": "ret-6", "date": "2026-05-27", "turn_index": 0, "text": "The user's mother is having a cataract operation next Tuesday at SGH.", "importance": 8, "deleted": false}
+{"id": 27, "session_id": "ret-6", "date": "2026-05-27", "turn_index": 0, "text": "The user is bringing their mother to SGH for her cataract operation.", "importance": 7, "deleted": false}
+{"id": 28, "session_id": "ret-7", "date": "2026-06-14", "turn_index": 0, "text": "The user makes bentos for Ethan.", "importance": 7, "deleted": false}
+{"id": 29, "session_id": "ret-7", "date": "2026-06-14", "turn_index": 0, "text": "Ethan says canteen food is boring.", "importance": 5, "deleted": false}
+{"id": 30, "session_id": "ret-8", "date": "2026-07-02", "turn_index": 0, "text": "The user has a first interview for a product marketing role at a logistics startup today.", "importance": 8, "deleted": false}
+{"id": 31, "session_id": "ret-8", "date": "2026-07-02", "turn_index": 0, "text": "The user has a second round interview for the product marketing role next week.", "importance": 8, "deleted": false}
+{"id": 32, "session_id": "ret-8", "date": "2026-07-02", "turn_index": 1, "text": "The user has a first interview for a product marketing role at a logistics startup today.", "importance": 8, "deleted": false}
+{"id": 33, "session_id": "ret-8", "date": "2026-07-02", "turn_index": 1, "text": "The user has a second round interview for the product marketing role next week.", "importance": 8, "deleted": false}
+{"id": 34, "session_id": "ret-8", "date": "2026-07-02", "turn_index": 1, "text": "The user has a campaign story from a 2024 launch that tripled sign-ups.", "importance": 7, "deleted": false}
+{"id": 35, "session_id": "ret-9", "date": "2026-07-21", "turn_index": 0, "text": "The user is a member of a pickleball club.", "importance": 7, "deleted": false}
+{"id": 36, "session_id": "ret-9", "date": "2026-07-21", "turn_index": 0, "text": "The user's pickleball club has a doubles tournament in August.", "importance": 6, "deleted": false}
+{"id": 37, "session_id": "ret-9", "date": "2026-07-21", "turn_index": 0, "text": "The user's partner for the doubles tournament is a 70-year-old uncle.", "importance": 7, "deleted": false}
+{"id": 38, "session_id": "ret-9", "date": "2026-07-21", "turn_index": 0, "text": "The user's uncle is better than all of the other players in the club.", "importance": 6, "deleted": false}
+{"id": 39, "session_id": "ret-10", "date": "2026-08-09", "turn_index": 0, "text": "The user is planning a family trip in December.", "importance": 8, "deleted": false}
+{"id": 40, "session_id": "ret-10", "date": "2026-08-09", "turn_index": 0, "text": "The user is considering Phuket for a week for the family trip.", "importance": 7, "deleted": false}
+{"id": 41, "session_id": "ret-11", "date": "2026-08-30", "turn_index": 0, "text": "The user is redesigning a hawker centre ordering app for their UX course final project.", "importance": 8, "deleted": false}
+{"id": 42, "session_id": "ret-11", "date": "2026-08-30", "turn_index": 0, "text": "The user is testing the hawker centre ordering app on their mum.", "importance": 7, "deleted": false}
+{"id": 43, "session_id": "ret-11", "date": "2026-08-30", "turn_index": 1, "text": "The user is redesigning a hawker centre ordering app for their UX course final project.", "importance": 8, "deleted": false}
+{"id": 44, "session_id": "ret-11", "date": "2026-08-30", "turn_index": 1, "text": "The user is testing the hawker centre ordering app on their mum.", "importance": 7, "deleted": false}
+{"id": 45, "session_id": "ret-11", "date": "2026-08-30", "turn_index": 1, "text": "The user's mum hesitated everywhere while testing the app.", "importance": 6, "deleted": false}
+{"id": 46, "session_id": "ret-12", "date": "2026-09-17", "turn_index": 0, "text": "The user is growing chilli padi on their balcony.", "importance": 5, "deleted": false}
+{"id": 47, "session_id": "ret-12", "date": "2026-09-17", "turn_index": 0, "text": "The user has five chilli padi plants.", "importance": 5, "deleted": false}
+{"id": 48, "session_id": "ret-12", "date": "2026-09-17", "turn_index": 0, "text": "The user's chilli padi plants have flowers.", "importance": 5, "deleted": false}

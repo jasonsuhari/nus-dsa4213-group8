@@ -1,0 +1,47 @@
+{"id": 0, "session_id": "gm-1", "date": "2026-01-20", "turn_index": 0, "text": "The user's name is Aisyah.", "importance": 10, "deleted": false}
+{"id": 1, "session_id": "gm-1", "date": "2026-01-20", "turn_index": 0, "text": "Aisyah is in Year 2 of mechanical engineering at NTU.", "importance": 8, "deleted": false}
+{"id": 2, "session_id": "gm-1", "date": "2026-01-20", "turn_index": 1, "text": "The user's name is Aisyah.", "importance": 10, "deleted": false}
+{"id": 3, "session_id": "gm-1", "date": "2026-01-20", "turn_index": 1, "text": "Aisyah is in Year 2 of mechanical engineering at NTU.", "importance": 10, "deleted": false}
+{"id": 4, "session_id": "gm-1", "date": "2026-01-20", "turn_index": 1, "text": "Aisyah lives with her grandmother, who is referred to as nenek, in Pasir Ris.", "importance": 8, "deleted": false}
+{"id": 5, "session_id": "gm-1", "date": "2026-01-20", "turn_index": 1, "text": "Aisyah does most of the cooking and groceries for herself and her grandmother.", "importance": 7, "deleted": false}
+{"id": 6, "session_id": "gm-1", "date": "2026-01-20", "turn_index": 2, "text": "The user's name is Aisyah.", "importance": 10, "deleted": false}
+{"id": 7, "session_id": "gm-1", "date": "2026-01-20", "turn_index": 2, "text": "Aisyah is in Year 2 of mechanical engineering at NTU.", "importance": 10, "deleted": false}
+{"id": 8, "session_id": "gm-1", "date": "2026-01-20", "turn_index": 2, "text": "Aisyah lives with her grandmother, who is referred to as nenek, in Pasir Ris.", "importance": 10, "deleted": false}
+{"id": 9, "session_id": "gm-1", "date": "2026-01-20", "turn_index": 2, "text": "Aisyah does most of the cooking and groceries for herself and her nenek.", "importance": 8, "deleted": false}
+{"id": 10, "session_id": "gm-1", "date": "2026-01-20", "turn_index": 2, "text": "Aisyah's nenek can't take spicy food anymore.", "importance": 7, "deleted": false}
+{"id": 11, "session_id": "gm-2", "date": "2026-02-10", "turn_index": 0, "text": "The user got a part-time job at a bubble tea shop at Downtown East, weekends only.", "importance": 7, "deleted": false}
+{"id": 12, "session_id": "gm-2", "date": "2026-02-10", "turn_index": 1, "text": "The user has a brother named Irfan.", "importance": 7, "deleted": false}
+{"id": 13, "session_id": "gm-2", "date": "2026-02-10", "turn_index": 1, "text": "Irfan books out from NS on weekends.", "importance": 6, "deleted": false}
+{"id": 14, "session_id": "gm-2", "date": "2026-02-10", "turn_index": 1, "text": "Irfan will keep the user's grandmother company on weekends.", "importance": 8, "deleted": false}
+{"id": 15, "session_id": "gm-2", "date": "2026-02-10", "turn_index": 2, "text": "The user has a part-time job at a bubble tea shop at Downtown East on weekends only.", "importance": 7, "deleted": false}
+{"id": 16, "session_id": "gm-2", "date": "2026-02-10", "turn_index": 2, "text": "The user's brother is named Irfan.", "importance": 6, "deleted": false}
+{"id": 17, "session_id": "gm-2", "date": "2026-02-10", "turn_index": 2, "text": "Irfan books out from NS on weekends.", "importance": 6, "deleted": false}
+{"id": 18, "session_id": "gm-2", "date": "2026-02-10", "turn_index": 2, "text": "Irfan is currently in Tekong.", "importance": 6, "deleted": false}
+{"id": 19, "session_id": "gm-2", "date": "2026-02-10", "turn_index": 2, "text": "Irfan is complaining about his experience in NS.", "importance": 5, "deleted": false}
+{"id": 20, "session_id": "gm-3", "date": "2026-03-05", "turn_index": 0, "text": "Hari Raya is in two weeks.", "importance": 5, "deleted": false}
+{"id": 21, "session_id": "gm-3", "date": "2026-03-05", "turn_index": 0, "text": "The user's relatives are coming to the user's flat for Hari Raya.", "importance": 6, "deleted": false}
+{"id": 22, "session_id": "gm-3", "date": "2026-03-05", "turn_index": 0, "text": "The user's nenek can't take spice anymore.", "importance": 7, "deleted": false}
+{"id": 23, "session_id": "gm-3", "date": "2026-03-05", "turn_index": 1, "text": "The user's nenek will insist on making kuih herself.", "importance": 7, "deleted": false}
+{"id": 24, "session_id": "gm-3", "date": "2026-03-05", "turn_index": 1, "text": "The user's nenek makes the best kuih bangkit.", "importance": 8, "deleted": false}
+{"id": 25, "session_id": "gm-3", "date": "2026-03-05", "turn_index": 2, "text": "The user is planning a menu for Hari Raya in two weeks.", "importance": 7, "deleted": false}
+{"id": 26, "session_id": "gm-3", "date": "2026-03-05", "turn_index": 2, "text": "The user's relatives are coming to their flat for Hari Raya.", "importance": 6, "deleted": false}
+{"id": 27, "session_id": "gm-3", "date": "2026-03-05", "turn_index": 2, "text": "The user's signature dish is lontong.", "importance": 8, "deleted": false}
+{"id": 28, "session_id": "gm-3", "date": "2026-03-05", "turn_index": 2, "text": "The user's nenek cannot take spice anymore.", "importance": 5, "deleted": false}
+{"id": 29, "session_id": "gm-3", "date": "2026-03-05", "turn_index": 2, "text": "The user's nenek insists on making kuih bangkit herself.", "importance": 6, "deleted": false}
+{"id": 30, "session_id": "gm-3", "date": "2026-03-05", "turn_index": 2, "text": "The user's nenek's kuih bangkit is considered the best.", "importance": 7, "deleted": false}
+{"id": 31, "session_id": "gm-4", "date": "2026-05-04", "turn_index": 0, "text": "The user wants to take driving lessons.", "importance": 8, "deleted": false}
+{"id": 32, "session_id": "gm-4", "date": "2026-05-04", "turn_index": 0, "text": "The user is located in Pasir Ris.", "importance": 7, "deleted": false}
+{"id": 33, "session_id": "gm-4", "date": "2026-05-04", "turn_index": 1, "text": "The user wants to take driving lessons.", "importance": 7, "deleted": false}
+{"id": 34, "session_id": "gm-4", "date": "2026-05-04", "turn_index": 1, "text": "The user wants to drive so they can take their nenek to her clinic appointments.", "importance": 8, "deleted": false}
+{"id": 35, "session_id": "gm-4", "date": "2026-05-04", "turn_index": 1, "text": "The user's nenek has difficulty with the bus due to her knees.", "importance": 7, "deleted": false}
+{"id": 36, "session_id": "gm-4", "date": "2026-05-04", "turn_index": 1, "text": "The user's nenek goes to a polyclinic for her visits.", "importance": 6, "deleted": false}
+{"id": 37, "session_id": "gm-5", "date": "2026-08-18", "turn_index": 0, "text": "The user has classes from Monday to Thursday.", "importance": 8, "deleted": false}
+{"id": 38, "session_id": "gm-5", "date": "2026-08-18", "turn_index": 0, "text": "The user has bubble tea on Saturday and Sunday.", "importance": 6, "deleted": false}
+{"id": 39, "session_id": "gm-5", "date": "2026-08-18", "turn_index": 0, "text": "The user has errands on Friday.", "importance": 5, "deleted": false}
+{"id": 40, "session_id": "gm-5", "date": "2026-08-18", "turn_index": 0, "text": "The user's grandmother has polyclinic visits.", "importance": 7, "deleted": false}
+{"id": 41, "session_id": "gm-5", "date": "2026-08-18", "turn_index": 0, "text": "The user goes grocery shopping on Sunday evening for themselves and their grandmother.", "importance": 6, "deleted": false}
+{"id": 42, "session_id": "gm-5", "date": "2026-08-18", "turn_index": 1, "text": "The user has classes from Monday to Thursday.", "importance": 8, "deleted": false}
+{"id": 43, "session_id": "gm-5", "date": "2026-08-18", "turn_index": 1, "text": "The user has bubble tea plans on Saturday and Sunday.", "importance": 6, "deleted": false}
+{"id": 44, "session_id": "gm-5", "date": "2026-08-18", "turn_index": 1, "text": "The user has driving lessons on Wednesday nights from 7 to 9pm.", "importance": 7, "deleted": false}
+{"id": 45, "session_id": "gm-5", "date": "2026-08-18", "turn_index": 1, "text": "The user's grandmother has polyclinic visits.", "importance": 5, "deleted": false}
+{"id": 46, "session_id": "gm-5", "date": "2026-08-18", "turn_index": 1, "text": "The user and their grandmother go grocery shopping on Sunday evening.", "importance": 6, "deleted": false}

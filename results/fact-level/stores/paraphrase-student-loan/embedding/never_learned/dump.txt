@@ -1,0 +1,14 @@
+[2026-03-03] user: I'm a physio at a private clinic in Novena, back in Singapore after doing my master's in Melbourne. Trying to get my finances in order now that I'm earning properly.
+assistant: Good time to set it up. Start by listing what you spend each month, even the small things.
+
+[2026-03-03] user: Badminton on Wednesday nights is my only real hobby spend, court fees and shuttles.
+assistant: That's a cheap hobby as these things go. Let's put it under fun money.
+
+[2026-04-07] user: Still living with my parents in Toa Payoh to save money. Mum's cooking is a bonus, but how do I contribute fairly to the household?
+assistant: Many people give their parents a fixed monthly amount, often a few hundred dollars, and cover some of the groceries.
+
+[2026-04-28] user: Deciding between a used Honda Vezel and not driving at all. Is a car even realistic?
+assistant: Probably not yet. A car instalment, COE depreciation and parking add up fast. Grab plus MRT is far cheaper for most people.
+
+[2026-05-19] user: My friends want me on their Japan trip in December. Should I go?
+assistant: Set a firm trip budget, like $2,000, and you can enjoy it without stressing.

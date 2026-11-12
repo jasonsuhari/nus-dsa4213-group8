@@ -1,0 +1,51 @@
+[2026-01-20] The user's name is Nat.
+
+[2026-01-20] The user is a data analyst.
+
+[2026-01-20] The user works at a logistics startup.
+
+[2026-01-20] The user builds a lot of Tableau dashboards.
+
+[2026-01-20] The user's name is Nat.
+
+[2026-01-20] Nat is a data analyst at a logistics startup.
+
+[2026-01-20] Nat builds a lot of Tableau dashboards.
+
+[2026-01-20] Nat's dashboards focus mostly on delivery performance.
+
+[2026-03-08] The user's girlfriend is named Shermaine.
+
+[2026-03-08] Shermaine always checks if the user's shirt and pants match before they go out.
+
+[2026-03-08] The user's girlfriend is named Shermaine.
+
+[2026-03-08] Shermaine's birthday is on 2 April.
+
+[2026-03-08] The user's girlfriend is named Shermaine.
+
+[2026-03-08] Shermaine's birthday is on 2 April.
+
+[2026-03-08] The user is interested in pottery.
+
+[2026-03-08] The user is interested in matcha.
+
+[2026-05-02] The user is thinking of buying a new monitor for gaming.
+
+[2026-05-02] The user mostly plays Valorant.
+
+[2026-05-02] The user is thinking of buying a new monitor for gaming.
+
+[2026-05-02] The user plays Valorant mostly.
+
+[2026-05-02] The user's budget for the monitor is $600.
+
+[2026-07-15] The user is applying for a new job as a senior analyst at Grab.
+
+[2026-09-01] The user got a job with Grab.
+
+[2026-09-01] The user needs a slide deck for their first team introduction.
+
+[2026-09-01] The user got a job at Grab.
+
+[2026-09-01] The user plays Valorant.

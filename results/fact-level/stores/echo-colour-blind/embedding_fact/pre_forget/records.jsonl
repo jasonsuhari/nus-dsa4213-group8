@@ -1,0 +1,41 @@
+{"id": 0, "session_id": "cb-1", "date": "2026-01-20", "turn_index": 0, "text": "The user's name is Nat.", "importance": 10, "deleted": false}
+{"id": 1, "session_id": "cb-1", "date": "2026-01-20", "turn_index": 0, "text": "The user is a data analyst.", "importance": 8, "deleted": false}
+{"id": 2, "session_id": "cb-1", "date": "2026-01-20", "turn_index": 0, "text": "The user works at a logistics startup.", "importance": 7, "deleted": false}
+{"id": 3, "session_id": "cb-1", "date": "2026-01-20", "turn_index": 0, "text": "The user builds a lot of Tableau dashboards.", "importance": 6, "deleted": false}
+{"id": 4, "session_id": "cb-1", "date": "2026-01-20", "turn_index": 1, "text": "The user's name is Nat.", "importance": 10, "deleted": false}
+{"id": 5, "session_id": "cb-1", "date": "2026-01-20", "turn_index": 1, "text": "Nat is a data analyst at a logistics startup.", "importance": 8, "deleted": false}
+{"id": 6, "session_id": "cb-1", "date": "2026-01-20", "turn_index": 1, "text": "Nat builds a lot of Tableau dashboards.", "importance": 7, "deleted": false}
+{"id": 7, "session_id": "cb-1", "date": "2026-01-20", "turn_index": 1, "text": "Nat is red-green colour-blind.", "importance": 9, "deleted": false}
+{"id": 8, "session_id": "cb-1", "date": "2026-01-20", "turn_index": 1, "text": "The default red and green status colours in Tableau dashboards are useless to Nat due to colour-blindness.", "importance": 8, "deleted": false}
+{"id": 9, "session_id": "cb-1", "date": "2026-01-20", "turn_index": 2, "text": "The user's name is Nat.", "importance": 10, "deleted": false}
+{"id": 10, "session_id": "cb-1", "date": "2026-01-20", "turn_index": 2, "text": "The user is a data analyst at a logistics startup.", "importance": 8, "deleted": false}
+{"id": 11, "session_id": "cb-1", "date": "2026-01-20", "turn_index": 2, "text": "The user builds a lot of Tableau dashboards.", "importance": 7, "deleted": false}
+{"id": 12, "session_id": "cb-1", "date": "2026-01-20", "turn_index": 2, "text": "The user focuses on delivery performance in their dashboards.", "importance": 7, "deleted": false}
+{"id": 13, "session_id": "cb-1", "date": "2026-01-20", "turn_index": 2, "text": "The user is red-green colour-blind.", "importance": 9, "deleted": false}
+{"id": 14, "session_id": "cb-2", "date": "2026-03-08", "turn_index": 0, "text": "The user's girlfriend is named Shermaine.", "importance": 8, "deleted": false}
+{"id": 15, "session_id": "cb-2", "date": "2026-03-08", "turn_index": 0, "text": "The user has color blindness.", "importance": 7, "deleted": false}
+{"id": 16, "session_id": "cb-2", "date": "2026-03-08", "turn_index": 0, "text": "The user prefers to stick to navy, grey, white, and black clothing to make matching foolproof.", "importance": 6, "deleted": false}
+{"id": 17, "session_id": "cb-2", "date": "2026-03-08", "turn_index": 1, "text": "The user's girlfriend is named Shermaine.", "importance": 8, "deleted": false}
+{"id": 18, "session_id": "cb-2", "date": "2026-03-08", "turn_index": 1, "text": "Shermaine's birthday is on 2 April.", "importance": 7, "deleted": false}
+{"id": 19, "session_id": "cb-2", "date": "2026-03-08", "turn_index": 1, "text": "The user has colour blindness.", "importance": 6, "deleted": false}
+{"id": 20, "session_id": "cb-2", "date": "2026-03-08", "turn_index": 1, "text": "The user's wardrobe consists mainly of navy, grey, white, and black clothing.", "importance": 5, "deleted": false}
+{"id": 21, "session_id": "cb-2", "date": "2026-03-08", "turn_index": 2, "text": "The user's girlfriend is named Shermaine.", "importance": 8, "deleted": false}
+{"id": 22, "session_id": "cb-2", "date": "2026-03-08", "turn_index": 2, "text": "Shermaine's birthday is on 2 April.", "importance": 7, "deleted": false}
+{"id": 23, "session_id": "cb-2", "date": "2026-03-08", "turn_index": 2, "text": "The user has colour blindness.", "importance": 8, "deleted": false}
+{"id": 24, "session_id": "cb-2", "date": "2026-03-08", "turn_index": 2, "text": "The user's wardrobe consists mainly of navy, grey, white, and black clothing.", "importance": 6, "deleted": false}
+{"id": 25, "session_id": "cb-2", "date": "2026-03-08", "turn_index": 2, "text": "The user's girlfriend Shermaine is into pottery.", "importance": 5, "deleted": false}
+{"id": 26, "session_id": "cb-2", "date": "2026-03-08", "turn_index": 2, "text": "The user's girlfriend Shermaine is into matcha.", "importance": 5, "deleted": false}
+{"id": 27, "session_id": "cb-3", "date": "2026-05-02", "turn_index": 0, "text": "The user is thinking of buying a new monitor for gaming.", "importance": 5, "deleted": false}
+{"id": 28, "session_id": "cb-3", "date": "2026-05-02", "turn_index": 0, "text": "The user plays Valorant mostly.", "importance": 7, "deleted": false}
+{"id": 29, "session_id": "cb-3", "date": "2026-05-02", "turn_index": 1, "text": "The user plays Valorant mostly.", "importance": 7, "deleted": false}
+{"id": 30, "session_id": "cb-3", "date": "2026-05-02", "turn_index": 1, "text": "The user already uses Valorant's deuteranopia colour-blind mode for clearer enemy highlights.", "importance": 8, "deleted": false}
+{"id": 31, "session_id": "cb-3", "date": "2026-05-02", "turn_index": 1, "text": "The user's budget for a new monitor is $600.", "importance": 6, "deleted": false}
+{"id": 32, "session_id": "cb-4", "date": "2026-07-15", "turn_index": 0, "text": "The user is applying for a new job.", "importance": 5, "deleted": false}
+{"id": 33, "session_id": "cb-4", "date": "2026-07-15", "turn_index": 0, "text": "The user has a condition related to their eyes.", "importance": 7, "deleted": false}
+{"id": 34, "session_id": "cb-4", "date": "2026-07-15", "turn_index": 1, "text": "The user is applying for a senior analyst job at Grab.", "importance": 8, "deleted": false}
+{"id": 35, "session_id": "cb-5", "date": "2026-09-01", "turn_index": 0, "text": "The user got a job with Grab.", "importance": 8, "deleted": false}
+{"id": 36, "session_id": "cb-5", "date": "2026-09-01", "turn_index": 0, "text": "The user needs a slide deck for their first team introduction.", "importance": 7, "deleted": false}
+{"id": 37, "session_id": "cb-5", "date": "2026-09-01", "turn_index": 0, "text": "The user prefers a blue and orange color scheme for presentations because it works for their eyes.", "importance": 6, "deleted": false}
+{"id": 38, "session_id": "cb-5", "date": "2026-09-01", "turn_index": 1, "text": "The user got a job with Grab.", "importance": 8, "deleted": false}
+{"id": 39, "session_id": "cb-5", "date": "2026-09-01", "turn_index": 1, "text": "The user prefers a blue and orange color scheme for presentations.", "importance": 6, "deleted": false}
+{"id": 40, "session_id": "cb-5", "date": "2026-09-01", "turn_index": 1, "text": "The user plays Valorant.", "importance": 5, "deleted": false}

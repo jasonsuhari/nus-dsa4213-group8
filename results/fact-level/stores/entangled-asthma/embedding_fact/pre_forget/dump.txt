@@ -1,0 +1,45 @@
+[2026-01-12] The user's name is Hakim.
+
+[2026-01-12] Hakim is a first year mechanical engineering student at NTU.
+
+[2026-01-12] Hakim's lectures are mostly in the mornings.
+
+[2026-01-12] The user's name is Hakim.
+
+[2026-01-12] Hakim is a first year mechanical engineering student at NTU.
+
+[2026-01-12] Hakim has asthma.
+
+[2026-01-12] Hakim quit the school swim team last week.
+
+[2026-01-12] Hakim switched to the chess club.
+
+[2026-01-12] The chess club meets Wednesday nights at 7.
+
+[2026-01-28] The user's older sister Nadia is getting married in June.
+
+[2026-01-28] The user is in charge of the gate crash games for Nadia's wedding.
+
+[2026-01-28] The user's older sister Nadia is getting married in June.
+
+[2026-01-28] The user is in charge of the gate crash games for Nadia's wedding.
+
+[2026-01-28] The user needs a wedding gift under $100.
+
+[2026-02-16] The user's thermodynamics midterm is on 4 March.
+
+[2026-02-16] The user is panicking about the thermodynamics midterm.
+
+[2026-02-16] The user is a member of a chess club.
+
+[2026-02-16] The chess club is running a rapid tournament that same week as the thermodynamics midterm.
+
+[2026-02-16] The user's thermodynamics midterm is on 4 March.
+
+[2026-02-16] The user's chess club is running a rapid tournament on 7 March at Jurong West CC.
+
+[2026-02-16] The user has asthma.
+
+[2026-02-16] The user is skipping the hall's cross-country run on 1 March due to asthma.
+
+[2026-02-16] The user is doing the indoor rowing challenge instead of the cross-country run.

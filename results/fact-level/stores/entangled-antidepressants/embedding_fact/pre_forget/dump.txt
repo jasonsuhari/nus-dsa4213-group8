@@ -1,0 +1,47 @@
+[2026-04-06] The user is an audit senior.
+
+[2026-04-06] The user is interested in getting back into running.
+
+[2026-04-06] The user wants a beginner 5K plan.
+
+[2026-04-06] The user is an audit senior.
+
+[2026-04-06] The user wants to get back into running.
+
+[2026-04-06] The user's target is the Sundown Marathon 5K category in late May.
+
+[2026-04-22] The user has started taking sertraline for depression.
+
+[2026-04-22] The user started taking sertraline two weeks ago.
+
+[2026-04-22] The user experiences grogginess in the mornings due to sertraline.
+
+[2026-04-22] The user has moved their runs to 7pm.
+
+[2026-04-22] The user has switched to a 10am start under flexi-hours at work.
+
+[2026-04-22] The user has a dog named Biscuit.
+
+[2026-04-22] The user has started taking sertraline for depression.
+
+[2026-04-22] The user has been on sertraline for two weeks.
+
+[2026-04-22] The user experiences morning grogginess from sertraline.
+
+[2026-04-22] The user has moved their runs to 7pm due to morning grogginess.
+
+[2026-04-22] The user has switched to a 10am start under flexi-hours at work.
+
+[2026-05-10] The user is lactose intolerant.
+
+[2026-05-10] The user is off alcohol while on antidepressants.
+
+[2026-05-10] The user is lactose intolerant.
+
+[2026-05-10] The user is off alcohol while on antidepressants.
+
+[2026-05-10] The user's pet is named Biscuit.
+
+[2026-05-10] Biscuit's vet appointment is on Thursday at 5pm.
+
+[2026-05-10] The user wants to be reminded to leave work early for Biscuit's vet appointment.

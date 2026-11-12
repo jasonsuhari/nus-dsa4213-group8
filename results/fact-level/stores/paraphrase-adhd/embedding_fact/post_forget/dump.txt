@@ -1,0 +1,23 @@
+[2026-02-02] The user is a freelance video editor.
+
+[2026-02-02] The user is juggling three clients.
+
+[2026-02-02] The user's band is called Low Tide.
+
+[2026-02-02] The user plays bass in the band Low Tide.
+
+[2026-02-02] The user has a gig in Holland Village on Saturday.
+
+[2026-02-02] The user's gig in Holland Village is on Saturday.
+
+[2026-02-16] The user works in 15-minute sprints with a timer.
+
+[2026-02-16] The user drifts off-task if working longer than 15 minutes.
+
+[2026-03-02] The user prefers tiny steps over big task lists.
+
+[2026-03-23] The user has been falling asleep around 2am since the medication increase.
+
+[2026-04-13] The user prefers written briefs instead of call-only briefs as a reasonable adjustment.
+
+[2026-04-13] The user is considering an hourly rate of $45 for editing.

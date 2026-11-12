@@ -1,0 +1,11 @@
+[2026-07-02] user: I'm training for a half marathon in December.
+assistant: Exciting. How many runs a week?
+
+[2026-07-02] user: Four. My birthday is in November so the race is my present to myself.
+assistant: Good motivation.
+
+[2026-07-09] user: Something you should know: I have type 1 diabetes.
+assistant: Thanks for telling me, I'll keep it in mind.
+
+[2026-07-16] user: I always check my blood sugar before a long run now.
+assistant: Sensible habit for long efforts.

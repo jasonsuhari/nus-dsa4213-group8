@@ -1,0 +1,35 @@
+[2026-07-01] The user is a backend engineer at a logistics startup in Singapore.
+
+[2026-07-01] The user's girlfriend is named Priya.
+
+[2026-07-01] The user and Priya booked surf lessons in Siargao for November.
+
+[2026-07-15] The user grew up in Ipoh.
+
+[2026-07-15] The user left Ipoh at 18 for university in KL.
+
+[2026-07-15] The user grew up in Ipoh.
+
+[2026-07-15] The user left Ipoh at 18 for university in Kuala Lumpur.
+
+[2026-07-15] The user found the move to Kuala Lumpur rough at first.
+
+[2026-07-15] The user was shocked by the traffic in Kuala Lumpur.
+
+[2026-08-05] The user's parents still live in Perak.
+
+[2026-08-05] The user goes back to Perak every Chinese New Year.
+
+[2026-08-26] The user's name is Priya.
+
+[2026-08-26] The user is from Ipoh.
+
+[2026-08-26] The user is fussy about proper bean sprout chicken.
+
+[2026-09-16] The user is a senior backend engineer.
+
+[2026-09-16] The user works with Go and Postgres.
+
+[2026-09-16] The user spent his childhood in Ipoh.
+
+[2026-09-16] The user is now based in Singapore.

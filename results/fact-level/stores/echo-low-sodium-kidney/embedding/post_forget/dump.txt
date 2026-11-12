@@ -1,0 +1,24 @@
+[2026-01-08] user: Hello. I am Mr Lim, retired teacher. My son set up this app for me.
+assistant: Hello Mr Lim, nice to meet you. What can I help you with?
+
+[2026-01-08] user: I like hawker food. Wanton mee, laksa, chicken rice.
+assistant: Those are tricky for sodium, but chicken rice can work if you skip the chilli, the dark soya sauce and the soup.
+
+[2026-02-12] user: Chinese New Year next week. Reunion dinner at my daughter's house in Toa Payoh.
+assistant: Lovely! Steamboat with plain chicken broth instead of the packet soup, and skipping the bak kwa, would keep you within your sodium limit.
+
+[2026-02-12] user: Aiyo, no bak kwa. Ok lah. My grandson Jayden, 8 years old, wants to give me a red packet he saved.
+assistant: That's very sweet of Jayden!
+
+[2026-04-14] user: Every morning I do tai chi at Bishan Park with my kakis, 7am.
+assistant: That's a great habit, Mr Lim. Gentle exercise like tai chi is good for your blood pressure, which matters for your kidneys.
+
+[2026-04-14] user: Ok, kaya toast it is.
+
+[2026-06-09] user: I have blood test every 3 months at the polyclinic. Next one is 23 June. Can you remind me to fast?
+assistant: Sure. Fast from midnight on 22 June. They'll be checking your kidney function, so bring your medication list too.
+
+[2026-06-09] user: Ok, thank you.
+
+[2026-08-25] user: Hmm. Ok, I eat the chicken rice balls only.
+assistant: Good compromise. Bring your own snacks for the coach too, the chips at rest stops are salty.

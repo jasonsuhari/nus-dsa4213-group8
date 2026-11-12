@@ -1,0 +1,16 @@
+[2026-03-03] user: Hi, I'm Rachel. Working mum, accountant, drowning a bit.
+assistant: Hi Rachel. Happy to help lighten the load. What's on your plate?
+
+[2026-03-03] user: Rosyth School, it's near us in Serangoon.
+assistant: Rosyth is popular. Ava would likely fall under Phase 2C if you live within 1km, so there may be balloting.
+
+[2026-04-11] user: Yes, it lives in my handbag.
+
+[2026-06-20] user: Yes please, nothing fancy.
+assistant: Monday chicken porridge, Tuesday fried rice, Wednesday tomato pasta, Thursday fish soup, and Friday pizza night as a treat for Ava.
+
+[2026-08-29] user: Love it. And remember the cake has to be peanut-free.
+assistant: Definitely. Go with a bakery that has a nut-free kitchen.
+
+[2026-09-14] user: Party went well! The kids loved the banner.
+assistant: So glad! Did Ava have a good time?

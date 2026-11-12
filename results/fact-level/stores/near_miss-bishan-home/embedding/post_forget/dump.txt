@@ -1,0 +1,8 @@
+[2026-01-24] user: I teach chemistry at a JC and marking season is killing me.
+assistant: That's a lot of scripts. Which level are you marking?
+
+[2026-01-24] user: J2 prelims. 120 scripts by Friday.
+assistant: Break it into batches of 20 with short breaks. It goes faster than one long push.
+
+[2026-02-14] user: My husband Ravi is vegetarian, so somewhere with proper veggie options please.
+assistant: Then look for a cafe with a full vegetarian menu rather than one sad salad. Most brunch places do a good mushroom dish too.

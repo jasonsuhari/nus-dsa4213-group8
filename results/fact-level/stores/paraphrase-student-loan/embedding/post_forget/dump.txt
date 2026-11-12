@@ -1,0 +1,8 @@
+[2026-03-03] user: I'm a physio at a private clinic in Novena, back in Singapore after doing my master's in Melbourne. Trying to get my finances in order now that I'm earning properly.
+assistant: Good time to set it up. Start by listing what you spend each month, even the small things.
+
+[2026-03-03] user: Badminton on Wednesday nights is my only real hobby spend, court fees and shuttles.
+assistant: That's a cheap hobby as these things go. Let's put it under fun money.
+
+[2026-04-07] user: Still living with my parents in Toa Payoh to save money. Mum's cooking is a bonus, but how do I contribute fairly to the household?
+assistant: Many people give their parents a fixed monthly amount, often a few hundred dollars, and cover some of the groceries.

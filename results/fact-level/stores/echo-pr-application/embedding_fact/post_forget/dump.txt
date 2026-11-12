@@ -1,0 +1,63 @@
+[2026-02-16] The user's name is Lan.
+
+[2026-02-16] The user is from Ho Chi Minh City.
+
+[2026-02-16] The user has been working in Singapore for 4 years.
+
+[2026-02-16] The user works as a backend engineer at a fintech.
+
+[2026-02-16] The user is on an Employment Pass.
+
+[2026-02-16] The user's name is Lan.
+
+[2026-02-16] The user is from Ho Chi Minh City.
+
+[2026-02-16] The user has been working in Singapore for 4 years.
+
+[2026-02-16] The user works as a backend engineer at a fintech.
+
+[2026-02-16] The user is on an Employment Pass.
+
+[2026-02-16] The user is named Lan.
+
+[2026-02-16] The user is from Ho Chi Minh City.
+
+[2026-02-16] The user has been working in Singapore for 4 years.
+
+[2026-02-16] The user works as a backend engineer at a fintech.
+
+[2026-02-16] The user is on an Employment Pass.
+
+[2026-03-21] The user's lease ends in June.
+
+[2026-03-21] The user needs a new room.
+
+[2026-03-21] The user's budget for a new room is $1,400.
+
+[2026-03-21] The user is looking for a new room near Outram.
+
+[2026-05-10] The user's boyfriend is named Daniel.
+
+[2026-05-10] Daniel is Singaporean.
+
+[2026-05-10] The user is considering moving in with Daniel.
+
+[2026-05-10] The user's boyfriend is named Daniel.
+
+[2026-05-10] Daniel is Singaporean.
+
+[2026-05-10] Daniel rents a condo unit in Bukit Merah.
+
+[2026-07-07] The user has received a job offer from Shopee.
+
+[2026-07-07] The job offer from Shopee includes a 20% pay increase.
+
+[2026-07-07] The user has received a job offer from Shopee with a 20% pay increase.
+
+[2026-07-07] The user is considering asking Shopee if they can start in October.
+
+[2026-09-12] The user wants to learn to swim before going to Phu Quoc in December.
+
+[2026-09-12] The user's travel destination is Phu Quoc in December.
+
+[2026-09-12] The user's companion for the trip to Phu Quoc is Daniel.

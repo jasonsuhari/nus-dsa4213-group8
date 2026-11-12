@@ -1,0 +1,1 @@
+{"target": "Forget the details about my bank account being overdrawn.", "mode": "hard", "passes": [{"pass": 1, "deleted": [{"id": 5, "text": "The user's DBS account is overdrawn by about $640."}, {"id": 8, "text": "The user's DBS account is overdrawn by about $640."}], "redacted": []}]}

@@ -1,0 +1,49 @@
+[2026-03-10] The user's name is Melissa.
+
+[2026-03-10] The user is a pharma sales rep.
+
+[2026-03-10] The user drives to clinics all over the island for work.
+
+[2026-03-10] The user's name is Melissa.
+
+[2026-03-10] Melissa is a pharma sales rep.
+
+[2026-03-10] Melissa drives a red Honda Civic, 2018.
+
+[2026-03-10] The COE for Melissa's Honda Civic expires in March 2028.
+
+[2026-03-10] Melissa is considering whether to renew the COE for her Honda Civic.
+
+[2026-04-22] Someone scratched the user's car at the Sengkang Grand Mall carpark.
+
+[2026-04-22] There is a long scratch on the passenger door of the user's car.
+
+[2026-04-22] The user's golden retriever is named Biscuit.
+
+[2026-04-22] Biscuit was in the user's car when it was scratched.
+
+[2026-04-22] Biscuit was upset about the incident.
+
+[2026-06-03] The user drives a Civic.
+
+[2026-06-03] The user is looking to rent a car for 3 days.
+
+[2026-06-03] The user drives a Civic.
+
+[2026-06-03] The user needs a rental car for clinic rounds in Jurong on Thursday.
+
+[2026-08-14] The user is going to a friend's wedding at Capella Sentosa.
+
+[2026-08-14] The user drives a red Honda Civic.
+
+[2026-08-14] The user is going to a friend's wedding at Capella Sentosa on 5 September.
+
+[2026-08-14] The user needs a dress for the wedding.
+
+[2026-10-02] The user has a 2018 Civic.
+
+[2026-10-02] The user is considering switching to an electric vehicle (EV).
+
+[2026-10-02] The user drives for clinic rounds.
+
+[2026-10-02] The user drives around 2,500 kilometers a month.

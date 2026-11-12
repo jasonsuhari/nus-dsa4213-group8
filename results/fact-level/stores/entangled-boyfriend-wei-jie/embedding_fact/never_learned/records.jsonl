@@ -1,0 +1,18 @@
+{"id": 0, "session_id": "wj-1", "date": "2026-03-03", "turn_index": 0, "text": "The user's name is Darren.", "importance": 10, "deleted": false}
+{"id": 1, "session_id": "wj-1", "date": "2026-03-03", "turn_index": 0, "text": "Darren is a UX designer at a fintech company in Raffles Place.", "importance": 8, "deleted": false}
+{"id": 2, "session_id": "wj-1", "date": "2026-03-03", "turn_index": 0, "text": "Darren's manager wants him to present the onboarding redesign next Thursday.", "importance": 7, "deleted": false}
+{"id": 3, "session_id": "wj-1", "date": "2026-03-03", "turn_index": 1, "text": "The user's name is Darren.", "importance": 10, "deleted": false}
+{"id": 4, "session_id": "wj-1", "date": "2026-03-03", "turn_index": 1, "text": "Darren is a UX designer at a fintech company in Raffles Place.", "importance": 8, "deleted": false}
+{"id": 5, "session_id": "wj-1", "date": "2026-03-03", "turn_index": 1, "text": "Darren's manager wants him to present the onboarding redesign next Thursday.", "importance": 7, "deleted": false}
+{"id": 6, "session_id": "wj-1", "date": "2026-03-03", "turn_index": 1, "text": "Darren has a presentation slot of 20 minutes.", "importance": 6, "deleted": false}
+{"id": 7, "session_id": "wj-2", "date": "2026-03-20", "turn_index": 0, "text": "The user got into bouldering.", "importance": 7, "deleted": false}
+{"id": 8, "session_id": "wj-2", "date": "2026-03-20", "turn_index": 0, "text": "The user climbs at Boulder Planet every Tuesday night.", "importance": 7, "deleted": false}
+{"id": 9, "session_id": "wj-2", "date": "2026-03-20", "turn_index": 0, "text": "The user cancelled their Anytime Fitness membership.", "importance": 6, "deleted": false}
+{"id": 10, "session_id": "wj-2", "date": "2026-03-20", "turn_index": 1, "text": "The user got into bouldering.", "importance": 7, "deleted": false}
+{"id": 11, "session_id": "wj-2", "date": "2026-03-20", "turn_index": 1, "text": "The user climbs at Boulder Planet every Tuesday night.", "importance": 7, "deleted": false}
+{"id": 12, "session_id": "wj-2", "date": "2026-03-20", "turn_index": 1, "text": "The user cancelled their Anytime Fitness membership.", "importance": 6, "deleted": false}
+{"id": 13, "session_id": "wj-3", "date": "2026-04-11", "turn_index": 0, "text": "The user's cousin Shermaine's wedding is on 12 December.", "importance": 7, "deleted": false}
+{"id": 14, "session_id": "wj-3", "date": "2026-04-11", "turn_index": 0, "text": "The wedding will take place at the Fullerton.", "importance": 6, "deleted": false}
+{"id": 15, "session_id": "wj-3", "date": "2026-04-11", "turn_index": 0, "text": "The user needs to RSVP by the end of the month.", "importance": 5, "deleted": false}
+{"id": 16, "session_id": "wj-3", "date": "2026-04-11", "turn_index": 1, "text": "The user is planning a trip to Taipei in late October.", "importance": 7, "deleted": false}
+{"id": 17, "session_id": "wj-3", "date": "2026-04-11", "turn_index": 1, "text": "The user is putting in for 5 days of leave for the trip to Taipei.", "importance": 8, "deleted": false}

@@ -1,0 +1,23 @@
+[2026-02-03] user: My son Ethan just started K1 at a preschool in Tampines. They made me fill in an allergy form for him, he's allergic to eggs.
+assistant: Thanks for sharing. Did the school say how they handle eggs at snack time?
+
+[2026-02-03] user: They have a separate egg-free table. He's four, so he mostly just wants to sit with his friends.
+assistant: That's a very four-year-old priority. Hope the arrangement works out.
+
+[2026-02-17] user: I'm a procurement analyst at an office in Changi Business Park, and I've been told to organise a team lunch for 8 people.
+assistant: Fun. Any cuisine or budget in mind?
+
+[2026-02-17] user: Nothing too pricey.
+assistant: How about a Japanese set lunch place? Most do mains around $15.
+
+[2026-03-05] user: Ethan's birthday party is next Saturday. I want to bake a cake he can actually eat. Any ideas?
+assistant: An egg-free chocolate cake works well. Oil, vinegar and baking soda do the job eggs normally do. Want the recipe?
+
+[2026-03-05] user: Yes please, keep it simple. I bake maybe twice a year.
+assistant: Mix flour, cocoa, sugar, baking soda and salt, then add oil, vinegar and water. Bake at 180°C for about 30 minutes.
+
+[2026-03-20] user: Signed up for the Sundown Marathon half in May. First race in years!
+assistant: Great goal. How many weeks do you have to train?
+
+[2026-03-20] user: About eight. I'm running three mornings a week around Bedok Reservoir.
+assistant: Good loop for it. Build your long run up slowly and you'll be fine.
