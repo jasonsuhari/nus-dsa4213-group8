@@ -34,15 +34,16 @@ from openai import OpenAI
 from dsa4213.evaluation import add_eligibility, evaluate_architectures, score_record
 from dsa4213.evaluation.llm_judge import JUDGE_MODEL, judge_choice, judge_leakage, judge_recall
 
-ARCHITECTURE_ORDER = ["null", "embedding", "summary", "kv", "full"]
+ARCHITECTURE_ORDER = ["null", "embedding", "embedding_fact", "summary", "kv", "full"]
 METRICS = ["PRA", "DLR", "RA", "LE", "RE", "RIR", "SLR", "ALR", "MLS"]
 FLOORS = ["DLR_never", "SLR_never", "ALR_never"]
-COMPARED = ["embedding", "summary", "kv"]
+COMPARED = ["embedding", "embedding_fact", "summary", "kv"]
 PAIRED_METRICS = ["DLR", "SLR", "ALR", "MLS", "LE", "RE", "RA", "RA_highly_related"]
 
 
 def score(rows: list[dict], workers: int, judge_model: str) -> list[dict]:
     client = OpenAI(max_retries=8)
+    _ = (client.chat.completions, client.embeddings)  # load lazy modules before threads
     judges = {
         "judge": partial(judge_leakage, client=client, model=judge_model),
         "recall_judge": partial(judge_recall, client=client, model=judge_model),
@@ -131,13 +132,15 @@ def paired(df: pd.DataFrame, reps: int, seed: int = 0) -> pd.DataFrame:
     Each draw resamples one set of cases for both memories, so case difficulty cancels out.
     An interval that excludes 0 separates the two memories on that metric.
     """
-    compared = df[df["architecture"].isin(COMPARED)]
+    # Only the compared memories this run contains, so a run of two of them still pairs.
+    archs = [a for a in COMPARED if a in set(df["architecture"])]
+    compared = df[df["architecture"].isin(archs)]
     learned = compared.drop_duplicates(["architecture", "case_id"]).pivot(
         index="case_id", columns="architecture", values="eligible"
     )
     common = learned.index[learned.all(axis=1)]
     compared = compared[compared["case_id"].isin(common)]
-    pairs = [(a, b) for i, a in enumerate(COMPARED) for b in COMPARED[i + 1 :]]
+    pairs = [(a, b) for i, a in enumerate(archs) for b in archs[i + 1 :]]
 
     def differences(sample: pd.DataFrame) -> pd.DataFrame:
         table = paired_metrics(sample)

@@ -31,6 +31,7 @@ from dsa4213.agent import DEFAULT_MODEL, Agent
 from dsa4213.cases import Case, load_cases
 from dsa4213.memory import (
     EmbeddingMemory,
+    FactEmbeddingMemory,
     FullTranscriptMemory,
     KVMemory,
     Memory,
@@ -41,6 +42,7 @@ from dsa4213.runlog import git_commit, log_run
 
 ARCHITECTURES: dict[str, type[Memory]] = {
     "embedding": EmbeddingMemory,
+    "embedding_fact": FactEmbeddingMemory,
     "summary": SummaryMemory,
     "kv": KVMemory,
     "null": NullMemory,
@@ -150,6 +152,7 @@ def main() -> int:
     out = args.out / run_id
     out.mkdir(parents=True)
     client = OpenAI(max_retries=8)
+    _ = (client.chat.completions, client.embeddings)  # load lazy modules before threads
     settings = Settings(args.model, client, args.max_chars)
     started = time.monotonic()
 
